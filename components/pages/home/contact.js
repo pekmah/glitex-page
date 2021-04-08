@@ -31,7 +31,7 @@ const Contact = () => {
                                           cols="50" required="" aria-required="true" className="full-width"/>
                             </div>
                             <div className="form-field">
-                                <button className="full-width btn--primary">Submit</button>
+                                <button style={{color: "black"}} className="full-width btn--primary">Submit</button>
                                 <div className="submit-loader">
                                     <div className="text-loader">Sending...</div>
                                     <div className="s-loader">

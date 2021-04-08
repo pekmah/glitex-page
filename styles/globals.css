@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+@keyframes scaleSize {
+  from {
+    font-size: 1.6rem;
+  }
+
+  to {
+    font-size: 3rem;
+  }
+}
+
+.text-banner {
+  animation-name: scaleSize;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  left: 0;
+}

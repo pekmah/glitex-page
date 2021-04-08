@@ -4,11 +4,16 @@ const About = () => {
             <div className="row section-header has-bottom-sep" data-aos="fade-up">
                 <div className="col-full">
                     <h3 className="subhead subhead--dark">Hello There</h3>
-                    <h1 className="display-1 display-1--light">We Are Glitex Solutions</h1>
+                    <h1 className="display-1">We Are Glitex Solutions</h1>
                 </div>
             </div>
             <div className="row about-desc" data-aos="fade-up">
                 <div className="col-full">
+                    <p>We are a software company
+                        dedicated to providing you
+                        with a seamless transition
+                        into the digital experience
+                    </p>
                     <p>
                         We believe in transforming ideas into reality through technology and
                         are therefore dedicated to providing you

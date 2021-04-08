@@ -8,13 +8,15 @@ const Home = () => {
             <div className="shadow-overlay"/>
             <div className="home-content">
                 <div className="row home-content__main">
-                    <h3>Welcome to Glitex Solutions</h3>
-                    <h1>
-                        We are a software company
-                        <br/> dedicated to providing you
-                        <br/> with a seamless transition
-                        <br/> into the digital experience
+                    <h1 style={{fontSize: "15rem"}}>
+                       GLITEX
                     </h1>
+                    <h1 className="display-3">
+                        Solutions
+                    </h1>
+                    <h3 className="display-3">
+                        You Deserve Quality!
+                    </h3>
                     <div className="home-content__buttons">
                         <a href="#contact" className="smoothscroll btn btn--stroke">
                             Enquire

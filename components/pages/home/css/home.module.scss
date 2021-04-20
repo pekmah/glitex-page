@@ -1,7 +1,8 @@
 .title_header_text {
-  top: 0;
+  top: 10%;
   margin-left: 20px;
   position: absolute;
+  font-size: 8rem !important;
 }
 
 .title_header {
@@ -12,5 +13,44 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
 
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .title_header_text {
+    font-size: 10rem !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .title_header_text {
+    font-size: 12rem !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .title_header_text {
+    font-size: 18rem !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .title_header_text {
+    font-size: 23rem !important;
+  }
+}
+
+@media (min-width: 1644px) {
+  .title_header_text {
+    font-size: 25rem !important;
+  }
 }

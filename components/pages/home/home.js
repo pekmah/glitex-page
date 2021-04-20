@@ -14,7 +14,7 @@ const Home = () => {
                         <img className={`${styles.title_header_image} text-banner`} alt={'glitex'}
                              src={"/images/yellow_bar.png"}
                         />
-                        <h1 className={styles.title_header_text} style={{fontSize: "15rem"}}>
+                        <h1 className={styles.title_header_text}>
                             GLITEX
                         </h1>
                     </div>

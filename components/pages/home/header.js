@@ -20,19 +20,20 @@ const Header = () => {
                         sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
                     <ul className="header-nav__social">
                         <li>
-                            <a href="#"><i className="fa fa-facebook"/></a>
+                            <a href="https://www.facebook.com/glitexsolutions/"><i className="fa fa-facebook"
+                                                                                   aria-hidden="true"/></a>
                         </li>
                         <li>
-                            <a href="#"><i className="fa fa-twitter"/></a>
+                            <a href="https://twitter.com/GlitexSolutions"><i className="fa fa-twitter"
+                                                                             aria-hidden="true"/></a>
                         </li>
                         <li>
-                            <a href="#"><i className="fa fa-instagram"/></a>
+                            <a href="https://www.instagram.com/glitexsolutions/"><i className="fa fa-instagram"
+                                                                                    aria-hidden="true"/></a>
                         </li>
                         <li>
-                            <a href="#"><i className="fa fa-behance"/></a>
-                        </li>
-                        <li>
-                            <a href="#"><i className="fa fa-dribbble"/></a>
+                            <a href="https://www.linkedin.com/in/glitex-solutions/"><i className="fa fa-linkedin"
+                                                                                       aria-hidden="true"/></a>
                         </li>
                     </ul>
                 </div>

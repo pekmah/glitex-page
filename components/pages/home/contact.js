@@ -80,19 +80,24 @@ const Contact = () => {
                         </div>
                         <ul className="contact-social">
                             <li>
-                                <a href="#"><i className="fa fa-facebook" aria-hidden="true"/></a>
+                                <a href="https://www.facebook.com/glitexsolutions/">
+                                    <i className="fa fa-facebook" aria-hidden="true"/>
+                                </a>
                             </li>
                             <li>
-                                <a href="#"><i className="fa fa-twitter" aria-hidden="true"/></a>
+                                <a href="https://twitter.com/GlitexSolutions">
+                                    <i className="fa fa-twitter" aria-hidden="true"/>
+                                </a>
                             </li>
                             <li>
-                                <a href="#"><i className="fa fa-instagram" aria-hidden="true"/></a>
+                                <a href="https://www.instagram.com/glitexsolutions/">
+                                    <i className="fa fa-instagram" aria-hidden="true"/>
+                                </a>
                             </li>
                             <li>
-                                <a href="#"><i className="fa fa-behance" aria-hidden="true"/></a>
-                            </li>
-                            <li>
-                                <a href="#"><i className="fa fa-dribbble" aria-hidden="true"/></a>
+                                <a href="https://www.linkedin.com/in/glitex-solutions/">
+                                    <i className="fa fa-linkedin" aria-hidden="true"/>
+                                </a>
                             </li>
                         </ul>
                     </div>

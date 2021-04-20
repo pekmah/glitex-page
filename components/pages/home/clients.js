@@ -4,7 +4,7 @@ const Clients = () => {
             <div className="row section-header" data-aos="fade-up">
                 <div className="col-full">
                     <h3 className="subhead">Our Clients</h3>
-                    <h1 className="display-2">Glint has been honored to partner up with these clients</h1>
+                    <h1 className="display-2">Glitex has been honored to partner up with these clients</h1>
                 </div>
             </div>
             <div className="row clients-outer" data-aos="fade-up">

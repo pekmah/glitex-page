@@ -16,11 +16,11 @@ a {
 }
 @keyframes scaleSize {
   from {
-    font-size: 1.6rem;
+    transform: scale(1,1);
   }
 
   to {
-    font-size: 3rem;
+    transform: scale(1.1,1.1);
   }
 }
 
@@ -28,6 +28,7 @@ a {
   animation-name: scaleSize;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  animation-duration: 2s;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
   left: 0;
 }

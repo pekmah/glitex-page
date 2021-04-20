@@ -1,8 +1,8 @@
-/** 
+/**
  * ===================================================================
  * javascript plugins
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 
 /*!
@@ -3179,10 +3179,10 @@ function(t, e) {
                 return a.className && new RegExp("(^|\\s)" + b + "(\\s|$)").test(a.className)
             },
             getChildByClass: function(a, b) {
-                for (var c = a.firstChild; c;) {
-                    if (e.hasClass(c, b)) return c;
-                    c = c.nextSibling
-                }
+                    for (var c = a?.firstChild; c;) {
+                        if (e.hasClass(c, b)) return c;
+                        c = c.nextSibling
+                    }
             },
             arraySearch: function(a, b, c) {
                 for (var d = a.length; d--;)
@@ -3476,16 +3476,16 @@ function(t, e) {
                 init: function() {
                     if (!j && !k) {
                         var c;
-                        f.framework = e, f.template = a, f.bg = e.getChildByClass(a, "pswp__bg"), J = a.className, j = !0, N = e.detectFeatures(), H = N.raf, I = N.caf, E = N.transform, L = N.oldIE, f.scrollWrap = e.getChildByClass(a, "pswp__scroll-wrap"), f.container = e.getChildByClass(f.scrollWrap, "pswp__container"), n = f.container.style, f.itemHolders = y = [{
-                            el: f.container.children[0],
+                        f.framework = e, f.template = a, f.bg = e.getChildByClass(a, "pswp__bg"), J = a?.className, j = !0, N = e.detectFeatures(), H = N.raf, I = N.caf, E = N.transform, L = N.oldIE, f.scrollWrap = e.getChildByClass(a, "pswp__scroll-wrap"), f.container = e.getChildByClass(f.scrollWrap, "pswp__container"), n = f?.container?.style, f.itemHolders = y = [{
+                            el: f.container?.children[0],
                             wrap: 0,
                             index: -1
                         }, {
-                            el: f.container.children[1],
+                            el: f.container?.children[1],
                             wrap: 0,
                             index: -1
                         }, {
-                            el: f.container.children[2],
+                            el: f.container?.children[2],
                             wrap: 0,
                             index: -1
                         }], y[0].el.style.display = y[2].el.style.display = "none", Wa(), r = {
@@ -5105,7 +5105,7 @@ function(t, e) {
 
 
 
-/*! 
+/*!
  * AOS.js 
  * https://michalsnik.github.io/aos/
  */

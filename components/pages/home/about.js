@@ -12,7 +12,7 @@ const About = () => {
                     <p>We are a software company
                         dedicated to providing you
                         with a seamless transition
-                        into the digital experience
+                        into the digital experience.
                     </p>
                     <p>
                         We believe in transforming ideas into reality through technology and
@@ -25,7 +25,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <div className="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+            <div className="row justify-content-center about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
                 {/*<div className="col-block stats__col ">
                     <div className="stats__count">127</div>
                     <h5>Awards Received</h5>
@@ -34,7 +34,7 @@ const About = () => {
                     <div className="stats__count">1505</div>
                     <h5>Cups of Coffee</h5>
                 </div>*/}
-                <div className="col-block stats__col"/>
+                {/*<div className="col-block stats__col"/>*/}
                 <div className="col-block stats__col">
                     <div className="stats__count">12</div>
                     <h5>Projects Completed</h5>

@@ -6,7 +6,13 @@ const Contact = () => {
             <div className="row section-header" data-aos="fade-up">
                 <div className="col-full">
                     <h3 className="subhead">Contact Us</h3>
-                    <h1 className="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+                    <h1 style={{marginTop: "1rem"}} className="display-3 display-2--light">
+                        Unlock a world of possibilities with us!
+                    </h1>
+                    <a style={{marginTop: "0"}}
+                       href="mailto:business@glitexsolutions.co.ke" className="btn btn--stroke">
+                        Email Us
+                    </a>
                 </div>
             </div>
             <div className="row contact-content" data-aos="fade-up">

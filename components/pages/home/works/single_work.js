@@ -1,15 +1,21 @@
 import React from 'react';
 
-function SingleWork({link,image,title,description}) {
+function SingleWork({link, image, title, description}) {
     return (
-        <div className="masonry__brick" data-aos="fade-up">
+        <div style={{position: "static"}} className="masonry__brick" data-aos="fade-up">
             <div className="item-folio">
                 <div className="item-folio__thumb">
-                    <a onClick={e => {
-                        e.preventDefault();
-                       window.open(image)
-                    }} href="/images/portfolio/gallery/g-shutterbug.jpg" className="thumb-link"
-                       title="Shutterbug" data-size="1050x700">
+                    <a
+                        style={{
+                            height: "80vh",
+                            display: "flex",
+                            justifyContent: "center"
+                        }}
+                        onClick={e => {
+                            e.preventDefault();
+                            window.open(image)
+                        }} href="/images/portfolio/gallery/g-shutterbug.jpg" className="thumb-link"
+                        title="Shutterbug" data-size="1050x700">
                         <img src={image}
                             /* srcSet={`${image} 1x, ${image} 2x`}*/
                              alt={title}/>

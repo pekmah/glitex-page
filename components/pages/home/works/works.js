@@ -14,28 +14,32 @@ const Works = () => {
             </div>
             <div className="row works-content">
                 <div className="col-full masonry-wrap">
-                    <div className="masonry">
+                    <div style={{minHeight: "100%"}} className="masonry">
                         <SingleWork
-                            link={"https://destinycapsules.co.ke/"}
-                            title={"E-Book Store"}
-                            image={"/images/portfolio/woodcraft.jpg"}
+                            link={"#"}
+                            title={"Destiny Capsules E-Book Store"}
+                            image={"/images/portfolio/destiny_capsules/destiny_capsules.jpg"}
                             description={"An e-commerce application that sells books"}/>
                         <SingleWork
-                            link={"https://calculators.kenlan.co.ke/"}
-                            title={"Kenlan Calculators"}
-                            image={"/images/portfolio/woodcraft.jpg"}
-                            description={"An application that facilitates finance calculations"}/>
+                            link={"#"}
+                            title={"NPBC Portal"}
+                            image={"/images/portfolio/npbc/npbc.jpg"}
+                            description={"A school portal application"}/>
                         <SingleWork
-                            link={"https://www.systechfabrication.co.ke/"}
-                            title={"Systec Fabrication Services"}
-                            image={"/images/portfolio/woodcraft.jpg"}
-                            description={"A company that supplies waste incinerators"}/>
+                            link={"https://play.google.com/store/apps/details?id=com.glitexsolutions.nuru"}
+                            title={"Nuru Mobile Application"}
+                            image={"/images/portfolio/nuru_app/nuru_app.jpg"}
+                            description={"A company thatimport Head from 'next/head' supplies waste incinerators"}/>
                         <SingleWork
-                            link={"https://destinycapsules.com"}
-                            title={"Destiny Capsules Information Page"}
-                            image={"/images/portfolio/woodcraft.jpg"}
+                            link={"#"}
+                            title={"Services Mobile Application"}
+                            image={"/images/portfolio/services_app/services_app.jpg"}
                             description={"An information page for Destiny Capsules"}/>
                     </div>
+                </div>
+                <div className="col text-center">
+                    <a style={{marginTop: "5rem"}}
+                       href="/gallery" className="smoothscroll btn btn--stroke">Explore Gallery</a>
                 </div>
             </div>
         </section>

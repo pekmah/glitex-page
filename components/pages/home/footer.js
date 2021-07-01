@@ -1,15 +1,23 @@
 const Footer = () => {
+    const headingStyles = {
+        color: "white", margin: "1rem"
+    }
     return (
         <footer>
             <div className="row footer-main">
                 <div className="col-twelve tab-full left footer-desc">
                     <div style={{height: "13rem"}} className="footer-logo"/>
-                    Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent
-                    sapien
-                    massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt
-                    nibh
-                    pulvinar a. Nulla porttitor accumsan tincidunt.
-                    Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
+                    <div style={{display: "flex", justifyContent: "center"}}>
+                        <h2 style={headingStyles}>
+                            Glitex Solutions Limited |
+                            You Deserve Quality</h2>
+                    </div>
+                    <div style={{display: "flex", justifyContent: "center"}}>
+                        <h2 style={headingStyles}>
+                            Royal Plaza, Lumumba Drive
+                        </h2>
+                    </div>
+
                 </div>
             </div>
             <div className="row footer-bottom">

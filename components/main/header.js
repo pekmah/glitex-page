@@ -14,6 +14,7 @@ const Header = () => {
                         <li><a className="smoothscroll" href="#services" title="services">Services</a></li>
                         <li><a className="smoothscroll" href="#works" title="works">Works</a></li>
                         <li><a className="smoothscroll" href="#clients" title="clients">Clients</a></li>
+                        <li><a className="smoothscroll" href="/gallery" title="clients">Gallery</a></li>
                         <li><a className="smoothscroll" href="#contact" title="contact">Contact</a></li>
                     </ul>
                     <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto

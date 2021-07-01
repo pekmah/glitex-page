@@ -1,8 +1,9 @@
 .title_header_text {
-  top: 10%;
-  margin-left: 20px;
-  position: absolute;
+  //top: 10%;
+  // margin-left: 20px;
+  // position: absolute;
   font-size: 8rem !important;
+  margin-bottom: 0;
 }
 
 .title_header {
@@ -10,8 +11,8 @@
 }
 
 .title_header_image {
-  height: 100%;
-  width: 100%;
+  height: 15rem;
+  //width: 100%;
   object-fit: cover;
 }
 
@@ -38,19 +39,19 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .title_header_text {
-    font-size: 18rem !important;
+    font-size: 12rem !important;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .title_header_text {
-    font-size: 23rem !important;
+    font-size: 16rem !important;
   }
 }
 
 @media (min-width: 1644px) {
   .title_header_text {
-    font-size: 25rem !important;
+    font-size: 18rem !important;
   }
 }

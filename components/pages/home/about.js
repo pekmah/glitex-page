@@ -25,7 +25,8 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <div className="row justify-content-center about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+            <div className="row justify-content-center about-stats stats block-1-4 block-m-1-2 block-mob-full"
+                 data-aos="fade-up">
                 {/*<div className="col-block stats__col ">
                     <div className="stats__count">127</div>
                     <h5>Awards Received</h5>
@@ -36,11 +37,25 @@ const About = () => {
                 </div>*/}
                 {/*<div className="col-block stats__col"/>*/}
                 <div className="col-block stats__col">
-                    <div className="stats__count">12</div>
+                    <div style={{display: "flex", justifyContent: "center"}}>
+                        <div className="stats__count">
+                            67
+                        </div>
+                        <div className="stats__countt">
+                            +
+                        </div>
+                    </div>
                     <h5>Projects Completed</h5>
                 </div>
                 <div className="col-block stats__col">
-                    <div className="stats__count">12</div>
+                    <div style={{display: "flex", justifyContent: "center"}}>
+                        <div className="stats__count">
+                            113
+                        </div>
+                        <div className="stats__countt">
+                            +
+                        </div>
+                    </div>
                     <h5>Happy Clients</h5>
                 </div>
             </div>

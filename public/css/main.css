@@ -59,7 +59,7 @@
  *
  * ------------------------------------------------------------------- */
 :root {
-    --primary: #f2d65b;
+    --primary: #ffbf00;
 }
 
 html {
@@ -1965,6 +1965,16 @@ input::-moz-focus-inner {
     transition: all 0.5s ease-in-out;
 }
 
+.home-content__buttons .btn-bg-white {
+    width: 215px;
+    border-color: #FFFFFF;
+    color: #000000;
+    margin: 1.5rem 1.5rem 0 0;
+    letter-spacing: .25rem;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
 .home-content__buttons .btn:last-child {
     margin-right: 0;
 }
@@ -2404,6 +2414,19 @@ html.no-csstransitions .home-content__main {
     white-space: nowrap;
 }
 
+.stats__countt {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 8.4rem;
+    line-height: 1;
+    /*color: #FFFFFF;*/
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
 .stats h5 {
     font-family: "montserrat-semibold", sans-serif;
     margin-top: 1.8rem;
@@ -2463,6 +2486,10 @@ html.no-csstransitions .home-content__main {
     }
 
     .stats__count {
+        font-size: 8rem;
+    }
+
+    .stats__countt {
         font-size: 8rem;
     }
 
@@ -2529,6 +2556,10 @@ html.no-csstransitions .home-content__main {
 
     .stats__count {
         font-size: 7.8rem;
+    }
+
+    .stats__countt {
+        font-size:  7.8rem;
     }
 }
 
@@ -2673,7 +2704,7 @@ html.no-csstransitions .home-content__main {
 
 .s-works {
     background: #FFFFFF;
-    padding: 0 0 15rem 0;
+    padding: 0 0 5rem 0;
     min-height: 800px;
     position: relative;
 }

@@ -1,21 +1,41 @@
+import {useEffect, useState} from "react";
+
 const Header = () => {
+    const [isIndex, setIsIndex] = useState();
+
+    useEffect(() => {
+        setIsIndex(window.location.pathname === "/");
+    })
     return (
         <header className="s-header">
             <div className="header-logo">
-                <img style={{height: "13rem", marginTop: "2rem"}} src="images/logo.png" alt="Homepage"/>
+                <img style={{
+                    height: "13rem",
+                    marginTop: "2rem"
+                }} src="/images/logo.png" alt="Homepage"/>
             </div>
             <nav className="header-nav">
                 <a href="#0" className="header-nav__close" title="close"><span>Close</span></a>
                 <div className="header-nav__content">
                     <h3>Navigation</h3>
                     <ul className="header-nav__list">
-                        <li className="current"><a className="smoothscroll" href="#home" title="home">Home</a></li>
-                        <li><a className="smoothscroll" href="#about" title="about">About</a></li>
-                        <li><a className="smoothscroll" href="#services" title="services">Services</a></li>
-                        <li><a className="smoothscroll" href="#works" title="works">Works</a></li>
-                        <li><a className="smoothscroll" href="#clients" title="clients">Clients</a></li>
-                        <li><a className="smoothscroll" href="/gallery" title="clients">Gallery</a></li>
-                        <li><a className="smoothscroll" href="#contact" title="contact">Contact</a></li>
+                        <li className="current"><a className={isIndex ? "smoothscroll" : ""}
+                                                   href={`${!isIndex ? "/" : ""}#home`}
+                                                   title="home">Home</a></li>
+                        <li>
+                            <a className={isIndex ? "smoothscroll" : ""} href={`${!isIndex ? "/" : ""}#about`}
+                               title="about">About</a>
+                        </li>
+                        <li><a className={isIndex ? "smoothscroll" : ""} href={`${!isIndex ? "/" : ""}#services`}
+                               title="services">Services</a></li>
+                        <li><a className={isIndex ? "smoothscroll" : ""} href={`${!isIndex ? "/" : ""}#works`}
+                               title="works">Works</a></li>
+                        <li><a className={isIndex ? "smoothscroll" : ""} href={`${!isIndex ? "/" : ""}#clients`}
+                               title="clients">Clients</a></li>
+                        <li><a className={isIndex ? "smoothscroll" : ""} href={`${!isIndex ? "/" : ""}#gallery`}
+                               title="clients">Gallery</a></li>
+                        <li><a className={isIndex ? "smoothscroll" : ""} href={`${!isIndex ? "/" : ""}#contact`}
+                               title="contact">Contact</a></li>
                     </ul>
                     <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto
                         sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>

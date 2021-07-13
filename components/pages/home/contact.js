@@ -21,16 +21,16 @@ const Contact = () => {
                     <form name="contactForm" id="contactForm" method="post" action="" noValidate="novalidate">
                         <fieldset>
                             <div className="form-field">
-                                <input name="contactName" type="text" id="contactName" placeholder="Your Name" value=""
+                                <input name="contactName" type="text" id="contactName" placeholder="Your Name"
                                        minLength="2" required="" aria-required="true" className="full-width"/>
                             </div>
                             <div className="form-field">
                                 <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email"
-                                       value="" required="" aria-required="true" className="full-width"/>
+                                       required="" aria-required="true" className="full-width"/>
                             </div>
                             <div className="form-field">
                                 <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"
-                                       value="" className="full-width"/>
+                                       className="full-width"/>
                             </div>
                             <div className="form-field">
                                 <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10"

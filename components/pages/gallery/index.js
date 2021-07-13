@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Gallery(props) {
+function TheGallery(props) {
     return (
         <div></div>
     );
 }
 
-export default Gallery;
+export default TheGallery;

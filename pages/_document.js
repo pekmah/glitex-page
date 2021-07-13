@@ -5,15 +5,10 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <meta charSet="utf-8"/>
-                    <title>Glitex Solutions</title>
-                    <meta name="description" content=""/>
-                    <meta name="author" content=""/>
-
-                    <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <link rel="stylesheet" href="/css/base.css/"/>
                     <link rel="stylesheet" href="/css/vendor.css"/>
                     <link rel="stylesheet" href="/css/main.css"/>
+                    <link rel="stylesheet" href="/css/custom.css"/>
 
                     <script src="/js/modernizr.js"/>
                     <script src="/js/pace.min.js"/>

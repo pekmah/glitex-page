@@ -25,7 +25,7 @@ const Home = () => {
                         You Deserve Quality.
                     </h3>
                     <div className="home-content__buttons">
-                        <a href="#contact" className="smoothscroll btn btn--stroke">
+                        <a href="#contact" className="smoothscroll btn btn--primary">
                             Enquire
                         </a>
                         <a href="#about" className="smoothscroll btn btn--stroke">

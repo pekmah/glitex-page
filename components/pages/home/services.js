@@ -5,7 +5,7 @@ const Services = () => {
                 <div className="col-full">
                     <h3 className="subhead">What We Do</h3>
                     <h1 className="display-2">We’ve got the tools and workforce you can rely on
-                    to push your business to the next level
+                        to push your business to the next level
                     </h1>
                 </div>
             </div>
@@ -20,6 +20,9 @@ const Services = () => {
                             delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                             Sunt suscipit voluptas ipsa in tempora esse soluta sint.
                         </p>
+                        <a href={"/services"} style={{marginBottom: "7rem"}} className="btn btn--stroke">
+                            View More
+                        </a>
                     </div>
                 </div>
                 <div className="col-block service-item" data-aos="fade-up">
@@ -32,6 +35,9 @@ const Services = () => {
                             delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                             Sunt suscipit voluptas ipsa in tempora esse soluta sint.
                         </p>
+                        <a style={{marginBottom: "7rem"}} href={"/services"} className="btn btn--stroke">
+                            View More
+                        </a>
                     </div>
                 </div>
                 <div className="col-block service-item" data-aos="fade-up">
@@ -44,6 +50,9 @@ const Services = () => {
                             delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                             Sunt suscipit voluptas ipsa in tempora esse soluta sint.
                         </p>
+                        <a style={{marginBottom: "7rem"}} href={"/services"} className="btn btn--stroke">
+                            View More
+                        </a>
                     </div>
                 </div>
                 <div className="col-block service-item" data-aos="fade-up">
@@ -56,6 +65,9 @@ const Services = () => {
                             delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                             Sunt suscipit voluptas ipsa in tempora esse soluta sint.
                         </p>
+                        <a style={{marginBottom: "7rem"}} href={"/services"} className="btn btn--stroke">
+                            View More
+                        </a>
                     </div>
                 </div>
                 <div className="col-block service-item" data-aos="fade-up">
@@ -68,6 +80,9 @@ const Services = () => {
                             delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                             Sunt suscipit voluptas ipsa in tempora esse soluta sint.
                         </p>
+                        <a style={{marginBottom: "7rem"}} href={"/services"} className="btn btn--stroke">
+                            View More
+                        </a>
                     </div>
                 </div>
                 <div className="col-block service-item" data-aos="fade-up">
@@ -78,6 +93,9 @@ const Services = () => {
                             delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                             Sunt suscipit voluptas ipsa in tempora esse soluta sint.
                         </p>
+                        <a style={{marginBottom: "7rem"}} href={"/services"} className="btn btn--stroke">
+                            View More
+                        </a>
                     </div>
                 </div>
                 <div className="col-block service-item" data-aos="fade-up">
@@ -88,6 +106,9 @@ const Services = () => {
                             delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                             Sunt suscipit voluptas ipsa in tempora esse soluta sint.
                         </p>
+                        <a style={{marginBottom: "7rem"}} href={"/services"} className="btn btn--stroke">
+                            View More
+                        </a>
                     </div>
                 </div>
                 <div className="col-block service-item" data-aos="fade-up">
@@ -98,6 +119,9 @@ const Services = () => {
                             delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                             Sunt suscipit voluptas ipsa in tempora esse soluta sint.
                         </p>
+                        <a style={{marginBottom: "7rem"}} href={"/services"} className="btn btn--stroke">
+                            View More
+                        </a>
                     </div>
                 </div>
             </div>

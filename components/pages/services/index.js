@@ -10,8 +10,7 @@ const alignCenter = {
     width: "100%",
 }
 
-function AllServices() {
-    const service = services[0];
+function AllServices({service}) {
     const children = [];
     if (service)
         for (let i = 0; i < service.pages.length; i++) {

@@ -32,7 +32,7 @@ const Header = () => {
                                title="works">Works</a></li>
                         <li><a className={isIndex ? "smoothscroll" : ""} href={`${!isIndex ? "/" : ""}#clients`}
                                title="clients">Clients</a></li>
-                        <li><a className={isIndex ? "smoothscroll" : ""} href={`${!isIndex ? "/" : ""}#gallery`}
+                        <li><a href={`/gallery`}
                                title="clients">Gallery</a></li>
                         <li><a className={isIndex ? "smoothscroll" : ""} href={`${!isIndex ? "/" : ""}#contact`}
                                title="contact">Contact</a></li>

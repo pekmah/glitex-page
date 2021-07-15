@@ -1,9 +1,12 @@
-import React from 'react';
-import AllServices from "../../components/pages/services";
+import React, {useEffect} from 'react';
 
 function Services() {
+
+    useEffect(()=>{
+        window.location.href = "/";
+    })
     return (
-        <AllServices/>
+       <div/>
     );
 }
 

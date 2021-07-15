@@ -21,7 +21,8 @@ const from = () => ({
 // This is being used down there in the view, it interpolates rotation and scale into a css transform
 const trans = (r, s) => `perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`
 
-function GalleryCards({cards}) {
+function GalleryCards({galleryItem}) {
+    const cards = galleryItem.images;
     const [gone] = useState(() => new Set()) // The set flags all the cards that are flicked out
     const [props, set] = useSprings(cards.length, (i) => ({
         ...to(i),
@@ -74,7 +75,7 @@ function GalleryCards({cards}) {
                     backgroundColor: "var(--primary)"
                 }}>
                     <h2 style={{margin: 0}} className="display-2">
-                        Project Name
+                        {galleryItem?.name}
                     </h2>
                 </div>
                 <div className={styles.root}>

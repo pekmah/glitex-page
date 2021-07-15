@@ -12,7 +12,7 @@ const Header = () => {
                 <img style={{
                     height: "13rem",
                     marginTop: "2rem"
-                }} src="/images/logo.png" alt="Homepage"/>
+                }} src={"/images/logo.png"} alt="Homepage"/>
             </div>
             <nav className="header-nav">
                 <a href="#0" className="header-nav__close" title="close"><span>Close</span></a>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from "../../main/layout";
 import {Parallax, ParallaxLayer} from '@react-spring/parallax';
-import {services} from "../../../providers/services/data";
 import styles from './css/services.module.scss';
 
 const alignCenter = {

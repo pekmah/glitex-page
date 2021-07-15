@@ -18,7 +18,7 @@ export const getStaticProps = async ({params}) => {
     }
 
     return {
-        props: {galleryItem: galleryItem}
+        props: {galleryItem: galleryItem || {}}
     }
 }
 
@@ -26,7 +26,10 @@ export const getStaticProps = async ({params}) => {
 // It may be called again, on a serverless function, if
 // the path has not been generated.
 export async function getStaticPaths() {
-    return {paths: [], fallback: 'blocking'}
+    return {
+        paths: [],
+        fallback: 'blocking'
+    }
 }
 
 export default GalleryDetailsMain;

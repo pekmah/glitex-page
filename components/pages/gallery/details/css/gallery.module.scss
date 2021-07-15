@@ -9,6 +9,7 @@
   padding: 0;
   cursor: url('/images/cursor/cursor.png') 32 32, auto;
   box-sizing: border-box;
+  position: relative;
 }
 
 .root > div {
@@ -103,4 +104,29 @@
   will-change: transform;
   box-sizing: border-box;
   box-shadow: 0 62.5px 125px -25px rgba(50, 50, 73, 0.5), 0 37.5px 75px -37.5px rgba(0, 0, 0, 0.6);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  color: white;
+  cursor: pointer;
+  background-color: white;
+}
+
+.container_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: all .5s ease-in-out;
+}
+
+.container_img:hover {
+  transform: scale(1.1, 1.1);
 }

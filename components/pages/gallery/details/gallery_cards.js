@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {animated, to as interpolate, useSprings} from 'react-spring'
 import {useDrag} from 'react-use-gesture'
 import styles from './css/gallery.module.scss';
+import bootstrapStyles from "../../../css/bootstrap-grid.module.css";
 
 
 // These two are just helpers, they curate spring data, values that are later being interpolated into css
@@ -22,7 +23,7 @@ const from = () => ({
 const trans = (r, s) => `perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`
 
 function GalleryCards({galleryItem}) {
-    const cards = galleryItem.images;
+    const cards = galleryItem?.images ?? [];
     const [gone] = useState(() => new Set()) // The set flags all the cards that are flicked out
     const [props, set] = useSprings(cards.length, (i) => ({
         ...to(i),
@@ -62,62 +63,101 @@ function GalleryCards({galleryItem}) {
     return (
         <>
             <div style={{
-                overflowY: "auto",
-                overflowX: "hidden"
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                paddingTop: "10rem",
+                width: "100%",
+                backgroundColor: "var(--primary)"
             }}>
-                <div style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    paddingTop: "10rem",
-                    width: "100%",
-                    backgroundColor: "var(--primary)"
-                }}>
-                    <h2 style={{margin: 0}} className="display-2">
-                        {galleryItem?.name}
-                    </h2>
-                </div>
-                <div className={styles.root}>
-                    {
-                        props.map(({
-                                       x,
-                                       y,
-                                       rot,
-                                       scale
-                                   }, i) => (
-                            <animated.div key={i}
-                                          style={{transform: interpolate([x, y], (x, y) => `translate3d(${x}px,${y}px,0)`)}}>
-                                {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}
-                                <animated.div {...bind(i)} style={{
-                                    transform: interpolate([rot, scale], trans),
-                                    backgroundImage: `url(${cards[i]})`,
-                                }}/>
-                            </animated.div>
-                        ))
-                    }
-                </div>
-                <div style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    paddingBottom: "5rem",
-                    width: "100%",
-                    backgroundColor: "var(--primary)"
-                }}>
-                    <a href={"/demo/project-name"}
-                       style={{
-                           backgroundColor: "white",
-                           color: "black"
-                       }}
-                       className="btn btn--large btn--primary ">
-                        Try It Out
-                    </a>
-                </div>
+                <h2 style={{margin: 0}} className="display-2">
+                    {galleryItem?.name}
+                </h2>
+            </div>
+            <div className={styles.root}>
+                {
+                    props.map(({
+                                   x,
+                                   y,
+                                   rot,
+                                   scale
+                               }, i) => (
+                        <animated.div key={i}
+                                      style={{transform: interpolate([x, y], (x, y) => `translate3d(${x}px,${y}px,0)`)}}>
+                            {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}
+                            <animated.div {...bind(i)} style={{
+                                transform: interpolate([rot, scale], trans),
+                                backgroundImage: `url(${cards[i]})`,
+                            }}/>
+                        </animated.div>
+                    ))
+                }
+            </div>
+            <div style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                paddingBottom: "5rem",
+                width: "100%",
+                backgroundColor: "var(--primary)"
+            }}>
+                <a href={"/demo/project-name"}
+                   style={{
+                       backgroundColor: "white",
+                       color: "black"
+                   }}
+                   className="btn btn--large btn--primary ">
+                    Try It Out
+                </a>
+            </div>
+            <div style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                paddingTop: "3rem",
+                width: "100%",
+                backgroundColor: "var(--primary)"
+            }}>
+                <h2 style={{margin: 0}} className="display-2">
+                    Gallery
+                </h2>
+            </div>
+            <div style={{
+                backgroundColor: "var(--primary)",
+                paddingTop: "4rem",
+                paddingBottom: "4rem",
+                paddingRight: "2rem",
+                paddingLeft: "2rem",
+            }} className={bootstrapStyles.row}>
+                {
+                    cards?.map((card, index) => <SingleGalleryCard key={index} card={card}/>)
+                }
             </div>
         </>
     )
 }
+
+function SingleGalleryCard({
+                               card
+                           }) {
+    return (
+        <div style={{
+            paddingBottom: "3rem",
+        }}
+             className={`${bootstrapStyles['col-lg-4']} ${bootstrapStyles['col-md-6']}`}>
+            <div
+                className={styles.container}>
+                <img className={styles.container_img}
+                     alt={"gallery"}
+                     src={card}
+                />
+            </div>
+        </div>
+    )
+}
+
 
 export default GalleryCards;

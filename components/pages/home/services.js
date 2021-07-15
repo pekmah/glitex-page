@@ -15,7 +15,7 @@ const Services = () => {
             <div className="row services-list block-1-2 block-tab-full">
                 {
                     services.map((service, index) =>
-                        <div className="col-block service-item" data-aos="fade-up">
+                        <div key={service?.id} className="col-block service-item" data-aos="fade-up">
                             <div className="service-icon">
                                 <i className={service?.icon}/>
                             </div>

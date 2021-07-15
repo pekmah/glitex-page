@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from "../../main/layout";
 import styles from './css/gallery.module.scss';
-import bootstrapStyles from './css/bootstrap-grid.module.css';
+import bootstrapStyles from '../../css/bootstrap-grid.module.css';
 import {portfolio} from "../../../providers/portfolio/data";
 import {getGallerySlug} from "../../../helpers/helpers";
 

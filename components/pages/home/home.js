@@ -18,8 +18,8 @@ const Home = () => {
                     <h1 className={styles.title_header_text}>
                         GLITEX
                     </h1>
-                    <h1 className="display-3">
-                        Solutions
+                    <h1 style={{color: 'var(--primary)'}} className="display-3">
+                        Solutions Limited
                     </h1>
                     <h3 className="display-3">
                         You Deserve Quality.
@@ -42,20 +42,42 @@ const Home = () => {
             </div>
             <ul className="home-social">
                 <li>
-                    <a href="https://www.facebook.com/glitexsolutions/"><i className="fa fa-facebook"
-                                                                           aria-hidden="true"/><span>Facebook</span></a>
+                    <a
+                        href="https://www.facebook.com/glitexsolutions/">
+                        <i style={{
+                            border: "2px solid var(--primary)",
+                            color: "#ffffff"
+                        }}
+                           className="fa fa-facebook"
+                           aria-hidden="true"/><span>Facebook</span></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/GlitexSolutions"><i className="fa fa-twitter"
-                                                                     aria-hidden="true"/><span>Twiiter</span></a>
+                    <a href="https://twitter.com/GlitexSolutions">
+                        <i style={{
+                            border: "2px solid var(--primary)",
+                            color: "#ffffff"
+                        }}
+                           className="fa fa-twitter"
+                           aria-hidden="true"/><span>Twiiter</span></a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/glitexsolutions/"><i className="fa fa-instagram"
-                                                                            aria-hidden="true"/><span>Instagram</span></a>
+                    <a
+                        href="https://www.instagram.com/glitexsolutions/">
+                        <i style={{
+                            border: "2px solid var(--primary)",
+                            color: "#ffffff"
+                        }}
+                           className="fa fa-instagram"
+                           aria-hidden="true"/><span>Instagram</span></a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/glitex-solutions/"><i className="fa fa-linkedin"
-                                                                               aria-hidden="true"/><span>LinkedIn</span></a>
+                    <a
+                        href="https://www.linkedin.com/in/glitex-solutions/">
+                        <i style={{
+                            border: "2px solid var(--primary)",
+                            color: "#ffffff"
+                        }} className="fa fa-linkedin"
+                           aria-hidden="true"/><span>LinkedIn</span></a>
                 </li>
                 {/*<li>
                     <a href="#0"><i className="fa fa-youtube" aria-hidden="true"/><span>YouTube</span></a>

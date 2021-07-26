@@ -31,17 +31,17 @@
 }
 
 .bottom > p {
-  opacity: 0;
+  opacity: 1;
   transition: all 1s ease-in-out;
 }
 
 .bottom > h2 {
-  opacity: 0;
+  opacity: 1;
   transition: all 1s ease-in-out;
 }
 
 .container:hover .bottom {
-  //opacity: 1;
+  opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
@@ -52,4 +52,59 @@
 
 .container:hover .bottom > h2 {
   opacity: 1;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container:hover .bottom {
+    //opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .root > div > div {
+    width: 40vh;
+    height: 70vh;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /*.center {
+    margin-top: 250px;
+    transition: all .2s ease-in-out;
+  }
+
+  .bottom > p {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+
+  .bottom > h2 {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+
+  .bottom {
+    //opacity: 0;
+    background-color: white;
+    padding: 20px;
+    //visibility: hidden;
+    transform: translateY(200px);
+    transition: all .4s ease-in-out;
+    overflow-y: hidden;
+    width: 100%;
+    color: black;
+  }*/
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }

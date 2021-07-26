@@ -17,7 +17,7 @@ export default function Index() {
             <About/>
             <Services/>
             <Works/>
-            <Clients/>
+            {/*<Clients/>*/}
             <Contact/>
             <Footer/>
         </Layout>

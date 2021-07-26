@@ -24,23 +24,23 @@
 }
 
 .root > div > div {
-  background-color: white;
+  //background-color: white;
   background-size: auto 85%;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 40vh;
-  height: 80vh;
+  width: 50vh;
+  height: 100vh;
   will-change: transform;
   border-radius: 10px;
-  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+  //box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
   box-sizing: border-box;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .root > div > div {
-    width: 40vh;
-    height: 70vh;
+    width: 50vh;
+    height: 100vh;
   }
 
 }
@@ -49,7 +49,7 @@
 @media (min-width: 768px) {
   .root > div > div {
     width: 40vh;
-    height: 70vh;
+    height: 100vh;
   }
 
 }
@@ -58,7 +58,7 @@
 @media (min-width: 992px) {
   .root > div > div {
     width: 40vh;
-    height: 70vh;
+    height: 100vh;
   }
 
 }
@@ -67,7 +67,7 @@
 @media (min-width: 1200px) {
   .root > div > div {
     width: 65vh;
-    height: 90vh;
+    height: 100vh;
   }
 }
 
@@ -103,7 +103,7 @@
   height: 100%;
   will-change: transform;
   box-sizing: border-box;
-  box-shadow: 0 62.5px 125px -25px rgba(50, 50, 73, 0.5), 0 37.5px 75px -37.5px rgba(0, 0, 0, 0.6);
+  //box-shadow: 0 62.5px 125px -25px rgba(50, 50, 73, 0.5), 0 37.5px 75px -37.5px rgba(0, 0, 0, 0.6);
 }
 
 .container {
@@ -116,14 +116,14 @@
   overflow: hidden;
   color: white;
   cursor: pointer;
-  background-color: white;
+  //background-color: white;
 }
 
 .container_img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  object-position: top;
+  object-fit: contain;
+  object-position: center;
   transition: all .5s ease-in-out;
 }
 

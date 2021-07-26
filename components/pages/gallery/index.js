@@ -46,8 +46,9 @@ function SingleGalleryItem({
             <div
                 style={{
                     backgroundImage: `url(${galleryItem.image})`,
-                    backgroundSize: "cover",
-                    backgroundRepeat: "no-repeat"
+                    backgroundSize: "contain",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center"
                 }}
                 className={styles.container}>
                 <div className={styles.center}/>

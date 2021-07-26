@@ -74,6 +74,9 @@ function GalleryCards({galleryItem}) {
                 <h2 style={{margin: 0}} className="display-2">
                     {galleryItem?.name}
                 </h2>
+                <p style={{fontSize: "1.4rem"}}>
+                    (Drag the images left/right to view more)
+                </p>
             </div>
             <div className={styles.root}>
                 {
@@ -131,7 +134,8 @@ function GalleryCards({galleryItem}) {
                 paddingBottom: "4rem",
                 paddingRight: "2rem",
                 paddingLeft: "2rem",
-            }} className={bootstrapStyles.row}>
+                margin: "auto"
+            }} className={`${bootstrapStyles.row}`}>
                 {
                     cards?.map((card, index) => <SingleGalleryCard key={index} card={card}/>)
                 }

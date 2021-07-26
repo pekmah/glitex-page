@@ -12,5 +12,5 @@ export const getGallerySlug = (gallery, index) => {
 }
 
 export const getServiceSlug = (service, index) => {
-    return `/services/${service?.title?.replace(/ /g, "-")}-${index}`;
+    return `/services/${service?.link || service?.title?.replace(/ /g, "-")}-${index}`;
 }

@@ -22,7 +22,10 @@ const Works = () => {
             }} className="intro-wrap">
                 <TheGallery dontShowNav={true}/>
             </div>
-            <div style={{backgroundColor: "#111111",}}>
+            <div style={{
+                backgroundColor: "#111111",
+                paddingBottom: "10rem"
+            }}>
                 <div style={{
                     marginTop: "0",
                 }} className="row works-content">

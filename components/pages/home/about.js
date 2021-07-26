@@ -1,3 +1,5 @@
+import styles from './css/home.module.scss';
+
 const About = () => {
     return (
         <section id='about' className="s-about">
@@ -9,10 +11,8 @@ const About = () => {
             </div>
             <div className="row about-desc" data-aos="fade-up">
                 <div className="col-full">
-                    <p>We are a software company
-                        dedicated to providing you
-                        with a seamless transition
-                        into the digital experience.
+                    <p>We are a software development company based in Nairobi, Kenya dedicated to providing you with a
+                        seamless transition into the digital experience in Kenya and Beyond the region.
                     </p>
                     <p>
                         We believe in transforming ideas into reality through technology and
@@ -25,8 +25,9 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <div className="row justify-content-center about-stats stats block-1-4 block-m-1-2 block-mob-full"
-                 data-aos="fade-up">
+            <div
+                className={`${styles.d_flex} row justify-content-center about-stats stats block-1-4 block-m-1-2 block-mob-full`}
+                data-aos="fade-up">
                 {/*<div className="col-block stats__col ">
                     <div className="stats__count">127</div>
                     <h5>Awards Received</h5>
@@ -37,7 +38,10 @@ const About = () => {
                 </div>*/}
                 {/*<div className="col-block stats__col"/>*/}
                 <div className="col-block stats__col">
-                    <div style={{display: "flex", justifyContent: "center"}}>
+                    <div style={{
+                        display: "flex",
+                        justifyContent: "center"
+                    }}>
                         <div className="stats__count">
                             67
                         </div>
@@ -48,7 +52,10 @@ const About = () => {
                     <h5>Projects Completed</h5>
                 </div>
                 <div className="col-block stats__col">
-                    <div style={{display: "flex", justifyContent: "center"}}>
+                    <div style={{
+                        display: "flex",
+                        justifyContent: "center"
+                    }}>
                         <div className="stats__count">
                             113
                         </div>

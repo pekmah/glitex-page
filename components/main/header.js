@@ -10,7 +10,7 @@ const Header = () => {
         <header className="s-header">
             <div className="header-logo">
                 <img style={{
-                    height: "13rem",
+                    height: "7rem",
                     marginTop: "2rem"
                 }} src={"/images/logo.png"} alt="Homepage"/>
             </div>
@@ -37,8 +37,19 @@ const Header = () => {
                         <li><a className={isIndex ? "smoothscroll" : ""} href={`${!isIndex ? "/" : ""}#contact`}
                                title="contact">Contact</a></li>
                     </ul>
-                    <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto
-                        sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+                    <h5 style={{color: "white"}}>Email Us At</h5>
+                    <p>
+                        <a href="mailto:business@glitexsolutions.co.ke" className="__cf_email__">
+                            Business@glitexsolutions.co.ke
+                        </a><br/>
+                        <a href="mailto:info@glitexsolutions.co.ke" className="__cf_email__">
+                            Info@glitexsolutions.co.ke
+                        </a>
+                    </p>
+                    <h5 style={{color: "white"}}>Call Us On</h5>
+                    <p>
+                        Phone: (+254) 707021821<br/> Mobile: (+254) 703714050<br/>
+                    </p>
                     <ul className="header-nav__social">
                         <li>
                             <a href="https://www.facebook.com/glitexsolutions/"><i className="fa fa-facebook"
@@ -49,18 +60,40 @@ const Header = () => {
                                                                              aria-hidden="true"/></a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/glitexsolutions/"><i className="fa fa-instagram"
-                                                                                    aria-hidden="true"/></a>
+                            <a href="https://www.instagram.com/glitexsolutions/">
+                                <i className="fa fa-instagram"
+                                   aria-hidden="true"/></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/glitex-solutions/"><i className="fa fa-linkedin"
-                                                                                       aria-hidden="true"/></a>
+                            <a href="https://www.linkedin.com/in/glitex-solutions/">
+                                <i className="fa fa-linkedin"
+                                   aria-hidden="true"/></a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <a className="header-menu-toggle" href="#0">
-                <span className="header-menu-text">Menu</span>
+            <a
+                style={{
+                    color: "White",
+                    fontSize: "1rem",
+                }}
+                className="header-menu-toggle" href="#0">
+                <span
+                    style={{
+                        left: "-290px",
+                        width: "290px"
+                    }}
+                    className="header-menu-text"><a style={{
+                    fontSize: "1rem",
+                    color: "white"
+                }}>
+                    0707021821</a> | {" "}
+                    <a style={{
+                        fontSize: "1rem",
+                        color: "white"
+                    }}>0703714050</a> |
+                    Menu
+                </span>
                 <span className="header-menu-icon"/>
             </a>
         </header>

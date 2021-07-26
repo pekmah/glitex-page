@@ -5,7 +5,7 @@ import GalleryCards from "./gallery_cards";
 
 function GalleryDetails({galleryItem}) {
     return (
-        <Layout>
+        <Layout backgroundColor={"var(--primary)"}>
             <GalleryCards galleryItem={galleryItem}/>
         </Layout>
     );

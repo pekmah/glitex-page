@@ -2,6 +2,7 @@ export const services = [
     {
         id: 1,
         title: "SEO | Search Engine Optimization",
+        link: "seo-companies-in-nairobi-kenya",
         icon: "icon-paint-brush",
         description: `
             We are the leading search engine optimization company in Kenya and across the region.
@@ -18,7 +19,7 @@ export const services = [
                     tactics and
                     strategies to ensure your dominate the search engines.
                 `,
-                banner: "/images/portfolio/guitarist.jpg"
+                banner: "/images/services/bg_2.jpg"
             },
             {
                 id: 2,
@@ -29,28 +30,29 @@ export const services = [
                     making your website more visible to your key market through our comprehensive digital marketing
                     services
                 `,
-                banner: "/images/portfolio/palmeira.jpg"
+                banner: "/images/services/bg_3.jpg"
             },
-            {
-                id: 3,
-                description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                banner: "/images/portfolio/the-beetle.jpg"
-            },
-            {
-                id: 4,
-                description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                banner: "/images/portfolio/woodcraft.jpg"
-            },
-            {
-                id: 5,
-                description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                banner: "/images/portfolio/grow-green.jpg"
-            }
+            /* {
+                 id: 3,
+                 description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                 banner: "/images/portfolio/the-beetle.jpg"
+             },
+             {
+                 id: 4,
+                 description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                 banner: "/images/portfolio/woodcraft.jpg"
+             },
+             {
+                 id: 5,
+                 description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                 banner: "/images/portfolio/grow-green.jpg"
+             }*/
         ]
     },
     {
         id: 2,
         title: "Mobile Apps Development | Android Apps | IOS Apps",
+        link: "mobile-application-development-company-in-kenya",
         icon: "icon-group",
         description: `
             We are a top rated mobile applications development company based in Nairobi Kenya. We deliver mobile apps in
@@ -66,7 +68,7 @@ export const services = [
                     the
                     powerful strategy that builds the foundation for project success.
                 `,
-                banner: "/images/portfolio/lady-shutterbug.jpg"
+                banner: "/images/services/bg_2.jpg"
             },
             {
                 id: 2,
@@ -78,19 +80,20 @@ export const services = [
                     requirements
                     of your business.
                 `,
-                banner: "/images/portfolio/palmeira.jpg"
+                banner: "/images/services/bg_3.jpg"
             },
-            {
+            /*{
                 id: 3,
                 description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 banner: "/images/portfolio/woodcraft.jpg"
-            }
+            }*/
         ]
     },
     {
         id: 3,
         title: "E-learning Platforms for  Primary, Secondary Schools, Colleges & Universities",
         icon: "icon-earth",
+        link: "elearning-platforms-in-kenya",
         description: `
             Glitex Solutions Limited is an e-learning solution provider company that designs, develops and delivers
             technology-based Interactive learning solutions. Providing learning technologies, including custom
@@ -108,7 +111,7 @@ export const services = [
                     e-learning
                     curriculum design.
                 `,
-                banner: "/images/portfolio/lady-shutterbug.jpg"
+                banner: "/images/services/bg_2.jpg"
             },
             {
                 id: 2,
@@ -121,19 +124,20 @@ export const services = [
                     can NOW
                     learn online using the platform.
                 `,
-                banner: "/images/portfolio/palmeira.jpg"
+                banner: "/images/services/bg_3.jpg"
             },
-            {
+            /*{
                 id: 3,
                 description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 banner: "/images/portfolio/woodcraft.jpg"
-            }
+            }*/
         ]
     },
     {
         id: 5,
         title: "Management information systems",
         icon: "icon-lego-block",
+        link: "management-information-systems-in-kenya",
         description: `
             We have developed Management information systems; school management system
             for primary and secondary
@@ -144,10 +148,16 @@ export const services = [
         pages: [
             {
                 id: 1,
-                description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                banner: "/images/portfolio/lady-shutterbug.jpg"
+                description: `
+                We have developed Management information systems; school management system
+                for primary and secondary
+                schools, colleges and universities,
+                Church management systems, Hospital management systems, Sacco Management
+                Systems, Point of sales, pharmacy systems & so much more.
+                `,
+                banner: "/images/services/bg_2.jpg"
             },
-            {
+            /*{
                 id: 2,
                 description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 banner: "/images/portfolio/palmeira.jpg"
@@ -156,13 +166,14 @@ export const services = [
                 id: 3,
                 description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 banner: "/images/portfolio/woodcraft.jpg"
-            }
+            }*/
         ]
     },
     {
         id: 8,
         title: "Website Development",
         icon: "icon-cube",
+        link: "website-development-company-in-kenya",
         description: `
             We are a top notch website development company based in Nairobi Kenya, delivering quality across the East
             Africa region.
@@ -175,7 +186,7 @@ export const services = [
                     East
                     Africa region.
                 `,
-                banner: "/images/portfolio/lady-shutterbug.jpg"
+                banner: "/images/services/bg_2.jpg"
             },
             {
                 id: 2,
@@ -190,19 +201,20 @@ export const services = [
                     your
                     expectations in terms of performance and usability.
                 `,
-                banner: "/images/portfolio/palmeira.jpg"
+                banner: "/images/services/bg_3.jpg"
             },
-            {
-                id: 3,
-                description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                banner: "/images/portfolio/woodcraft.jpg"
-            }
+            /* {
+                 id: 3,
+                 description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                 banner: "/images/portfolio/woodcraft.jpg"
+             }*/
         ]
     },
     {
         id: 4,
         title: "E-Commerce Platforms",
         icon: "icon-cube",
+        link: "ecommerce-developers-in-kenya",
         description: `
             We develop powerful, flexible, scalable and easy-to-manage
             eCommerce platforms for both web and mobile
@@ -217,7 +229,7 @@ export const services = [
                     eCommerce platforms for both web and mobile
                     using the latest technology.
                 `,
-                banner: "/images/portfolio/lady-shutterbug.jpg"
+                banner: "/images/services/bg_2.jpg"
             },
             {
                 id: 2,
@@ -227,19 +239,20 @@ export const services = [
                     You can count on us to deliver quality e-commerce platforms. Contact
                     us today.
                 `,
-                banner: "/images/portfolio/palmeira.jpg"
+                banner: "/images/services/bg_3.jpg"
             },
-            {
+            /*{
                 id: 3,
                 description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 banner: "/images/portfolio/woodcraft.jpg"
-            }
+            }*/
         ]
     },
     {
         id: 6,
         title: "Our School Management System with both Android and IOS Apps",
         icon: "icon-user",
+        link: "school-management-system-in-kenya",
         description: `
             Glitex School System is a user-friendly School Management System in Kenya.
             It has a dashboard, where you can
@@ -255,7 +268,7 @@ export const services = [
                     management, staff management, documents, notifications, online examination and transport. It is also
                     inteZgrated with accounting system that sorts all your financial needs of the school.
                 `,
-                banner: "/images/portfolio/lady-shutterbug.jpg"
+                banner: "/images/services/bg_2.jpg"
             },
             {
                 id: 2,
@@ -264,7 +277,7 @@ export const services = [
                     processes, now you have a mobile app in your institution’s name that will communicate with the ERP
                     and stay connected with students, parents, teachers and admins of the institution.
                 `,
-                banner: "/images/portfolio/palmeira.jpg"
+                banner: "/images/services/bg_3.jpg"
             },
             {
                 id: 3,
@@ -274,7 +287,7 @@ export const services = [
                     ordinary Management Dashboard and data reporting functions along with dynamic access rights
                     mechanism which becomes a blessing for management personnel.
                 `,
-                banner: "/images/portfolio/woodcraft.jpg"
+                banner: "/images/services/bg_4.jpg"
             }
         ]
     },
@@ -282,12 +295,12 @@ export const services = [
         id: 7,
         title: "USSD in services",
         icon: "icon-leaf",
-        description: <>
+        link: "ussd-codes-kenya",
+        description: `
             USSD Codes in Nairobi, Kenya are now affordable!
-            <br/>
             We issue USSD Service Codes to our clients by all the Mobile Service Providers (MSPs) in Kenya and beyond
             the region.
-        </>,
+            `,
         pages: [
             {
                 id: 1,
@@ -297,7 +310,7 @@ export const services = [
                     beyond
                     the region.
                     `,
-                banner: "/images/portfolio/lady-shutterbug.jpg"
+                banner: "/images/services/bg_2.jpg"
             },
             {
                 id: 2,
@@ -307,13 +320,13 @@ export const services = [
                     Services that
                     will serve your purpose and enable you interact with all your clients in real-time in Kenya.
                 `,
-                banner: "/images/portfolio/palmeira.jpg"
+                banner: "/images/services/bg_3.jpg"
             },
-            {
+            /*{
                 id: 3,
                 description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 banner: "/images/portfolio/woodcraft.jpg"
-            }
+            }*/
         ]
     }
 ]

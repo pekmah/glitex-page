@@ -4,10 +4,15 @@
   // position: absolute;
   font-size: 8rem !important;
   margin-bottom: 0;
+  color: var(--primary) !important;
 }
 
 .title_header {
   position: relative;
+}
+
+.d_flex {
+  display: block;
 }
 
 .title_header_image {
@@ -33,6 +38,11 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 @media (min-width: 768px) {
   .title_header_text {
     font-size: 12rem !important;
+  }
+
+  .d_flex {
+    display: flex;
+    justify-content: center;
   }
 }
 

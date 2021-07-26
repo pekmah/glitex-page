@@ -23,11 +23,8 @@ const Services = () => {
                                 <h3 className="h2">
                                     {service?.title}
                                 </h3>
-                                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                                    Quo
-                                    delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque
-                                    veritatis.
-                                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                                <p>
+                                    {service.description}
                                 </p>
                                 <a href={`${getServiceSlug(service, index)}`} style={{marginBottom: "7rem"}}
                                    className="btn btn--stroke">

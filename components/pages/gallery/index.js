@@ -5,23 +5,28 @@ import bootstrapStyles from '../../css/bootstrap-grid.module.css';
 import {portfolio} from "../../../providers/portfolio/data";
 import {getGallerySlug} from "../../../helpers/helpers";
 
-function TheGallery(props) {
+function TheGallery({dontShowNav}) {
+    let newPortfolio = dontShowNav ? portfolio.slice(0, 6) : portfolio;
+    const body = (
+        <div
+            style={{
+                marginTop: "14rem",
+                marginLeft: 0,
+                marginRight: 0,
+            }}
+            className={bootstrapStyles.row}>
+            {
+                newPortfolio.map((galleryItem, index) =>
+                    <SingleGalleryItem key={galleryItem?.id} index={index} galleryItem={galleryItem}/>
+                )
+            }
+        </div>
+    );
     return (
-        <Layout title={"Gallery"}>
-            <div
-                style={{
-                    marginTop: "14rem",
-                    marginLeft: 0,
-                    marginRight: 0,
-                }}
-                className={bootstrapStyles.row}>
-                {
-                    portfolio.map((galleryItem, index) =>
-                        <SingleGalleryItem key={galleryItem?.id} index={index} galleryItem={galleryItem}/>
-                    )
-                }
-            </div>
-        </Layout>
+        dontShowNav ? body :
+            <Layout title={"Gallery"}>
+                {body}
+            </Layout>
     );
 }
 

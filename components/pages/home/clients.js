@@ -1,4 +1,11 @@
+import {useEffect} from "react";
+
 const Clients = () => {
+    useEffect(() => {
+        setTimeout(() => {
+
+        }, 2000)
+    }, []);
     return (
         <section id="clients" className="s-clients">
             <div className="row section-header" data-aos="fade-up">
@@ -7,7 +14,7 @@ const Clients = () => {
                     <h1 className="display-2">Glitex has been honored to partner up with these clients</h1>
                 </div>
             </div>
-            <div className="row clients-outer" data-aos="fade-up">
+            {/*<div className="row clients-outer" data-aos="fade-up">
                 <div className="col-full">
                     <div className="clients">
                         <a href="#0" title="" className="clients__slide"><img src="images/clients/apple.png"/></a>
@@ -20,7 +27,7 @@ const Clients = () => {
                         <a href="#0" title="" className="clients__slide"><img src="images/clients/magento.png"/></a>
                     </div>
                 </div>
-            </div>
+            </div>*/}
             <div className="row clients-testimonials" data-aos="fade-up">
                 <div className="col-full">
                     <div className="testimonials">

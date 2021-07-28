@@ -63,6 +63,8 @@ export const portfolio = [
         description: "A mobile application that facilitates connecting users with specialists",
         images: [
             "/images/portfolio/services_app/services-app.png",
+            "/images/portfolio/services_app/services_app_1.png",
+            "/images/portfolio/services_app/services_app_2.png",
         ]
     },
     {
@@ -71,12 +73,11 @@ export const portfolio = [
         image: "/images/portfolio/supermarket_app/supermarket-app.png",
         description: "A mobile application that enables payment of goods in a supermarket by scanning a barcode, and includes purchase statistics",
         images: [
-            'https://upload.wikimedia.org/wikipedia/en/d/db/RWS_Tarot_06_Lovers.jpg',
-            'https://upload.wikimedia.org/wikipedia/en/thumb/8/88/RWS_Tarot_02_High_Priestess.jpg/690px-RWS_Tarot_02_High_Priestess.jpg',
-            'https://upload.wikimedia.org/wikipedia/en/d/de/RWS_Tarot_01_Magician.jpg',
-            '/images/portfolio/nuru_app/nuru_app.jpg',
-            '/images/portfolio/services_app/services_app.jpg',
-            '/images/portfolio/destiny_capsules/destiny_capsules.jpg',
+            "/images/portfolio/supermarket_app/supermarket-app.png",
+            "/images/portfolio/supermarket_app/supermarket-app-1.png",
+            "/images/portfolio/supermarket_app/supermarket-app-2.png",
+            "/images/portfolio/supermarket_app/supermarket-app-3.png",
+            "/images/portfolio/supermarket_app/supermarket-app-4.png",
         ]
     },
     /*{

@@ -146,7 +146,7 @@ const Contact = () => {
                         </div>
                         <ul className="contact-social">
                             <li>
-                                <a href="https://www.facebook.com/glitexsolutions/">
+                                <a href="https://facebook.com/glitexsolutionslimited/">
                                     <i className="fa fa-facebook" aria-hidden="true"/>
                                 </a>
                             </li>

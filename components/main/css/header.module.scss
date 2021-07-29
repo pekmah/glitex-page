@@ -5,33 +5,33 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .menu_toggle {
-    left: 290px;
+    left: -290px;
   }
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
   .menu_toggle {
-    left: 290px;
+    left: -290px;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .menu_toggle {
-    left: 290px;
+    left: -290px;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .menu_toggle {
-    left: 290px;
+    left: -290px;
   }
 }
 
 @media (min-width: 1644px) {
   .menu_toggle {
-    left: 290px;
+    left: -290px;
   }
 }

@@ -17,7 +17,6 @@ const Footer = () => {
                             Royal Plaza, Lumumba Drive
                         </h2>
                     </div>
-
                 </div>
             </div>
             <div className="row footer-bottom">

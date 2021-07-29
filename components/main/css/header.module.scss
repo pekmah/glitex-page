@@ -1,37 +1,37 @@
-.display {
-  display: none;
+.menu_toggle {
+  left: -150px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .display {
-    display: none;
+  .menu_toggle {
+    left: 290px;
   }
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
-  .display {
-    display: block;
+  .menu_toggle {
+    left: 290px;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .display {
-    display: block;
+  .menu_toggle {
+    left: 290px;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .display {
-    display: block;
+  .menu_toggle {
+    left: 290px;
   }
 }
 
 @media (min-width: 1644px) {
-  .display {
-    display: block;
+  .menu_toggle {
+    left: 290px;
   }
 }

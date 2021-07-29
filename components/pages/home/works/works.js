@@ -31,7 +31,7 @@ const Works = () => {
                 }} className="row works-content">
                     <div className="col text-center">
                         <a style={{marginTop: "5rem"}}
-                           href="/gallery" className="smoothscroll btn btn--stroke">Explore Gallery</a>
+                           href={"/gallery"} className="btn btn--stroke">Explore Gallery</a>
                     </div>
                 </div>
             </div>

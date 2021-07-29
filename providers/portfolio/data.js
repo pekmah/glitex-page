@@ -53,6 +53,9 @@ export const portfolio = [
         description: "An all purpose e-commerce application that facilitates sending of general products online",
         images: [
             "/images/portfolio/e-commerce-app/e-commerce.png",
+            "/images/portfolio/e-commerce-app/e-commerce-1.png",
+            "/images/portfolio/e-commerce-app/e-commerce-2.png",
+            "/images/portfolio/e-commerce-app/e-commerce-3.png",
         ]
     },
 
@@ -73,11 +76,12 @@ export const portfolio = [
         image: "/images/portfolio/supermarket_app/supermarket-app.png",
         description: "A mobile application that enables payment of goods in a supermarket by scanning a barcode, and includes purchase statistics",
         images: [
+            "/images/portfolio/supermarket_app/supermarket-app-0.png",
             "/images/portfolio/supermarket_app/supermarket-app.png",
-            "/images/portfolio/supermarket_app/supermarket-app-1.png",
-            "/images/portfolio/supermarket_app/supermarket-app-2.png",
-            "/images/portfolio/supermarket_app/supermarket-app-3.png",
             "/images/portfolio/supermarket_app/supermarket-app-4.png",
+            "/images/portfolio/supermarket_app/supermarket-app-1.png",
+            "/images/portfolio/supermarket_app/supermarket-app-3.png",
+            "/images/portfolio/supermarket_app/supermarket-app-2.png",
         ]
     },
     /*{

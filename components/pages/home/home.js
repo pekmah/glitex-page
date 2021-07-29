@@ -43,7 +43,7 @@ const Home = () => {
             <ul className="home-social">
                 <li>
                     <a
-                        href="https://www.facebook.com/glitexsolutions/">
+                        href="https://web.facebook.com/glitexsolutionslimited">
                         <i style={{
                             border: "2px solid var(--primary)",
                             color: "#ffffff"

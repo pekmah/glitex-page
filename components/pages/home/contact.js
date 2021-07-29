@@ -1,4 +1,52 @@
+import {useState} from "react";
+import {handleChangeDataFn, parseErrorResponse, showAlert} from "../../../helpers/helpers";
+
 const Contact = () => {
+    const [loading, setLoading] = useState();
+    const [data, setData] = useState({});
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+
+        setLoading(true);
+        fetch('/api/contact', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        }).then((res) => {
+            if (res?.status === 200) {
+                setData({});
+                showAlert('success', 'Success', 'Your message was submitted successfully!');
+            } else {
+                showAlert('error', 'Error', parseErrorResponse({}));
+            }
+        }).catch((e) => {
+            console.log(e);
+            showAlert('error', 'Error', parseErrorResponse({}));
+        }).finally(() => {
+            setLoading(false);
+        });
+        //setLoading(true);
+        //setErrors({});
+        //await sendMail();
+        /*makeRequest(POST_REQUEST, endpoints.contact, data, () => {
+            showAlert('success', 'Success', 'Your message was submitted successfully!');
+            setData({});
+        }, error => {
+            if (error.response.status === 400)
+                setErrors(error.response.data.data.errors);
+            else
+                showAlert('error', 'Error', parseErrorResponse(error));
+        }, () => {
+            setLoading(false);
+        }).then()*/
+    }
+    console.log(data);
+
+
     return (
         <section id="contact" className="s-contact">
             <div className="overlay"/>
@@ -18,34 +66,46 @@ const Contact = () => {
             <div className="row contact-content" data-aos="fade-up">
                 <div className="contact-primary">
                     <h3 className="h6">Send Us A Message</h3>
-                    <form name="contactForm" id="contactForm" method="post" action="" noValidate="novalidate">
+                    <form>
                         <fieldset>
                             <div className="form-field">
-                                <input name="contactName" type="text" id="contactName" placeholder="Your Name"
-                                       minLength="2" required="" aria-required="true" className="full-width"/>
+                                <input name="name"
+                                       onChange={e => handleChangeDataFn(e, setData)}
+                                       type="text" id="contactName" placeholder="Your Name"
+                                       minLength="2" required aria-required="true" className="full-width"/>
                             </div>
                             <div className="form-field">
-                                <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email"
-                                       required="" aria-required="true" className="full-width"/>
+                                <input name="email"
+                                       onChange={e => handleChangeDataFn(e, setData)}
+                                       type="email" id="contactEmail" placeholder="Your Email"
+                                       required aria-required="true" className="full-width"/>
                             </div>
                             <div className="form-field">
-                                <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"
+                                <input name="subject"
+                                       onChange={e => handleChangeDataFn(e, setData)}
+                                       type="text" id="contactSubject" placeholder="Subject"
                                        className="full-width"/>
                             </div>
                             <div className="form-field">
-                                <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10"
-                                          cols="50" required="" aria-required="true" className="full-width"/>
+                                <textarea name="message"
+                                          onChange={e => handleChangeDataFn(e, setData)}
+                                          id="contactMessage" placeholder="Your Message" rows="10"
+                                          cols="50" required aria-required="true" className="full-width"/>
                             </div>
                             <div className="form-field">
-                                <button style={{color: "black"}} className="full-width btn--primary">Submit</button>
-                                <div className="submit-loader">
+                                {!loading &&
+                                <button style={{color: "black"}} disabled={loading}
+                                        onClick={handleSubmit}
+                                        className="full-width btn--primary">Submit
+                                </button>}
+                                {loading && <div className="submit-loader">
                                     <div className="text-loader">Sending...</div>
                                     <div className="s-loader">
                                         <div className="bounce1"/>
                                         <div className="bounce2"/>
                                         <div className="bounce3"/>
                                     </div>
-                                </div>
+                                </div>}
                             </div>
                         </fieldset>
                     </form>

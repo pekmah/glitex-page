@@ -81,10 +81,9 @@ const Header = () => {
                 className="header-menu-toggle" href="#0">
                 <span
                     style={{
-                        left: "-290px",
                         width: "290px"
                     }}
-                    className="header-menu-text"><a style={{
+                    className={`header-menu-text ${styles.menu_toggle}`}><a style={{
                     fontSize: "1rem",
                     color: "white"
                 }}>
@@ -92,7 +91,7 @@ const Header = () => {
                     <a style={{
                         fontSize: "1rem",
                         color: "white"
-                    }} className={styles.display}>0703714050</a> |
+                    }}>0703714050</a> |
                     Menu
                 </span>
                 <span className="header-menu-icon"/>

@@ -10,7 +10,7 @@ function Layout({
     return (
         <div style={{backgroundColor: backgroundColor}}>
             <Head>
-                <title>{title && `${title} | `} Software Development Company in Kenya| Glitex Solutions Limited</title>
+                <title>{title && `${title} | `} Software Development Company in Kenya | Glitex Solutions Limited</title>
                 <meta name="robots" content="index, follow"></meta>
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="description" content="We are a software development company in Nairobi Kenya. Contact us for Mobile Application Development, E-commerce systems, E-learning systems, Management system, Websites, USSD Codes, Bulky SMS, Short Codes, SEO (Search Engine Optimizarion)" />

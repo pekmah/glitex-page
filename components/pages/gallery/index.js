@@ -4,6 +4,7 @@ import styles from './css/gallery.module.scss';
 import bootstrapStyles from '../../css/bootstrap-grid.module.css';
 import {portfolio} from "../../../providers/portfolio/data";
 import {getGallerySlug} from "../../../helpers/helpers";
+import Head from 'next/head';
 
 function TheGallery({dontShowNav}) {
     let newPortfolio = dontShowNav ? portfolio.slice(0, 6) : portfolio;
@@ -24,7 +25,10 @@ function TheGallery({dontShowNav}) {
     );
     return (
         dontShowNav ? body :
-            <Layout title={"Gallery"}>
+            <Layout>
+                <Head>
+                    <title>Gallery</title>
+                </Head>
                 {body}
             </Layout>
     );

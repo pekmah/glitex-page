@@ -124,7 +124,7 @@ const Contact = () => {
                         <div className="cinfo">
                             <h5>Where to Find Us</h5>
                             <p>
-                                Thika Road <br/> Mountain Mall<br/>
+                            Lumumba Drive <br/> Royal Plaza<br/>
                             </p>
                         </div>
                         <div className="cinfo">
@@ -141,7 +141,7 @@ const Contact = () => {
                         <div className="cinfo">
                             <h5>Call Us At</h5>
                             <p>
-                                Phone: (+254) 703714050<br/> Mobile: (+254) 707021821<br/>
+                                Phone: (+254) 707021821<br/> Mobile: (+254) 703714050<br/>
                             </p>
                         </div>
                         <ul className="contact-social">

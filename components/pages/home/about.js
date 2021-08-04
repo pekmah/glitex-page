@@ -11,7 +11,10 @@ const About = () => {
             </div>
             <div className="row about-desc" data-aos="fade-up">
                 <div className="col-full">
-                    <p>Glitex Solutions Limited is a software development company based in Nairobi, Kenya dedicated to providing you with a
+                    <p>Glitex Solutions Limited is a {' '}
+                        <a className={"no-animation-hover"} href={"/software-developer-companies-in-kenya"}>
+                            software development company
+                        </a> based in Nairobi, Kenya dedicated to providing you with a
                         seamless transition into the digital experience in Kenya and Beyond the region.
                     </p>
                     <p>

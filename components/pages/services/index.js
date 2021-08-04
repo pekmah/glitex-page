@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from "../../main/layout";
 import {Parallax, ParallaxLayer} from '@react-spring/parallax';
 import styles from './css/services.module.scss';
+import Head from 'next/head';
 
 const alignCenter = {
     display: 'flex',
@@ -62,6 +63,9 @@ function AllServices({service}) {
         }
     return (
         <Layout>
+            <Head>
+                <title>{service?.name}</title>
+            </Head>
             <Parallax pages={service?.pages?.length ?? 1}>
                 {children.length > 0 ? children :
                     <ParallaxLayer

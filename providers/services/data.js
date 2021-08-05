@@ -54,6 +54,10 @@ export const services = [
         title: "Mobile Apps Development | Android Apps | IOS Apps",
         link: "mobile-application-development-company-in-kenya",
         icon: "icon-group",
+        meta: {
+            description: "We are a top notch mobile apps developers in Nairobi, Kenya. We develop both android and IOS mobile applications. Contact Glitex Solutions Limited today",
+            keywords: "Mobile Application Development Company Nairobi - Kenya, Mobile Application Development, Mobile Apps Developers in Kenya, IOS mobile apps developers in Kenya, Android mobile apps developers in Kenya, apps developers in Kenya"
+        },
         description: `
             We are a top rated mobile applications development company based in Nairobi Kenya. We deliver mobile apps in
             Kenya and beyond the region.
@@ -138,6 +142,9 @@ export const services = [
         title: "Management information systems",
         icon: "icon-lego-block",
         link: "management-information-systems-in-kenya",
+        meta: {
+            keywords: "school management system kenya, colleges and universities kenya, Church management systems in Kenya, Hospital management systems in Kenya, Sacco Management Systems in Kenya,Financial Management systems kenya, pharmacy systems"
+        },
         description: `
             We have developed Management information systems; school management system
             for primary and secondary
@@ -215,6 +222,9 @@ export const services = [
         title: "E-Commerce Platforms",
         icon: "icon-cube",
         link: "ecommerce-developers-in-kenya",
+        meta: {
+            keywords: "ecommerce website developers in kenya, ecommerce mobile apps developers in kenya, ecommerce platforms developers in kenya, ecommerce website development"
+        },
         description: `
             We develop powerful, flexible, scalable and easy-to-manage
             eCommerce platforms for both web and mobile

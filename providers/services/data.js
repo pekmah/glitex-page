@@ -51,7 +51,7 @@ export const services = [
     },
     {
         id: 2,
-        title: "Mobile Apps Development | Android Apps | IOS Apps",
+        title: "Mobile Apps Development | Android Apps | IOS Apps in Kenya & Beyond",
         link: "mobile-application-development-company-in-kenya",
         icon: "icon-group",
         meta: {

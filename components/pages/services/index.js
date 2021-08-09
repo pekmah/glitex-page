@@ -70,9 +70,9 @@ function AllServices({service}) {
                 <meta name="robots" content="index, follow"/>
                 <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
                 <meta name="description"
-                      content={service?.meta.description || service?.description || ""}/>
+                      content={service?.meta?.description || service?.description || ""}/>
                 <meta name="keywords"
-                      content={service?.meta.keywords}/>
+                      content={service?.meta?.keywords}/>
                 <link rel="canonical"
                       href={`https://glitexsolutions.co.ke/services${router.pathname}`}/>
 
@@ -80,10 +80,10 @@ function AllServices({service}) {
                 <meta property="og:type" content="website"/>
                 <meta property="og:url" content="https://glitexsolutions.co.ke/"/>
                 <meta property="og:title"
-                      content={service?.meta.description || ""}/>
+                      content={service?.meta?.description || ""}/>
 
                 <meta property="og:description"
-                      content={service?.meta.description || service?.description || ""}/>
+                      content={service?.meta?.description || service?.description || ""}/>
                 <meta name="keywords"
                       content="Software Development Company Nairobi - Kenya, Mobile Application Development, Mobile Apps Developers in Kenya, E-commerce systems in Kenya, E-learning systems in Kenya, Management system Kenya, Websites, USSD Codes in Kenya, Bulk SMS, Short Codes in Kenya, SEO (Search Engine Optimization) Company in Nairobi - Kenya"/>
 

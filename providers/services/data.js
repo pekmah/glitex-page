@@ -67,8 +67,9 @@ export const services = [
                 id: 1,
                 description: `
                 We are Kenya's Top & Best Mobile Apps Development Company in Nairobi, Kenya. Our team of expert is skilled in Android & iOS mobile apps development. We develop mobile applications at affordable prices. Contact Glitex Solutions Limited for quality services.
-                We are a comprehensive mobile app development company that helps you to develop and maintain Mobile Applications for both Android and iOS. We develop user-friendly and secure mobile apps for any type of businesses model. Our Packages includes Hosting, 24/7 free Support & Maintenance and therefore cost effective.. We deliver mobile apps in
-                Kenya and beyond the region.
+                We are a comprehensive mobile app development company that helps you to develop and maintain Mobile Applications for both Android and iOS. We develop user-friendly and secure mobile apps for any type of businesses model. Our Packages includes Hosting, 24/7 free Support & Maintenance and therefore cost effective. We deliver mobile application development services 
+                in Kenya, Uganda, Tanzania, Ethiopia, Sudan and beyond the region.
+                Statistics from the Google Play Store show that over 60% of the apps on the store have never been downloaded, over 35% of them are downloaded but are inactive. This means mobile app development needs not only the skills of a mobile developer but a multitude of disciplines to realise a successful app. Glitex Solutions Limited offer a one-stop-shop for all your mobile app development needs for both iOS and Android.
                 `,
                 banner: "/images/services/bg_2.jpg"
             },
@@ -81,6 +82,12 @@ export const services = [
                     Android and iOS mobile app developers provide Industry specific mobility solution to meet the
                     requirements
                     of your business.
+                    Almost all large companies and businesses have implemented mobile apps for their business and 
+                    showcased brand awareness to their potential global customer. Right now, companies have begun to
+                     search for the Top Mobile App Development Companies in Nairobi, Mombasa, Kisumu, Nakuru, Eldoret
+                      in Kenya, because of the transformation of the website into an apps. If you want to expand your 
+                      business with a mobile app and searching for the Best Mobile App Development Company in Nairobi,
+                       Kenya, then you are in the right place.
                 `,
                 banner: "/images/services/bg_3.jpg"
             },

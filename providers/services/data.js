@@ -67,7 +67,7 @@ export const services = [
                 id: 1,
                 description: `
                 We are Kenya's Top & Best Mobile Apps Development Company in Nairobi, Kenya. Our team of expert is skilled in Android & iOS mobile apps development. We develop mobile applications at affordable prices. Contact Glitex Solutions Limited for quality services.
-                Glitex Solutions Limited is a comprehensive mobile app development company that helps you to develop and maintain Mobile Applications for both Android and iOS. We develop user-friendly and secure mobile apps for any type of businesses model. Our Packages includes Hosting, 24/7 free Support & Maintenance and therefore cost effective.. We deliver mobile apps in
+                We are a comprehensive mobile app development company that helps you to develop and maintain Mobile Applications for both Android and iOS. We develop user-friendly and secure mobile apps for any type of businesses model. Our Packages includes Hosting, 24/7 free Support & Maintenance and therefore cost effective.. We deliver mobile apps in
                 Kenya and beyond the region.
                 `,
                 banner: "/images/services/bg_2.jpg"

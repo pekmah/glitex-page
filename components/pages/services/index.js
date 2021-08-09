@@ -3,6 +3,7 @@ import Layout from "../../main/layout";
 import {Parallax, ParallaxLayer} from '@react-spring/parallax';
 import styles from './css/services.module.scss';
 import Head from 'next/head';
+import {useRouter} from "next/router";
 
 const alignCenter = {
     display: 'flex',
@@ -11,6 +12,7 @@ const alignCenter = {
 }
 
 function AllServices({service}) {
+    const router = useRouter();
     const children = [];
     if (service)
         for (let i = 0; i < service.pages.length; i++) {
@@ -64,7 +66,27 @@ function AllServices({service}) {
     return (
         <Layout>
             <Head>
-                <title>{service?.name}</title>
+                <title>{service?.title}{' '}| Glitex Solutions Limited</title>
+                <meta name="robots" content="index, follow"/>
+                <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+                <meta name="description"
+                      content={service?.meta.description || service?.description || ""}/>
+                <meta name="keywords"
+                      content={service?.meta.keywords}/>
+                <link rel="canonical"
+                      href={`https://glitexsolutions.co.ke/services${router.pathname}`}/>
+
+                <meta property="og:site_name" content="Glitex Solutions Limited"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:url" content="https://glitexsolutions.co.ke/"/>
+                <meta property="og:title"
+                      content={service?.meta.description || ""}/>
+
+                <meta property="og:description"
+                      content={service?.meta.description || service?.description || ""}/>
+                <meta name="keywords"
+                      content="Software Development Company Nairobi - Kenya, Mobile Application Development, Mobile Apps Developers in Kenya, E-commerce systems in Kenya, E-learning systems in Kenya, Management system Kenya, Websites, USSD Codes in Kenya, Bulk SMS, Short Codes in Kenya, SEO (Search Engine Optimization) Company in Nairobi - Kenya"/>
+
             </Head>
             <Parallax pages={service?.pages?.length ?? 1}>
                 {children.length > 0 ? children :

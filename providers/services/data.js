@@ -55,7 +55,6 @@ export const services = [
         link: "mobile-application-development-company-in-kenya",
         icon: "icon-group",
         description: `
-            We are Kenya's Top & Best Mobile Apps Development Company in Nairobi, Kenya. We are experts in Android & iOS mobile apps development. We develop mobile applications at affordable prices. Contact Glitex Solutions Limited for quality Android and IOS mobile application development services.
             We are a top rated mobile applications development company based in Nairobi Kenya. We deliver mobile apps in
             Kenya and beyond the region.
         `,
@@ -63,12 +62,9 @@ export const services = [
             {
                 id: 1,
                 description: `
-                    
-                We are a recognized leader in business and custom Android and iOS development services for mobile
-                    apps
-                    through the latest underlying technologies. With deep experience, our highly skilled team architects
-                    the
-                    powerful strategy that builds the foundation for project success.
+                We are Kenya's Top & Best Mobile Apps Development Company in Nairobi, Kenya. Our team of expert is skilled in Android & iOS mobile apps development. We develop mobile applications at affordable prices. Contact Glitex Solutions Limited for quality services.
+                Glitex Solutions Limited is a comprehensive mobile app development company that helps you to develop and maintain Mobile Applications for both Android and iOS. We develop user-friendly and secure mobile apps for any type of businesses model. Our Packages includes Hosting, 24/7 free Support & Maintenance and therefore cost effective.. We deliver mobile apps in
+                Kenya and beyond the region.
                 `,
                 banner: "/images/services/bg_2.jpg"
             },

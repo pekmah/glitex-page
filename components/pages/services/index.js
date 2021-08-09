@@ -3,7 +3,6 @@ import Layout from "../../main/layout";
 import {Parallax, ParallaxLayer} from '@react-spring/parallax';
 import styles from './css/services.module.scss';
 import Head from 'next/head';
-import {useRouter} from "next/router";
 
 const alignCenter = {
     display: 'flex',
@@ -11,8 +10,10 @@ const alignCenter = {
     width: "100%",
 }
 
-function AllServices({service}) {
-    const router = useRouter();
+function AllServices({
+                         service,
+                         id
+                     }) {
     const children = [];
     if (service)
         for (let i = 0; i < service.pages.length; i++) {
@@ -56,9 +57,9 @@ function AllServices({service}) {
                     justifyContent: 'flex-start'
                 }}>
                 <div className={styles.parallax_description}>
-                    <h3 style={{color: "white"}} className="display-2">
+                    <h1 style={{color: "white"}} className="display-2">
                         {page.title || service.title}
-                    </h3>
+                    </h1>
                     <p style={{color: "white"}}>{page.description}</p>
                 </div>
             </ParallaxLayer>);
@@ -74,13 +75,13 @@ function AllServices({service}) {
                 <meta name="keywords"
                       content={service?.meta?.keywords}/>
                 <link rel="canonical"
-                      href={`https://glitexsolutions.co.ke/services${router.pathname}`}/>
+                      href={`https://glitexsolutions.co.ke/services/${id}`}/>
 
                 <meta property="og:site_name" content="Glitex Solutions Limited"/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:url" content="https://glitexsolutions.co.ke/"/>
                 <meta property="og:title"
-                      content={service?.meta?.description || ""}/>
+                      content={service?.title || ""}/>
 
                 <meta property="og:description"
                       content={service?.meta?.description || service?.description || ""}/>

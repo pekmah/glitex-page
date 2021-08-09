@@ -2,23 +2,31 @@ import React from 'react';
 import AllServices from "../../components/pages/services";
 import {services} from "../../providers/services/data";
 
-function Services({service}) {
+function Services({
+                      service,
+                      id
+                  }) {
     return (
-        <AllServices service={service}/>
+        <AllServices id={id} service={service}/>
     );
 }
 
 export const getStaticProps = async ({params}) => {
     let service;
+    let url;
     try {
         const {id} = params;
+        url = id;
         service = services[id.substr(id.lastIndexOf("-") + 1)];
     } catch (e) {
         console.log(e);
     }
 
     return {
-        props: {service: service || null}
+        props: {
+            service: service || null,
+            id: url
+        }
     }
 }
 

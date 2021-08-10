@@ -22,9 +22,9 @@ function SingleWork({link, image, title, description}) {
                     </a>
                 </div>
                 <div className="item-folio__text">
-                    <h3 className="item-folio__title">
+                    <h1 className="item-folio__title">
                         {title}
-                    </h3>
+                    </h1>
                     <p className="item-folio__cat">
                         {description}
                     </p>

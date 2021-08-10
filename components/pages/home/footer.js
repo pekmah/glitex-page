@@ -8,14 +8,14 @@ const Footer = () => {
                 <div className="col-twelve tab-full left footer-desc">
                     <div style={{height: "13rem"}} className="footer-logo"/>
                     <div style={{display: "flex", justifyContent: "center"}}>
-                        <h2 style={headingStyles}>
+                        <h1 style={headingStyles}>
                             Glitex Solutions Limited |
-                            You Deserve Quality</h2>
+                            You Deserve Quality</h1>
                     </div>
                     <div style={{display: "flex", justifyContent: "center"}}>
-                        <h2 style={headingStyles}>
+                        <h1 style={headingStyles}>
                             Royal Plaza, Lumumba Drive
-                        </h2>
+                        </h1>
                     </div>
                 </div>
             </div>

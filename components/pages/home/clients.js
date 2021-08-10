@@ -10,7 +10,7 @@ const Clients = () => {
         <section id="clients" className="s-clients">
             <div className="row section-header" data-aos="fade-up">
                 <div className="col-full">
-                    <h3 className="subhead">Our Clients</h3>
+                    <h1 className="subhead">Our Clients</h1>
                     <h1 className="display-2">Glitex has been honored to partner up with these clients</h1>
                 </div>
             </div>

@@ -10,7 +10,7 @@ const Works = () => {
                 <div style={{marginBottom: "0"}} className="row section-header has-bottom-sep light-sep"
                      data-aos="fade-up">
                     <div className="col-full">
-                        <h3 className="subhead">Recent Works</h3>
+                        <h1 className="subhead">Recent Works</h1>
                         <h1 className="display-2 display-2--light">We love what we do, check out some of our latest
                             projects</h1>
                     </div>

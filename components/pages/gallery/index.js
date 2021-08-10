@@ -61,12 +61,12 @@ function SingleGalleryItem({
                     display: "flex",
                     flexDirection: "column"
                 }} className={styles.bottom}>
-                    <h2 style={{
+                    <h1 style={{
                         marginTop: "1.5rem",
                         marginBottom: "1.5rem"
                     }} className="display-3">
                         {galleryItem.name}
-                    </h2>
+                    </h1>
                     <p>
                         {galleryItem.description}
                     </p>

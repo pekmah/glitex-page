@@ -98,9 +98,9 @@ function AllServices({
                             justifyContent: 'center'
                         }}>
                         <div style={{alignItems: "center"}} className={styles.parallax_description}>
-                            <h3 style={{color: "white"}} className="display-2">
+                            <h1 style={{color: "white"}} className="display-2">
                                 Not Found
-                            </h3>
+                            </h1>
                             <a href="/" className="smoothscroll btn btn--primary">
                                 Go Home
                             </a>

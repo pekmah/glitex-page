@@ -53,7 +53,7 @@ const Contact = () => {
             <div className="contact__line"/>
             <div className="row section-header" data-aos="fade-up">
                 <div className="col-full">
-                    <h3 className="subhead">Contact Us</h3>
+                    <h1 className="subhead">Contact Us</h1>
                     <h1 style={{marginTop: "1rem"}} className="display-3 display-2--light">
                         Unlock a world of possibilities with us!
                     </h1>
@@ -65,7 +65,7 @@ const Contact = () => {
             </div>
             <div className="row contact-content" data-aos="fade-up">
                 <div className="contact-primary">
-                    <h3 className="h6">Send Us A Message</h3>
+                    <h1 className="h6">Send Us A Message</h1>
                     <form>
                         <fieldset>
                             <div className="form-field">
@@ -120,7 +120,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-secondary">
                     <div className="contact-info">
-                        <h3 className="h6 hide-on-fullwidth">Contact Info</h3>
+                        <h1 className="h6 hide-on-fullwidth">Contact Info</h1>
                         <div className="cinfo">
                             <h5>Where to Find Us</h5>
                             <p>

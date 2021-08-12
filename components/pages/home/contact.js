@@ -53,7 +53,7 @@ const Contact = () => {
             <div className="contact__line"/>
             <div className="row section-header" data-aos="fade-up">
                 <div className="col-full">
-                    <h1 className="subhead">Contact Us</h1>
+                    <h3 className="subhead">Contact Us</h3>
                     <h1 style={{marginTop: "1rem"}} className="display-3 display-2--light">
                         Unlock a world of possibilities with us!
                     </h1>

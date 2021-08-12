@@ -9,7 +9,7 @@ const Services = () => {
         }} id='services' className="s-services">
             <div className="row section-header has-bottom-sep" data-aos="fade-up">
                 <div className="col-full">
-                    <h1 style={{color: "black"}} className="subhead">What We Do</h1>
+                    <h3 style={{color: "black"}} className="subhead">What We Do</h3>
                     <h1 className="display-2">We’ve got the skills and workforce you can rely on
                         to push your business to the next level
                     </h1>
@@ -23,9 +23,9 @@ const Services = () => {
                                 <i className={service?.icon}/>
                             </div>
                             <div key={service?.id} className="service-text">
-                                <h1 className="h2">
+                                <h3 className="h2">
                                     {service?.title}
-                                </h1>
+                                </h3>
                                 <p>
                                     {service.description}
                                 </p>

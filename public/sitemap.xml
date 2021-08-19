@@ -1,27 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://glitexsolutions.co.ke</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        <lastmod>2021-08-04T14:36:06.314Z</lastmod>
-    </url>
-    <url>
-        <loc>https://glitexsolutions.co.ke/software-development-company-in-kenya</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        <lastmod>2021-08-04T14:36:06.314Z</lastmod>
+        <loc>https://glitexsolutions.co.ke/</loc>
+        <lastmod>2021-08-19T17:16:18+00:00</lastmod>
+        <priority>1.00</priority>
     </url>
     <url>
         <loc>https://glitexsolutions.co.ke/gallery</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        <lastmod>2021-08-04T14:36:06.314Z</lastmod>
+        <lastmod>2021-08-19T17:16:18+00:00</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://glitexsolutions.co.ke/services</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        <lastmod>2021-08-04T14:36:06.314Z</lastmod>
+        <loc>https://glitexsolutions.co.ke/software-development-company-in-kenya</loc>
+        <lastmod>2021-08-19T17:16:18+00:00</lastmod>
+        <priority>0.80</priority>
     </url>
+    <url>
+        <loc>https://glitexsolutions.co.ke/services/seo-companies-in-nairobi-kenya-0</loc>
+        <lastmod>2021-08-19T17:16:18+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://glitexsolutions.co.ke/services/mobile-application-development-company-in-kenya-1</loc>
+        <lastmod>2021-08-19T17:16:18+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://glitexsolutions.co.ke/services/elearning-platforms-in-kenya-2</loc>
+        <lastmod>2021-08-19T17:16:18+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://glitexsolutions.co.ke/services/management-information-systems-in-kenya-3</loc>
+        <lastmod>2021-08-19T17:16:18+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://glitexsolutions.co.ke/services/website-development-company-in-kenya-4</loc>
+        <lastmod>2021-08-19T17:16:18+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://glitexsolutions.co.ke/services/ecommerce-developers-in-kenya-5</loc>
+        <lastmod>2021-08-19T17:16:18+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://glitexsolutions.co.ke/services/school-management-system-in-kenya-6</loc>
+        <lastmod>2021-08-19T17:16:18+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://glitexsolutions.co.ke/services/ussd-codes-kenya-7</loc>
+        <lastmod>2021-08-19T17:16:18+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+
 </urlset>

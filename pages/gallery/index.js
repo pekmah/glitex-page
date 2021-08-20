@@ -1,7 +1,7 @@
 import React from 'react';
 import TheGallery from "../../components/pages/gallery";
 
-function Gallery(props) {
+function Gallery() {
     return (
         <TheGallery/>
     );

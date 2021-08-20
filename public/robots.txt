@@ -7,3 +7,5 @@ Host: https://glitexsolutions.co.ke
 
 # Sitemaps
 Sitemap: https://glitexsolutions.co.ke/sitemap.xml
+
+# Test

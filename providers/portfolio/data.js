@@ -2,86 +2,85 @@ export const portfolio = [
     {
         id: 1,
         name: "NPBC Portal",
-        image: "/images/portfolio/npbc/npbc-portal.png",
+        image: "/images/portfolio/npbc/npbc_1.webp",
         description: "A school portal built for Nairobi Pentecostal Bible College",
         images: [
-            '/images/portfolio/npbc/npbc-portal.png',
-            '/images/portfolio/npbc/npbc_1.png',
-            '/images/portfolio/npbc/npbc_2.png',
-            '/images/portfolio/npbc/npbc_3.png',
-            '/images/portfolio/npbc/npbc_4.png',
-            '/images/portfolio/npbc/npbc_5.png',
-            '/images/portfolio/npbc/npbc_6.png',
-            '/images/portfolio/npbc/npbc_7.png',
-            '/images/portfolio/npbc/npbc_8.png',
-            '/images/portfolio/npbc/npbc_9.png',
-            '/images/portfolio/npbc/npbc_10.png',
+            '/images/portfolio/npbc/npbc_1.webp',
+            '/images/portfolio/npbc/npbc_2.webp',
+            '/images/portfolio/npbc/npbc_3.webp',
+            '/images/portfolio/npbc/npbc_4.webp',
+            '/images/portfolio/npbc/npbc_5.webp',
+            '/images/portfolio/npbc/npbc_6.webp',
+            '/images/portfolio/npbc/npbc_7.webp',
+            '/images/portfolio/npbc/npbc_8.webp',
+            '/images/portfolio/npbc/npbc_9.webp',
+            '/images/portfolio/npbc/npbc_10.webp',
         ]
     },
 
     {
         id: 2,
         name: "Destiny Capsules Mobile App",
-        image: "/images/portfolio/destiny_capsules/destiny-capsules.png",
+        image: "/images/portfolio/destiny_capsules/destiny-capsules.webp",
         description: "An E-commerce platform that sells books online",
         images: [
-            "/images/portfolio/destiny_capsules/destiny-capsules.png",
-            "/images/portfolio/destiny_capsules/destiny-capsules_1.png",
-            "/images/portfolio/destiny_capsules/destiny-capsules_2.png",
+            "/images/portfolio/destiny_capsules/destiny-capsules.webp",
+            "/images/portfolio/destiny_capsules/destiny-capsules_1.webp",
+            "/images/portfolio/destiny_capsules/destiny-capsules_2.webp",
         ]
     },
 
     {
         id: 3,
         name: "Nuru Mobile Application",
-        image: "/images/portfolio/nuru_app/nuru.png",
+        image: "/images/portfolio/nuru_app/nuru.webp",
         description: "A social and community application that connects different church communities",
         images: [
-            "/images/portfolio/nuru_app/nuru.png",
-            "/images/portfolio/nuru_app/nuru-1.png",
-            "/images/portfolio/nuru_app/nuru-2.png",
-            "/images/portfolio/nuru_app/nuru-3.png",
-            "/images/portfolio/nuru_app/nuru-4.png",
-            "/images/portfolio/nuru_app/nuru-5.png",
+            "/images/portfolio/nuru_app/nuru.webp",
+            "/images/portfolio/nuru_app/nuru-1.webp",
+            "/images/portfolio/nuru_app/nuru-2.webp",
+            "/images/portfolio/nuru_app/nuru-3.webp",
+            "/images/portfolio/nuru_app/nuru-4.webp",
+            "/images/portfolio/nuru_app/nuru-5.webp",
         ]
     },
 
     {
         id: 4,
         name: "E-Commerce App",
-        image: "/images/portfolio/e-commerce-app/e-commerce.png",
+        image: "/images/portfolio/e-commerce-app/e-commerce.webp",
         description: "An all purpose e-commerce application that facilitates sending of general products online",
         images: [
-            "/images/portfolio/e-commerce-app/e-commerce.png",
-            "/images/portfolio/e-commerce-app/e-commerce-1.png",
-            "/images/portfolio/e-commerce-app/e-commerce-2.png",
-            "/images/portfolio/e-commerce-app/e-commerce-3.png",
+            "/images/portfolio/e-commerce-app/e-commerce.webp",
+            "/images/portfolio/e-commerce-app/e-commerce-1.webp",
+            "/images/portfolio/e-commerce-app/e-commerce-2.webp",
+            "/images/portfolio/e-commerce-app/e-commerce-3.webp",
         ]
     },
 
     {
         id: 5,
         name: "Services App",
-        image: "/images/portfolio/services_app/services-app.png",
+        image: "/images/portfolio/services_app/services-app.webp",
         description: "A mobile application that facilitates connecting users with specialists",
         images: [
-            "/images/portfolio/services_app/services-app.png",
-            "/images/portfolio/services_app/services_app_1.png",
-            "/images/portfolio/services_app/services_app_2.png",
+            "/images/portfolio/services_app/services-app.webp",
+            "/images/portfolio/services_app/services_app_1.webp",
+            "/images/portfolio/services_app/services_app_2.webp",
         ]
     },
     {
         id: 7,
         name: "Supermarket App",
-        image: "/images/portfolio/supermarket_app/supermarket-app.png",
+        image: "/images/portfolio/supermarket_app/supermarket-app.webp",
         description: "A mobile application that enables payment of goods in a supermarket by scanning a barcode, and includes purchase statistics",
         images: [
             "/images/portfolio/supermarket_app/supermarket-app-0.png",
             "/images/portfolio/supermarket_app/supermarket-app.png",
-            "/images/portfolio/supermarket_app/supermarket-app-4.png",
-            "/images/portfolio/supermarket_app/supermarket-app-1.png",
-            "/images/portfolio/supermarket_app/supermarket-app-3.png",
-            "/images/portfolio/supermarket_app/supermarket-app-2.png",
+            "/images/portfolio/supermarket_app/supermarket-app-4.webp",
+            "/images/portfolio/supermarket_app/supermarket-app-1.webp",
+            "/images/portfolio/supermarket_app/supermarket-app-3.webp",
+            "/images/portfolio/supermarket_app/supermarket-app-2.webp",
         ]
     },
     /*{

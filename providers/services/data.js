@@ -51,7 +51,7 @@ export const services = [
     },
     {
         id: 2,
-        title: "Mobile Apps Development | Android Apps | IOS Apps in Kenya & Beyond",
+        title: "Mobile Apps Development in Kenya & Beyond| Android Apps | IOS Apps",
         link: "mobile-application-development-company-in-kenya",
         icon: "icon-group",
         meta: {
@@ -66,12 +66,25 @@ export const services = [
             {
                 id: 1,
                 description: `
-                We are Kenya's Top & Best Mobile Apps Development Company in Nairobi, Kenya. Our team of expert is skilled in Android & iOS mobile apps development. We develop mobile applications at affordable prices. Contact Glitex Solutions Limited for quality services.
-                We are a comprehensive mobile app development company that helps you to develop and maintain Mobile Applications for both Android and iOS. We develop user-friendly and secure mobile apps for any type of businesses model. Our Packages includes Hosting, 24/7 free Support & Maintenance and therefore cost effective. We deliver mobile application development services 
-                in Kenya, Uganda, Tanzania, Ethiopia, Sudan and beyond the region.
-                Statistics from the Google Play Store show that over 60% of the apps on the store have never been downloaded, over 35% of them are downloaded but are inactive. This means mobile app development needs not only the skills of a mobile developer but a multitude of disciplines to realise a successful app. Glitex Solutions Limited offer a one-stop-shop for all your mobile app development needs for both iOS and Android.
-                `,
+                We are Kenya's Top & Best Mobile Apps Development Company in Nairobi, Kenya. 
+                Our team of expert is skilled in Android & iOS mobile apps development. 
+                We develop mobile applications at affordable prices. Contact Glitex Solutions Limited for quality services.
+                We are a comprehensive mobile app development company that helps you to develop and maintain Mobile 
+                Applications for both Android and iOS. We develop user-friendly and secure mobile apps for any type of businesses model.`,
                 banner: "/images/services/bg_2.jpg"
+            },
+            {
+                id: 3,
+                description: `
+                Our Packages includes Hosting, 24/7 free Support & Maintenance and therefore cost effective. 
+                We deliver mobile application development services 
+                in Kenya, Uganda, Tanzania, Ethiopia, Sudan and beyond the region.
+                Statistics from the Google Play Store show that over 60% of the apps on the store have never 
+                been downloaded, over 35% of them are downloaded but are inactive. This means mobile app 
+                development needs not only the skills of a mobile developer but a multitude of disciplines 
+                to realise a successful app. Glitex Solutions Limited offer a one-stop-shop for all your mobile 
+                app development needs for both iOS and Android.
+                `
             },
             {
                 id: 2,
@@ -100,7 +113,7 @@ export const services = [
     },
     {
         id: 3,
-        title: "E-learning Platforms for  Primary, Secondary Schools, Colleges & Universities in Nairobi, Kenya",
+        title: "E-learning Platforms in Nairobi, Kenya for  Primary, Secondary Schools, Colleges & Universities",
         icon: "icon-earth",
         link: "elearning-platforms-in-kenya",
         description: `

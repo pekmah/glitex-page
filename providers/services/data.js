@@ -1,7 +1,7 @@
 export const services = [
     {
         id: 1,
-        title: "SEO | Search Engine Optimization",
+        title: "SEO | Search Engine Optimization in Nairobi, Kenya",
         link: "seo-companies-in-nairobi-kenya",
         icon: "icon-paint-brush",
         description: `
@@ -100,7 +100,7 @@ export const services = [
     },
     {
         id: 3,
-        title: "E-learning Platforms for  Primary, Secondary Schools, Colleges & Universities",
+        title: "E-learning Platforms for  Primary, Secondary Schools, Colleges & Universities in Nairobi, Kenya",
         icon: "icon-earth",
         link: "elearning-platforms-in-kenya",
         description: `
@@ -144,7 +144,7 @@ export const services = [
     },
     {
         id: 5,
-        title: "Management information systems",
+        title: "Management information systems in Nairobi, Kenya",
         icon: "icon-lego-block",
         link: "management-information-systems-in-kenya",
         meta: {
@@ -183,7 +183,7 @@ export const services = [
     },
     {
         id: 8,
-        title: "Website Development",
+        title: "Website Development in Nairobi, Kenya",
         icon: "icon-cube",
         link: "website-development-company-in-kenya",
         description: `
@@ -224,7 +224,7 @@ export const services = [
     },
     {
         id: 4,
-        title: "E-Commerce Platforms",
+        title: "E-Commerce Platforms in Nairobi, Kenya",
         icon: "icon-cube",
         link: "ecommerce-developers-in-kenya",
         meta: {
@@ -265,7 +265,7 @@ export const services = [
     },
     {
         id: 6,
-        title: "Our School Management System with both Android and IOS Apps",
+        title: "Our School Management System with both Android and IOS Apps in Nairobi, Kenya",
         icon: "icon-user",
         link: "school-management-system-in-kenya",
         description: `
@@ -308,7 +308,7 @@ export const services = [
     },
     {
         id: 7,
-        title: "USSD in services",
+        title: "USSD in services in Nairobi, Kenya",
         icon: "icon-leaf",
         link: "ussd-codes-kenya",
         description: `

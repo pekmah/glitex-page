@@ -51,8 +51,8 @@ export const services = [
     },
     {
         id: 2,
-        title: "Mobile Apps Development in Kenya & Beyond| Android Apps | IOS Apps",
-        link: "mobile-application-development-company-in-kenya",
+        title: "Mobile Apps Developers in Kenya | Android Apps | IOS Apps",
+        link: "mobile-app-developers-in-kenya",
         icon: "icon-group",
         meta: {
             description: "We are a top notch mobile apps developers in Nairobi, Kenya. We develop both android and IOS mobile applications. Contact Glitex Solutions Limited today",
@@ -65,6 +65,7 @@ export const services = [
         pages: [
             {
                 id: 1,
+                subtitle: "Mobile Application development company in Kenya",
                 description: `
                 We are Kenya's Top & Best Mobile Apps Development Company in Nairobi, Kenya. 
                 Our team of expert is skilled in Android & iOS mobile apps development. 
@@ -75,6 +76,7 @@ export const services = [
             },
             {
                 id: 3,
+                subtitle: "Android and IOS apps developers in Kenya",
                 description: `
                 Our Packages includes Hosting, 24/7 free Support & Maintenance and therefore cost effective. 
                 We deliver mobile application development services 
@@ -114,6 +116,7 @@ export const services = [
     {
         id: 3,
         title: "E-learning Platforms in Nairobi, Kenya for  Primary, Secondary Schools, Colleges & Universities",
+        subtitle: "",
         icon: "icon-earth",
         link: "elearning-platforms-in-kenya",
         description: `
@@ -125,6 +128,7 @@ export const services = [
         pages: [
             {
                 id: 1,
+                subtitle: "Elearning student portal | E learning system in Kenya | E-learning platform in Kenya",
                 description: `
                     Glitex Solutions Limited is an e-learning solution provider company that designs, develops and
                     delivers
@@ -137,6 +141,7 @@ export const services = [
             },
             {
                 id: 2,
+                subtitle: "E learning student platform in Kenya | E-learning portal in Kenya | Elearning Software",
                 description: `
                     We also have our own ELearning Platforms to be used in Kenya and across the globe. The platform is
                     developed
@@ -279,6 +284,7 @@ export const services = [
     {
         id: 6,
         title: "Our School Management System with both Android and IOS Apps in Nairobi, Kenya",
+        subtitle: "School Management software in Kenya | School ERP Kenya",
         icon: "icon-user",
         link: "school-management-system-in-kenya",
         description: `
@@ -294,7 +300,7 @@ export const services = [
                     Mobile, Tablet, Desktop and many more. It helps in managing all complex functions of your school
                     like student fees, exam results, daily attendance, inventory, library, timetable, student
                     management, staff management, documents, notifications, online examination and transport. It is also
-                    inteZgrated with accounting system that sorts all your financial needs of the school.
+                    integrated with accounting system that sorts all your financial needs of the school.
                 `,
                 banner: "/images/services/bg_2.jpg"
             },
@@ -316,6 +322,15 @@ export const services = [
                     mechanism which becomes a blessing for management personnel.
                 `,
                 banner: "/images/services/bg_4.jpg"
+            },
+            {
+                id: 4,
+                description: `
+                Perfectly developed school management system in Kenya for primary and secondary schools, Colleges 
+                and universities. We have the best School Management Software in Kenya. It is Comprehensive, Affordable
+                 and it can be integrated with BULK SMS to ease communication between schools and parents.
+                `,
+                banner: "/images/services/bg_5.jpg"
             }
         ]
     },

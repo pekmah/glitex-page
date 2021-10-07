@@ -57,9 +57,20 @@ function AllServices({
                     justifyContent: 'flex-start'
                 }}>
                 <div className={styles.parallax_description}>
-                    <h1 style={{color: "white"}} className="display-2">
+                    <h1 style={{
+                        color: "white",
+                        marginBottom: "2rem"
+                    }} className="display-2">
                         {page.title || service.title}
                     </h1>
+                    {(service.subtitle || page.subtitle) &&
+                    <h2 style={{
+                        color: "white",
+                        marginTop: "2rem"
+                    }} className="service-detail-subtitle">
+                        {page.subtitle || service.subtitle}
+                    </h2>
+                    }
                     <p style={{color: "white"}}>{page.description}</p>
                 </div>
             </ParallaxLayer>);
@@ -89,7 +100,7 @@ function AllServices({
                       content="Software Development Company Nairobi - Kenya, Mobile Application Development, Mobile Apps Developers in Kenya, E-commerce systems in Kenya, E-learning systems in Kenya, Management system Kenya, Websites, USSD Codes in Kenya, Bulk SMS, Short Codes in Kenya, SEO (Search Engine Optimization) Company in Nairobi - Kenya"/>
 
             </Head>
-            <Parallax pages={service?.pages?.length ?? 1}>
+            <Parallax pages={service?.pages?.length ?? 1} className={"service-detail-body"}>
                 {children.length > 0 ? children :
                     <ParallaxLayer
                         offset={0}

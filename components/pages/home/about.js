@@ -6,7 +6,7 @@ const About = () => {
             <div className="row section-header has-bottom-sep" data-aos="fade-up">
                 <div className="col-full">
                     <h3 className="subhead subhead--dark">Hello There</h3>
-                    <h1 className="display-1">We Are Glitex Solutions</h1>
+                    <h1 className="display-2">Software Development Company in Kenya | Glitex Solutions Limited</h1>
                 </div>
             </div>
             <div className="row about-desc" data-aos="fade-up">

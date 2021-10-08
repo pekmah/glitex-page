@@ -1,7 +1,7 @@
 export const services = [
     {
         id: 1,
-        title: "SEO | Search Engine Optimization in Nairobi, Kenya",
+        title: "SEO Company in Kenya | Search Engine Optimization in Nairobi, Kenya",
         link: "seo-companies-in-nairobi-kenya",
         icon: "icon-paint-brush",
         description: `
@@ -13,18 +13,21 @@ export const services = [
         pages: [
             {
                 id: 1,
+                subtitle: "SEO Services in Kenya | Search Engine Optimization Services in Kenya",
                 description: `
                     We are the leading search engine optimization company in Kenya and across the region.
-                    Good ranking on top search engines means more website visitors ,sales and revenue.We use our SEO
+                    Good ranking on top search engines means more website visitors, sales and revenue. We use our SEO
                     tactics and
                     strategies to ensure your dominate the search engines.
+                    Search engine optimization (SEO) is a tested and proven method to get
+                    websites to rank higher on search engine results. 
                 `,
                 banner: "/images/services/bg_2.jpg"
             },
             {
                 id: 2,
                 description: `
-                    A website without traffic doesn’t serve its purpose but a website with the right traffic flowing in
+                    A website without traffic doesn't serve its purpose but a website with the right traffic flowing in
                     consistently can propel a business to new scales. Our SEO Team will analyze the markets and get to
                     work
                     making your website more visible to your key market through our comprehensive digital marketing
@@ -203,7 +206,7 @@ export const services = [
         id: 8,
         title: "Website Development in Nairobi, Kenya",
         icon: "icon-cube",
-        link: "website-development-company-in-kenya",
+        link: "website-developers-in-kenya",
         description: `
             We are a top notch website development company based in Nairobi Kenya, delivering quality across the East
             Africa region.
@@ -211,25 +214,34 @@ export const services = [
         pages: [
             {
                 id: 1,
+                subtitle: "Web Design Company in Kenya | Website Development Company in Kenya",
                 description: `
-                    We are a top notch website development company based in Nairobi Kenya, delivering quality across the
-                    East
-                    Africa region.
+                    Glitex prides itself in being one of the leading software development companies in Kenya.
+                    We are among the best software development companies in Nairobi Kenya, we provide the high quality 
+                    software for sale at an affordable price with full-cycle software developers services to our esteemed customers.
+                     We employ industry best practices to deliver robust, secure & scalable custom software development services 
+                     using the latest technologies.
                 `,
                 banner: "/images/services/bg_2.jpg"
             },
             {
                 id: 2,
                 description: `
-                    We have skilled developers who provides solutions to your business and also organizations.
-                    Are you running a business and want to have an online presence? Do you want to take
-                    your business to its next stage of success? Do you want to create a website right from scratch or
-                    revamp
-                    your existing one? Whatever field or industry you want your website to be built in, with our
-                    qualified web
-                    developers and designers at Glitex Solutions Limited, you will find web solutions that go beyond
-                    your
-                    expectations in terms of performance and usability.
+                    Glitex Solutions Limited has evolved into a globally renowned digital agency, recognized as a leader 
+                    in web, mobile app development, management systems in the Kenya and Beyond the region. From mobile 
+                    app development to eCommerce development — we offer a wide spectrum of IT services backed by our 
+                    best app developers.
+                `,
+                banner: "/images/services/bg_3.jpg"
+            },
+            {
+                id: 3,
+                description: `
+                    What makes us unique compared with other mobile app development companies in Kenya is that we 
+                    approach every project as an opportunity to deliver bespoke solutions in state-of-the-art technologies.
+                    At Glitex, perfection is not just another trait, but a way of life that we have become habitual to.
+                    Rest assured, when you partner with us, you are shaking hands with a strong ally who can make your
+                    digital dreams come true.
                 `,
                 banner: "/images/services/bg_3.jpg"
             },
@@ -242,9 +254,9 @@ export const services = [
     },
     {
         id: 4,
-        title: "E-Commerce Platforms in Nairobi, Kenya",
+        title: "E-Commerce Website and Mobile Application Developers in Kenya",
         icon: "icon-cube",
-        link: "ecommerce-developers-in-kenya",
+        link: "ecommerce-website-developers-in-kenya",
         meta: {
             keywords: "ecommerce website developers in kenya, ecommerce mobile apps developers in kenya, ecommerce platforms developers in kenya, ecommerce website development"
         },
@@ -257,6 +269,7 @@ export const services = [
         pages: [
             {
                 id: 1,
+                subtitle: "E Commerce Platform in Kenya | E-Commerce Platform in Kenya",
                 description: `
                     We develop powerful, flexible, scalable and easy-to-manage
                     eCommerce platforms for both web and mobile
@@ -266,6 +279,7 @@ export const services = [
             },
             {
                 id: 2,
+                subtitle: "E Commerce in Kenya",
                 description: `
                     If you want long-term, sustainable success,
                     your e-Commerce system should be stable, secure, maintainable and easy to manage.

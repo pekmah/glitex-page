@@ -350,7 +350,7 @@ export const services = [
     },
     {
         id: 7,
-        title: "USSD in services in Nairobi, Kenya",
+        title: "USSD services in Nairobi, Kenya",
         icon: "icon-leaf",
         link: "ussd-codes-kenya",
         description: `

@@ -29,9 +29,9 @@ export default function Index() {
                       content="Software Development Company in Kenya |  We are a software development company based in Nairobi, Kenya dedicated to providing you with a seamless transition into the digital experience in Kenya and Beyond the region."/>
 
                 <meta property="og:description"
-                      content="We are a software development company in Nairobi Kenya. Contact us for Mobile Application Development, E-commerce systems, E-learning systems, Management system, Websites, USSD Codes, Bulk SMS, Short Codes, SEO (Search Engine Optimizarion)"/>
+                      content="We prides ourselves in being one of the leading software development companies in Kenya. We have a history of developing quality business applications. Contact us today"/>
                 <meta name="keywords"
-                      content="Software Development Company Nairobi - Kenya, Mobile Application Development, Mobile Apps Developers in Kenya, E-commerce systems in Kenya, E-learning systems in Kenya, Management system Kenya, Websites, USSD Codes in Kenya, Bulk SMS, Short Codes in Kenya, SEO (Search Engine Optimizarion) Company in Nairobi - Kenya"/>
+                      content="software development companies in Kenya, software developers in Kenya, software company in Nairobi"/>
             </Head>
             <Home/>
             <About/>

@@ -58,8 +58,8 @@ export const services = [
         link: "mobile-app-developers-in-kenya",
         icon: "icon-group",
         meta: {
-            description: "We are a top notch mobile apps developers in Nairobi, Kenya. We develop both android and IOS mobile applications. Contact Glitex Solutions Limited today",
-            keywords: "Mobile Application Development Company Nairobi - Kenya, Mobile Application Development, Mobile Apps Developers in Kenya, IOS mobile apps developers in Kenya, Android mobile apps developers in Kenya, apps developers in Kenya"
+            description: "For Android mobile apps and IOS mobile application development in Kenya, Contact Glitex Solutions Limited.",
+            keywords: "Mobile Apps developers in Kenya, IOS & Android mobile application development in Kenya, Mobile apps development company in Kenya"
         },
         description: `
             We are a top rated mobile applications development company based in Nairobi Kenya. We deliver mobile apps in
@@ -208,9 +208,13 @@ export const services = [
         icon: "icon-cube",
         link: "website-developers-in-kenya",
         description: `
-            We are a top notch website development company based in Nairobi Kenya, delivering quality across the East
-            Africa region.
+            We are among the best website development companies in Kenya and Africa in general. Our skilled engineering team employs years of hard-earned experience to ensure our end 
+            products adhere to industry standards and match the utmost quality your business needs
         `,
+        meta: {
+            description: "We are among the best website development companies in Kenya and Africa in general. Our skilled engineering team employs years of hard-earned experience to ensure our end products adhere to industry standards and match the utmost quality your business needs",
+            keywords: "Website developers in Kenya, Website development companies in Kenya, Website Designer"
+        },
         pages: [
             {
                 id: 1,

@@ -96,9 +96,6 @@ function AllServices({
 
                 <meta property="og:description"
                       content={service?.meta?.description || service?.description || ""}/>
-                <meta name="keywords"
-                      content="Software Development Company Nairobi - Kenya, Mobile Application Development, Mobile Apps Developers in Kenya, E-commerce systems in Kenya, E-learning systems in Kenya, Management system Kenya, Websites, USSD Codes in Kenya, Bulk SMS, Short Codes in Kenya, SEO (Search Engine Optimization) Company in Nairobi - Kenya"/>
-
             </Head>
             <Parallax pages={service?.pages?.length ?? 1} className={"service-detail-body"}>
                 {children.length > 0 ? children :

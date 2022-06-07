@@ -123,7 +123,7 @@ export const services = [
         icon: "icon-earth",
         link: "elearning-platforms-in-kenya",
         description: `
-            Glitex Solutions Limited is an e-learning solution provider company that designs, develops and delivers
+            Glitex Solutions Limited is among the leading software development companies in Kenya that designs, develops and delivers
             technology-based Interactive learning solutions. Providing learning technologies, including custom
             e-learning, multi-device learning, mobile learning, platforms and consulting for Interactive e-learning
             curriculum design.

@@ -249,7 +249,7 @@ export const services = [
     },
     {
         id: 4,
-        title: "E-Commerce Website and Mobile Application Developers in Kenya",
+        title: "E-Commerce Website Developers Nairobi Kenya | Mobile Application Developers Kenya",
         icon: "icon-cube",
         link: "ecommerce-website-developers-in-kenya",
         meta: {

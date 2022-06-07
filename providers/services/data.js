@@ -275,10 +275,12 @@ export const services = [
                 id: 2,
                 subtitle: "E Commerce in Kenya",
                 description: `
-                    If you want long-term, sustainable success,
+                    At Glitex Solutions Limited we strive hard to make sure that your online store is set up and managed in
+                    the most affable manners and at the most cost effective rates, which makes us the most sought 
+                    after E-commerce solutions company in Nairobi Kenya. If you want long-term, sustainable success,
                     your e-Commerce system should be stable, secure, maintainable and easy to manage.
                     You can count on us to deliver quality e-commerce platforms. Contact
-                    us today.
+                    us today. +254 707 021 821
                 `,
                 banner: "/images/services/bg_3.jpg"
             },

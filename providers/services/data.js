@@ -165,7 +165,7 @@ export const services = [
     },
     {
         id: 5,
-        title: "Hospital Management Systems Kenya & SACCO Management System Nairobi Kenya",
+        title: "Hospital Management System Kenya & SACCO Management System Nairobi Kenya",
         icon: "icon-lego-block",
         link: "management-information-systems-in-kenya",
         meta: {
@@ -256,7 +256,7 @@ export const services = [
             keywords: "ecommerce website developers in kenya, ecommerce mobile apps developers in kenya, ecommerce platforms developers in kenya, ecommerce website development"
         },
         description: `
-            Are you searching for ecommerce website developers in Nairob, Kenya? Glitex Solutions Limited develops quality ecommerce websites and apps. Contact us today +254 707 021 821
+            Are you searching for ecommerce website developers in Nairob, Kenya? Glitex Solutions Limited develops quality ecommerce websites and apps. Contact us today.
 
         `,
         pages: [

@@ -141,7 +141,7 @@ const Contact = () => {
                         <div className="cinfo">
                             <h5>Call Us At</h5>
                             <p>
-                                Phone: (+254) 707021821<br/> Mobile: (+254) 703714050<br/>
+                                Phone: (+254) 707021821
                             </p>
                         </div>
                         <ul className="contact-social">

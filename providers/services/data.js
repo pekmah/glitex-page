@@ -199,11 +199,11 @@ export const services = [
     },
     {
         id: 8,
-        title: "Website Development in Nairobi, Kenya",
+        title: "Website Developers in Nairobi, Kenya",
         icon: "icon-cube",
         link: "website-developers-in-kenya",
         description: `
-            We are among the best website development companies in Kenya and Africa in general. Our skilled engineering team employs years of hard-earned experience to ensure our end 
+            We are among the best website developers in Kenya and Africa in general. Our skilled engineering team employs years of hard-earned experience to ensure our end 
             products adhere to industry standards and match the utmost quality your business needs
             `,
         meta: {
@@ -213,30 +213,26 @@ export const services = [
         pages: [
             {
                 id: 1,
-                subtitle: "Web Design Company in Kenya | Website Development Company in Kenya",
+                subtitle: "Website Developers in Nairobi Kenya | Website Development Company in Kenya",
                 description: `
-                    Glitex prides itself in being one of the leading software development companies in Kenya.
-                    We are among the best software development companies in Nairobi Kenya, we provide the high quality 
-                    software for sale at an affordable price with full-cycle software developers services to our esteemed customers.
-                     We employ industry best practices to deliver robust, secure & scalable custom software development services 
-                     using the latest technologies.
+                    We are the leading website developers in Kenya. Glitex Solutions develops quality 
+                    websites at an affordable price with full-cycle software developers services to our esteemed customers.
+                    contact us toda +254 707 021 821
                 `,
                 banner: "/images/services/bg_2.jpg"
             },
             {
                 id: 2,
                 description: `
-                    Glitex Solutions Limited has evolved into a globally renowned digital agency, recognized as a leader 
-                    in web, mobile app development, management systems in the Kenya and Beyond the region. From mobile 
-                    app development to eCommerce development — we offer a wide spectrum of IT services backed by our 
-                    best app developers.
+                    Are you searching for website developers in Nairobi, Kenya? We've got you. Glitex Solutions Limited has evolved into a globally renowned digital agency, recognized as a leader 
+                    in website development in Nairobi Kenya and Beyond the region. Contact us today +254 707 021 821. Solutions developed by Glitex range from simple information-based websites to complex e-commerce projects, from CMS-based solutions to responsive websites that work seamlessly on desktops, tablets and mobile phones, which has earned it the reputation of top web development company in Nairobi Kenya.
                 `,
                 banner: "/images/services/bg_3.jpg"
             },
             {
                 id: 3,
                 description: `
-                    What makes us unique compared with other mobile app development companies in Kenya is that we 
+                    What makes us unique compared with other website development companies in Kenya is that we 
                     approach every project as an opportunity to deliver bespoke solutions in state-of-the-art technologies.
                     At Glitex, perfection is not just another trait, but a way of life that we have become habitual to.
                     Rest assured, when you partner with us, you are shaking hands with a strong ally who can make your
@@ -260,19 +256,18 @@ export const services = [
             keywords: "ecommerce website developers in kenya, ecommerce mobile apps developers in kenya, ecommerce platforms developers in kenya, ecommerce website development"
         },
         description: `
-            We develop powerful, flexible, scalable and easy-to-manage
-            eCommerce platforms for both web and mobile
-            using the latest technology.
+            Are you searching for ecommerce website developers in Nairob, Kenya? Glitex Solutions Limited develops quality ecommerce websites and apps. Contact us today +254 707 021 821
 
         `,
         pages: [
             {
                 id: 1,
-                subtitle: "E Commerce Platform in Kenya | E-Commerce Platform in Kenya",
+                subtitle: "Ecommerce website developers in Kenya | E-Commerce Mobile Apps Developers in Kenya",
                 description: `
-                    We develop powerful, flexible, scalable and easy-to-manage
-                    eCommerce platforms for both web and mobile
-                    using the latest technology.
+                    We develop ecommerce websites in Nairobi Kenya with the best features and functionality while at the 
+                    same time being extremely customizable. Our professionals have already worked on numerous 
+                    ecommerce projects and make it a point that while on one hand the online shopping becomes
+                    a rich exalted experience for the customers on the other hand it is easy for the businesses to manage their online stores.
                 `,
                 banner: "/images/services/bg_2.jpg"
             },

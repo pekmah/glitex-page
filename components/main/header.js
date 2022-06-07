@@ -83,10 +83,7 @@ const Header = () => {
                     style={{
                         width: "290px"
                     }}
-                    className={`header-menu-text ${styles.menu_toggle}`}><a style={{
-                    fontSize: "1rem",
-                    color: "white"
-                }}>
+                    className={`header-menu-text ${styles.menu_toggle}`}>
                      {" "}
                     <a style={{
                         fontSize: "1rem",

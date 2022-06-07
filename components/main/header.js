@@ -86,7 +86,7 @@ const Header = () => {
                     className={`header-menu-text ${styles.menu_toggle}`}>
                      {" "}
                     <a style={{
-                        fontSize: "1.2rem",
+                        fontSize: "1.3rem",
                         color: "white"
                     }} className={styles.header_num}>0707021821</a> |
                     Menu

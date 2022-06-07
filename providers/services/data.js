@@ -188,7 +188,7 @@ export const services = [
                 description: `
                 We have the best SACCO Management System Software in Kenya (SACCO ERP in Kenya). Our SACCO ERP has mobile application for both android and IOS operating systems. Sacco ERP is an integrated Sacco and Microfinance Management System with a number of modules which enable a sacco to manage its operations from loans applications to disbursement, Savings accounts functionality ,Financial accounting and Reporting, shares/Deposits management,Front office administration, Asset management and system administration modules. Contact us +254 707 021 821",.
                 ',
-            banner: "/images/services/bg_2.jpg"
+                banner: "/images/services/bg_2.jpg"
             },
             /*{
                 id: 3,
@@ -205,7 +205,7 @@ export const services = [
         description: `
             We are among the best website development companies in Kenya and Africa in general. Our skilled engineering team employs years of hard-earned experience to ensure our end 
             products adhere to industry standards and match the utmost quality your business needs
-        `,
+            `,
         meta: {
             description: "We are among the best website development companies in Kenya and Africa in general. Our skilled engineering team employs years of hard-earned experience to ensure our end products adhere to industry standards and match the utmost quality your business needs",
             keywords: "Website developers in Kenya, Website development companies in Kenya, Website Designer"

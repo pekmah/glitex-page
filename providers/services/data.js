@@ -179,7 +179,7 @@ export const services = [
             {
                 id: 1,
                 description: `
-                Hospital Management software Kenya automates processes including billing, appointments, scheduling, regulatory compliance and financial auditing within hospitals. These applications offer integration across the financial, clinical, and operational elements of a healthcare practice and enable users to optimize their office workflow and reduce their operational expenses. Hospital Management software is related to Electronic Medical Records software, Medical Lab software, Medical Practice Management software, Medical Billing software, Medical Scheduling software and Medical Transcription software, .
+                Hospital Management software Kenya automates processes including billing, appointments, scheduling, regulatory compliance and financial auditing within hospitals. These applications offer integration across the financial, clinical, and operational elements of a healthcare practice and enable users to optimize their office workflow and reduce their operational expenses. Hospital Management software is related to Electronic Medical Records software, Medical Lab software, Medical Practice Management software, Medical Billing software, Medical Scheduling software and Medical Transcription software. Contact Glitex Solutions Limited on +254 707 021 821, .
                 `,
                 banner: "/images/services/bg_2.jpg"
             },

@@ -86,9 +86,9 @@ const Header = () => {
                     className={`header-menu-text ${styles.menu_toggle}`}>
                      {" "}
                     <a style={{
-                        fontSize: "1.3rem",
+                        fontSize: "1.4rem",
                         color: "white"
-                    }} className={styles.header_num}>0707021821</a> |
+                    }} className={styles.header_num}>Call 0707021821</a>
                     
                 </span>
                 <span className="header-menu-icon"/>

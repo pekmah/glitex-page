@@ -87,9 +87,9 @@ const Header = () => {
                     fontSize: "1rem",
                     color: "white"
                 }}>
-                    0707021821</a> | {" "}
+                     {" "}
                     <a style={{
-                        fontSize: "2rem",
+                        fontSize: "1.5rem",
                         color: "white"
                     }} className={styles.header_num}>0707021821</a> |
                     Menu

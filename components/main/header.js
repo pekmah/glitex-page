@@ -89,7 +89,7 @@ const Header = () => {
                         fontSize: "1.3rem",
                         color: "white"
                     }} className={styles.header_num}>0707021821</a> |
-                    Menu
+                    
                 </span>
                 <span className="header-menu-icon"/>
             </a>

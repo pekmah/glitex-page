@@ -88,7 +88,7 @@ const Header = () => {
                     <a style={{
                         fontSize: "1.4rem",
                         color: "white"
-                    }} className={styles.header_num}>Call 0707021821</a>
+                    }} className={styles.header_num}>Call - 0707 021 821</a>
                     
                 </span>
                 <span className="header-menu-icon"/>

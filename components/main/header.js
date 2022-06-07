@@ -49,7 +49,7 @@ const Header = () => {
                     </p>
                     <h5 style={{color: "white"}}>Call Us On</h5>
                     <p>
-                        Phone: (+254) 707021821<br/> Mobile: (+254) 703714050<br/>
+                        Phone: (+254) 707021821<br/>
                     </p>
                     <ul className="header-nav__social">
                         <li>

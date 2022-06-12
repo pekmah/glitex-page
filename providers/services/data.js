@@ -58,8 +58,8 @@ export const services = [
         link: "mobile-app-developers-in-kenya",
         icon: "icon-group",
         meta: {
-            description: "For Android mobile apps and IOS mobile application development in Kenya, Contact Glitex Solutions Limited. We have the best mobile app developers in Nairobi Kenya.",
-            keywords: "Mobile App developers in Kenya, IOS & Android mobile application development in Kenya, Mobile apps development company in Kenya"
+            description: "For Android mobile app and IOS mobile application development in Kenya, Contact Glitex Solutions Limited. We have the best mobile app developers in Nairobi Kenya.",
+            keywords: "Mobile App developers in Kenya, IOS & Android mobile application development in Kenya, Mobile app development company in Kenya"
         },
         description: `
             We are a top rated mobile applications development company based in Nairobi Kenya. We deliver mobile apps in

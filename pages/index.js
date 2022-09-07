@@ -7,6 +7,7 @@ import {
   AboutSection,
   Layout,
   MainSection,
+  StartupSection,
   WhatWeDoSection,
 } from "../components";
 
@@ -55,6 +56,9 @@ export default function Index() {
 
         {/*  What we do section */}
         <WhatWeDoSection />
+
+        {/*  Startup section  */}
+        <StartupSection />
       </Layout>
     </>
   );

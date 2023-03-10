@@ -1,0 +1,169 @@
+import React from "react";
+import GlobeSearch from "../../../assets/GlobeSearch";
+import Phone from "../../../assets/Phone";
+import Ai from "../../../assets/Ai";
+import BlockChain from "../../../assets/BlockChain";
+import Analytics from "../../../assets/Analytics";
+import School from "../../../assets/School";
+import Management from "../../../assets/Management";
+
+const Skills = () => {
+  return (
+    <div className="py-14 bg-white">
+      <div className="flex flex-col items-center gap-2">
+        <h4
+          className={
+            "lg:text-4xl md:text-3xl text-2xl text-secondary font-bold text-center"
+          }
+        >
+          What we do
+        </h4>
+
+        <div className="rounded-full w-40 h-2 bg-primary" />
+      </div>
+
+      <h4
+        className={
+          "lg:text-4xl md:text-3xl text-2xl text-secondary font-bold text-center my-6 w-[80%] mx-auto leading-10 lg:leading-[50px] md:leading-[60px]"
+        }
+      >
+        We’ve got the skills and workforce you <br /> can rely on to push your
+        business to the next level
+      </h4>
+
+      <div className="grid grid-cols-3 gap-y-5 py-4 justify-items-center">
+        <SkillItem
+          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          icon={<GlobeSearch />}
+          title={"Search engine optimization"}
+          description={` We are the leading search engine optimization company in Kenya. With
+          10+ years experience in search engine optimization, we have developed
+          strategies to help our clients get more website visitors translating
+          into more sales and revenue. Glitex equips you with top SEO strategies
+          to ensure your business is easily discoverable by prospect clients.`}
+        />
+        <SkillItem
+          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          icon={<Phone />}
+          title={"Mobile Applications "}
+          description={` We are the leading search engine optimization company in Kenya. With
+          10+ years experience in search engine optimization, we have developed
+          strategies to help our clients get more website visitors translating
+          into more sales and revenue. Glitex equips you with top SEO strategies
+          to ensure your business is easily discoverable by prospect clients.`}
+        />
+        <SkillItem
+          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          icon={<Ai />}
+          title={"AI & ML Development"}
+          description={`Glitex helps small to large enterprises develop smart and intelligent products leveraging deep learning and machine learning technology. Our team is well versed with AI and ML tool kits.`}
+        />
+        <SkillItem
+          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          icon={<Analytics />}
+          title={"Predictive Analytics"}
+          description={`Our team has the capability to create and deploy predictive analytics solutions that visualizes data and help you make better future decisions. Predictive analytics help you develop insights that give you competetive advantage in the industry you operate.`}
+        />
+        <SkillItem
+          className={"h-[1270px] row-span-2 w-[90vw] sm:w-[45vw] xl:w-[30vw]"}
+          icon={<BlockChain />}
+          title={"Blockchain development"}
+          description={<Text />}
+        />
+        <SkillItem
+          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          icon={<Management />}
+          title={"Management Information Systems"}
+          description={<ManagementText />}
+        />
+        <SkillItem
+          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          icon={<School />}
+          title={"E-learning platform"}
+          description={`Glitex is well versed with designing and developing technology-based interactive learning solutions.Providing learning technologies , Including custome e-learning , mulit-device leaning, mobile learning and consulting for interactive e-learning curriculum design.`}
+        />
+        <SkillItem
+          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          icon={<img src="/images/clients/Game.png" />}
+          title={"Game Development"}
+          description={<GameText />}
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Skills;
+
+const SkillItem = ({ className, title, description, icon }) => (
+  <div
+    className={` p-4 sm:p-8 lg:p-10  border border-primary bg-[#FFC53F0F] row-span-3 rounded-lg ${className}`}
+  >
+    {/* icon */}
+    <div className="flex items-center py-10 flex-col gap-12">
+      <div className="w-28 h-28 flex items-center justify-center rounded-full bg-primary ">
+        {icon}
+      </div>
+
+      <div className="flex flex-col gap-4">
+        <h3 className="text-3xl font-bold">{title}</h3>
+
+        <p>{description}</p>
+      </div>
+    </div>
+  </div>
+);
+
+const Text = () => (
+  <p>
+    Being one of the top software development company in the region (can we
+    mention region also like Nairobi, Kenya, Ethiopia, A cross East Africa &
+    across the globe), we have established a team of experts to take care of our
+    clients blockchain needs. Having developed a framework of blockchain
+    services which successfully takes artificial intelligence , data analysis,
+    IoT and web security we can confidently guarantee top quality products for
+    our clients.
+    <br />
+    <br /> We offer products on ;<br /> 1. Hyperledgers
+    <br /> 2. Smart contract developemnt
+    <br /> 3. Crypto currency wallets.
+    <br /> 4. NFT marketplaces
+    <br /> 5. Side-chain development
+    <br /> 6. DeFi solutions
+    <br /> 7. Chain analysis
+    <br /> 8. Fiat payment on-off Ramps.
+    <br /> 9. Hybrid on-off chain systems
+  </p>
+);
+
+const ManagementText = () => (
+  <p>
+    We pride ourselves in delivering end to end Information systems , ranging
+    form- <br />
+    1. Healthcare management systems, <br />
+    2. School management systems, <br />
+    3. Sacco management systems <br />
+    4. ERP systems for both SMEs and Micro businesses.
+    <br />
+    5. Insurance Management systems. <br />
+  </p>
+);
+
+const GameText = () => (
+  <p>
+    Together we lead your project through all stages from game design to
+    post-release support, using the extensive experience and creativity of our
+    experts.
+    <br />
+    <strong>
+      <li className="px-3">PC </li>
+    </strong>
+    We design and develop end-to-end games for personal computers with porting
+    to windows and MacOS.
+    <br />
+    <strong>
+      <li className="px-3">Mobile </li>
+    </strong>
+    We create games for iOS and android plaftorms or cross-platform development.
+  </p>
+);

@@ -16,7 +16,7 @@ const Footer = () => {
             Glitex Solutions
           </h3>
         </div>
-
+        {/*  */}
         {/* Contact Details */}
         <div className="flex-[0.4] flex flex-col  gap-5 ">
           {/* Where to find us */}

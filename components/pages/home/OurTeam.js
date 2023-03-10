@@ -3,23 +3,30 @@ import { FiChevronRight } from "react-icons/fi";
 
 const OurTeam = () => {
   return (
-    <div className={"bg-secondary py-12 flex flex-col gap-2"}>
-      {/* Title */}
-      <h4
-        className={
-          "lg:text-4xl md:text-3xl text-2xl text-primary font-bold text-center"
-        }
-      >
-        Meet Our Team
-      </h4>
-      <div className="flex justify-center mx-auto relative">
-        <div className="flex justify-center gap-5 lg:mt-8 mt-5 ">
-          <Member src={"/images/clients/member.png"} />
-          <Member src={"/images/clients/member.png"} />
-          <Member src={"/images/clients/member.png"} />
-          <Member src={"/images/clients/member.png"} />
+    <div className="relative bg-secondary">
+      <img
+        src="/images/dark-logo-bg.png"
+        alt=""
+        className="absolute z-0 -left-44 top-0 bottom-0 h-[95%] m-auto opacity-10"
+      />
+      <div className={" py-12 flex flex-col gap-2 z-10"}>
+        {/* Title */}
+        <h4
+          className={
+            "lg:text-4xl md:text-3xl text-2xl text-primary font-bold text-center"
+          }
+        >
+          Meet Our Team
+        </h4>
+        <div className="flex justify-center mx-auto relative">
+          <div className="flex justify-center gap-5 lg:mt-8 mt-5 ">
+            <Member src={"/images/clients/member.png"} />
+            <Member src={"/images/clients/member.png"} />
+            <Member src={"/images/clients/member.png"} />
+            <Member src={"/images/clients/member.png"} />
+          </div>
+          <ScrollBtn className={"absolute top-24 -right-[10%] z-20"} />
         </div>
-        <ScrollBtn className={"absolute top-24 -right-[10%] z-20"} />
       </div>
     </div>
   );

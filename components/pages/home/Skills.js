@@ -6,6 +6,7 @@ import BlockChain from "../../../assets/BlockChain";
 import Analytics from "../../../assets/Analytics";
 import School from "../../../assets/School";
 import Management from "../../../assets/Management";
+import Link from "next/Link";
 
 const Skills = () => {
   return (
@@ -31,9 +32,9 @@ const Skills = () => {
         business to the next level
       </h4>
 
-      <div className="grid grid-cols-3 gap-y-5 py-4 justify-items-center">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 md:w-[80vw] lg:w-[90vw] w-[90vw] mx-auto">
         <SkillItem
-          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          className={` h-[625px] `}
           icon={<GlobeSearch />}
           title={"Search engine optimization"}
           description={` We are the leading search engine optimization company in Kenya. With
@@ -43,9 +44,10 @@ const Skills = () => {
           to ensure your business is easily discoverable by prospect clients.`}
         />
         <SkillItem
-          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          className={` h-[625px] `}
           icon={<Phone />}
           title={"Mobile Applications "}
+          path={"/mobile"}
           description={` We are the leading search engine optimization company in Kenya. With
           10+ years experience in search engine optimization, we have developed
           strategies to help our clients get more website visitors translating
@@ -53,37 +55,37 @@ const Skills = () => {
           to ensure your business is easily discoverable by prospect clients.`}
         />
         <SkillItem
-          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          className={` h-[625px] `}
           icon={<Ai />}
           title={"AI & ML Development"}
           description={`Glitex helps small to large enterprises develop smart and intelligent products leveraging deep learning and machine learning technology. Our team is well versed with AI and ML tool kits.`}
         />
         <SkillItem
-          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          className={` h-[625px] `}
           icon={<Analytics />}
           title={"Predictive Analytics"}
           description={`Our team has the capability to create and deploy predictive analytics solutions that visualizes data and help you make better future decisions. Predictive analytics help you develop insights that give you competetive advantage in the industry you operate.`}
         />
         <SkillItem
-          className={"h-[1270px] row-span-2 w-[90vw] sm:w-[45vw] xl:w-[30vw]"}
+          className={"row-span-2"}
           icon={<BlockChain />}
           title={"Blockchain development"}
           description={<Text />}
         />
         <SkillItem
-          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          className={` h-[625px] `}
           icon={<Management />}
           title={"Management Information Systems"}
           description={<ManagementText />}
         />
         <SkillItem
-          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          className={` h-[625px] `}
           icon={<School />}
           title={"E-learning platform"}
           description={`Glitex is well versed with designing and developing technology-based interactive learning solutions.Providing learning technologies , Including custome e-learning , mulit-device leaning, mobile learning and consulting for interactive e-learning curriculum design.`}
         />
         <SkillItem
-          className={`h-[625px] w-[90vw] sm:w-[45vw] xl:w-[30vw] `}
+          className={` h-[625px] `}
           icon={<img src="/images/clients/Game.png" />}
           title={"Game Development"}
           description={<GameText />}
@@ -95,23 +97,33 @@ const Skills = () => {
 
 export default Skills;
 
-const SkillItem = ({ className, title, description, icon }) => (
-  <div
-    className={` p-4 sm:p-8 lg:p-10  border border-primary bg-[#FFC53F0F] row-span-3 rounded-lg ${className}`}
-  >
-    {/* icon */}
-    <div className="flex items-center py-10 flex-col gap-12">
-      <div className="w-28 h-28 flex items-center justify-center rounded-full bg-primary ">
-        {icon}
-      </div>
+const SkillItem = ({
+  className,
+  title,
+  description,
+  icon,
+  path = "/",
+  ...rest
+}) => (
+  <Link href={path}>
+    <div
+      className={`cursor-pointer p-4 sm:p-8 lg:p-10  border border-primary bg-[#FFC53F0F] rounded-lg ${className}`}
+      {...rest}
+    >
+      {/* icon */}
+      <div className="flex items-center py-10 flex-col gap-12">
+        <div className="w-28 h-28 flex items-center justify-center rounded-full bg-primary ">
+          {icon}
+        </div>
 
-      <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold">{title}</h3>
+        <div className="flex flex-col gap-4">
+          <h3 className="text-3xl font-bold">{title}</h3>
 
-        <p>{description}</p>
+          <p>{description}</p>
+        </div>
       </div>
     </div>
-  </div>
+  </Link>
 );
 
 const Text = () => (

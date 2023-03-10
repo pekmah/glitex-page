@@ -1,3 +1,4 @@
+import Link from "next/Link";
 import React from "react";
 import Button from "../../general/Button";
 import OutlinedButton from "../../general/OutlinedButton";
@@ -8,13 +9,13 @@ const Portfolio = () => {
       <div className="flex flex-col items-center gap-2">
         <h4
           className={
-            "lg:text-5xl md:text-4xl text-3xl text-secondary font-bold text-center"
+            "lg:text-4xl md:text-4xl text-3xl text-secondary font-bold text-center"
           }
         >
           What have we done so far
         </h4>
 
-        <div className="rounded-full w-40 lg:w-56 h-2 lg:h-3 bg-secondary mt-6" />
+        <div className="rounded-full w-40 lg:w-44 h-2 lg:h-3 bg-secondary mt-3" />
       </div>
 
       {/* mobile application development (1) */}
@@ -41,10 +42,12 @@ const Portfolio = () => {
           </p>
 
           <div className="flex">
-            <OutlinedButton
-              className={"border-secondary text-secondary border-2 text-lg"}
-              text={"View more"}
-            />
+            <Link href={"/mobile"}>
+              <OutlinedButton
+                className={"border-secondary text-secondary border-2 text-lg"}
+                text={"View more"}
+              />
+            </Link>
           </div>
           {/* view more button */}
         </div>
@@ -85,11 +88,13 @@ const Portfolio = () => {
       </div>
       {/* E-Commerce application development */}
       <div className="flex justify-center items-center p-3">
-        <Button
-          className={" text-[#FFC53F] bg-secondary py-2.5 text-lg px-10"}
-          text={"View more projects"}
-          style={{ color: "#FFC53F" }}
-        />
+        <Link href={"/portfolio"}>
+          <Button
+            className={" text-[#FFC53F] bg-secondary py-2.5 text-lg px-10"}
+            text={"View more projects"}
+            style={{ color: "#FFC53F" }}
+          />
+        </Link>
       </div>
     </div>
   );

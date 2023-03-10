@@ -1,3 +1,4 @@
+import Link from "next/Link";
 import React, { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import OutlinedButton from "../../general/OutlinedButton";
@@ -51,6 +52,7 @@ const Slider = () => {
         <div className="mx-auto flex gap-3">
           {scrollList?.map((_k, i) => (
             <button
+              key={i}
               className={`rounded-full w-3.5 h-3.5 ${
                 i === current ? "bg-primary" : "border-[1.5px] border-primary"
               }`}
@@ -92,10 +94,12 @@ function Card() {
             </p>
 
             <div className="flex">
-              <OutlinedButton
-                className={"border-secondary text-secondary border-2 text-lg"}
-                text={"View more"}
-              />
+              <Link href={"/projects/leta-mobile"}>
+                <OutlinedButton
+                  className={"border-secondary text-secondary border-2 text-lg"}
+                  text={"View more"}
+                />
+              </Link>
             </div>
 
             {/* view more button */}

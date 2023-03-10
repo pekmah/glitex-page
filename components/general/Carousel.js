@@ -1,16 +1,18 @@
 import React from "react";
 import Clients from "../pages/home/Clients";
 
-const Carousel = ({ title }) => {
+const Carousel = ({
+  title,
+  img = "/images/portfolio/portfolio.png",
+  className,
+  showClients = true,
+}) => {
   return (
     <div className="">
       <div
-        className={
-          "h-[35vh] bg-no-repeat bg-cover flex flex-col justify-center relative"
-        }
+        className={`h-[35vh] bg-no-repeat bg-cover flex flex-col justify-center relative ${className}`}
         style={{
-          background:
-            "linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url(/images/portfolio/portfolio.png)",
+          background: `linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url(${img})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -19,7 +21,7 @@ const Carousel = ({ title }) => {
           {title}
         </div>
       </div>
-      <Clients />
+      {showClients && <Clients />}
     </div>
   );
 };

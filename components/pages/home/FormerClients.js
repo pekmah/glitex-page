@@ -1,6 +1,6 @@
 import React from "react";
 
-const Clients = () => {
+const FormerClients = () => {
   return (
     <div
       className={
@@ -20,7 +20,7 @@ const Clients = () => {
 };
 //
 
-export default Clients;
+export default FormerClients;
 
 const list = [
   "/images/clients/safaricom.png",

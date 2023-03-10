@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../components/main/layout";
 import HeaderCarousel from "../components/pages/home/HeaderCarousel";
 import Head from "next/head";
-import Clients from "../components/pages/home/Clients";
 import AboutUs from "../components/pages/home/AboutUs";
 import OurTeam from "../components/pages/home/OurTeam";
 import Skills from "../components/pages/home/Skills";
@@ -11,6 +10,7 @@ import Portfolio from "../components/pages/home/Portfolio";
 import TechStack from "../components/pages/home/TechStack";
 import CallUs from "../components/pages/home/CallUs";
 import Footer from "../components/pages/home/Footer";
+import FormerClients from "../components/pages/home/FormerClients";
 
 export default function Index() {
   return (
@@ -50,7 +50,8 @@ export default function Index() {
 
       {/* <Header /> */}
       {/* clients */}
-      <Clients />
+      <FormerClients />
+
       {/* About us */}
       <AboutUs />
       {/* Our team */}

@@ -1,5 +1,5 @@
 import React from "react";
-import Clients from "../pages/home/Clients";
+import Clients from "../pages/home/FormerClients";
 
 const Carousel = ({
   title,

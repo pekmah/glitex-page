@@ -42,6 +42,7 @@ const Skills = () => {
           strategies to help our clients get more website visitors translating
           into more sales and revenue. Glitex equips you with top SEO strategies
           to ensure your business is easily discoverable by prospect clients.`}
+          path={"/projects/seo"}
         />
         <SkillItem
           className={` h-[625px] `}
@@ -71,6 +72,7 @@ const Skills = () => {
           icon={<BlockChain />}
           title={"Blockchain development"}
           description={<Text />}
+          path={"/projects/block-chain"}
         />
         <SkillItem
           className={` h-[625px] `}
@@ -82,6 +84,7 @@ const Skills = () => {
           className={` h-[625px] `}
           icon={<School />}
           title={"E-learning platform"}
+          path={"/projects/e-learning"}
           description={`Glitex is well versed with designing and developing technology-based interactive learning solutions.Providing learning technologies , Including custome e-learning , mulit-device leaning, mobile learning and consulting for interactive e-learning curriculum design.`}
         />
         <SkillItem

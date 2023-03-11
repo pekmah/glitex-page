@@ -1,11 +1,11 @@
 import React from "react";
 import Carousel from "../../components/general/Carousel";
 import Layout from "../../components/main/layout";
-import Footer from "../../components/pages/home/Footer";
-import About from "../../components/pages/projects/e_learning/About";
-import Portfolio from "../../components/pages/projects/e_learning/Portfolio";
-import WhatSetsApart from "../../components/pages/projects/e_learning/WhatSetsApart";
-import Features from "../../components/pages/projects/e_learning/Features";
+import Footer from "../../components/pages/home/footer";
+import About from "../../components/pages/projects/e_learning/about";
+import Portfolio from "../../components/pages/projects/e_learning/portfolio";
+import WhatSetsApart from "../../components/pages/projects/e_learning/whatSetsApart";
+import Features from "../../components/pages/projects/e_learning/features";
 
 const ELearning = () => {
   return (

@@ -1,11 +1,11 @@
 import React from "react";
 import Carousel from "../../components/general/Carousel";
 import Layout from "../../components/main/layout";
-import Footer from "../../components/pages/home/Footer";
-import About from "../../components/pages/projects/seo/About";
-import Features from "../../components/pages/projects/seo/Features";
-import Portfolio from "../../components/pages/projects/seo/Portfolio";
-import WhatSetsApart from "../../components/pages/projects/seo/WhatSetsApart";
+import Footer from "../../components/pages/home/footer";
+import About from "../../components/pages/projects/seo/about";
+import Features from "../../components/pages/projects/seo/features";
+import Portfolio from "../../components/pages/projects/seo/portfolio";
+import WhatSetsApart from "../../components/pages/projects/seo/whatSetsApart";
 
 const Seo = () => {
   return (

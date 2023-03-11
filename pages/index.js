@@ -9,7 +9,7 @@ import ProductDevelopment from "../components/pages/home/ProductDevelopment";
 import Portfolio from "../components/pages/home/Portfolio";
 import TechStack from "../components/pages/home/TechStack";
 import CallUs from "../components/pages/home/CallUs";
-import Footer from "../components/pages/home/Footer";
+import Footer from "../components/pages/home/footer";
 import FormerClients from "../components/pages/home/FormerClients";
 
 export default function Index() {

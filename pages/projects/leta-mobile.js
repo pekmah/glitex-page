@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "../../components/general/Carousel";
 import Layout from "../../components/main/layout";
-import Footer from "../../components/pages/home/Footer";
+import Footer from "../../components/pages/home/footer";
 import Description from "../../components/pages/projects/leta/Description";
 import Gallery from "../../components/pages/projects/leta/Gallery";
 

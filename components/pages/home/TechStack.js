@@ -2,7 +2,7 @@ import React from "react";
 
 const TechStack = () => {
   return (
-    <div className={"bg-secondary py-12 flex flex-col gap-2"}>
+    <div className={"bg-secondary py-4 md:py-8 lg:py-12 flex flex-col gap-2"}>
       {/* Title */}
       <h4
         className={
@@ -12,14 +12,37 @@ const TechStack = () => {
         Our tech stack
       </h4>
 
-      <div
+      {/* <div
         className={
-          "flex justify-evenly items-center overflow-x-scroll overflow-y-hidden no-scrollbar lg:gap-10 md:gap-8 gap-5 py-5"
+          " w-full flex justify-center pl-80 items-center overflow-x-scroll no-scrollbar lg:gap-10 md:gap-8 gap-5 py-3 lg:py-5"
         }
       >
         {list?.map((item, i) => (
-          <img key={i} src={item} alt="__" className={"h-20 "} />
+          <img
+            key={i}
+            src={item}
+            alt="__"
+            className={" w-20 sm:w-24 lg:w-28 object-cover "}
+          />
         ))}
+      </div> */}
+
+      <div class="flex overflow-x-scroll pb-10 hide-scroll-bar w-full ">
+        <div class="flex flex-nowrap w-full justify-evenly md:ml-0 sm:ml-40  ml-72">
+          {/* <div
+              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+            ></div> */}
+          {list?.map((item, i) => (
+            <div class="inline-block px-1">
+              <img
+                key={i}
+                src={item}
+                alt="__"
+                className={" object-contain w-24 h-24 max-w-xs"}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

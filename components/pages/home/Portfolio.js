@@ -9,17 +9,17 @@ const Portfolio = () => {
       <div className="flex flex-col items-center gap-2">
         <h4
           className={
-            "lg:text-4xl md:text-4xl text-3xl text-secondary font-bold text-center"
+            "lg:text-4xl md:text-3xl text-2xl text-secondary font-bold text-center"
           }
         >
           What have we done so far
         </h4>
 
-        <div className="rounded-full w-40 lg:w-44 h-2 lg:h-3 bg-secondary mt-3" />
+        <div className="rounded-full w-32 md:w-40 lg:w-44 h-1.5 lg:h-3 bg-secondary mt-0 lg:mt-3" />
       </div>
 
       {/* mobile application development (1) */}
-      <div className="flex my-4">
+      <div className="flex flex-col md:flex-row my-4 gap-3">
         {/* image div */}
         <div className="flex items-center justify-center flex-1">
           <img
@@ -29,11 +29,13 @@ const Portfolio = () => {
           />
         </div>
         {/* text description div */}
-        <div className="flex flex-col gap-6 flex-1 justify-center">
-          <h5 className="text-4xl font-medium">Mobile Application</h5>
+        <div className="flex flex-col gap-2 md:gap-4 lg:gap-6 flex-1 justify-center py-2">
+          <h5 className="lg:text-4xl md:text-3xl text-2xl font-semibold md:text-start text-center">
+            Mobile Application
+          </h5>
 
           {/* body */}
-          <p className="text-xl w-2/3">
+          <p className="md:text-xl text-base w-full sm:w-5/6 lg:w-2/3 text-center md:text-start">
             Mobile application service are aimed at building iOS & Android
             applications that effectively complement or substitute web
             solutions. Having delivered 50+ mobile app development projects so
@@ -44,7 +46,9 @@ const Portfolio = () => {
           <div className="flex">
             <Link href={"/mobile"}>
               <OutlinedButton
-                className={"border-secondary text-secondary border-2 text-lg"}
+                className={
+                  "border-secondary text-secondary border-2 text-lg mx-auto md:mx-0 mt-3 md:mt-0"
+                }
                 text={"View more"}
               />
             </Link>
@@ -54,13 +58,15 @@ const Portfolio = () => {
       </div>
 
       {/* mobile application development (2) */}
-      <div className="flex my-4">
+      <div className="flex flex-col md:flex-row my-4 gap-3">
         {/* text description div */}
         <div className="flex flex-col gap-6 flex-1 justify-center">
-          <h5 className="text-4xl font-medium">E-Commerce Application</h5>
+          <h5 className="lg:text-4xl md:text-3xl text-2xl font-semibold md:text-start text-center">
+            E-Commerce Application
+          </h5>
 
           {/* body */}
-          <p className="text-xl w-2/3">
+          <p className="md:text-xl text-base w-full sm:w-5/6 lg:w-2/3 text-center md:text-start">
             Mobile application service are aimed at building iOS & Android
             applications that effectively complement or substitute web
             solutions. Having delivered 50+ mobile app development projects so
@@ -70,7 +76,9 @@ const Portfolio = () => {
 
           <div className="flex">
             <OutlinedButton
-              className={"border-secondary text-secondary border-2 text-lg"}
+              className={
+                "border-secondary text-secondary border-2 text-lg mx-auto md:mx-0 mt-3 md:mt-0"
+              }
               text={"View more"}
             />
           </div>
@@ -90,7 +98,9 @@ const Portfolio = () => {
       <div className="flex justify-center items-center p-3">
         <Link href={"/portfolio"}>
           <Button
-            className={" text-[#FFC53F] bg-secondary py-2.5 text-lg px-10"}
+            className={
+              " text-[#FFC53F] bg-secondary py-2.5 sm:text-lg text-base px-10"
+            }
             text={"View more projects"}
             style={{ color: "#FFC53F" }}
           />

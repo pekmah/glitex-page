@@ -3,8 +3,8 @@ import Button from "../../general/Button";
 
 const CallUs = () => {
   return (
-    <div className="bg-white py-14">
-      <div className="flex my-4">
+    <div className="bg-white py-6 lg:py-14">
+      <div className="flex flex-col mdflex-row  my-4">
         {/* image div */}
         <div className="flex items-center justify-center flex-1">
           <img
@@ -14,9 +14,9 @@ const CallUs = () => {
           />
         </div>
         {/* text description div */}
-        <div className="flex flex-col gap-6 flex-1 items-start justify-center">
+        <div className="flex flex-col gap-6 flex-1 my-5 md:my-0 items-center md:items-start justify-center">
           {/* body */}
-          <div className="text-3xl font-semibold text-center leading-10">
+          <div className="md:text-3xl text-2xl font-semibold text-center leading-10">
             <span className=" text-secondary">Turn your</span>
             <span className="text-primary"> ideas</span>{" "}
             <span className="text-secondary">
@@ -26,7 +26,7 @@ const CallUs = () => {
             <Button
               text={"Call us Today!"}
               className={
-                "bg-primary text-secondary px-8 py-4 mx-auto mt-7 text-[28px]"
+                "bg-primary text-secondary px-5 lg:px-8 py-2 lg:py-4 mx-auto mt-7 text-[28px]"
               }
             />
           </div>

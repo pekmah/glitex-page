@@ -8,20 +8,20 @@ const Header = ({ showNav, handleCloseNav, handleOpenNav }) => {
     setIsIndex(window.location.pathname === "/");
   });
   return (
-    <header className="flex bg-transparent p-8 absolute top-0 right-0 left-0 z-20 ">
+    <header className="flex bg-transparent p-4 md:p-8 absolute top-0 right-0 left-0 z-20 ">
       <div className="header-logo flex gap-5 items-center w-full">
         <img
           src={"/images/logo.png"}
           alt="Glitex Solutions LTD"
-          className="lg:h-[60px] sm:h-[50px] h-[40px]"
+          className="lg:h-[60px] sm:h-[50px] h-[30px]"
         />
 
-        <h3 className="text-primary lg:text-3xl sm:text-2xl text-xl font-semibold">
+        <h3 className="text-primary lg:text-2xl sm:text-xl text-xl font-semibold">
           Glitex Solutions
         </h3>
       </div>
 
-      <div className=" flex justify-center items-center gap-4 fixed top-7 right-4 z-30">
+      <div className=" flex justify-center items-center gap-4 fixed top-3.5 md:top-7 right-4 z-30">
         {/* contact */}
         <div
           className={`bg-primary rounded-sm text-secondary px-3 py-2 whitespace-nowrap font-bold hidden sm:block`}
@@ -32,7 +32,7 @@ const Header = ({ showNav, handleCloseNav, handleOpenNav }) => {
         </div>
 
         {/* menu icons */}
-        <button className="px-3 py-1 bg-[#00000050]" onClick={handleOpenNav}>
+        <button className="px-3 py-1 bg-[#00000090]" onClick={handleOpenNav}>
           <AiOutlineMenu
             className={"text-white md:text-4xl sm:text-3xl text-2xl"}
           />

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <div className="p-12 flex">
+      <div className="p-8 lg:p-12 flex flex-col md:flex-row gap-4">
         {/* Glitex solutions logo */}
         <div className="header-logo flex gap-5 items-center w-full flex-1 h-20">
           <img
@@ -21,11 +21,11 @@ const Footer = () => {
         <div className="flex-[0.4] flex flex-col  gap-5 ">
           {/* Where to find us */}
           <div className="">
-            <h5 className="text-2xl text-primary font-medium">
+            <h5 className="lg:text-2xl text-xl text-primary font-medium">
               Where to find us
             </h5>
 
-            <div className="text-lg text-white">
+            <div className="lg:text-lg text-base text-white">
               <span>Lumumba Drive </span> <br />
               <span>
                 Royal plaza <br />
@@ -35,9 +35,11 @@ const Footer = () => {
 
           {/* Email */}
           <div className="">
-            <h5 className="text-2xl text-primary font-medium">Email us at</h5>
+            <h5 className="lg:text-2xl text-xl text-primary font-medium">
+              Email us at
+            </h5>
 
-            <div className="text-lg text-white">
+            <div className="lg:text-lg text-base text-white">
               <span>business@glitexsolutions.co.ke </span> <br />
               <span>
                 info@glitexsolutions.co.ke <br />
@@ -47,9 +49,11 @@ const Footer = () => {
 
           {/* Contact us at: */}
           <div className="">
-            <h5 className="text-2xl text-primary font-medium">Contact us at</h5>
+            <h5 className="lg:text-2xl text-xl text-primary font-medium">
+              Contact us at
+            </h5>
 
-            <div className="text-lg text-white">
+            <div className="lg:text-lg text-base text-white">
               <span>Phone: (+254) 707021821 </span> <br />
             </div>
           </div>

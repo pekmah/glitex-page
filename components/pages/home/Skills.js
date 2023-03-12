@@ -20,12 +20,12 @@ const Skills = () => {
           What we do
         </h4>
 
-        <div className="rounded-full w-40 h-2 bg-primary" />
+        <div className="rounded-full w-20 sm:w-24 lg:w-40 h-2 bg-primary" />
       </div>
 
       <h4
         className={
-          "lg:text-4xl md:text-3xl text-2xl text-secondary font-bold text-center my-6 w-[80%] mx-auto leading-10 lg:leading-[50px] md:leading-[60px]"
+          "lg:text-4xl md:text-3xl sm:text-2xl text-xl text-secondary font-bold text-center my-6 w-full sm:w-[90%] lg:w-[80%] mx-auto leading-10 lg:leading-[50px] md:leading-[60px]"
         }
       >
         We’ve got the skills and workforce you <br /> can rely on to push your
@@ -34,7 +34,7 @@ const Skills = () => {
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 md:w-[80vw] lg:w-[90vw] w-[90vw] mx-auto">
         <SkillItem
-          className={` h-[625px] `}
+          className={` h-auto lg:h-[625px] `}
           icon={<GlobeSearch />}
           title={"Search engine optimization"}
           description={` We are the leading search engine optimization company in Kenya. With
@@ -45,7 +45,7 @@ const Skills = () => {
           path={"/projects/seo"}
         />
         <SkillItem
-          className={` h-[625px] `}
+          className={` h-auto lg:h-[625px] `}
           icon={<Phone />}
           title={"Mobile Applications "}
           path={"/mobile"}
@@ -56,13 +56,13 @@ const Skills = () => {
           to ensure your business is easily discoverable by prospect clients.`}
         />
         <SkillItem
-          className={` h-[625px] `}
+          className={` h-auto lg:h-[625px] `}
           icon={<Ai />}
           title={"AI & ML Development"}
           description={`Glitex helps small to large enterprises develop smart and intelligent products leveraging deep learning and machine learning technology. Our team is well versed with AI and ML tool kits.`}
         />
         <SkillItem
-          className={` h-[625px] `}
+          className={` h-auto lg:h-[625px] `}
           icon={<Analytics />}
           title={"Predictive Analytics"}
           description={`Our team has the capability to create and deploy predictive analytics solutions that visualizes data and help you make better future decisions. Predictive analytics help you develop insights that give you competetive advantage in the industry you operate.`}
@@ -75,20 +75,20 @@ const Skills = () => {
           path={"/projects/block-chain"}
         />
         <SkillItem
-          className={` h-[625px] `}
+          className={` h-auto lg:h-[625px] `}
           icon={<Management />}
           title={"Management Information Systems"}
           description={<ManagementText />}
         />
         <SkillItem
-          className={` h-[625px] `}
+          className={` h-auto lg:h-[625px] `}
           icon={<School />}
           title={"E-learning platform"}
           path={"/projects/e-learning"}
           description={`Glitex is well versed with designing and developing technology-based interactive learning solutions.Providing learning technologies , Including custome e-learning , mulit-device leaning, mobile learning and consulting for interactive e-learning curriculum design.`}
         />
         <SkillItem
-          className={` h-[625px] `}
+          className={` h-auto lg:h-[625px] `}
           icon={<img src="/images/clients/Game.png" />}
           title={"Game Development"}
           description={<GameText />}
@@ -114,15 +114,15 @@ const SkillItem = ({
       {...rest}
     >
       {/* icon */}
-      <div className="flex items-center py-10 flex-col gap-12">
+      <div className="flex items-center py-5 md:py-10 flex-col gap-6 md:gap-12">
         <div className="w-28 h-28 flex items-center justify-center rounded-full bg-primary ">
           {icon}
         </div>
 
         <div className="flex flex-col gap-4">
-          <h3 className="text-3xl font-bold">{title}</h3>
+          <h3 className="lg:text-3xl sm:text-2xl text-xl font-bold">{title}</h3>
 
-          <p>{description}</p>
+          <p className="md:text-base text-sm">{description}</p>
         </div>
       </div>
     </div>

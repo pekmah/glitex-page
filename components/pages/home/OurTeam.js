@@ -18,8 +18,8 @@ const OurTeam = () => {
         >
           Meet Our Team
         </h4>
-        <div className="flex justify-center mx-auto relative">
-          <div className="flex justify-center gap-5 lg:mt-8 mt-5 ">
+        <div className="flex justify-center mx-auto relative overflow-scroll">
+          <div className="flex justify-center gap-5 lg:mt-8 mt-5 max-w-screen ">
             <Member src={"/images/clients/member.png"} />
             <Member src={"/images/clients/member.png"} />
             <Member src={"/images/clients/member.png"} />

@@ -15,26 +15,23 @@ const HeaderCarousel = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="lg:px-20 md:px-16 sm:px-12 px-8 w-full md:w-[90%] lg:w-[70%] font-bold text-4xl md:text-5xl leading-[50px] md:leading-[70px] ">
+      <div className="lg:px-20 md:px-16 sm:px-12 px-8 w-full lg:w-[90%] font-bold text-2xl md:text-4xl leading-[50px] md:leading-[70px] ">
         <div className="">
           <span className=" text-primary">
-            Software development that helps
-            <br /> turn
+            Software development that helps turn
           </span>{" "}
           <span className="text-white">your ideas</span>{" "}
-          <span className=" text-primary">
-            into meaningful, <br /> tangible
-          </span>{" "}
+          <span className=" text-primary">into meaningful, tangible</span>{" "}
           <span className="text-white">results</span>
         </div>
 
         <div className="my-10">
           <div className="flex gap-2 font-light">
-            <div className="text-white text-xl">Quality</div>
-            <div className="text-white text-xl">.</div>
-            <div className="text-white text-xl">Security</div>
-            <div className="text-white text-xl">.</div>
-            <div className="text-white text-xl">Scalable</div>
+            <div className="text-white text-lg md:text-xl">Quality</div>
+            <div className="text-white text-lg md:text-xl">.</div>
+            <div className="text-white text-lg md:text-xl">Security</div>
+            <div className="text-white text-lg md:text-xl">.</div>
+            <div className="text-white text-lg md:text-xl">Scalable</div>
           </div>
 
           <div className="mt-7 flex gap-4">

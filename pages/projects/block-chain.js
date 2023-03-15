@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "../../components/general/Carousel";
 import Layout from "../../components/main/layout";
 import Footer from "../../components/pages/home/footer";
-import About from "../../components/pages/projects/block-chain/about";
+import About from "../../components/pages/projects/block-chain/About";
 import Portfolio from "../../components/pages/projects/block-chain/portfolio";
 import WhatSetsApart from "../../components/pages/projects/block-chain/whatSetsApart";
 import WhyChoose from "../../components/pages/projects/block-chain/whyChoose";

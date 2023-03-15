@@ -8,6 +8,7 @@ const TechStack = () => {
         className={
           "lg:text-3xl md:text-2xl text-xl text-primary font-bold text-center my-5"
         }
+        data-aos="fade-up"
       >
         Our tech stack
       </h4>
@@ -27,7 +28,7 @@ const TechStack = () => {
         ))}
       </div> */}
 
-      <div class="flex overflow-x-scroll pb-10 hide-scroll-bar w-full ">
+      <div class="flex overflow-x-scroll pb-10 hide-scroll-bar w-full" data-aos="fade-up">
         <div class="flex flex-nowrap w-full justify-evenly md:ml-0 sm:ml-40  ml-72">
           {/* <div
               class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"

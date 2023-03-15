@@ -6,7 +6,7 @@ const CallUs = () => {
     <div className="bg-white py-6 lg:py-14">
       <div className="flex flex-col mdflex-row  my-4">
         {/* image div */}
-        <div className="flex items-center justify-center flex-1">
+        <div className="flex items-center justify-center flex-1" data-aos="fade-up">
           <img
             src="/images/clients/launching.png"
             alt="__"
@@ -14,7 +14,7 @@ const CallUs = () => {
           />
         </div>
         {/* text description div */}
-        <div className="flex flex-col gap-6 flex-1 my-5 md:my-0 items-center md:items-start justify-center">
+        <div className="flex flex-col gap-6 flex-1 my-5 md:my-0 items-center md:items-start justify-center" data-aos="fade-right">
           {/* body */}
           <div className="md:text-3xl text-2xl font-semibold text-center leading-10">
             <span className=" text-secondary">Turn your</span>

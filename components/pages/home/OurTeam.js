@@ -3,7 +3,7 @@ import { FiChevronRight } from "react-icons/fi";
 
 const OurTeam = () => {
   return (
-    <div className="relative bg-secondary">
+    <div className="relative bg-secondary" >
       <img
         src="/images/dark-logo-bg.png"
         alt=""
@@ -15,10 +15,11 @@ const OurTeam = () => {
           className={
             "lg:text-4xl md:text-3xl text-2xl text-primary font-bold text-center"
           }
+          data-aos="fade-up"
         >
           Meet Our Team
         </h4>
-        <div className="flex justify-center mx-auto relative overflow-scroll">
+        <div className="flex justify-center mx-auto relative overflow-scroll" data-aos="fade-up">
           <div className="flex justify-center gap-5 lg:mt-8 mt-5 max-w-screen ">
             <Member src={"/images/clients/member.png"} />
             <Member src={"/images/clients/member.png"} />

@@ -6,12 +6,12 @@ import BlockChain from "../../../assets/BlockChain";
 import Analytics from "../../../assets/Analytics";
 import School from "../../../assets/School";
 import Management from "../../../assets/Management";
-import Link from "next/Link";
+import Link from "next/link";
 
 const Skills = () => {
   return (
     <div className="py-14 bg-white">
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col items-center gap-2" data-aos="fade-up">
         <h4
           className={
             "lg:text-4xl md:text-3xl text-2xl text-secondary font-bold text-center"
@@ -27,6 +27,7 @@ const Skills = () => {
         className={
           "lg:text-4xl md:text-3xl sm:text-2xl text-xl text-secondary font-bold text-center my-6 w-full sm:w-[90%] lg:w-[80%] mx-auto leading-10 lg:leading-[50px] md:leading-[60px]"
         }
+        data-aos="fade-up"
       >
         We’ve got the skills and workforce you <br /> can rely on to push your
         business to the next level
@@ -112,6 +113,7 @@ const SkillItem = ({
     <div
       className={`cursor-pointer p-4 sm:p-8 lg:p-10  border border-primary bg-[#FFC53F0F] rounded-lg ${className}`}
       {...rest}
+      data-aos="fade-up"
     >
       {/* icon */}
       <div className="flex items-center py-5 md:py-10 flex-col gap-6 md:gap-12">

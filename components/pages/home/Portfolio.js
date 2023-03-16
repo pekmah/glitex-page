@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import React from "react";
 import Button from "../../general/Button";
 import OutlinedButton from "../../general/OutlinedButton";
@@ -6,7 +6,7 @@ import OutlinedButton from "../../general/OutlinedButton";
 const Portfolio = () => {
   return (
     <div className="bg-primary p-4 sm:p-8 lg:p-14">
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col items-center gap-2" data-aos="fade-up">
         <h4
           className={
             "lg:text-4xl md:text-3xl text-2xl text-secondary font-bold text-center"
@@ -21,7 +21,7 @@ const Portfolio = () => {
       {/* mobile application development (1) */}
       <div className="flex flex-col md:flex-row my-4 gap-3">
         {/* image div */}
-        <div className="flex items-center justify-center flex-1">
+        <div className="flex items-center justify-center flex-1" data-aos="fade-up-right">
           <img
             src="/images/clients/leta-mobile.png"
             alt="__"
@@ -29,7 +29,7 @@ const Portfolio = () => {
           />
         </div>
         {/* text description div */}
-        <div className="flex flex-col gap-2 md:gap-4 lg:gap-6 flex-1 justify-center py-2">
+        <div className="flex flex-col gap-2 md:gap-4 lg:gap-6 flex-1 justify-center py-2" data-aos="fade-up-left">
           <h5 className="lg:text-4xl md:text-3xl text-2xl font-semibold md:text-start text-center">
             Mobile Application
           </h5>
@@ -43,7 +43,7 @@ const Portfolio = () => {
             app code, and resilient back ends.
           </p>
 
-          <div className="flex">
+          <div className="flex" data-aos="fade-up">
             <Link href={"/mobile"}>
               <OutlinedButton
                 className={
@@ -60,7 +60,7 @@ const Portfolio = () => {
       {/* mobile application development (2) */}
       <div className="flex flex-col md:flex-row my-4 gap-3">
         {/* text description div */}
-        <div className="flex flex-col gap-6 flex-1 justify-center">
+        <div className="flex flex-col gap-6 flex-1 justify-center" data-aos="fade-up-right">
           <h5 className="lg:text-4xl md:text-3xl text-2xl font-semibold md:text-start text-center">
             E-Commerce Application
           </h5>
@@ -74,7 +74,7 @@ const Portfolio = () => {
             app code, and resilient back ends.
           </p>
 
-          <div className="flex">
+          <div className="flex" data-aos="fade-up">
             <OutlinedButton
               className={
                 "border-secondary text-secondary border-2 text-lg mx-auto md:mx-0 mt-3 md:mt-0"
@@ -86,7 +86,7 @@ const Portfolio = () => {
           {/* view more button */}
         </div>
         {/* image div */}
-        <div className="flex items-center justify-center flex-1">
+        <div className="flex items-center justify-center flex-1" data-aos="fade-up-left">
           <img
             src="/images/clients/leta-mobile.png"
             alt="__"

@@ -6,6 +6,7 @@ const AboutUs = () => {
       className={
         "min-h-[100vh] bg-primary text-center flex flex-col py-8 md:py-0 md:justify-center items-center"
       }
+      data-aos="fade-up"
     >
       <h3 className="lg:text-5xl sm:text-3xl text-xl font-bold lg:leading-[60px] sm:leading-[50px] leading-10">
         Software development company <br />

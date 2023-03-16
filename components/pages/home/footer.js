@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <div className="p-8 lg:p-12 flex flex-col md:flex-row gap-4">
+      <div className="p-8 lg:p-12 flex flex-col md:flex-row gap-4" data-aos="fade-up">
         {/* Glitex solutions logo */}
         <div className="header-logo flex gap-5 items-center w-full flex-1 h-20">
           <img

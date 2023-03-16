@@ -6,33 +6,36 @@ import TestTools from "../../../assets/TestTools";
 
 const ProductDevelopment = () => {
   return (
-    <div className={"bg-secondary py-12 flex flex-col gap-2"}>
+    <div className={"bg-secondary py-12 flex flex-col gap-2"} >
       {/* Avatar */}
 
-      <div className="flex justify-center">
-        <div className="w-28 h-28 flex items-center justify-center rounded-full bg-primary ">
-          <Laptop />
+      <div data-aos="fade-up">
+        <div className="flex justify-center">
+          <div className="w-28 h-28 flex items-center justify-center rounded-full bg-primary ">
+            <Laptop />
+          </div>
         </div>
-      </div>
-      {/* Title */}
-      <h4
-        className={
-          "lg:text-3xl md:text-2xl text-xl text-primary font-bold text-center my-2 md:my-5"
-        }
-      >
-        Startup product development
-      </h4>
+        {/* Title */}
+        <h4
+          className={
+            "lg:text-3xl md:text-2xl text-xl text-primary font-bold text-center my-2 md:my-5"
+          }
+        >
+          Startup product development
+        </h4>
 
-      <p className="text-center text-primary ">
-        As a startup, building, testing, and refining your product can be a
-        daunting task. That's where a <strong>Glitex Solutions</strong> comes
-        in. <br className="hidden md:block" /> We have the expertise and
-        experience to help you bring your product to life, and ensure that it
-        meets the needs and expectations of your customers.
-      </p>
+        <p className="text-center text-primary" >
+          As a startup, building, testing, and refining your product can be a
+          daunting task. That's where a <strong>Glitex Solutions</strong> comes
+          in. <br className="hidden md:block" /> We have the expertise and
+          experience to help you bring your product to life, and ensure that it
+          meets the needs and expectations of your customers.
+        </p>
+      </div>
+
 
       {/* procedure */}
-      <div className="flex flex-col lg:flex-row lg:justify-center gap-3 sm:gap-5 lg:gap-8 mt-5 lg:mt-10 lg:w-10/12 md:w-11/12 w-full mx-auto px-3 md:px-1 text-center">
+      <div className="flex flex-col lg:flex-row lg:justify-center gap-3 sm:gap-5 lg:gap-8 mt-5 lg:mt-10 lg:w-10/12 md:w-11/12 w-full mx-auto px-3 md:px-1 text-center" data-aos="fade-up">
         <Item
           icon={<Light />}
           title={"Define"}

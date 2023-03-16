@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Layout from "../components/main/layout";
 import HeaderCarousel from "../components/pages/home/HeaderCarousel";
 import Head from "next/head";
@@ -11,8 +11,13 @@ import TechStack from "../components/pages/home/TechStack";
 import CallUs from "../components/pages/home/CallUs";
 import Footer from "../components/pages/home/footer";
 import FormerClients from "../components/pages/home/FormerClients";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 export default function Index() {
+  useEffect(() =>{
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <Layout>
       <Head>

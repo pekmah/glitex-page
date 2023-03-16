@@ -15,7 +15,7 @@ const HeaderCarousel = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="lg:px-20 md:px-16 sm:px-12 px-8 w-full lg:w-[90%] font-bold text-2xl md:text-4xl leading-[50px] md:leading-[70px] ">
+      <div className="lg:px-20 md:px-16 sm:px-12 px-8 w-full lg:w-[90%] font-bold text-2xl md:text-4xl leading-[50px] md:leading-[70px]" data-aos="fade-up">
         <div className="">
           <span className=" text-primary">
             Software development that helps turn

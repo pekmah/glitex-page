@@ -2,20 +2,23 @@ import React from "react";
 
 const FormerClients = () => {
   return (
-    <div
-      className={
-        "h-[14vh] flex justify-evenly items-center overflow-x-scroll overflow-y-hidden no-scrollbar lg:gap-10 md:gap-8 gap-5"
-      }
-    >
-      {list?.map((item, i) => (
-        <img
-          key={i}
-          src={item}
-          alt="__"
-          className={i === 4 || i === 7 || i === 0 ? "h-24" : "h-16 "}
-        />
-      ))}
-    </div>
+    <marquee direction="left">
+      <div
+        className={
+          "h-[14vh] flex justify-evenly items-center overflow-x-scroll overflow-y-hidden no-scrollbar lg:gap-10 md:gap-8 gap-5"
+        }
+      >
+        {list?.map((item, i) => (
+          <img
+            key={i}
+            src={item}
+            alt="__"
+            className={i === 4 || i === 7 || i === 0 ? "h-24" : "h-16 "}
+          />
+        ))}
+      </div>
+    </marquee>
+
   );
 };
 //

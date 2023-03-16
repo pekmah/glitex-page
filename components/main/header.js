@@ -9,14 +9,14 @@ const Header = ({ showNav, handleCloseNav, handleOpenNav }) => {
   });
   return (
     <header className="flex bg-transparent p-4 md:p-8 absolute top-0 right-0 left-0 z-20 ">
-      <div className="header-logo flex gap-5 items-center w-full">
+      <div className="header-logo flex gap-5 items-center w-full px-1">
         <img
           src={"/images/logo.png"}
           alt="Glitex Solutions LTD"
-          className="lg:h-[60px] sm:h-[50px] h-[30px]"
+          className="sm:h-[50px] h-[30px]"
         />
 
-        <h3 className="text-primary lg:text-2xl sm:text-xl text-xl font-semibold">
+        <h3 className="text-primary lg:text-3xl sm:text-2xl text-xl font-semibold">
           Glitex Solutions
         </h3>
       </div>

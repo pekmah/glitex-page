@@ -4,7 +4,7 @@ import Button from "../../general/Button";
 const CallUs = () => {
   return (
     <div className="bg-white py-6 lg:py-14">
-      <div className="flex flex-col mdflex-row  my-4">
+      <div className="flex flex-col md:flex-row  my-4">
         {/* image div */}
         <div className="flex items-center justify-center flex-1" data-aos="fade-up">
           <img

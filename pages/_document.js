@@ -5,10 +5,10 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* <link rel="stylesheet" href="/css/vendor.css" /> */}
-          {/* <link rel="stylesheet" href="/css/base.css/" />
-        <link rel="stylesheet" href="/css/custom.css" /> */}
-          {/* <link rel="stylesheet" href="/css/main.css" /> */}
+          <link rel="stylesheet" href="/css/vendor.css" />
+          <link rel="stylesheet" href="/css/base.css/" />
+          <link rel="stylesheet" href="/css/custom.css" />
+          <link rel="stylesheet" href="/css/main.css" />
 
           <script src="/js/modernizr.js" />
           <script src="/js/pace.min.js" />

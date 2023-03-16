@@ -3,7 +3,7 @@ import { FiChevronRight } from "react-icons/fi";
 
 const OurTeam = () => {
   return (
-    <div className="relative bg-secondary" >
+    <div className="relative bg-secondary">
       <img
         src="/images/dark-logo-bg.png"
         alt=""
@@ -19,7 +19,7 @@ const OurTeam = () => {
         >
           Meet Our Team
         </h4>
-        <div className="flex justify-center mx-auto relative overflow-scroll" data-aos="fade-up">
+        <div className="flex justify-center mx-auto relative overflow-scroll no-scrollbar">
           <div className="flex justify-center gap-5 lg:mt-8 mt-5 max-w-screen ">
             <Member src={"/images/clients/member.png"} />
             <Member src={"/images/clients/member.png"} />

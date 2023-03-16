@@ -28,13 +28,13 @@ const TechStack = () => {
         ))}
       </div> */}
 
-      <div class="flex overflow-x-scroll pb-10 hide-scroll-bar w-full" data-aos="fade-up">
-        <div class="flex flex-nowrap w-full justify-evenly md:ml-0 sm:ml-40  ml-72">
+      <div className="flex overflow-x-scroll pb-10 no-scrollbar w-full ">
+        <div className="flex flex-nowrap w-full justify-evenly md:ml-0 sm:ml-40  ml-72">
           {/* <div
               class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
             ></div> */}
           {list?.map((item, i) => (
-            <div class="inline-block px-1">
+            <div className="inline-block px-1">
               <img
                 key={i}
                 src={item}

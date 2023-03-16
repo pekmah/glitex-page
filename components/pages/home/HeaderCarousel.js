@@ -15,7 +15,7 @@ const HeaderCarousel = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="lg:px-20 md:px-16 sm:px-12 px-8 w-full lg:w-[90%] font-bold text-2xl md:text-4xl leading-[50px] md:leading-[70px]" data-aos="fade-up">
+      <div className="lg:px-8 md:px-16 sm:px-12 px-8 w-full lg:w-[90%] font-bold text-2xl md:text-6xl leading-[50px] md:leading-[70px] pt-5">
         <div className="">
           <span className=" text-primary">
             Software development that helps turn
@@ -25,13 +25,19 @@ const HeaderCarousel = () => {
           <span className="text-white">results</span>
         </div>
 
-        <div className="my-10">
+        <div className="my-8">
           <div className="flex gap-2 font-light">
-            <div className="text-white text-lg md:text-xl">Quality</div>
-            <div className="text-white text-lg md:text-xl">.</div>
-            <div className="text-white text-lg md:text-xl">Security</div>
-            <div className="text-white text-lg md:text-xl">.</div>
-            <div className="text-white text-lg md:text-xl">Scalable</div>
+            <div className="text-white lg:text-xl text-lg md:text-xl">
+              Quality
+            </div>
+            <div className="text-white lg:text-xl text-lg md:text-xl">.</div>
+            <div className="text-white lg:text-xl text-lg md:text-xl">
+              Security
+            </div>
+            <div className="text-white lg:text-xl text-lg md:text-xl">.</div>
+            <div className="text-white lg:text-xl text-lg md:text-xl">
+              Scalable
+            </div>
           </div>
 
           <div className="mt-7 flex gap-4">
@@ -48,3 +54,14 @@ const HeaderCarousel = () => {
 };
 
 export default HeaderCarousel;
+// DOORSTEP (FROM DONHOLM)
+// Doorstep - customer pays for delivery(1)
+// Doorstep - Vendor pays delivery(2)
+// Doorstep - collect my cash (2)
+
+// ERRAND
+// Kasarani seasons - Eldoret(2)
+// Donholm -
+// Buruburu - Karatina
+
+//Agent to Agent

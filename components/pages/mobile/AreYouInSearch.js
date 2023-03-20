@@ -9,7 +9,7 @@ const AreYouInSearch = () => {
       {/* text description div */}
       <div className="flex flex-col gap-6 flex-1 justify-center items-center">
         <div className="flex flex-col w-[85%] gap-8">
-          <h5 className="text-3xl font-medium leding-[50px]">
+          <h5 className=" text-2xl md:text-3xl font-medium leding-[50px]">
             Are you in search of the mobile app developers in Kenya?
           </h5>
           {/* body */}

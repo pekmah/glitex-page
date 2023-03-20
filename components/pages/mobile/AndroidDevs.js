@@ -6,7 +6,7 @@ const AndroidDevs = () => {
     <div className={"bg-secondary py-10 flex flex-col gap-2"}>
       <div className="flex lg:flex-row flex-col justify-center my-4">
         {/* image div */}
-        <div className="flex items-center justify-center flex-1">
+        <div className="flex items-center justify-center flex-1 px-4 md:px-0">
           <img
             src="/images/clients/leta-mobile.png"
             alt="__"

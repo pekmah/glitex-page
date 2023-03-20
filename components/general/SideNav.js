@@ -5,14 +5,16 @@ import Link from "next/link";
 const SideNav = ({ handleCloseNav, isOpen }) => {
   return (
     <div
-      className={`z-40 top-0 fixed right-0 bottom-0 h-screen bg-[#00000050]  ${isOpen ? " w-screen " : "w-0"
-        } transition-all duration-500 ease-in-out overflow-hidden`}
-    //   onClick={handleCloseNav}
+      className={`z-40 top-0 fixed right-0 bottom-0 h-screen bg-[#00000050]  ${
+        isOpen ? " w-screen " : "w-0"
+      } transition-all duration-500 ease-in-out overflow-hidden`}
+      //   onClick={handleCloseNav}
     >
       <div
-        className={`float-right h-full bg-black z-50 ${isOpen ? " w-screen lg:w-[30vw] md:w-[50vw] sm:w-[70vw]" : "w-0"
-          } transition-all duration-700 ease-in-out overflow-hidden`}
-        onClick={() => { }}
+        className={`float-right h-full bg-black z-50 ${
+          isOpen ? " w-screen lg:w-[30vw] md:w-[50vw] sm:w-[70vw]" : "w-0"
+        } transition-all duration-700 ease-in-out overflow-hidden`}
+        onClick={() => {}}
       >
         <div className={`block`}>
           <div className="p-5 flex justify-end">
@@ -37,14 +39,15 @@ const SideNav = ({ handleCloseNav, isOpen }) => {
 
           <div className=" flex flex-col justify-center items-center gap-8 py-16">
             {nav_list_items?.map((item, i) => (
-              <Link href={item?.link} key={i}>
+              <a href={item?.link} key={i}>
                 <button
-                  className={`text-primary font-semibold duration-700  ${isOpen ? "md:text-2xl text-xl" : "text-[0px]"
-                    } `}
+                  className={`text-primary font-semibold duration-700  ${
+                    isOpen ? "md:text-2xl text-xl" : "text-[0px]"
+                  } `}
                 >
                   {item?.name}
                 </button>
-              </Link>
+              </a>
             ))}
           </div>
         </div>
@@ -63,11 +66,11 @@ const nav_list_items = [
   },
   {
     name: "Team",
-    link: "/team",
+    link: "/#team",
   },
   {
     name: "Services",
-    link: "",
+    link: "/#services",
   },
   {
     name: "Portfolio",

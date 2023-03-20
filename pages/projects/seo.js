@@ -12,9 +12,9 @@ const Seo = () => {
     <Layout>
       <Carousel
         title={
-          <div className="text-center leading-[50px]">
+          <div className="text-center leading-10 lg:leading-[50px]">
             <span> Search Engine Evaluator Companies in Kenya | </span>
-            <br />
+            <br className="hidden md:block" />
             <span> SEO Services Nairobi Kenya</span>
           </div>
         }

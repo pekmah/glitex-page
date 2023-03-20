@@ -5,7 +5,7 @@ const Features = () => {
     <div
       className={" bg-primary text-center flex flex-col justify-center py-12"}
     >
-      <h3 className="lg:text-4xl sm:text-3xl text-xl font-bold lg:leading-[50px] sm:leading-[50px] leading-10 lg:w-[85%] mx-auto mb-5">
+      <h3 className="lg:text-4xl sm:text-3xl text-xl font-bold lg:leading-[50px] sm:leading-10 leading-8 lg:w-[85%] mx-auto mb-2 md:mb-5">
         Benefits of Search Engine Optimization (SEO)
       </h3>
 
@@ -79,6 +79,6 @@ const ServiceItem = ({ title, body }) => (
     <h6 className="font-bold text-lg">{title}</h6>
 
     {/* // body */}
-    <p className="leading-8 text-lg">{body}</p>
+    <p className="leading-8 text-base sm:text-lg px-2">{body}</p>
   </div>
 );

@@ -7,10 +7,13 @@ import Analytics from "../../../assets/Analytics";
 import School from "../../../assets/School";
 import Management from "../../../assets/Management";
 import Link from "next/link";
+import Button from "../../general/Button";
+import OutlinedButton from "../../general/OutlinedButton";
+import { useRouter } from "next/router";
 
 const Skills = () => {
   return (
-    <div className="py-14 bg-white">
+    <section className="py-14 bg-white" id={"services"}>
       <div className="flex flex-col items-center gap-2" data-aos="fade-up">
         <h4
           className={
@@ -35,7 +38,7 @@ const Skills = () => {
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 md:w-[80vw] lg:w-[90vw] w-[90vw] mx-auto">
         <SkillItem
-          className={` h-auto lg:h-[625px] `}
+          className={` h-auto lg:min-h-[625px] `}
           icon={<GlobeSearch />}
           title={"Search engine optimization"}
           description={` We are the leading search engine optimization company in Kenya. With
@@ -46,7 +49,7 @@ const Skills = () => {
           path={"/projects/seo"}
         />
         <SkillItem
-          className={` h-auto lg:h-[625px] `}
+          className={` h-auto lg:min-h-[625px] `}
           icon={<Phone />}
           title={"Mobile Applications "}
           path={"/mobile"}
@@ -57,13 +60,13 @@ const Skills = () => {
           to ensure your business is easily discoverable by prospect clients.`}
         />
         <SkillItem
-          className={` h-auto lg:h-[625px] `}
+          className={` h-auto lg:min-h-[625px] `}
           icon={<Ai />}
           title={"AI & ML Development"}
           description={`Glitex helps small to large enterprises develop smart and intelligent products leveraging deep learning and machine learning technology. Our team is well versed with AI and ML tool kits.`}
         />
         <SkillItem
-          className={` h-auto lg:h-[625px] `}
+          className={` h-auto lg:min-h-[625px] `}
           icon={<Analytics />}
           title={"Predictive Analytics"}
           description={`Our team has the capability to create and deploy predictive analytics solutions that visualizes data and help you make better future decisions. Predictive analytics help you develop insights that give you competetive advantage in the industry you operate.`}
@@ -76,26 +79,26 @@ const Skills = () => {
           path={"/projects/block-chain"}
         />
         <SkillItem
-          className={` h-auto lg:h-[625px] `}
+          className={` h-auto lg:min-h-[625px] `}
           icon={<Management />}
           title={"Management Information Systems"}
           description={<ManagementText />}
         />
         <SkillItem
-          className={` h-auto lg:h-[625px] `}
+          className={` h-auto lg:min-h-[625px] `}
           icon={<School />}
           title={"E-learning platform"}
           path={"/projects/e-learning"}
           description={`Glitex is well versed with designing and developing technology-based interactive learning solutions.Providing learning technologies , Including custome e-learning , mulit-device leaning, mobile learning and consulting for interactive e-learning curriculum design.`}
         />
         <SkillItem
-          className={` h-auto lg:h-[625px] `}
+          className={` h-auto lg:min-h-[625px] `}
           icon={<img src="/images/clients/Game.png" />}
           title={"Game Development"}
           description={<GameText />}
         />
       </div>
-    </div>
+    </section>
   );
 };
 
@@ -108,10 +111,13 @@ const SkillItem = ({
   icon,
   path = "/",
   ...rest
-}) => (
-  <Link href={path}>
+}) => {
+  const router = useRouter();
+
+  return (
+    // <Link href={path}>
     <div
-      className={`cursor-pointer p-4 sm:p-8 lg:p-10  border border-primary bg-[#FFC53F0F] rounded-lg ${className}`}
+      className={`p-4 sm:p-8 lg:p-10  border border-primary bg-[#FFC53F0F] rounded-lg ${className}`}
       {...rest}
       data-aos="fade-up"
     >
@@ -125,11 +131,18 @@ const SkillItem = ({
           <h3 className="lg:text-3xl sm:text-2xl text-xl font-bold">{title}</h3>
 
           <p className="md:text-base text-sm">{description}</p>
+
+          <OutlinedButton
+            text={"View Project"}
+            className={"mt-2 w-2/3 mx-auto"}
+            handleClick={() => router.push(path)}
+          />
         </div>
       </div>
     </div>
-  </Link>
-);
+    // </Link>
+  );
+};
 
 const Text = () => (
   <p>

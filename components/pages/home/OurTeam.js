@@ -3,7 +3,7 @@ import { FiChevronRight } from "react-icons/fi";
 
 const OurTeam = () => {
   return (
-    <div className="relative bg-secondary">
+    <section className="relative bg-secondary" id={"team"}>
       <img
         src="/images/dark-logo-bg.png"
         alt=""
@@ -29,7 +29,7 @@ const OurTeam = () => {
           <ScrollBtn className={"absolute top-24 -right-[10%] z-20"} />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

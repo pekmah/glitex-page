@@ -49,7 +49,16 @@ const Slider = () => {
       </div>
 
       <div className="flex mx-auto pb-3">
-        <div className="mx-auto flex gap-3">
+        <div className="mx-auto flex gap-3 items-center ">
+          <OutlinedButton
+            className={
+              "mr-3 border-2 h-12 w-12 flex items-center justify-center rounded-full"
+            }
+            style={{ padding: "0px" }}
+            handleClick={() => handleScroll(current - 1)}
+          >
+            <FiChevronLeft className="text-2xl text-primary" />
+          </OutlinedButton>
           {scrollList?.map((_k, i) => (
             <button
               key={i}
@@ -59,6 +68,16 @@ const Slider = () => {
               onClick={() => handleScroll(i)}
             />
           ))}
+
+          <OutlinedButton
+            className={
+              "ml-3 border-2 h-12 w-12 flex items-center justify-center rounded-full"
+            }
+            style={{ padding: "0px" }}
+            handleClick={() => handleScroll(current + 1)}
+          >
+            <FiChevronRight className="text-2xl text-primary" />
+          </OutlinedButton>
         </div>
       </div>
     </div>

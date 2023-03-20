@@ -8,8 +8,10 @@ import Slider from "../components/pages/portfolio/Slider";
 const Portfolio = () => {
   return (
     <Layout>
-      <Carousel title={"Portfolio"} />
-      <Slider />
+      <Carousel title={"PORTFOLIO"} />
+      <div className="hidden md:block">
+        <Slider />
+      </div>
       <CallUs />
 
       <Footer />

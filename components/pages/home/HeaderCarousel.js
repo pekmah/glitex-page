@@ -15,11 +15,11 @@ const HeaderCarousel = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="lg:px-8 md:px-16 sm:px-12 px-8 w-full lg:w-[90%] font-bold text-2xl md:text-6xl leading-[50px] md:leading-[70px] pt-5">
+      <div className="lg:px-8 md:px-16 sm:px-12 px-2 w-full lg:w-[90%] font-bold text-2xl md:text-6xl leading-[50px] md:leading-[70px] pt-5">
         <div className="">
           <span className=" text-primary">
             Software development that helps turn
-          </span>{" "}
+          </span>
           <span className="text-white">your ideas</span>{" "}
           <span className=" text-primary">into meaningful, tangible</span>{" "}
           <span className="text-white">results</span>

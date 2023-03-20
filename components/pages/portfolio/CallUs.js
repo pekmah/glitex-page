@@ -3,10 +3,10 @@ import Button from "../../general/Button";
 
 const CallUs = () => {
   return (
-    <div className="bg-primary flex ">
+    <div className="bg-primary flex md:flex-row flex-col gap-4 pt-3">
       <div className="flex flex-col gap-6 flex-1 items-center justify-center">
         {/* body */}
-        <div className="text-3xl font-semibold text-center leading-10">
+        <div className="text-2xl md:text-3xl font-semibold text-center leading-10">
           <span className=" text-secondary">Turn your</span>
           <span className="text-white"> ideas</span>{" "}
           <span className="text-secondary">
@@ -23,7 +23,7 @@ const CallUs = () => {
         </div>
         {/* view more button */}
       </div>
-      <div className="flex w-[35vw]">
+      <div className="flex lg:w-[35vw]">
         <img src="/images/portfolio/CallUs.jpg" alt="__" className="h-full" />
 
         {/* text description div */}

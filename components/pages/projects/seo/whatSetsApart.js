@@ -9,7 +9,7 @@ const WhatSetsApart = () => {
       {/* text description div */}
       <div className="flex flex-col gap-6 flex-1 justify-center items-center">
         <div className="flex flex-col w-[85%] gap-4 md:gap-8">
-          <h5 className="text-2xl md:text-3xl font-medium leding-[50px]">
+          <h5 className="text-2xl md:text-3xl font-medium leading-[50px]">
             We will always show up in your business
           </h5>
           {/* body */}

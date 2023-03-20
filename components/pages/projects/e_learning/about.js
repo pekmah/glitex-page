@@ -4,15 +4,15 @@ const About = () => {
   return (
     <div
       className={
-        "p-12 bg-primary text-center flex flex-col justify-center items-center"
+        "p-3 sm:p-5 md:p-8 lg:p-12 bg-primary text-center flex flex-col justify-center items-center"
       }
     >
-      <h3 className="lg:text-4xl sm:text-2xl text-xl font-bold w-[90%] leading-10 lg:leading-[50px]">
+      <h3 className="lg:text-4xl sm:text-2xl text-xl font-bold w-[95%] lg:w-[90%] leading-8 md:leading-10 lg:leading-[50px]">
         Elearning student portal | E learning system in Kenya | E-learning
         platform in Kenya
       </h3>
 
-      <p className="my-6 lg:text-xl sm:text-lg w-2/3 leading-8 lg:leading-9">
+      <p className="md:my-6 lg:text-xl sm:text-lg w-[94%] lg:w-2/3 leading-8 lg:leading-9">
         Glitex Solutions Limited is a company that specializes in creating and
         delivering technology-based educational solutions. Their offerings
         include custom e-learning, multi-device and mobile learning, platforms,

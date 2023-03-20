@@ -14,7 +14,7 @@ const Mobile = () => {
     <Layout>
       <Carousel
         title={
-          <div className="text-center leading-[50px]">
+          <div className="text-center leading-10 md:leading-[50px] mt-8">
             <span>Mobile App developers in Kenya </span>
             <br />
             <span>Android apps | IOS apps </span>
@@ -33,8 +33,9 @@ const Mobile = () => {
       <Types />
 
       {/* Carousel slider: some of the apps we have built*/}
-      <Slider />
-
+      <div className="md:block hidden">
+        <Slider />
+      </div>
       {/* Are you in */}
       <AreYouInSearch />
       {/* Footer */}

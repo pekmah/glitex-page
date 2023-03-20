@@ -1,10 +1,9 @@
 import React from "react";
 import Button from "../../general/Button";
-import OutlinedButton from "../../general/OutlinedButton";
 
 const AreYouInSearch = () => {
   return (
-    <div className="flex py-12 bg-white">
+    <div className="flex flex-col md:flex-row py-8 lg:py-12 bg-white">
       {/* image div */}
 
       {/* text description div */}
@@ -37,7 +36,7 @@ const AreYouInSearch = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center flex-1">
+      <div className="flex items-center justify-center flex-1 p-4 lg:p-0">
         <img
           src="/images/portfolio/portfolio.png"
           alt="__"

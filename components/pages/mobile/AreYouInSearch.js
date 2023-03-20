@@ -8,13 +8,13 @@ const AreYouInSearch = () => {
 
       {/* text description div */}
       <div className="flex flex-col gap-6 flex-1 justify-center items-center">
-        <div className="flex flex-col w-[85%] gap-8">
+        <div className="flex flex-col w-[85%] gap-4 md:gap-8">
           <h5 className=" text-2xl md:text-3xl font-medium leding-[50px]">
             Are you in search of the mobile app developers in Kenya?
           </h5>
           {/* body */}
           <div className="">
-            <p className="text-lg">
+            <p className="text-base sm:text-lg">
               You are then in the right place. Glitex Solutions Limited is a
               renowned firm that develops both iOS and Android mobile
               applications. At Glitex Solutions Limited, you not only get mobile
@@ -22,7 +22,7 @@ const AreYouInSearch = () => {
               to implement your app and how to roll it out.
             </p>
             <br />
-            <p className="text-lg">
+            <p className="text-base sm:text-lg">
               We have served many countries in the Africa continent and beyond
               the continent. We have our headquarters in Nairobi, Kenya. Contact
               us today.

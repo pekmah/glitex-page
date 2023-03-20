@@ -12,9 +12,9 @@ const BlockChain = () => {
     <Layout>
       <Carousel
         title={
-          <div className="text-center leading-[50px]">
+          <div className="text-center leading-9 lg:leading-[50px] mt-6">
             <span>Blockchain Developers Nairobi Kenya | </span>
-            <br />
+            <br className="hidden md:block" />
             <span>Blockchain Companies Nairobi Kenya </span>
           </div>
         }
@@ -30,6 +30,7 @@ const BlockChain = () => {
 
       {/* what sets us apart */}
       <WhatSetsApart />
+
       <Footer />
     </Layout>
   );

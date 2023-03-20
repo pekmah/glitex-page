@@ -4,7 +4,7 @@ import OutlinedButton from "../../../general/OutlinedButton";
 const Portfolio = () => {
   return (
     <div className={"bg-secondary py-4 md:py-10 flex flex-col gap-2"}>
-      <div className="flex  flex-col md:flex-row my-4">
+      <div className="flex flex-col md:flex-row my-4">
         {/* image div */}
         <div className="flex flex-row items-center justify-center flex-1 p-4 md:p-10">
           <img

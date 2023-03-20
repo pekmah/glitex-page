@@ -3,14 +3,16 @@ import React from "react";
 const WhyChoose = () => {
   return (
     <div
-      className={" bg-primary text-center flex flex-col justify-center py-12"}
+      className={
+        " bg-primary text-center flex flex-col justify-center py-6 md:py-12"
+      }
     >
-      <h3 className="lg:text-4xl sm:text-3xl text-xl font-bold lg:leading-[50px] sm:leading-[50px] leading-10 lg:w-[85%] mx-auto">
+      <h3 className="lg:text-4xl sm:text-3xl text-xl font-bold lg:leading-[50px] sm:leading-10 leading-8 lg:w-[85%] mx-auto mb-2 md:mb-5">
         Why choose Glitex Solutions Limited for Blockchain Development Services
       </h3>
 
-      <div className="w-[70%] mx-auto   ">
-        <p className="mb-10 mt-5 lg:text-xl sm:text-xl text-lg ">
+      <div className="md:w-[70%] mx-auto   ">
+        <p className="text-base md:text-lg w-11/12 mx-auto md:mx-0 md:min-h-[300px]">
           Glitex Solutions Limited has the ability to guide you in utilizing the
           capabilities of. Blockchain and developing solutions tailored to your
           business operations. Engage us as the leading Blockchain company in
@@ -24,7 +26,7 @@ const WhyChoose = () => {
           technology.
         </p>
 
-        <p className="my-10 lg:text-xl sm:text-xl text-lg ">
+        <p className="text-base md:text-lg w-11/12 mx-auto md:mx-0 md:min-h-[300px]">
           We can also assist you in advancing your business and standing out
           from competitors through Cryptocurrency Development. We offer tailored
           Blockchain solutions for various projects to create a swift,
@@ -32,7 +34,7 @@ const WhyChoose = () => {
           company in Kenya, we provide 24/7
         </p>
 
-        <p className="my-10 lg:text-xl sm:text-xl text-lg">
+        <p className="my-4 md:my-10 lg:text-xl sm:text-lg text-base">
           customer support and industry-specific Blockchain services that have
           been successfully implemented across major areas of Kenya.
         </p>
@@ -97,6 +99,6 @@ const ServiceItem = ({ title, body }) => (
     <h6 className="font-bold text-lg">{title}</h6>
 
     {/* // body */}
-    <p className="leading-8 text-lg">{body}</p>
+    <p className="leading-8 sm:text-lg text-base px-2">{body}</p>
   </div>
 );

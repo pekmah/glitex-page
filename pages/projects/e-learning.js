@@ -12,7 +12,7 @@ const ELearning = () => {
     <Layout>
       <Carousel
         title={
-          <div className="text-center leading-8 lg:leading-[50px] text-xl mt-5 md:mt-0">
+          <div className="text-center leading-8 lg:leading-[50px] mt-5 md:mt-0">
             <span> E-learning Platforms in Nairobi, </span>
             <br className="hidden md:block" />
             <span>Kenya for Primary,Secondary Schools, </span>

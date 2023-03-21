@@ -29,7 +29,7 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative bg-white h-screen py-14">
+    <section id="portfolio" className="relative bg-white h-screen py-14">
       <h4
         className={
           "lg:text-4xl md:text-3xl text-2xl text-secondary font-bold text-center my-3"
@@ -59,15 +59,17 @@ const Slider = () => {
           >
             <FiChevronLeft className="text-2xl text-primary" />
           </OutlinedButton>
-          {scrollList?.map((_k, i) => (
-            <button
-              key={i}
-              className={`rounded-full w-3.5 h-3.5 ${
-                i === current ? "bg-primary" : "border-[1.5px] border-primary"
-              }`}
-              onClick={() => handleScroll(i)}
-            />
-          ))}
+        
+            {scrollList?.map((item, i) => (
+              <button
+                key={i}
+               
+                className={`rounded-full w-3.5 h-3.5 ${
+                  i === current ? "bg-primary" : "border-[1.5px] border-primary"
+                }`}
+                onClick={() => handleScroll(i)}
+              />
+            ))}
 
           <OutlinedButton
             className={
@@ -80,7 +82,7 @@ const Slider = () => {
           </OutlinedButton>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
@@ -129,4 +131,4 @@ function Card() {
   );
 }
 
-const scrollList = ["item 1", "item 2", "item 3", "item 4"];
+const scrollList = [{ key: "item 1", id: "#leta" }, { key: "item 2", id: "" }, { key: "item 3", id: "" }, { key:"item 4",id:""}];

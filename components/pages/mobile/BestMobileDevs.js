@@ -3,7 +3,7 @@ import OutlinedButton from "../../general/OutlinedButton";
 
 const BestMobileDevs = () => {
   return (
-    <div className={"bg-primary py-6 lg:py-10 flex flex-col gap-2"}>
+    <section className={"bg-primary py-6 lg:py-10 flex flex-col gap-2"}>
       <div className="flex lg:flex-row flex-col my-4 lg:w-10/12 w-11/12 mx-auto">
         {/* text description div */}
         <div className="flex flex-col gap-6 flex-1 justify-center text-secondary">
@@ -34,12 +34,14 @@ const BestMobileDevs = () => {
             business.
           </p>
           <div className="flex">
-            <OutlinedButton
-              className={
-                "border-secondary text-secondary border-2 text-lg w-44"
-              }
-              text={"Portfolio"}
-            />
+            <a href="#portfolio">
+              <OutlinedButton
+                className={
+                  "border-secondary text-secondary border-2 text-lg w-44"
+                }
+                text={"Portfolio"}
+                />
+              </a>
           </div>
           {/* view more button */}
         </div>
@@ -53,7 +55,7 @@ const BestMobileDevs = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

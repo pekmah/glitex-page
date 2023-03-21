@@ -36,10 +36,12 @@ const AndroidDevs = () => {
             both iOS and Android.
           </p>
           <div className="flex">
+            <a href="#portfolio">
             <OutlinedButton
               className={"border-primary text-primary border-2 text-lg w-44"}
               text={"Portfolio"}
-            />
+              />
+              </a>
           </div>
           {/* view more button */}
         </div>

@@ -133,7 +133,7 @@ const SkillItem = ({
           <p className="md:text-base text-sm">{description}</p>
 
           <OutlinedButton
-            text={"View Project"}
+            text={"View Services"}
             className={"mt-2 w-2/3 mx-auto"}
             handleClick={() => router.push(path)}
           />

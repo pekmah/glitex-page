@@ -59,6 +59,6 @@ const ServiceItem = ({ title, body }) => (
         <h6 className="font-bold text-lg">{title}</h6>
 
         {/* // body */}
-        <p className="leading-8 text-base sm:text-lg px-2">{body}</p>
+        <p className="leading-8 text-base sm:text-lg mx-0">{body}</p>
     </div>
 );

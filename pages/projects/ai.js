@@ -17,11 +17,6 @@ const Ai = () => {
                             Developers in
                             Nairobi
                             Kenya | Glitex Solutions Limited </p>
-                        {/*<br className="hidden md:block"/>*/}
-                        {/*<span>Kenya for Primary,Secondary Schools, </span>*/}
-                        {/*<br className="hidden md:block"/>*/}
-                        {/*<span>Colleges & Universities</span>*/}
-
                     </div>
                 }
             />

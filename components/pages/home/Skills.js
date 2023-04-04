@@ -83,6 +83,7 @@ const Skills = () => {
                     icon={<Management/>}
                     title={"Management Information Systems"}
                     description={<ManagementText/>}
+                    path={"/projects/management"}
                 />
                 <SkillItem
                     className={` h-auto lg:min-h-[625px] `}

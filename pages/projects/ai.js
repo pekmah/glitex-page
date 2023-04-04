@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from "../../components/main/layout";
 import Carousel from "../../components/general/Carousel";
-import About from "../../components/pages/projects/e_learning/about";
-import Portfolio from "../../components/pages/projects/e_learning/portfolio";
-import Features from "../../components/pages/projects/e_learning/features";
-import WhatSetsApart from "../../components/pages/projects/e_learning/whatSetsApart";
 import Footer from "../../components/pages/home/footer";
+import About from '../../components/pages/projects/ai/About';
+import Portfolio from '../../components/pages/projects/ai/Portfolio';
+import OurFocus from '../../components/pages/projects/ai/OurFocus';
+import Benefits from '../../components/pages/projects/ai/Benefits';
 
 const Ai = () => {
     return (
@@ -29,14 +29,14 @@ const Ai = () => {
             {/* About */}
             <About/>
 
-            {/* best block... */}
+            {/* AI portfolio... */}
             <Portfolio/>
 
-            {/* why choose .... */}
-            <Features/>
+            {/* Our Focus .... */}
+            <OurFocus />
 
             {/* what sets us apart */}
-            <WhatSetsApart/>
+            <Benefits />
 
             <Footer/>
         </Layout>

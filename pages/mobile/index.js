@@ -16,30 +16,30 @@ const Mobile = () => {
                 title={
                     <div className="text-center leading-10 md:leading-[50px] mt-8">
                         <span>Mobile App developers in Kenya </span>
-                        <br className="hidden md:block" />
+                        <br className="hidden md:block"/>
                         <span>Android apps | IOS apps </span>
                     </div>
                 }
             />
 
-            <About />
+            <About/>
             {/* Android and IOS apps developers in Kenya */}
-            <AndroidDevs />
+            <AndroidDevs/>
 
             {/* Best mobile app Developers in Kenya */}
-            <BestMobileDevs />
+            <BestMobileDevs/>
 
             {/* Types of mobile apps */}
-            <Types />
+            <Types/>
 
             {/* Carousel slider: some of the apps we have built*/}
             <div className="md:block hidden">
-                <Slider />  
+                <Slider/>
             </div>
             {/* Are you in */}
-            <AreYouInSearch />
+            <AreYouInSearch showBtn/>
             {/* Footer */}
-            <Footer />
+            <Footer/>
         </Layout>
     );
 };

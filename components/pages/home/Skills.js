@@ -96,6 +96,7 @@ const Skills = () => {
                     icon={<img src="/images/clients/Game.png"/>}
                     title={"Game Development"}
                     description={<GameText/>}
+                    path={"/projects/games"}
                 />
             </div>
         </section>

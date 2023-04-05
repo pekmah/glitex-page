@@ -78,11 +78,11 @@ const nav_list_items = [
   },
   {
     name: "Mobile Application",
-    link: "mobile",
+    link: "/mobile",
   },
   {
     name: "Onboarding process",
-    link: "",
+    link: "/onboarding",
   },
   {
     name: "Contact",

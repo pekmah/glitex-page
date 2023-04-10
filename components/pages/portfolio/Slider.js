@@ -41,9 +41,9 @@ const Slider = () => {
         id="content"
         className="carousel p-4 pl-20 flex items-center justify-start overflow-x-auto scroll-smooth no-scrollbar"
       >
-        {scrollList?.map((_k, i) => (
+        {scrollList?.map((item, i) => (
           <div key={i}>
-            <Card />
+            <Card title={item?.title} desc={item?.desc} imgs={item?.images} />
           </div>
         ))}
       </div>
@@ -88,30 +88,28 @@ const Slider = () => {
 
 export default Slider;
 
-function Card() {
+function Card({ title, desc, imgs }) {
   return (
     <>
       <div className="card bg-primary w-[80vw] m-2 rounded-lg px-5">
         <div className="flex py-4">
           {/* image div */}
-          <div className="flex items-center justify-center flex-1">
-            <img
-              src="/images/clients/leta-mobile.png"
-              alt="__"
-              className="max-h-[400px] h-auto"
-            />
+          <div className="flex items-center justify-center flex-1 gap-2">
+            {imgs?.map(img => (
+              <img
+                src={img}
+                alt="__"
+                className="max-h-[400px] h-auto rounded-xl"
+              />
+            ))}
           </div>
           {/* text description div */}
           <div className="flex flex-col gap-6 flex-1 justify-center">
-            <h5 className="text-3xl font-medium">Leta Mobile Application</h5>
+            <h5 className="text-3xl font-medium">{title}</h5>
 
             {/* body */}
-            <p className="text-lg w-5/6">
-              Mobile application service are aimed at building iOS & Android
-              applications that effectively complement or substitute web
-              solutions. Having delivered 50+ mobile app development projects so
-              far, Glitex ensures app success by delivering striking UI, secure
-              app code, and resilient back ends.
+            <p className="text-md w-5/6">
+              {desc}
             </p>
 
             <div className="flex">
@@ -131,4 +129,56 @@ function Card() {
   );
 }
 
-const scrollList = [{ key: "item 1", id: "#leta" }, { key: "item 2", id: "" }, { key: "item 3", id: "" }, { key:"item 4",id:""}];
+const scrollList = [
+  {
+    key: "item 0",
+    id: "#leta",
+    images: ["/images/clients/leta-mobile.png"],
+    title: "Leta Mobile Application",
+    desc: `Mobile application service are aimed at building iOS & Android
+      applications that effectively complement or substitute web
+      solutions. Having delivered 50+ mobile app development projects so
+      far, Glitex ensures app success by delivering striking UI, secure
+      app code, and resilient back ends.`
+  }, //okapy
+  {
+    key: "item 1",
+    id: "#okapy",
+    images: ["/images/portfolio/okapy-1.webp", "/images/portfolio/okapy-2.webp"],
+    title: "Okapy Customer Application",
+    desc: `Okapy Secure is a tech-driven end-to-end local and cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods and shop directly from the U.S. stores and delivers to your door step.`
+  }, //okapy
+  {
+    key: "item 2",
+    id: "#golf",
+    images: ["/images/portfolio/golf-1.webp", "/images/portfolio/golf-2.webp"],
+    title: "Muthaiga Golf Club Application",
+    desc: `Okapy Secure is a tech-driven end-to-end cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods at the touch of a button.`
+  }, //golf
+  {
+    key: "item 3",
+    id: "#okapy-driver",
+    images: ["/images/portfolio/okapy-driver-1.webp", "/images/portfolio/okapy-driver-2.webp"],
+    title: "Okapy Secure Driver",
+    desc: `Muthaiga Golf Club, proudly called the Home of Golf by its elite membership, is in many ways the ultimate embodiment of Kenya’s unique marriage of ancient golf tradition and a modern 18-Hole Championship Golf Course.
+
+     The Club boasts of a proud history spanning over a century providing prestigious and challenging courses in the region. In keeping up with its drive of providing exceptional services, the club seeks to provide members with ability to access club services such as booking Tee times, make Dining Reservations and even view their Statements through the MGC APP.
+    `
+  }, //okapy driver 
+  {
+    key: "item 4",
+    id: "#joosmoo",
+    images: ["/images/portfolio/joosmoo-1.webp", "/images/portfolio/joosmoo-2.webp"],
+    title: "Joosmoo Application",
+    desc: `JooSmoo LTD is a juice and nut milk company founded with the intent to provide pure, unadulterated, additive-free beverages and food products.Our company philosophy is – your food label content should do good to your body. Since our inception, we have done exactly that – created products using whole foods that nurture the body.
+    We are the only company in Kenya that produces nut milks and our goal is to continue to grow our reach and distribution outlets. Our adherence to quality raw products enables us to consistently produce quality drinks and food items.`
+  }, //joosmoo
+  {
+    key: "item 5",
+    id: "#npbc",
+    images: ["/images/portfolio/npbc-1.webp", "/images/portfolio/npbc-2.webp"],
+    title: "NPBC",
+    desc: `Login to your student, lecturer or administrator portal on NPBC`
+
+  } //npbc
+];

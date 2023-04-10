@@ -14,7 +14,7 @@ const Features = () => {
             {/* VStack */}
             <div className='w-10/12 mx-auto'>
 
-                <div className='flex'>
+                <div className='md:flex'>
                     <div className='flex-1 flex flex-col gap-6 '>
                         <ServiceItem
                             title={"Appointments and schedules"}
@@ -77,7 +77,7 @@ const Features = () => {
 export default Features
 
 const ServiceItem = ({ title, body }) => (
-    <div className="w-11/12 text-left">
+    <div className="md:w-11/12 text-left">
         {/* // title */}
         <h6 className="font-bold text-lg">{title}</h6>
 

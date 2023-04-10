@@ -31,7 +31,7 @@ const AreYouInSearch = () => {
                 <img
                     src="/images/projects/management/management-5.jpg"
                     alt="__"
-                    className="h-[600px] w-full object-contain"
+                    className="md:h-[600px] w-full object-contain"
                 />
             </div>
         </div>

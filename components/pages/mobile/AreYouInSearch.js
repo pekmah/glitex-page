@@ -50,11 +50,11 @@ const AreYouInSearch = ({showBtn}) => {
             {/*  Available in Ethiopia  */}
             {showBtn && <a href="/mobile/ethiopia">
                 <div
-                    className={"bg-[#FFC53F54] text-xl font-bold rounded-full px-14 h-10 flex items-center justify-center w-1/2 mx-auto gap-3 my-5"}>
+                    className={"bg-[#FFC53F54] text-base lg:text-xl font-bold rounded-full px-2 lg:px-14 h-10 flex items-center justify-center w-11/12 lg:w-1/2 mx-auto gap-3 my-5"}>
 
                     Hey! we are also live in <span className={"text-primary"}> Ethiopia </span>
                     {/*    Ethiopia flag*/}
-                    <span>
+                    <span className="hidden md:inline-flex">
                         <Ethiopia/>
                     </span>
 

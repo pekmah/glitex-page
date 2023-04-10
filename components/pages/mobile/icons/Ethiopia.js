@@ -2,7 +2,7 @@ import React from 'react';
 
 const Ethiopia = () => {
     return (
-        <svg width="45" height="46" viewBox="0 0 45 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg width="45" height="46" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 18.0781H45V27.9219H0V18.0781Z" fill="#F9CB38"/>
             <path
                 d="M37.9688 7.53125H7.03125C2.37164 7.53125 0 10.9941 0 15.2656V18.0781H45V15.2656C45 10.9941 42.6284 7.53125 37.9688 7.53125Z"

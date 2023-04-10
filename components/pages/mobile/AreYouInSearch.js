@@ -32,7 +32,7 @@ const AreYouInSearch = ({showBtn}) => {
                         </div>
                         <div className="flex">
                             <Button
-                                className={"bg-primary w-48 text-secondary text-lg"}
+                                className={"bg-primary w-48 text-secondary text-base md:text-lg mx-auto md:mx-0"}
                                 text={"Call us Today!"}
                             />
                         </div>

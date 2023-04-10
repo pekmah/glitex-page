@@ -30,7 +30,7 @@ const Skills = () => {
                 }
                 data-aos="fade-up"
             >
-                We’ve got the skills and workforce you <br/> can rely on to push your
+                We’ve got the skills and workforce you <br className="hidden md:block" /> can rely on to push your
                 business to the next level
             </h4>
 

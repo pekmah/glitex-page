@@ -12,9 +12,9 @@ const Features = () => {
 
 
             {/* VStack */}
-            <div className='w-10/12 mx-auto'>
+            <div className=' w-11/12 lg:w-10/12 mx-auto'>
 
-                <div className='flex'>
+                <div className='md:flex'>
                     <div className='flex-1 flex flex-col gap-6 '>
                         {left_array?.map(item => (
                             <ServiceItem

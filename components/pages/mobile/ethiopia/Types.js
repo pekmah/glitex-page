@@ -9,18 +9,18 @@ const Types = () => {
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
-            className={" py-14 flex flex-col gap-2 relative text-black"}
+            className={" py-4 lg:py-14 flex flex-col md:gap-2 relative text-black"}
         >
             <div
-                className="lg:px-20 md:px-16 sm:px-12 px-8 w-full font-bold text-3xl md:text-4xl flex items-center justify-center ">
+                className="lg:px-20 md:px-16 sm:px-12 px-4 w-full font-bold text-2xl md:text-4xl flex items-center justify-center ">
                 Types of mobile apps
             </div>
 
-            <div className="my-5 text-center">
-                <h4 className="text-2xl font-semibold  my-6">
+            <div className="lg:my-5 text-center">
+                <h4 className="text-xl font-semibold my-3  md:my-6">
                     Native Mobile applications
                 </h4>
-                <div className="w-[90vw]  mx-auto">
+                <div className="w-[90vw]  mx-auto text-sm md:text-base">
                     <p>
                         Native apps mobile applications are developed for specific operating
                         system. For instance mobile applications developed specifically to
@@ -38,12 +38,12 @@ const Types = () => {
                 </div>
             </div>
 
-            <div className="my-5 text-center">
-                <h4 className="text-2xl font-semibold  mb-6">
+            <div className="md:my-5 text-center">
+                <h4 className="text-xl font-semibold my-3  md:my-6">
                     Hybrid Mobile applications
                 </h4>
 
-                <div className="w-[90vw] mx-auto">
+                <div className="w-[90vw] mx-auto text-sm md:text-base">
                     <p>
                         Native apps mobile applications are developed for specific operating
                         system. For instance mobile applications developed specifically to

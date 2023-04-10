@@ -17,7 +17,7 @@ const Carousel = ({
           backgroundPosition: "center",
         }}
       >
-        <div className="lg:px-20 md:px-16 sm:px-12 px-3 w-full font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl flex items-center justify-center text-primary">
+        <div className="lg:px-20 md:px-16 sm:px-12 px-3 w-full font-bold text-2xl sm:text-2xl md:text-3xl lg:text-4xl flex items-center justify-center text-primary">
           {title}
         </div>
       </div>

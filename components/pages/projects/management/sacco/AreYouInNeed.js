@@ -30,7 +30,7 @@ const AreYouInNeed = () => {
                 <img
                     src="/images/projects/management/management-6.jpg"
                     alt="__"
-                    className="h-[600px] w-full object-contain"
+                    className="lg:h-[600px] w-full object-contain"
                 />
             </div>
         </div>

@@ -2,6 +2,8 @@ import React from "react";
 
 const FormerClients = () => {
   return (
+    <>
+      <div className="hidden md:block">
     <marquee direction="left">
       <div
         className={
@@ -18,7 +20,28 @@ const FormerClients = () => {
         ))}
       </div>
     </marquee>
+      </div>
 
+      <div className="slider md:hidden">
+        <div
+          className={
+            // "h-[14vh] flex justify-evenly items-center overflow-x-scroll overflow-y-hidden no-scrollbar lg:gap-10 md:gap-8 gap-5"
+            "slide-track"
+          }
+        >
+          {list?.map((item, i) => (
+            <div className="slide">
+              <img
+                key={i}
+                src={item}
+                alt="__"
+                className={i === 4 || i === 7 || i === 0 ? "h-24 object-contain" : "h-20 object-contain "}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
   );
 };
 //

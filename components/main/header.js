@@ -9,6 +9,7 @@ const Header = ({ showNav, handleCloseNav, handleOpenNav }) => {
   });
   return (
     <header className="flex bg-transparent p-4 md:p-8 absolute top-0 right-0 left-0 z-20 ">
+      <a href="/">
       <div className="header-logo flex gap-5 items-center w-full px-1">
         <img
           src={"/images/logo.png"}
@@ -19,7 +20,7 @@ const Header = ({ showNav, handleCloseNav, handleOpenNav }) => {
         <h3 className="text-primary lg:text-3xl sm:text-2xl text-xl font-semibold">
           Glitex Solutions
         </h3>
-      </div>
+        </div></a>
 
       <div className=" flex justify-center items-center gap-4 fixed top-3.5 md:top-7 right-4 z-30">
         {/* contact */}

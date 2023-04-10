@@ -13,7 +13,7 @@ const Ai = () => {
             <Carousel
                 title={
                     <div className="text-center leading-8 lg:leading-[50px] mt-5 md:mt-0">
-                        <p className={"w-[80%] mx-auto mt-5"}>AI and ML (Artificial Intelligence & Machine learning)
+                        <p className={"w-[80%] mx-auto mt-12"}>AI and ML (Artificial Intelligence & Machine learning)
                             Developers in
                             Nairobi
                             Kenya | Glitex Solutions Limited </p>

@@ -21,10 +21,10 @@ const OurTeam = () => {
         </h4>
         <div className="flex justify-center mx-auto relative overflow-scroll no-scrollbar">
           <div className="flex justify-center gap-5 lg:mt-8 mt-5 max-w-screen ">
-            <Member src={"/images/clients/member.png"} />
-            <Member src={"/images/clients/member.png"} />
-            <Member src={"/images/clients/member.png"} />
-            <Member src={"/images/clients/member.png"} />
+            <Member src={"/images/team/2.jpg"} role="Chief Executive Officer" name={"Peter Njenga"} abbr={"CEO"} />
+            <Member src={"/images/team/3.jpg"} role="Chief Growth Officer" name={"David Potter"} abbr={"CGO"} />
+            <Member src={"/images/team/1.jpg"} role="Chief Product Officer" name={"Muhu Njenga"} abbr={"CPO"} />
+            <Member src={"/images/team/4.jpg"} role="Chief Technology Officer" name={"Kelvin Muli"} abbr={"CTO"} />
           </div>
           <ScrollBtn className={"absolute top-24 -right-[10%] z-20"} />
         </div>
@@ -35,14 +35,15 @@ const OurTeam = () => {
 
 export default OurTeam;
 
-const Member = ({ src, name, role }) => (
+const Member = ({ src, name, abbr, role, }) => (
   <div className="w-44">
-    <img src={src} alt="team-member" className="w-full" />
+    <img src={src} alt="team-member" className="w-full h-[180px] object-cover object-top" />
 
     {/* Power-Apps  Power-Automate Dataverse  Power-BI  Power Virtual-Agents  Power-portals  */}
     <div className={"text-center py-2"}>
-      <h3 className="text-primary font-semibold text-base">Peter Muhia</h3>
-      <span className="text-primary">CEO</span>
+      <h3 className="text-primary font-semibold text-base">{name}</h3>
+      <h6 className="text-primary">{abbr}</h6>
+      <span className="text-primary text-xs leading-2">{role}</span>
     </div>
   </div>
 );

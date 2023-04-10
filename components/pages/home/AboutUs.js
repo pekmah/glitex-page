@@ -12,7 +12,7 @@ const AboutUs = () => {
         in Kenya | Glitex Solutions Limited
       </h3>
 
-      <p className="md:my-10 my-3 lg:text-2xl sm:text-xl text-lg " data-aos="fade-up">
+      <p className="md:my-10 my-3 lg:text-2xl lg:w-10/12 sm:text-xl text-lg " data-aos="fade-up">
         Glitex Solutions Limited is a tech-solutions company built by a group of
         visionary young and passionate individuals, dedicated to help our
         clients continuously create value for their customers.

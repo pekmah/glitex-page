@@ -1,11 +1,12 @@
 import React from "react";
+import ContactForm from "../../general/footer/ContactForm";
 
 const Footer = () => {
   return (
     <div>
       <div className="p-8 lg:p-12 flex flex-col md:flex-row gap-4" data-aos="fade-up">
         {/* Glitex solutions logo */}
-        <div className="header-logo flex gap-5 items-center w-full flex-1 h-20">
+        <div className="header-logo flex gap-5 items-center w-full flex-[0.4] h-20">
           <img
             src={"/images/logo.png"}
             alt="Glitex Solutions LTD"
@@ -16,7 +17,8 @@ const Footer = () => {
             Glitex Solutions
           </h3>
         </div>
-        {/*  */}
+        {/* Contact form */}
+        <ContactForm />
         {/* Contact Details */}
         <div className="flex-[0.4] flex flex-col  gap-5 ">
           {/* Where to find us */}
@@ -67,6 +69,8 @@ const Footer = () => {
       </div>
     </div>
   );
+
+
 };
 
 export default Footer;

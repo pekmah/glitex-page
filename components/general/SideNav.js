@@ -39,7 +39,7 @@ const SideNav = ({ handleCloseNav, isOpen }) => {
 
           <div className=" flex flex-col justify-center items-center gap-8 py-16">
             {nav_list_items?.map((item, i) => (
-              <a href={item?.link} key={i}>
+              <a href={item?.link} key={i} onClick={handleCloseNav}>
                 <button
                   className={`text-primary font-semibold duration-700  ${
                     isOpen ? "md:text-2xl text-xl" : "text-[0px]"

@@ -4,22 +4,22 @@ const FormerClients = () => {
   return (
     <>
       <div className="hidden md:block">
-    <marquee direction="left">
-      <div
-        className={
-          "h-[14vh] flex justify-evenly items-center overflow-x-scroll overflow-y-hidden no-scrollbar lg:gap-10 md:gap-8 gap-5"
-        }
-      >
-        {list?.map((item, i) => (
-          <img
-            key={i}
-            src={item}
-            alt="__"
-            className={i === 4 || i === 7 || i === 0 ? "h-24" : "h-16 "}
-          />
-        ))}
-      </div>
-    </marquee>
+        <marquee direction="left">
+          <div
+            className={
+              "h-[14vh] flex justify-evenly items-center overflow-x-scroll overflow-y-hidden no-scrollbar lg:gap-10 md:gap-8 gap-5"
+            }
+          >
+            {list?.map((item, i) => (
+              <img
+                key={i}
+                src={item}
+                alt="__"
+                className={`${i === 9 && "rounded-full"} ${i === 4 || i === 7 || i === 0 ? "h-24" : "h-16 "}`}
+              />
+            ))}
+          </div>
+        </marquee>
       </div>
 
       <div className="slider md:hidden">
@@ -35,7 +35,7 @@ const FormerClients = () => {
                 key={i}
                 src={item}
                 alt="__"
-                className={i === 4 || i === 7 || i === 0 ? "h-24 object-contain" : "h-20 object-contain "}
+                className={`${i === 9 && "rounded-full"} ${i === 4 || i === 7 || i === 0 ? "h-24 object-contain" : "h-20 object-contain "}`}
               />
             </div>
           ))}
@@ -58,4 +58,5 @@ const list = [
   "/images/clients/kengen.png",
   "/images/clients/sfs.png",
   "/images/clients/world-bank.png",
+  "/images/clients/okapy-logo.jpg",
 ];

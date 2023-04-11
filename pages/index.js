@@ -19,6 +19,7 @@ export default function Index() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
+    <>
     <Layout>
       <Head>
         <title>
@@ -80,6 +81,19 @@ export default function Index() {
       {/* footer */}
       <Footer />
     </Layout>
+
+      <div id="preloader">
+        <div id="loader">
+          <div className="line-scale-pulse-out">
+            <div />
+            <div />
+            <div />
+            <div />
+            <div />
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 

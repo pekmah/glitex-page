@@ -74,17 +74,7 @@ class MyDocument extends Document {
               </div>
             </div>
           </div> */}
-          <div id="preloader">
-            <div id="loader">
-              <div className="line-scale-pulse-out">
-                <div />
-                <div />
-                <div />
-                <div />
-                <div />
-              </div>
-            </div>
-          </div>
+
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-6L8MC15QF8"

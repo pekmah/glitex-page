@@ -86,6 +86,6 @@ const nav_list_items = [
   },
   {
     name: "Contact",
-    link: "",
+    link: "#contact",
   },
 ];

@@ -3,7 +3,7 @@ import ContactForm from "../../general/footer/ContactForm";
 
 const Footer = () => {
   return (
-    <div>
+    <section id="footer">
       <div className="p-8 lg:p-12 flex flex-col md:flex-row gap-4" data-aos="fade-up">
         {/* Glitex solutions logo */}
         <div className="header-logo flex gap-5 items-center w-full flex-[0.4] h-20">
@@ -67,7 +67,7 @@ const Footer = () => {
           &#169; Copyright Glitex Solutions {new Date().getFullYear()}
         </h5>
       </div>
-    </div>
+    </section>
   );
 
 

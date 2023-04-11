@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactForm = () => {
     return (
-        <div className='text-white bg-inherit flex-1'>
+        <div className='text-white bg-inherit flex-1' id='contact'>
             {/*inputs */}
             <div className='lg:flex gap-2 text-white'>
                 <div className='flex-1 flex flex-col gap-3'>

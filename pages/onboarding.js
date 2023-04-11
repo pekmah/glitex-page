@@ -3,6 +3,7 @@ import Carousel from '../components/general/Carousel'
 import Layout from '../components/main/layout'
 import Footer from '../components/pages/home/footer'
 import Tree from '../components/pages/onboarding/Tree'
+import MobileTree from '../components/pages/onboarding/MobileTree'
 
 const onboarding = () => {
     return (
@@ -18,7 +19,15 @@ const onboarding = () => {
                 img={"/images/typing.jpg"}
             />
 
-            <Tree />
+            <div className='hidden md:block'>
+                <Tree />
+            </div>
+
+            <div className='block md:hidden'>
+                <MobileTree />
+            </div>
+
+
 
             <Footer />
         </Layout>

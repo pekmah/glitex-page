@@ -128,12 +128,12 @@ const Tree = () => {
 
 export default Tree
 
-const Branch = ({ title, description, number, className }) => (
+export const Branch = ({ title, description, number, className }) => (
     <div className={`flex flex-col justify-center ${className}`}>
         {/* Title  */}
         <div className='flex gap-4'>
             {/* Label */}
-            {number && <div className='bg-secondary rounded-full h-8 w-8 text-white flex items-center justify-center '>
+            {number && <div className='bg-secondary rounded-full h-8 w-8 text-white flex items-center justify-center flex-shrink-0'>
                 {number}
             </div>}
             {/* Title */}

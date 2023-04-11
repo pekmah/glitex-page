@@ -3,7 +3,7 @@ import Button from "../../../general/Button";
 
 const Gallery = () => {
   return (
-    <div className="p-10 bg-secondary ">
+    <div className="p-10 bg-secondary border-b border-primary">
       <h4 className="text-center text-primary font-semibold text-2xl">
         App Screens
       </h4>

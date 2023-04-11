@@ -29,7 +29,7 @@ const Slider = () => {
   };
 
   return (
-    <section id="portfolio" className="relative bg-white h-screen py-14">
+    <section id="portfolio" className="relative bg-white h-[700px] py-14">
       <h4
         className={
           "lg:text-4xl md:text-3xl text-2xl text-secondary font-bold text-center my-3"
@@ -43,7 +43,7 @@ const Slider = () => {
       >
         {scrollList?.map((item, i) => (
           <div key={i}>
-            <Card title={item?.title} desc={item?.desc} imgs={item?.images} />
+            <Card title={item?.title} desc={item?.desc} imgs={item?.images} link={item?.link} handleFocus={() => console.log("FOCUSED: ", item?.id)} />
           </div>
         ))}
       </div>
@@ -88,10 +88,10 @@ const Slider = () => {
 
 export default Slider;
 
-function Card({ title, desc, imgs }) {
+function Card({ title, desc, imgs, link, handleFocus }) {
   return (
     <>
-      <div className="card bg-primary w-[80vw] m-2 rounded-lg px-5">
+      <div className="card bg-primary w-[80vw] m-2 rounded-lg px-5" onFocus={() => handleFocus()}>
         <div className="flex py-4">
           {/* image div */}
           <div className="flex items-center justify-center flex-1 gap-2">
@@ -99,7 +99,7 @@ function Card({ title, desc, imgs }) {
               <img
                 src={img}
                 alt="__"
-                className="max-h-[400px] h-auto rounded-xl"
+                className="max-h-[400px] w-auto h-auto rounded-xl"
               />
             ))}
           </div>
@@ -113,7 +113,7 @@ function Card({ title, desc, imgs }) {
             </p>
 
             <div className="flex">
-              <Link href={"/projects/leta-mobile"}>
+              <Link href={link}>
                 <OutlinedButton
                   className={"border-secondary text-secondary border-2 text-lg"}
                   text={"View more"}
@@ -139,31 +139,37 @@ const scrollList = [
       applications that effectively complement or substitute web
       solutions. Having delivered 50+ mobile app development projects so
       far, Glitex ensures app success by delivering striking UI, secure
-      app code, and resilient back ends.`
+      app code, and resilient back ends.`,
+    link: "/portfolio/leta-mobile"
   }, //okapy
   {
     key: "item 1",
     id: "#okapy",
     images: ["/images/portfolio/okapy-1.webp", "/images/portfolio/okapy-2.webp"],
     title: "Okapy Customer Application",
-    desc: `Okapy Secure is a tech-driven end-to-end local and cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods and shop directly from the U.S. stores and delivers to your door step.`
+    desc: `Okapy Secure is a tech-driven end-to-end local and cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods and shop directly from the U.S. stores and delivers to your door step.`,
+    link: "/portfolio/okapy"
+
   }, //okapy
   {
     key: "item 2",
     id: "#golf",
     images: ["/images/portfolio/golf-1.webp", "/images/portfolio/golf-2.webp"],
+    desc: `Muthaiga Golf Club, proudly called the Home of Golf by its elite membership, is in many ways the ultimate embodiment of Kenya’s unique marriage of ancient golf tradition and a modern 18-Hole Championship Golf Course.
+  
+     The Club boasts of a proud history spanning over a century providing prestigious and challenging courses in the region. In keeping up with its drive of providing exceptional services, the club seeks to provide members with ability to access club services such as booking Tee times, make Dining Reservations and even view their Statements through the MGC APP.
+    `,
     title: "Muthaiga Golf Club Application",
-    desc: `Okapy Secure is a tech-driven end-to-end cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods at the touch of a button.`
+    link: "/portfolio/golf"
+
   }, //golf
   {
     key: "item 3",
     id: "#okapy-driver",
     images: ["/images/portfolio/okapy-driver-1.webp", "/images/portfolio/okapy-driver-2.webp"],
-    title: "Okapy Secure Driver",
-    desc: `Muthaiga Golf Club, proudly called the Home of Golf by its elite membership, is in many ways the ultimate embodiment of Kenya’s unique marriage of ancient golf tradition and a modern 18-Hole Championship Golf Course.
-
-     The Club boasts of a proud history spanning over a century providing prestigious and challenging courses in the region. In keeping up with its drive of providing exceptional services, the club seeks to provide members with ability to access club services such as booking Tee times, make Dining Reservations and even view their Statements through the MGC APP.
-    `
+    title: "Okapy Secure Driver App",
+    desc: `Okapy Secure is a tech-driven end-to-end cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods at the touch of a button.`,
+    link: "/portfolio/okapy-driver"
   }, //okapy driver 
   {
     key: "item 4",
@@ -171,14 +177,15 @@ const scrollList = [
     images: ["/images/portfolio/joosmoo-1.webp", "/images/portfolio/joosmoo-2.webp"],
     title: "Joosmoo Application",
     desc: `JooSmoo LTD is a juice and nut milk company founded with the intent to provide pure, unadulterated, additive-free beverages and food products.Our company philosophy is – your food label content should do good to your body. Since our inception, we have done exactly that – created products using whole foods that nurture the body.
-    We are the only company in Kenya that produces nut milks and our goal is to continue to grow our reach and distribution outlets. Our adherence to quality raw products enables us to consistently produce quality drinks and food items.`
+    We are the only company in Kenya that produces nut milks and our goal is to continue to grow our reach and distribution outlets. Our adherence to quality raw products enables us to consistently produce quality drinks and food items.`,
+    link: "/portfolio/joosmoo"
   }, //joosmoo
   {
     key: "item 5",
     id: "#npbc",
     images: ["/images/portfolio/npbc-1.webp", "/images/portfolio/npbc-2.webp"],
     title: "NPBC",
-    desc: `Login to your student, lecturer or administrator portal on NPBC`
-
+    desc: `Login to your student, lecturer or administrator portal on NPBC`,
+    link: "/portfolio/npbc"
   } //npbc
 ];

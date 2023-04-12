@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../../general/Button";
+import {handleDialerButtonClick} from "../../../main/header";
 
 const WhatSetsApart = () => {
     return (
@@ -57,6 +58,7 @@ const WhatSetsApart = () => {
                         <Button
                             className={"bg-primary w-48 text-secondary text-base md:text-lg"}
                             text={"Call us Today!"}
+                            handleClick={handleDialerButtonClick}
                         />
                     </div>
                 </div>

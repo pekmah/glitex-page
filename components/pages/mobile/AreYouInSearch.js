@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../general/Button";
 import Ethiopia from "./icons/Ethiopia";
+import {handleDialerButtonClick} from "../../main/header";
 
 const AreYouInSearch = ({showBtn}) => {
     return (
@@ -32,6 +33,7 @@ const AreYouInSearch = ({showBtn}) => {
                         </div>
                         <div className="flex">
                             <Button
+                                handleClick={handleDialerButtonClick}
                                 className={"bg-primary w-48 text-secondary text-base md:text-lg mx-auto md:mx-0"}
                                 text={"Call us Today!"}
                             />

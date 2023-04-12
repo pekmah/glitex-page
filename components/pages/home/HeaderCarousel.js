@@ -21,7 +21,7 @@ const HeaderCarousel = () => {
                 className="lg:px-8 md:px-16 sm:px-12 px-2 w-full lg:w-[90%] font-bold text-2xl md:text-6xl leading-[50px] md:leading-[70px] pt-5">
                 <div className="">
           <span className=" text-primary">
-            Software development that helps turn
+            Software development that helps turn &nbsp;
           </span>
                     <span className="text-white">your ideas</span>{" "}
                     <span className=" text-primary">into meaningful, tangible</span>{" "}
@@ -109,14 +109,3 @@ const HeaderCarousel = () => {
 };
 
 export default HeaderCarousel;
-// DOORSTEP (FROM DONHOLM)
-// Doorstep - customer pays for delivery(1)
-// Doorstep - Vendor pays delivery(2)
-// Doorstep - collect my cash (2)
-
-// ERRAND
-// Kasarani seasons - Eldoret(2)
-// Donholm -
-// Buruburu - Karatina
-
-//Agent to Agent

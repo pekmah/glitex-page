@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../general/Button";
+import {handleDialerButtonClick} from "../../main/header";
 
 const CallUs = () => {
     return (
@@ -14,6 +15,7 @@ const CallUs = () => {
           </span>
                     <br/>
                     <Button
+                        handleClick={handleDialerButtonClick}
                         text={"Call us Today!"}
                         className={
                             "bg-secondary w-56 py-3 mx-auto mt-7 text-[28px] text-[#FFC53F] "

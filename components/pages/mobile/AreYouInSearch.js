@@ -40,7 +40,7 @@ const AreYouInSearch = ({showBtn}) => {
                 </div>
                 <div className="flex items-center justify-center flex-1 p-4 lg:p-0">
                     <img
-                        src="/images/portfolio/portfolio.png"
+                        src="/images/portfolio/portfolio.webp"
                         alt="__"
                         className="max-h-[595px] w-full object-cover h-auto"
                     />

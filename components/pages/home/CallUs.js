@@ -8,7 +8,7 @@ const CallUs = () => {
         {/* image div */}
         <div className="flex items-center justify-center flex-1" data-aos="fade-up">
           <img
-            src="/images/clients/launching.png"
+            src="/images/clients/launching.webp"
             alt="__"
             className="max-h-[350px] h-auto"
           />

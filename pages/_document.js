@@ -22,7 +22,7 @@ class MyDocument extends Document {
           <script src="/js/plugins.js" />
           <script src="/js/main.js" />
           {/*Scripts etc.*/}
-          {/* <div aria-hidden="true" className="pswp" role="dialog" tabIndex="-1">
+           <div aria-hidden="true" className="pswp" role="dialog" tabIndex="-1">
             <div className="pswp__bg h-0" />
             <div className="pswp__scroll-wrap">
               <div className="pswp__container">
@@ -73,7 +73,7 @@ class MyDocument extends Document {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
 
           <script
             async

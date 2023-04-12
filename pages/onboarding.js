@@ -16,7 +16,7 @@ const onboarding = () => {
                         </p>
                     </div>
                 }
-                img={"/images/typing.jpg"}
+                img={"/images/typing.webp"}
             />
 
             <div className='hidden md:block'>

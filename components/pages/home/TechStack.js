@@ -52,13 +52,13 @@ const TechStack = () => {
 export default TechStack;
 
 const list = [
-  "/images/clients/tech_stack/flutter.png",
-  "/images/clients/tech_stack/go.png",
-  "/images/clients/tech_stack/js.png",
-  "/images/clients/tech_stack/kotlin.png",
-  "/images/clients/tech_stack/node.png",
-  "/images/clients/tech_stack/python.png",
-  "/images/clients/tech_stack/react.png",
-  "/images/clients/tech_stack/solidity.png",
-  "/images/clients/tech_stack/spring.png",
+  "/images/clients/tech_stack/flutter.webp",
+  "/images/clients/tech_stack/go.webp",
+  "/images/clients/tech_stack/js.webp",
+  "/images/clients/tech_stack/kotlin.webp",
+  "/images/clients/tech_stack/node.webp",
+  "/images/clients/tech_stack/python.webp",
+  "/images/clients/tech_stack/react.webp",
+  "/images/clients/tech_stack/solidity.webp",
+  "/images/clients/tech_stack/spring.webp",
 ];

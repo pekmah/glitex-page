@@ -49,14 +49,14 @@ const FormerClients = () => {
 export default FormerClients;
 
 const list = [
-  "/images/clients/safaricom.png",
-  "/images/clients/nema.png",
-  "/images/clients/nyeri.png",
-  "/images/clients/muthaiga.png",
-  "/images/clients/plenser.png",
-  "/images/clients/kaj.png",
-  "/images/clients/kengen.png",
-  "/images/clients/sfs.png",
-  "/images/clients/world-bank.png",
-  "/images/clients/okapy-logo.jpg",
+  "/images/clients/safaricom.webp",
+  "/images/clients/nema.webp",
+  "/images/clients/nyeri.webp",
+  "/images/clients/muthaiga.webp",
+  "/images/clients/plenser.webp",
+  "/images/clients/kaj.webp",
+  "/images/clients/kengen.webp",
+  "/images/clients/sfs.webp",
+  "/images/clients/world-bank.webp",
+  "/images/clients/okapy-logo.webp",
 ];

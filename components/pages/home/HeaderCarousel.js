@@ -10,7 +10,7 @@ const HeaderCarousel = () => {
       }
       style={{
         background:
-          "linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url(/images/typing.jpg)",
+          "linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url(/images/typing.webp)",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

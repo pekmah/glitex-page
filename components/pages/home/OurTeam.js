@@ -21,16 +21,16 @@ const OurTeam = () => {
         </h4>
         <div className="flex lg:justify-center mx-auto relative no-scrollbar w-[95vw] mx-auto gap-4 overflow-x-auto">
           <div>
-            <Member src={"/images/team/2.jpg"} role="Chief Executive Officer" name={"Peter Njenga"} abbr={"CEO"} />
+            <Member src={"/images/team/2.webp"} role="Chief Executive Officer" name={"Peter Njenga"} abbr={"CEO"} />
           </div>
           <div>
-            <Member src={"/images/team/3.jpg"} role="Chief Growth Officer" name={"David Potter"} abbr={"CGO"} />
+            <Member src={"/images/team/3.webp"} role="Chief Growth Officer" name={"David Potter"} abbr={"CGO"} />
           </div>
           <div>
-            <Member src={"/images/team/1.jpg"} role="Chief Product Officer" name={"Muhu Njenga"} abbr={"CPO"} />
+            <Member src={"/images/team/1.webp"} role="Chief Product Officer" name={"Muhu Njenga"} abbr={"CPO"} />
           </div>
           <div>
-            <Member src={"/images/team/4.jpg"} role="Chief Technology Officer" name={"Kelvin Muli"} abbr={"CTO"} />
+            <Member src={"/images/team/4.webp"} role="Chief Technology Officer" name={"Kelvin Muli"} abbr={"CTO"} />
           </div>
 
         </div>

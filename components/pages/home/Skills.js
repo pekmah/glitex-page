@@ -30,7 +30,7 @@ const Skills = () => {
                 }
                 data-aos="fade-up"
             >
-                We’ve got the skills and workforce you <br className="hidden md:block" /> can rely on to push your
+                We’ve got the skills and workforce you <br className="hidden md:block"/> can rely on to push your
                 business to the next level
             </h4>
 
@@ -52,11 +52,8 @@ const Skills = () => {
                     icon={<Phone/>}
                     title={"Mobile Applications "}
                     path={"/mobile"}
-                    description={` We are the leading search engine optimization company in Kenya. With
-          10+ years experience in search engine optimization, we have developed
-          strategies to help our clients get more website visitors translating
-          into more sales and revenue. Glitex equips you with top SEO strategies
-          to ensure your business is easily discoverable by prospect clients.`}
+                    description={` We are Kenya's Top & Best Mobile App Development Company in Nairobi, Kenya. Our team of expert is skilled in Android & iOS mobile apps development. We develop mobile applications at affordable prices. Whether you are in Nairobi Kenya, Ethiopia, Somalia, Rwanda & Tanzania Glitex Solutions Limited will serve you. We are a comprehensive mobile app development company that helps you to develop and maintain Mobile Applications for both Android and iOS. We develop user-friendly and secure mobile apps for any type of businesses model.    
+We pride ourselves as the best mobile app developers in Kenya, contact us today.`}
                 />
                 <SkillItem
                     className={` h-auto lg:min-h-[625px] `}

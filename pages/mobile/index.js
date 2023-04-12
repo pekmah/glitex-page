@@ -33,7 +33,7 @@ const Mobile = () => {
             <Types/>
 
             {/* Carousel slider: some of the apps we have built*/}
-            <div className="md:block hidden">
+            <div className="">
                 <Slider/>
             </div>
             {/* Are you in */}

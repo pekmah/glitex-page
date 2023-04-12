@@ -6,7 +6,9 @@ const AndroidDevs = () => {
         <div className={"bg-secondary py-10 flex flex-col gap-2"}>
             <div className="flex lg:flex-row flex-col justify-center my-4">
                 {/* image div */}
-                <div className="flex items-center justify-center flex-1 gap-5">
+
+
+                <div className=" hidden md:flex items-center justify-center flex-1 gap-2">
                     {["/images/portfolio/okapy-1.webp", "/images/portfolio/okapy-2.webp"].map(img => (
                         <img
                             src={img}
@@ -14,6 +16,16 @@ const AndroidDevs = () => {
                             className="max-h-[400px] w-auto h-auto rounded-xl"
                         />
                     ))}
+                </div>
+
+                <div className=" flex md:hidden items-center justify-center flex-1 gap-2">
+
+                    <img
+                        src={"/images/portfolio/okapy-1.webp"}
+                        alt="__"
+                        className="max-h-[400px] object-contain w-[90%] md:h-auto rounded-xl"
+                    />
+
                 </div>
                 {/* text description div */}
                 <div className="flex flex-col gap-6 flex-1 justify-center text-primary px-2 md:px-0">

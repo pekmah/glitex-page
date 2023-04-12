@@ -8,13 +8,13 @@ import Slider from "../../components/pages/portfolio/Slider";
 const Portfolio = () => {
     return (
         <Layout>
-            <Carousel title={"PORTFOLIO"} />
-            <div className="hidden md:block">
-                <Slider />
+            <Carousel title={"PORTFOLIO"}/>
+            <div className="">
+                <Slider/>
             </div>
-            <CallUs />
+            <CallUs/>
 
-            <Footer />
+            <Footer/>
         </Layout>
     );
 };

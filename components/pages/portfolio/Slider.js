@@ -6,12 +6,22 @@ import OutlinedButton from "../../general/OutlinedButton";
 const Slider = () => {
     const [current, setCurrent] = useState(0);
     const scrollLeft = (nxt) => {
-        document.getElementById("content").scrollLeft -=
-            window.innerWidth * 0.814643 * Math.abs(nxt - current);
+        if (window.innerWidth < 500) {
+            document.getElementById("content").scrollLeft -=
+                window.innerWidth * 0.90 * Math.abs(nxt - current);
+        } else {
+            document.getElementById("content").scrollLeft -=
+                window.innerWidth * 0.814643 * Math.abs(nxt - current);
+        }
     };
     const scrollRight = (nxt) => {
-        document.getElementById("content").scrollLeft +=
-            window.innerWidth * 0.814643 * Math.abs(nxt - current);
+        if (window.innerWidth < 500) {
+            document.getElementById("content").scrollLeft +=
+                window.innerWidth * 0.90 * Math.abs(nxt - current);
+        } else {
+            document.getElementById("content").scrollLeft +=
+                window.innerWidth * 0.814643 * Math.abs(nxt - current);
+        }
     };
 
     const handleScroll = (next_index) => {
@@ -29,7 +39,7 @@ const Slider = () => {
     };
 
     return (
-        <section id="portfolio" className="relative bg-white h-[700px] py-14">
+        <section id="portfolio" className="relative bg-white md:h-[700px] md:py-14">
             <h4
                 className={
                     "lg:text-4xl md:text-3xl text-2xl text-secondary font-bold text-center my-3"
@@ -39,7 +49,7 @@ const Slider = () => {
             </h4>
             <div
                 id="content"
-                className="carousel p-4 pl-20 flex items-center justify-start overflow-x-auto scroll-smooth no-scrollbar"
+                className="carousel p-4 md:pl-20 flex items-center justify-start overflow-x-auto scroll-smooth no-scrollbar"
             >
                 {scrollList?.map((item, i) => (
                     <div key={i}>
@@ -53,7 +63,7 @@ const Slider = () => {
                 <div className="mx-auto flex gap-3 items-center ">
                     <OutlinedButton
                         className={
-                            "mr-3 border-2 h-12 w-12 flex items-center justify-center rounded-full"
+                            "mr-3 border-2 h-9 md:h-12 w-9 md:w-12 flex items-center justify-center rounded-full"
                         }
                         style={{padding: "0px"}}
                         handleClick={() => handleScroll(current - 1)}
@@ -74,7 +84,7 @@ const Slider = () => {
 
                     <OutlinedButton
                         className={
-                            "ml-3 border-2 h-12 w-12 flex items-center justify-center rounded-full"
+                            "ml-3 border-2 h-9 md:h-12 w-9 md:w-12 flex items-center justify-center rounded-full"
                         }
                         style={{padding: "0px"}}
                         handleClick={() => handleScroll(current + 1)}
@@ -92,10 +102,10 @@ export default Slider;
 function Card({title, desc, imgs, link, handleFocus}) {
     return (
         <>
-            <div className="card bg-primary w-[80vw] m-2 rounded-lg px-5" onFocus={() => handleFocus()}>
-                <div className="flex py-4">
+            <div className="card bg-primary w-[85vw] md:w-[80vw] m-2 rounded-lg px-5" onFocus={() => handleFocus()}>
+                <div className="flex flex-col md:flex-row py-4">
                     {/* image div */}
-                    <div className="flex items-center justify-center flex-1 gap-2">
+                    <div className=" hidden md:flex items-center justify-center flex-1 gap-2">
                         {imgs?.map(img => (
                             <img
                                 src={img}
@@ -104,19 +114,29 @@ function Card({title, desc, imgs, link, handleFocus}) {
                             />
                         ))}
                     </div>
+
+                    <div className=" flex md:hidden items-center justify-center flex-1 gap-2">
+
+                        <img
+                            src={imgs[1]}
+                            alt="__"
+                            className="max-h-[400px] w-auto h-[50vh] md:h-auto rounded-xl"
+                        />
+
+                    </div>
                     {/* text description div */}
-                    <div className="flex flex-col gap-6 flex-1 justify-center">
-                        <h5 className="text-3xl font-medium">{title}</h5>
+                    <div className="flex flex-col gap-2 md:gap-6 flex-1 justify-center">
+                        <h5 className="text-xl md:text-3xl font-medium">{title}</h5>
 
                         {/* body */}
-                        <p className="text-md w-5/6">
+                        <p className="text-sm md:text-md md:w-5/6 h-[180px] overflow-hidden md:h-auto">
                             {desc}
                         </p>
 
                         <div className="flex">
                             <Link href={link}>
                                 <OutlinedButton
-                                    className={"border-secondary text-secondary border-2 text-lg"}
+                                    className={"border-secondary text-secondary border-2 text-sm md:text-lg"}
                                     text={"View more"}
                                 />
                             </Link>

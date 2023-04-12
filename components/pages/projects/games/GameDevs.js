@@ -15,7 +15,15 @@ const GameDevs = () => {
                     {/* body */}
                     <div className="">
                         <p className="text-base md:text-lg mb-4 font-medium">
-                            At Glitex Solutions Limited, we offer a wide range of services related to game software development. We work closely with our clients to understand their game concept and vision and provide comprehensive solutions to bring their ideas to life. Our services include game design, programming, graphics and animation, sound and music, quality assurance, platform support, and more. We specialize in developing games across various genres, including action, adventure, role-playing, simulation, and more. Our team of experienced and skilled game developers use the latest technologies and tools to deliver high-quality and engaging games that provide an immersive experience to players. Contact us today to learn more about our game software development services and how we can help you create your next game.
+                            At Glitex Solutions Limited, we offer a wide range of services related to game software
+                            development. We work closely with our clients to understand their game concept and vision
+                            and provide comprehensive solutions to bring their ideas to life. Our services include game
+                            design, programming, graphics and animation, sound and music, quality assurance, platform
+                            support, and more. We specialize in developing games across various genres, including
+                            action, adventure, role-playing, simulation, and more. Our team of experienced and skilled
+                            game developers use the latest technologies and tools to deliver high-quality and engaging
+                            games that provide an immersive experience to players. Contact us today to learn more about
+                            our game software development services and how we can help you create your next game.
                         </p>
                     </div>
                     <div className="flex">
@@ -28,7 +36,7 @@ const GameDevs = () => {
             </div>
             <div className="flex items-center justify-center flex-1 p-6 h-full">
                 <img
-                    src="/images/projects/game-2.jpg"
+                    src="/images/projects/game-2.webp"
                     alt="__"
                     className=" w-full object-contain"
                 />

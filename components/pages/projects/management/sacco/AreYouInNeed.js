@@ -15,7 +15,8 @@ const AreYouInNeed = () => {
                     {/* body */}
                     <div className="">
                         <p className="text-base md:text-lg mb-4 font-medium">
-                            Are you in need of developing a SACCO Management system? You are in the right place. Glitex Solutions is the company to work with to develop your SACCO ERP.
+                            Are you in need of developing a SACCO Management system? You are in the right place. Glitex
+                            Solutions is the company to work with to develop your SACCO ERP.
                         </p>
                     </div>
                     <div className="flex">
@@ -28,7 +29,7 @@ const AreYouInNeed = () => {
             </div>
             <div className="flex items-center justify-center flex-1 p-4 h-full">
                 <img
-                    src="/images/projects/management/management-6.jpg"
+                    src="/images/projects/management/management-6.webp"
                     alt="__"
                     className="lg:h-[600px] w-full object-contain"
                 />

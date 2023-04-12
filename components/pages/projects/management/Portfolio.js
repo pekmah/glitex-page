@@ -9,7 +9,7 @@ const Portfolio = () => {
                 {/* image div */}
                 <div className="flex flex-row items-center justify-center flex-1 p-4 md:px-10">
                     <img
-                        src="/images/projects/management/management-2.jpg"
+                        src="/images/projects/management/management-2.webp"
                         alt="__"
                         className=" object-contain lg:h-[400px] "
                     />
@@ -33,7 +33,8 @@ const Portfolio = () => {
 
             {/* School systems */}
             <div className="flex flex-col md:flex-row ">
-                <div className="hidden md:flex flex-col gap-3 md:gap-6 flex-1 justify-center items-center text-primary pt-8 ">
+                <div
+                    className="hidden md:flex flex-col gap-3 md:gap-6 flex-1 justify-center items-center text-primary pt-8 ">
                     <h5 className="text-xl md:text-2xl px-2 md:px-0 md:text-3xl font-medium text-center">
                         School management systems
                     </h5>
@@ -44,7 +45,7 @@ const Portfolio = () => {
                                 className={"border-primary text-primary border-2 md:text-lg w-44"}
                                 text={"View"}
                             />
-                        </a >
+                        </a>
                     </div>
                     {/* view more button */}
                 </div>
@@ -52,13 +53,14 @@ const Portfolio = () => {
                 {/* image div */}
                 <div className="flex flex-row items-center justify-center flex-1 p-4 md:px-10">
                     <img
-                        src="/images/projects/management/management-1.jpg"
+                        src="/images/projects/management/management-1.webp"
                         alt="__"
                         className=" object-contain lg:h-[400px] "
                     />
                 </div>
 
-                <div className="flex md:hidden flex-col gap-3 md:gap-6 flex-1 justify-center items-center text-primary pt-8 ">
+                <div
+                    className="flex md:hidden flex-col gap-3 md:gap-6 flex-1 justify-center items-center text-primary pt-8 ">
                     <h5 className="text-xl md:text-2xl px-2 md:px-0 md:text-3xl font-medium text-center">
                         School management systems
                     </h5>
@@ -69,7 +71,7 @@ const Portfolio = () => {
                                 className={"border-primary text-primary border-2 md:text-lg w-44"}
                                 text={"View"}
                             />
-                        </a >
+                        </a>
                     </div>
                     {/* view more button */}
                 </div>
@@ -80,7 +82,7 @@ const Portfolio = () => {
                 {/* image div */}
                 <div className="flex flex-row items-center justify-center flex-1 p-4 md:px-10">
                     <img
-                        src="/images/projects/management/management-3.jpg"
+                        src="/images/projects/management/management-3.webp"
                         alt="__"
                         className=" object-contain lg:h-[400px] "
                     />

@@ -15,18 +15,24 @@ const Benefits = () => {
                     {/* body */}
                     <div className="">
                         <p className="text-base md:text-lg mb-4 font-medium">
-                            The integration of AI and Machine learning technology helps to reduce the occurrence of human error, streamline tasks, and enhance the quality of results.
+                            The integration of AI and Machine learning technology helps to reduce the occurrence of
+                            human error, streamline tasks, and enhance the quality of results.
                         </p>
                         <ul className='list-disc pl-4 '>
-                            <li className='my-1'>Accelerated Decision Making with Algorithm-Driven Automation - Harness the power of algorithms to streamline processes and enhance decision making capabilities.</li>
+                            <li className='my-1'>Accelerated Decision Making with Algorithm-Driven Automation - Harness
+                                the power of algorithms to streamline processes and enhance decision making
+                                capabilities.
+                            </li>
                             <li className='my-1'>
                                 Unlock New Opportunities for Innovation and Growth through Understanding Data Patterns.
                             </li>
                             <li className='my-1'>
-                                Adapt to Changes Quickly - Machine learning models can analyze and update data at a much faster pace than humans, allowing for greater adaptability in changing circumstances.
+                                Adapt to Changes Quickly - Machine learning models can analyze and update data at a much
+                                faster pace than humans, allowing for greater adaptability in changing circumstances.
                             </li>
                             <li className='my-1'>
-                                Accelerate Business Operations - Streamline your operations and enhance efficiency with the power of AI, enabling rapid business growth.
+                                Accelerate Business Operations - Streamline your operations and enhance efficiency with
+                                the power of AI, enabling rapid business growth.
                             </li>
                         </ul>
                     </div>
@@ -40,7 +46,7 @@ const Benefits = () => {
             </div>
             <div className="flex items-center justify-center flex-1 p-4 h-full">
                 <img
-                    src="/images/projects/ai-2.jpg"
+                    src="/images/projects/ai-2.webp"
                     alt="__"
                     className="h-[600px] w-full object-cover"
                 />

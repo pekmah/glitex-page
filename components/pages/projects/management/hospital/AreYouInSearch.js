@@ -15,7 +15,8 @@ const AreYouInSearch = () => {
                     {/* body */}
                     <div className="">
                         <p className="text-base md:text-lg mb-4 font-medium">
-                            This is the right place. Glitex Solutions Limited are experts in developing management systems for hospitals.
+                            This is the right place. Glitex Solutions Limited are experts in developing management
+                            systems for hospitals.
                         </p>
 
                     </div>
@@ -29,7 +30,7 @@ const AreYouInSearch = () => {
             </div>
             <div className="flex items-center justify-center flex-1 p-4 h-full">
                 <img
-                    src="/images/projects/management/management-5.jpg"
+                    src="/images/projects/management/management-5.webp"
                     alt="__"
                     className="md:h-[600px] w-full object-contain"
                 />

@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <section id="home" className="s-home target-section"
                  data-parallax="scroll"
-                 data-image-src="/images/home_background.jpg"
+                 data-image-src="/images/home_background.webp"
                  data-natural-width="3000" data-natural-height="2000" data-position-y="center">
             <div className="overlay"/>
             <div className="shadow-overlay"/>

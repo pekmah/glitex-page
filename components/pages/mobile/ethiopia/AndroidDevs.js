@@ -7,7 +7,7 @@ const AndroidDevs = () => {
                 {/* image div */}
                 <div className="flex items-center justify-center flex-1 px-4 md:px-0">
                     <img
-                        src="/images/mobile_dev/ethiopia-devs.jpg"
+                        src="/images/mobile_dev/ethiopia-devs.webp"
                         alt="__"
                         className="w-full object-contain h-auto mx-auto "
                     />

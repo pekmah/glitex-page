@@ -5,7 +5,7 @@ const Types = () => {
         <div
             style={{
                 background:
-                    "linear-gradient(0deg, rgba(255, 197, 63, 0.91), rgba(255, 197, 63, 0.91)), url(/images/mobile_dev/mobile-dev.jpg)",
+                    "linear-gradient(0deg, rgba(255, 197, 63, 0.91), rgba(255, 197, 63, 0.91)), url(/images/mobile_dev/mobile-dev.webp)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}

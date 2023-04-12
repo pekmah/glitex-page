@@ -36,7 +36,7 @@ const Clients = () => {
                                 Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam.
                                 Accusantium quos qui praesentium corpori. Excepturi nam cupiditate
                                 culpa doloremque deleniti repellat.</p>
-                            <img src="images/avatars/user-01.jpg" alt="Author image" className="testimonials__avatar"/>
+                            <img src="images/avatars/user-01.webp" alt="Author image" className="testimonials__avatar"/>
                             <div className="testimonials__info">
                                 <span className="testimonials__name">Tim Cook</span>
                                 <span className="testimonials__pos">CEO, Apple</span>
@@ -46,7 +46,7 @@ const Clients = () => {
                             <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat
                                 voluptas animi adipisci. Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque
                                 eos maxime. Qui ipsam temporibus quisquam vel.</p>
-                            <img src="images/avatars/user-05.jpg" alt="Author image" className="testimonials__avatar"/>
+                            <img src="images/avatars/user-05.webp" alt="Author image" className="testimonials__avatar"/>
                             <div className="testimonials__info">
                                 <span className="testimonials__name">Sundar Pichai</span>
                                 <span className="testimonials__pos">CEO, Google</span>
@@ -56,7 +56,7 @@ const Clients = () => {
                             <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia
                                 nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem sunt voluptatum
                                 accusamus. Quasi voluptas eius distinctio.</p>
-                            <img src="images/avatars/user-02.jpg" alt="Author image" className="testimonials__avatar"/>
+                            <img src="images/avatars/user-02.webp" alt="Author image" className="testimonials__avatar"/>
                             <div className="testimonials__info">
                                 <span className="testimonials__name">Satya Nadella</span>
                                 <span className="testimonials__pos">CEO, Microsoft</span>

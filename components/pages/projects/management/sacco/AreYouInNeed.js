@@ -29,7 +29,7 @@ const AreYouInNeed = () => {
             </div>
             <div className="flex items-center justify-center flex-1 p-4 h-full">
                 <img
-                    src="/images/projects/management/management-6.webp"
+                    src="/images/projects/management/management-3.webp"
                     alt="__"
                     className="lg:h-[600px] w-full object-contain"
                 />

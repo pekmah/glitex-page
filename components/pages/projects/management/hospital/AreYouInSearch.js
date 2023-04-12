@@ -30,7 +30,7 @@ const AreYouInSearch = () => {
             </div>
             <div className="flex items-center justify-center flex-1 p-4 h-full">
                 <img
-                    src="/images/projects/management/management-5.webp"
+                    src="/images/projects/management/management-2.webp"
                     alt="__"
                     className="md:h-[600px] w-full object-contain"
                 />

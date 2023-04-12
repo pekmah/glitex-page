@@ -8,7 +8,7 @@ const Portfolio = () => {
                 {/* image div */}
                 <div className="flex flex-row items-center justify-center flex-1 p-4 md:p-10">
                     <img
-                        src="/images/projects/e-learning-1.jpeg"
+                        src="/images/projects/e-learning-1.webp"
                         alt="__"
                         className=" object-cover h-[500px]"
                     />

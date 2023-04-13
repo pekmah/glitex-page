@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import {AiOutlineMenu} from "react-icons/ai";
 
 export const handleDialerButtonClick = () => {
-    window.location.href = "tel:1234567890";
+    window.location.href = "tel:+254707021821";
 };
 const Header = ({showNav, handleCloseNav, handleOpenNav}) => {
     const [isIndex, setIsIndex] = useState();

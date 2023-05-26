@@ -89,7 +89,11 @@ const HeaderCarousel = () => {
               </li>
             </a>
 
-            <a href={"https://www.linkedin.com/in/glitex-solutions/"}>
+            <a
+              href={
+                "https://www.linkedin.com/company/glitex-solutions-limited/"
+              }
+            >
               <li
                 className={
                   "w-10 h-10 border-2 border-primary rounded-full flex items-center p-0"

@@ -6,6 +6,7 @@ import About from "../../components/pages/projects/games/About";
 import GameDevs from "../../components/pages/projects/games/GameDevs";
 import Portfolio from "../../components/pages/projects/games/Portfolio";
 import Process from "../../components/pages/projects/games/Process";
+import Head from "next/head";
 
 const games = () => {
   return (

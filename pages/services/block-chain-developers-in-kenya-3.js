@@ -6,7 +6,7 @@ import About from "../../components/pages/projects/block-chain/about";
 import Portfolio from "../../components/pages/projects/block-chain/portfolio";
 import WhatSetsApart from "../../components/pages/projects/block-chain/whatSetsApart";
 import WhyChoose from "../../components/pages/projects/block-chain/whyChoose";
-import { Head } from "next/document";
+import { Head } from "next/head";
 
 const BlockChainDevelopersInKenya3 = () => {
   return (

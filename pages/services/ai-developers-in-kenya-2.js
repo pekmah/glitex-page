@@ -6,7 +6,7 @@ import About from "../../components/pages/projects/ai/About";
 import Portfolio from "../../components/pages/projects/ai/Portfolio";
 import OurFocus from "../../components/pages/projects/ai/OurFocus";
 import Benefits from "../../components/pages/projects/ai/Benefits";
-import { Head } from "next/document";
+import { Head } from "next/head";
 
 const AiDevelopersInKenya2 = () => {
   return (

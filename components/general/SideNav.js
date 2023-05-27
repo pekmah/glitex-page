@@ -1,6 +1,4 @@
 import React from "react";
-import { GrClose } from "react-icons/gr";
-import Link from "next/link";
 
 const SideNav = ({ handleCloseNav, isOpen }) => {
   return (
@@ -78,7 +76,7 @@ const nav_list_items = [
   },
   {
     name: "Mobile Application",
-    link: "/mobile",
+    link: "/services/mobile",
   },
   {
     name: "Onboarding process",

@@ -8,7 +8,7 @@ import AreYouInSearch from "../../../components/pages/mobile/AreYouInSearch";
 import BestMobileDevs from "../../../components/pages/mobile/BestMobileDevs";
 import Types from "../../../components/pages/mobile/Types";
 import Slider from "../../../components/pages/portfolio/Slider";
-import { Head } from "next/head";
+import Head from "next/head";
 
 const Mobile = () => {
   return (

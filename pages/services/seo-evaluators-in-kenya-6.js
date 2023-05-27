@@ -6,7 +6,7 @@ import About from "../../components/pages/projects/seo/about";
 import Features from "../../components/pages/projects/seo/features";
 import Portfolio from "../../components/pages/projects/seo/portfolio";
 import WhatSetsApart from "../../components/pages/projects/seo/whatSetsApart";
-import { Head } from "next/head";
+import Head from "next/head";
 
 const SeoEvaluatorsInKenya6 = () => {
   return (

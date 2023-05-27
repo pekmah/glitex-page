@@ -6,7 +6,7 @@ import About from "../../components/pages/projects/e_learning/about";
 import Portfolio from "../../components/pages/projects/e_learning/portfolio";
 import WhatSetsApart from "../../components/pages/projects/e_learning/whatSetsApart";
 import Features from "../../components/pages/projects/e_learning/features";
-import { Head } from "next/head";
+import Head from "next/head";
 
 const ELearningDevelopersInKenya4 = () => {
   return (

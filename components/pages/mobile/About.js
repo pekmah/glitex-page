@@ -7,9 +7,9 @@ const About = () => {
         " px-2 md:px-8 lg:px-12 py-8 bg-primary text-center flex flex-col justify-center items-center"
       }
     >
-      <h3 className="lg:text-4xl sm:text-2xl text-xl font-bold ">
+      <h1 className="lg:text-4xl sm:text-2xl text-xl font-bold ">
         Mobile Application development company in Kenya
-      </h3>
+      </h1>
 
       <p className="lg:my-6 lg:text-xl sm:text-lg lg:w-2/3 w-[95%] mt-3 lg:mt-2">
         We are Kenya's Top & Best Mobile App Development Company in Nairobi,

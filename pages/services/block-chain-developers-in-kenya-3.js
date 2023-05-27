@@ -7,7 +7,7 @@ import Portfolio from "../../components/pages/projects/block-chain/portfolio";
 import WhatSetsApart from "../../components/pages/projects/block-chain/whatSetsApart";
 import WhyChoose from "../../components/pages/projects/block-chain/whyChoose";
 
-const BlockChain = () => {
+const BlockChainDevelopersInKenya3 = () => {
   return (
     <Layout>
       <Carousel
@@ -36,4 +36,4 @@ const BlockChain = () => {
   );
 };
 
-export default BlockChain;
+export default BlockChainDevelopersInKenya3;

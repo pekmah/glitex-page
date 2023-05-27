@@ -7,7 +7,7 @@ import Features from "../../components/pages/projects/seo/features";
 import Portfolio from "../../components/pages/projects/seo/portfolio";
 import WhatSetsApart from "../../components/pages/projects/seo/whatSetsApart";
 
-const Seo = () => {
+const SeoEvaluatorsInKenya6 = () => {
   return (
     <Layout>
       <Carousel
@@ -37,4 +37,4 @@ const Seo = () => {
   );
 };
 
-export default Seo;
+export default SeoEvaluatorsInKenya6;

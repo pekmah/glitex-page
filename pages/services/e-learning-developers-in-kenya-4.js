@@ -7,7 +7,7 @@ import Portfolio from "../../components/pages/projects/e_learning/portfolio";
 import WhatSetsApart from "../../components/pages/projects/e_learning/whatSetsApart";
 import Features from "../../components/pages/projects/e_learning/features";
 
-const ELearning = () => {
+const ELearningDevelopersInKenya4 = () => {
   return (
     <Layout>
       <Carousel
@@ -39,4 +39,4 @@ const ELearning = () => {
   );
 };
 
-export default ELearning;
+export default ELearningDevelopersInKenya4;

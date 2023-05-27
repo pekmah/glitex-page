@@ -7,7 +7,7 @@ import Portfolio from "../../components/pages/projects/ai/Portfolio";
 import OurFocus from "../../components/pages/projects/ai/OurFocus";
 import Benefits from "../../components/pages/projects/ai/Benefits";
 
-const Ai = () => {
+const AiDevelopersInKenya2 = () => {
   return (
     <Layout>
       <Carousel
@@ -38,4 +38,4 @@ const Ai = () => {
   );
 };
 
-export default Ai;
+export default AiDevelopersInKenya2;

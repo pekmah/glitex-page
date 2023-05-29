@@ -108,7 +108,7 @@ const HeaderCarousel = () => {
 
       <ul
         className={
-          " hidden md:flex absolute top-0 bottom-0 right-10 z-20  flex-col justify-center gap-4"
+          " hidden md:flex absolute top-20 bottom-10 right-10 z-20  flex-col justify-center gap-4"
         }
       >
         <a href={"https://web.facebook.com/glitexsolutionslimited"}>

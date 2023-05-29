@@ -52,7 +52,7 @@ const AreYouInSearch = ({ showBtn }) => {
       </div>
       {/*  Available in Ethiopia  */}
       {showBtn && (
-        <a href="/mobile-app-developers-in-ethiopia-1.js">
+        <a href="/mobile-app-developers-in-ethiopia-1">
           <div
             className={
               "bg-[#FFC53F54] text-base lg:text-xl font-bold rounded-full px-2 lg:px-14 h-10 flex items-center justify-center w-11/12 lg:w-1/2 mx-auto gap-3 my-5"

@@ -8,7 +8,7 @@ import WhatSetsApart from "../../components/pages/projects/block-chain/whatSetsA
 import WhyChoose from "../../components/pages/projects/block-chain/whyChoose";
 import Head from "next/head";
 
-const BlockChainDevelopersInKenya3 = () => {
+const BlockchainDevelopersInKenya3 = () => {
   return (
     <Layout>
       <Head>
@@ -70,4 +70,4 @@ const BlockChainDevelopersInKenya3 = () => {
   );
 };
 
-export default BlockChainDevelopersInKenya3;
+export default BlockchainDevelopersInKenya3;

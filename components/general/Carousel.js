@@ -3,7 +3,7 @@ import Clients from "../pages/home/FormerClients";
 
 const Carousel = ({
   title,
-  img = "/images/portfolio/portfolio.png",
+  img = "/images/portfolio/portfolio.webp",
   className,
   showClients = true,
 }) => {

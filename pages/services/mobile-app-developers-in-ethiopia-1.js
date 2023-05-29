@@ -45,8 +45,8 @@ const Ethiopia = () => {
       </Head>
       <Carousel
         title={
-          <div className="text-center leading-10 md:leading-[50px] mt-8">
-            <span>Mobile-application-developers-in-ethiopia </span>
+          <div className="text-center leading-10 md:leading-[50px] mt-8 capitalize">
+            <span>Mobile application developers in ethiopia </span>
           </div>
         }
       />

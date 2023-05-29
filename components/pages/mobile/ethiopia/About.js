@@ -8,8 +8,7 @@ const About = () => {
       }
     >
       <h1 className="lg:text-3xl sm:text-xl text-lg lg:w-10/12 mx-auto font-bold mb-1 lg:mb-3 ">
-        Mobile Application Developers in Ethiopia | Mobile application
-        developers in Ethiopia
+        Mobile Application Developers in Ethiopia
       </h1>
 
       <p className="text-md lg:text-lg lg:w-2/3 w-[95%] mt-1 lg:mt-2">

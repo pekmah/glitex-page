@@ -8,7 +8,7 @@ import Portfolio from "../../components/pages/projects/seo/portfolio";
 import WhatSetsApart from "../../components/pages/projects/seo/whatSetsApart";
 import Head from "next/head";
 
-const SeoEvaluatorsInKenya6 = () => {
+const SeoCompaniesInNairobiKenya0 = () => {
   return (
     <Layout>
       <Head>
@@ -76,4 +76,4 @@ const SeoEvaluatorsInKenya6 = () => {
   );
 };
 
-export default SeoEvaluatorsInKenya6;
+export default SeoCompaniesInNairobiKenya0;

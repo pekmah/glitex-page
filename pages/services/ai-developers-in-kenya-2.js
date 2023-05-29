@@ -21,14 +21,14 @@ const AiDevelopersInKenya2 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.glitexsolutions.co.ke/services/ai-companies-in-kenya"
+          href="https://www.glitexsolutions.co.ke/services/ai-developers-in-kenya-2"
         />
 
         <meta property="og:site_name" content="Glitex Solutions Limited" />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.glitexsolutions.co.ke/services/ai-companies-in-kenya"
+          content="https://www.glitexsolutions.co.ke/services/ai-developers-in-kenya-2"
         />
         <meta
           property="og:title"

@@ -8,7 +8,7 @@ import WhatSetsApart from "../../components/pages/projects/e_learning/whatSetsAp
 import Features from "../../components/pages/projects/e_learning/features";
 import Head from "next/head";
 
-const ELearningDevelopersInKenya4 = () => {
+const ElearningPlatformsInKenya2 = () => {
   return (
     <Layout>
       <Head>
@@ -79,4 +79,4 @@ const ELearningDevelopersInKenya4 = () => {
   );
 };
 
-export default ELearningDevelopersInKenya4;
+export default ElearningPlatformsInKenya2;

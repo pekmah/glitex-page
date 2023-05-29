@@ -21,14 +21,14 @@ const BlockchainDevelopersInKenya3 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.glitexsolutions.co.ke/services/blockchain-developers-in-kenya"
+          href="https://www.glitexsolutions.co.ke/services/blockchain-developers-in-kenya-3"
         />
 
         <meta property="og:site_name" content="Glitex Solutions Limited" />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.glitexsolutions.co.ke/services/blockchain-developers-in-kenya"
+          content="https://www.glitexsolutions.co.ke/services/blockchain-developers-in-kenya-3"
         />
         <meta
           property="og:title"

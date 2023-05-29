@@ -21,14 +21,14 @@ const games = () => {
         />
         <link
           rel="canonical"
-          href="https://www.glitexsolutions.co.ke/services/game-developers-in-kenya"
+          href="https://www.glitexsolutions.co.ke/services/game-developers-in-kenya-5"
         />
 
         <meta property="og:site_name" content="Glitex Solutions Limited" />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.glitexsolutions.co.ke/services/game-developers-in-kenya"
+          content="https://www.glitexsolutions.co.ke/services/game-developers-in-kenya-5"
         />
         <meta
           property="og:title"

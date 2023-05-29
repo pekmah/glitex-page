@@ -73,7 +73,7 @@ We pride ourselves as the best mobile app developers in Kenya, contact us today.
           icon={<BlockChain />}
           title={"Blockchain development"}
           description={<Text />}
-          path={"/services/block-chain-developers-in-kenya-3"}
+          path={"/services/blockchain-developers-in-kenya-3"}
         />
         <SkillItem
           className={` h-auto lg:min-h-[625px] `}
@@ -86,7 +86,7 @@ We pride ourselves as the best mobile app developers in Kenya, contact us today.
           className={` h-auto lg:min-h-[625px] `}
           icon={<School />}
           title={"E-learning platform"}
-          path={"/services/e-learning-delvelopers-in-kenya-5"}
+          path={"/services/e-learning-developers-in-kenya-4"}
           description={`Glitex is well versed with designing and developing technology-based interactive learning solutions.Providing learning technologies , Including custome e-learning , mulit-device leaning, mobile learning and consulting for interactive e-learning curriculum design.`}
         />
         <SkillItem

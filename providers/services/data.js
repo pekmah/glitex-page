@@ -22,7 +22,7 @@ export const services = [
                     Search engine optimization (SEO) is a tested and proven method to get
                     websites to rank higher on search engine results. 
                 `,
-                banner: "/images/services/bg_2.jpg"
+                banner: "/images/services/bg_2.webp"
             },
             {
                 id: 2,

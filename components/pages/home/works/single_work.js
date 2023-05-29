@@ -14,7 +14,7 @@ function SingleWork({link, image, title, description}) {
                         onClick={e => {
                             e.preventDefault();
                             window.open(image)
-                        }} href="/images/portfolio/gallery/g-shutterbug.jpg" className="thumb-link"
+                        }} href="/images/portfolio/gallery/g-shutterbug.webp" className="thumb-link"
                         title="Shutterbug" data-size="1050x700">
                         <img src={image}
                             /* srcSet={`${image} 1x, ${image} 2x`}*/

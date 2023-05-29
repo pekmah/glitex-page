@@ -37,7 +37,7 @@ const AboutUs = () => {
       >
         <div className="text-2xl lg:text-4xl sm:text-3xl font-bold">
           <div className="flex justify-center">
-            <div className="stats__count">67</div>
+            <div className="stats__count">80</div>
             <div className="stats__countt">+</div>
           </div>
           {/* <span className="text-2xl lg:text-4xl sm:text-3xl font-bold tracking-wider">
@@ -52,7 +52,7 @@ const AboutUs = () => {
         </span>
         <div className="text-2xl lg:text-4xl sm:text-3xl font-bold">
           <div className="flex justify-center">
-            <div className="stats__count">113</div>
+            <div className="stats__count">250</div>
             <div className="stats__countt">+</div>
           </div>
           {/* <span className="text-2xl lg:text-4xl sm:text-3xl font-bold tracking-wider">

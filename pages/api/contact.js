@@ -3,7 +3,6 @@ import { sendMail } from "../../helpers/mailer";
 export default async function (req, res) {
   const body = req.body;
   const response = await sendMail(body);
-  console.log("BODY IS: ", req?.body?.json());
 
   return new Promise((resolve, reject) => {
     res.setHeader("Content-Type", "application/json");

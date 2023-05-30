@@ -25,14 +25,6 @@ export const sendMail = async (data = {}) => {
   let res;
 
   try {
-    console.log({
-      from: "info@glitexsolutions.co.ke",
-      to: "business@glitexsolutions.co.ke",
-      subject: "Glitex Site Enquiry (Contact Form)",
-      //text: "Plaintext version of the message",
-      html: `<div><h4>Message From: ${name}, Subject: ${subject}, Email: ${email}</h4><p>${message}</p></div>`,
-    });
-    return;
     res = await transporter.sendMail({
       from: "info@glitexsolutions.co.ke",
       to: "business@glitexsolutions.co.ke",
@@ -41,7 +33,7 @@ export const sendMail = async (data = {}) => {
       html: `<div><h4>Message From: ${name}, Subject: ${subject}, Email: ${email}</h4><p>${message}</p></div>`,
     });
   } catch (e) {
-    console.log(e);
+    console.log("SEND MAIL ERROR: ", e);
   }
   return res;
 };

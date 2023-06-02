@@ -76,7 +76,7 @@ const nav_list_items = [
   },
   {
     name: "Mobile Application",
-    link: "/services/mobile",
+    link: "/services/mobile-app-developers-in-kenya-1",
   },
   {
     name: "Onboarding process",

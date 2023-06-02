@@ -47,9 +47,7 @@ const Mobile = () => {
       <Carousel
         title={
           <div className="text-center leading-10 md:leading-[50px] mt-8">
-            <span>Mobile App developers in Kenya </span>
-            <br className="hidden md:block" />
-            <span>Android apps | IOS apps </span>
+            Mobile Application development <br /> company in Kenya
           </div>
         }
       />

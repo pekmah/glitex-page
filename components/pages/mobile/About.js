@@ -8,7 +8,7 @@ const About = () => {
       }
     >
       <h1 className="lg:text-4xl sm:text-2xl text-xl font-bold ">
-        Mobile Application development company in Kenya
+        Mobile App developers in Kenya <span> Android apps | IOS apps </span>
       </h1>
 
       <p className="lg:my-6 lg:text-xl sm:text-lg lg:w-2/3 w-[95%] mt-3 lg:mt-2">

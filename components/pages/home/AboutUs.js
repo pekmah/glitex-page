@@ -35,7 +35,7 @@ const AboutUs = () => {
         className="flex gap-3 sm:gap-5 lg:gap-8 font-semibold about-stats"
         data-aos="fade-up"
       >
-        <div className="text-2xl lg:text-4xl sm:text-3xl font-bold">
+        <div className="text-3xl lg:text-6xl sm:text-4xl font-bold">
           <div className="flex justify-center">
             <div className="stats__count">80</div>
             <div className="stats__countt">+</div>
@@ -50,7 +50,7 @@ const AboutUs = () => {
         <span className="text-2xl lg:text-4xl sm:text-3xl font-light tracking-wider">
           |
         </span>
-        <div className="text-2xl lg:text-4xl sm:text-3xl font-bold">
+        <div className="text-3xl lg:text-6xl sm:text-4xl font-bold">
           <div className="flex justify-center">
             <div className="stats__count">250</div>
             <div className="stats__countt">+</div>

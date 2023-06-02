@@ -55,7 +55,6 @@ const Contact = () => {
             setLoading(false);
         }).then()*/
   };
-  console.log(data);
 
   return (
     <section id="contact" className="s-contact">

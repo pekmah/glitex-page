@@ -46,7 +46,9 @@ const Mobile = () => {
       </Head>
       <Carousel
         title={
-          <div className="text-center leading-10 md:leading-[50px] mt-8"></div>
+          <h4 className="text-center leading-10 md:leading-[50px] mt-8">
+            Mobile Application development company in Kenya
+          </h4>
         }
       />
 

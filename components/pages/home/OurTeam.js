@@ -26,8 +26,8 @@ const OurTeam = () => {
                                 abbr={"CEO"}/>
                     </div>
                     <div>
-                        <Member src={"/images/team/3.webp"} role="Chief Growth Officer" name={"David Potter"}
-                                abbr={"CGO"}/>
+                        <Member src={"/images/team/brian-baliach.jpg"} role="Chief Technical Officer" name={"Brian Baliach"}
+                                abbr={"CTO"}/>
                     </div>
                     <div>
                         <Member src={"/images/team/1.webp"} role="Chief Product Officer" name={"Muhu Njenga"}
@@ -39,7 +39,7 @@ const OurTeam = () => {
                     </div>
                     <div>
                         <Member src={"/images/team/5.webp"} role="People & Culture" name={"Tina Milano"}
-                                abbr={""}/>
+                                abbr={"P&C"}/>
                     </div>
 
                 </div>

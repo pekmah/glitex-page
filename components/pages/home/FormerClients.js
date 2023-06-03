@@ -12,7 +12,7 @@ const FormerClients = () => {
           >
             {list?.map((item, i) => (
               <img
-                key={i}
+                key={`${i}${item}`}
                 src={item}
                 alt="__"
                 className={`${i === 9 && "rounded-full"} ${i === 4 || i === 7 || i === 0 ? "h-24" : "h-16 "}`}
@@ -30,7 +30,7 @@ const FormerClients = () => {
           }
         >
           {list?.map((item, i) => (
-            <div className="slide">
+            <div key={i} className="slide">
               <img
                 key={i}
                 src={item}

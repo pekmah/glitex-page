@@ -23,7 +23,7 @@ const Header = ({ showNav, handleCloseNav, handleOpenNav }) => {
             className="sm:h-[50px] h-[30px]"
           />
 
-          <h3 className="text-primary lg:text-3xl sm:text-2xl text-xl font-semibold">
+          <h3 className="text-primary hidden sm:flex lg:text-3xl sm:text-2xl text-xl font-semibold">
             Glitex Solutions
           </h3>
         </div>
@@ -32,7 +32,7 @@ const Header = ({ showNav, handleCloseNav, handleOpenNav }) => {
       <div className=" flex justify-center items-center gap-4 fixed top-3.5 md:top-7 right-4 z-30">
         {/* contact */}
         <OutlinedButton
-            className={"text-[14px] md:text-[15px] font-[600]"}
+            className={"text-[13px] md:text-[15px] font-[600]"}
             onClick={handleDialerButtonClick}
         >
           Call: +254 707 021 821

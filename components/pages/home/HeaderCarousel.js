@@ -19,14 +19,17 @@ const HeaderCarousel = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="lg:px-8 md:px-16 sm:px-12 px-2 w-full lg:w-[90%] font-bold text-2xl md:text-5xl leading-[50px] md:leading-[70px] pt-5">
-        <div className="">
+      <div className="lg:px-8 md:px-16 sm:px-12 px-2 w-full lg:w-[90%] font-bold text-2xl md:text-5xl leading-10 md:leading-[70px] pt-5">
+        <div className="w-[85%] xl:w-[50%]">
+
           <span className=" text-primary">
-            Software development that helps turn &nbsp;
-          </span>
-          <span className="text-white">your ideas</span>{" "}
-          <span className=" text-primary">into meaningful, tangible</span>{" "}
-          <span className="text-white">results</span>
+            Enabling 1M+ Visionaries: &nbsp;
+          </span><br className={"hidden sm:block"}/>
+          <span className="text-primary">Your Trusted </span>{" "}
+
+          <span className=" text-white"> Tech Partner</span>{" "}
+          <span className=" text-primary"> for</span>{" "}
+          <span className="text-white capitalize">Shaping tomorrow</span>
         </div>
 
         <div className="my-8">
@@ -46,18 +49,14 @@ const HeaderCarousel = () => {
 
           <div className="mt-7 flex gap-4">
             <Button
-              handleClick={handleDialerButtonClick}
-              text={"Talk to Us"}
-              className={"text-[20px] py-2 px-6"}
+              handleClick={()=>window.open("https://isy9wdcrpvv.typeform.com/to/QRkraQZ2")}
+              text={"Request Quote"}
+              className={"text-[20px] py-2 px-8 "}
             />
-            <Link href={"#about"}>
-              <OutlinedButton
-                className={"text-[20px] py-2 px-6"}
-                text={"Learn more"}
-              />
-            </Link>
+
           </div>
 
+          {/*Social icons*/}
           <ul className={"flex md:hidden justify-center py-5 z-40 gap-4"}>
             <a href={"https://web.facebook.com/glitexsolutionslimited"}>
               <li

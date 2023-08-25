@@ -61,7 +61,7 @@ export default function Index() {
         {/* About us */}
         <AboutUs />
         {/* Our team */}
-        <OurTeam />
+        {/*<OurTeam />*/}
 
         {/* skills/services */}
         <Skills />

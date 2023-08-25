@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
+import OutlinedButton from "../general/OutlinedButton";
 
 export const handleDialerButtonClick = () => {
   window.location.href = "tel:+254707021821";
@@ -22,7 +23,7 @@ const Header = ({ showNav, handleCloseNav, handleOpenNav }) => {
             className="sm:h-[50px] h-[30px]"
           />
 
-          <h3 className="text-primary lg:text-3xl sm:text-2xl text-xl font-semibold">
+          <h3 className="text-primary hidden sm:flex lg:text-3xl sm:text-2xl text-xl font-semibold">
             Glitex Solutions
           </h3>
         </div>
@@ -30,14 +31,23 @@ const Header = ({ showNav, handleCloseNav, handleOpenNav }) => {
 
       <div className=" flex justify-center items-center gap-4 fixed top-3.5 md:top-7 right-4 z-30">
         {/* contact */}
+        <OutlinedButton
+            className={"text-[13px] md:text-[15px] font-[600]"}
+            onClick={handleDialerButtonClick}
+        >
+          Call: +254 707 021 821
+        </OutlinedButton>
+
         <div
           className={`bg-primary rounded-sm text-secondary px-3 py-2 whitespace-nowrap font-bold hidden sm:block`}
         >
+
+
           <button
-            className={"text-[14px] md:text-[15px] border-0 outline-none"}
-            onClick={handleDialerButtonClick}
+            className={"text-[14px] md:text-[15px] border-0 outline-none px-5"}
+            onClick={()=>window.open("https://isy9wdcrpvv.typeform.com/to/QRkraQZ2")}
           >
-            Call: +254 707 021 821
+           Request quote
           </button>
         </div>
 

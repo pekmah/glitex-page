@@ -48,7 +48,7 @@ const HeaderCarousel = () => {
             <Button
               handleClick={()=>window.open("https://isy9wdcrpvv.typeform.com/to/QRkraQZ2")}
               text={"Request Quote"}
-              className={"text-[20px] py-2 px-8"}
+              className={"text-[20px] py-2 px-8 "}
             />
 
           </div>

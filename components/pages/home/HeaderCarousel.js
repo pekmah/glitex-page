@@ -46,18 +46,14 @@ const HeaderCarousel = () => {
 
           <div className="mt-7 flex gap-4">
             <Button
-              handleClick={handleDialerButtonClick}
-              text={"Talk to Us"}
-              className={"text-[20px] py-2 px-6"}
+              handleClick={()=>window.open("https://isy9wdcrpvv.typeform.com/to/QRkraQZ2")}
+              text={"Request Quote"}
+              className={"text-[20px] py-2 px-8"}
             />
-            <Link href={"#about"}>
-              <OutlinedButton
-                className={"text-[20px] py-2 px-6"}
-                text={"Learn more"}
-              />
-            </Link>
+
           </div>
 
+          {/*Social icons*/}
           <ul className={"flex md:hidden justify-center py-5 z-40 gap-4"}>
             <a href={"https://web.facebook.com/glitexsolutionslimited"}>
               <li

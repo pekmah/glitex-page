@@ -20,13 +20,16 @@ const HeaderCarousel = () => {
       }}
     >
       <div className="lg:px-8 md:px-16 sm:px-12 px-2 w-full lg:w-[90%] font-bold text-2xl md:text-5xl leading-10 md:leading-[70px] pt-5">
-        <div className="">
+        <div className="w-[85%] xl:w-[50%]">
+
           <span className=" text-primary">
-            Software development that helps turn &nbsp;
-          </span>
-          <span className="text-white">your ideas</span>{" "}
-          <span className=" text-primary">into meaningful, tangible</span>{" "}
-          <span className="text-white">results</span>
+            Enabling 1M+ Visionaries: &nbsp;
+          </span><br className={"hidden sm:block"}/>
+          <span className="text-primary">Your Trusted </span>{" "}
+
+          <span className=" text-white"> Tech Partner</span>{" "}
+          <span className=" text-primary"> for</span>{" "}
+          <span className="text-white capitalize">Shaping tomorrow</span>
         </div>
 
         <div className="my-8">

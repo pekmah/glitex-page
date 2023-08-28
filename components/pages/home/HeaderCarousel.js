@@ -20,7 +20,7 @@ const HeaderCarousel = () => {
       }}
     >
       <div className="lg:px-8 md:px-16 sm:px-12 px-2 w-full lg:w-[90%] font-bold text-2xl md:text-5xl leading-10 md:leading-[70px] pt-5">
-        <div className="w-[85%] xl:w-[50%]">
+        <div className="w-[85%] ">
 
           <span className=" text-primary">
             Enabling 1M+ Visionaries: &nbsp;

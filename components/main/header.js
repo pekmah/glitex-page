@@ -32,7 +32,7 @@ const Header = ({ showNav, handleCloseNav, handleOpenNav }) => {
       <div className=" flex justify-center items-center gap-4 fixed top-3.5 md:top-7 right-4 z-30">
         {/* contact */}
         <OutlinedButton
-            className={"text-[13px] md:text-[15px] font-[600]"}
+            className={"text-[13px] md:text-[15px] font-[600] bg-[#00000080]"}
             onClick={handleDialerButtonClick}
         >
           Call: +254 707 021 821

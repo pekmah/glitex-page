@@ -53,7 +53,7 @@ const BestMobileDevs = () => {
                         <img
                             src={img}
                             alt="__"
-                            className="max-h-[600px] w-auto h-auto rounded-xl"
+                            className="max-h-[650px] w-auto h-auto rounded-xl"
                         />
                     ))}
                 </div>
@@ -63,7 +63,7 @@ const BestMobileDevs = () => {
                     <img
                         src={"/images/portfolio/joosmoo-1.webp"}
                         alt="__"
-                        className="max-h-[600px] object-contain w-[100%] md:h-auto rounded-xl mt-4"
+                        className="max-h-[650px] object-contain w-[100%] md:h-auto rounded-xl mt-4"
                     />
 
                 </div>

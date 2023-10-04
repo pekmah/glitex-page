@@ -110,7 +110,7 @@ function Card({title, desc, imgs, link, handleFocus}) {
                             <img
                                 src={img}
                                 alt="__"
-                                className="max-h-[400px] w-auto h-auto rounded-xl"
+                                className="max-h-[600px] w-auto h-auto rounded-xl"
                             />
                         ))}
                     </div>
@@ -120,7 +120,7 @@ function Card({title, desc, imgs, link, handleFocus}) {
                         <img
                             src={imgs[1]}
                             alt="__"
-                            className="max-h-[400px] w-auto h-[50vh] md:h-auto rounded-xl"
+                            className="max-h-[600px] w-auto h-[80vh] md:h-auto rounded-xl"
                         />
 
                     </div>

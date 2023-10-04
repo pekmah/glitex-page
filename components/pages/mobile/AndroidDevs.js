@@ -21,9 +21,9 @@ const AndroidDevs = () => {
                 <div className=" flex md:hidden items-center justify-center flex-1 gap-2">
 
                     <img
-                        src={"/images/portfolio/okapy-1.webp"}
+                        src={"/images/portfolio/okapy-2.webp"}
                         alt="__"
-                        className="max-h-[400px] object-contain w-[90%] md:h-auto rounded-xl"
+                        className="max-h-[650px] object-contain w-[90%] md:h-auto rounded-xl"
                     />
 
                 </div>

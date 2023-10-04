@@ -9,11 +9,11 @@ const AndroidDevs = () => {
 
 
                 <div className=" hidden md:flex items-center justify-center flex-1 gap-2">
-                    {["/images/portfolio/okapy-1.webp", "/images/portfolio/okapy-2.webp"].map(img => (
+                    {["/images/portfolio/okapy-2.webp"].map(img => (
                         <img
                             src={img}
                             alt="__"
-                            className="max-h-[400px] w-auto h-auto rounded-xl"
+                            className="max-h-[650px] w-auto h-auto rounded-xl"
                         />
                     ))}
                 </div>

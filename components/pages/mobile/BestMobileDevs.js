@@ -52,8 +52,8 @@ const BestMobileDevs = () => {
                     {["/images/portfolio/joosmoo-1.webp"].map(img => (
                         <img
                             src={img}
-                            alt="__"
-                            className="max-h-[10px] w-auto h-auto rounded-xl"
+                            alt=""
+                            className="max-h-[650px] w-auto h-auto rounded-xl"
                         />
                     ))}
                 </div>
@@ -63,7 +63,7 @@ const BestMobileDevs = () => {
                     <img
                         src={"/images/portfolio/joosmoo-1.webp"}
                         alt="__"
-                        className="max-h-[10px] object-contain w-[10%] md:h-auto rounded-xl mt-4"
+                        className="max-h-[650px] object-contain w-[100%] md:h-auto rounded-xl mt-4"
                     />
 
                 </div>

@@ -153,7 +153,7 @@ function Card({title, desc, imgs, link, handleFocus}) {
 const scrollList = [{
     key: "item 1",
     id: "#okapy",
-    images: ["/images/portfolio/okapy-1.webp", "/images/portfolio/okapy-2.webp"],
+    images: ["/images/portfolio/imga.webp", "/images/portfolio/imgb.webp"],
     title: "Okapy Customer Application",
     desc: `Okapy Secure is a tech-driven end-to-end local and cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods and shop directly from the U.S. stores and delivers to your door step.`,
     link: "/portfolio/okapy"

@@ -9,7 +9,7 @@ const Description = () => {
             </div>
 
             <div className=" hidden md:flex items-center justify-center flex-1 gap-2">
-                {["/images/portfolio/okapy-1.webp", "/images/portfolio/okapy-driver-1.webp"].map(img => (
+                {["/images/portfolio/okapy-driver-2.webp", "/images/portfolio/okapy-driver-1.webp"].map(img => (
                     <img
                         src={img}
                         alt="__"
@@ -21,7 +21,7 @@ const Description = () => {
             <div className=" flex md:hidden items-center justify-center flex-1 gap-2">
 
                 <img
-                    src={"/images/portfolio/okapy-driver-1.webp"}
+                    src={"/images/portfolio/okapy-driver-2.webp"}
                     alt="__"
                     className="max-h-[400px] object-contain w-[90%] md:h-auto rounded-xl"
                 />

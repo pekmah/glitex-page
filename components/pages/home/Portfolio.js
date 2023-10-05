@@ -93,7 +93,7 @@ const Portfolio = () => {
                 </div>
                 {/* image div */}
                 <div className="flex items-center justify-center flex-1 gap-5">
-                    {["/images/portfolio/joosmoo-1.webp", "/images/portfolio/joosmoo-2.webp"].map(img => (
+                    {["/images/portfolio/joosmoo-1.webp"].map(img => (
                         <img
                             src={img}
                             alt="__"

@@ -12,7 +12,7 @@ const Gallery = () => {
             <div className="grid lg:grid-cols-4 sm:grid-cols-4 grid-cols-1 gap-3 lg:gap-8 sm:gap-5 gap-3 place-content-between my-8 mx-auto">
                 {Array.from({ length: 5 }, (_, index) => index + 1).map((indx) => (
                     <div className="w-full place-self-auto max-h-[500px]">
-                        <img src={`/images/portfolio/okapy-${indx}.webp`} alt="__" className="w-full h-full object-contain" />
+                        <img src={`/images/portfolio/okapy-driver-2.webp`} alt="__" className="w-full h-full object-contain" />
                     </div>
                 ))}
             </div>

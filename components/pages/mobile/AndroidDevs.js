@@ -21,7 +21,7 @@ const AndroidDevs = () => {
                 <div className=" flex md:hidden items-center justify-center flex-1 gap-2">
 
                     <img
-                        src={"/images/portfolio/okapy-2.webp"}
+                        src={"/images/portfolio/oka.webp"}
                         alt="__"
                         className="max-h-[650px] object-contain w-[90%] md:h-auto rounded-xl"
                     />

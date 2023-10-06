@@ -9,7 +9,7 @@ const AndroidDevs = () => {
 
 
                 <div className=" hidden md:flex items-center justify-center flex-1 gap-2">
-                    {["/images/portfolio/okapy-2.webp"].map(img => (
+                    {["/images/portfolio/oka.webp", "/images/portfolio/okb.webp"].map(img => (
                         <img
                             src={img}
                             alt="__"

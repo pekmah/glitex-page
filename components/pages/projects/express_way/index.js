@@ -1,5 +1,4 @@
 import AnalysisSection from "./Analysis";
+import InteractionSection from "./Interaction";
 
-export {
-    AnalysisSection
-}
+export { AnalysisSection, InteractionSection };

@@ -26,7 +26,7 @@ const Portfolio = () => {
                         <img
                             src={img}
                             alt="__"
-                            className="max-h-[400px] w-auto h-auto rounded-xl"
+                            className="max-h-[450px] w-auto h-auto rounded-xl"
                         />
                     ))}
                 </div>

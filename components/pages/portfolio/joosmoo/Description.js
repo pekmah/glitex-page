@@ -26,17 +26,14 @@ const Description = () => {
             {/* text description div */}
             <div className="flex flex-col gap-6 flex-1 justify-center ">
                 <h5 className="text-3xl mt-5 text-center font-medium">
-                    Joosmoo Application
+                    Attorney Shield Beta
                 </h5>
 
                 {/* body */}
                 <p className="text-base md:text-lg w-[95%] md:w-9/12 text-center mx-auto leading-8 ">
-                    JooSmoo LTD is a juice and nut milk company founded with the intent to provide pure, unadulterated,
-                    additive-free beverages and food products.Our company philosophy is – your food label content should
-                    do good to your body. Since our inception, we have done exactly that – created products using whole
-                    foods that nurture the body. We are the only company in Kenya that produces nut milks and our goal
-                    is to continue to grow our reach and distribution outlets. Our adherence to quality raw products
-                    enables us to consistently produce quality drinks and food items.
+                   Attorney Shield offers 24/7 access to attorneys who specialize in assisting you during police encounters.
+                    You can easily access their support by opening the app and requesting assistance. (You get coonected via Video Call) 
+                    This is a prototype for our clients in USA.
                 </p>
             </div>
         </div>

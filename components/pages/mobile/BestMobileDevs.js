@@ -53,7 +53,7 @@ const BestMobileDevs = () => {
                         <img
                             src={img}
                             alt=""
-                            className="max-h-[400px] w-auto h-auto rounded-xl"
+                            className="max-h-[650px] w-auto h-auto rounded-xl"
                         />
                     ))}
                 </div>

@@ -49,11 +49,11 @@ const BestMobileDevs = () => {
                 {/* image div */}
 
                 <div className=" hidden md:flex items-center justify-center flex-1 gap-2">
-                    {["/images/portfolio/okapy-2.webp"].map(img => (
+                    {["/images/portfolio/3.webp", "/images/portfolio/4.webp"].map(img => (
                         <img
                             src={img}
                             alt=""
-                            className="max-h-[650px] w-auto h-auto rounded-xl"
+                            className="max-h-[400px] w-auto h-auto rounded-xl"
                         />
                     ))}
                 </div>
@@ -63,7 +63,7 @@ const BestMobileDevs = () => {
                     <img
                         src={"/images/portfolio/okapy-2.webp"}
                         alt="__"
-                        className="max-h-[650px] object-contain w-[100%] md:h-auto rounded-xl mt-4"
+                        className="max-h-[400px] object-contain w-[100%] md:h-auto rounded-xl mt-4"
                     />
 
                 </div>

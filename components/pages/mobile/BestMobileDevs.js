@@ -61,7 +61,7 @@ const BestMobileDevs = () => {
                 <div className=" flex md:hidden items-center justify-center flex-1 gap-2">
 
                     <img
-                        src={"/images/portfolio/okapy-2.webp"}
+                        src={"/images/portfolio/4.webp"}
                         alt="__"
                         className="max-h-[400px] object-contain w-[100%] md:h-auto rounded-xl mt-4"
                     />

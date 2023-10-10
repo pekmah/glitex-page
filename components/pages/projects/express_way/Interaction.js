@@ -2,7 +2,7 @@ import React from "react";
 
 const Interaction = () => {
   return (
-    <div className={"bg-black py-5 flex justify-center my-16"}>
+    <div className={"md:bg-black md:py-5 flex justify-center my-16"}>
       <iframe
         // style="border: 1px solid rgba(0, 0, 0, 0.1);"
         style={{ border: "none" }}

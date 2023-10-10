@@ -3,12 +3,6 @@ import React from "react";
 const Interaction = () => {
   return (
     <div className={"bg-black py-5 flex justify-center my-16"}>
-      {/*<iframe*/}
-
-      {/*  src="*/}
-      {/* https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File"*/}
-      {/*  allowFullScreen*/}
-      {/*/>*/}
       <iframe
         // style="border: 1px solid rgba(0, 0, 0, 0.1);"
         style={{ border: "none" }}

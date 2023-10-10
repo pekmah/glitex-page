@@ -11,7 +11,7 @@ const okapy = () => {
             <Carousel
                 title={
                     <div className="text-center leading-[50px]">
-                        <span>Joosmoo Application</span>
+                        <span>Attorney Shield Beta</span>
                     </div>
                 }
                 img={"/images/portfolio/typing-glitex.jpeg"}

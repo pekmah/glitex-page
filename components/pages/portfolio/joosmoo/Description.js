@@ -5,7 +5,7 @@ const Description = () => {
         <div className="bg-primary py-8">
             {/* image div */}
             <div className=" hidden md:flex items-center justify-center flex-1 gap-2">
-                {["/images/portfolio/joosmoo-1.webp", "/images/portfolio/joosmoo-2.webp"].map(img => (
+                {["/images/portfolio/3.webp", "/images/portfolio/4.webp"].map(img => (
                     <img
                         src={img}
                         alt="__"
@@ -17,7 +17,7 @@ const Description = () => {
             <div className=" flex md:hidden items-center justify-center flex-1 gap-2">
 
                 <img
-                    src={"/images/portfolio/joosmoo-1.webp"}
+                    src={"/images/portfolio/4.webp"}
                     alt="__"
                     className="max-h-[400px] object-contain w-[90%] md:h-auto rounded-xl"
                 />

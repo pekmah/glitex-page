@@ -31,8 +31,7 @@ const Description = () => {
 
                 {/* body */}
                 <p className="text-base md:text-lg w-[95%] md:w-9/12 text-center mx-auto leading-8 ">
-                   Attorney Shield offers 24/7 access to attorneys who specialize in assisting you during police encounters.
-                    You can easily access their support by opening the app and requesting assistance. (You get conected to an Attorney via Video Call) 
+                   
                     
                 </p>
             </div>

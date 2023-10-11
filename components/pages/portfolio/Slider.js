@@ -192,9 +192,8 @@ const scrollList = [
     key: "item 4",
     id: "#joosmoo",
     images: ["/images/portfolio/3.webp", "/images/portfolio/4.webp"],
-    title: "Joosmoo Application",
-    desc: `JooSmoo LTD is a juice and nut milk company founded with the intent to provide pure, unadulterated, additive-free beverages and food products.Our company philosophy is – your food label content should do good to your body. Since our inception, we have done exactly that – created products using whole foods that nurture the body.
-    We are the only company in Kenya that produces nut milks and our goal is to continue to grow our reach and distribution outlets. Our adherence to quality raw products enables us to consistently produce quality drinks and food items.`,
+    title: "Attorney Shield Beta",
+    desc: `Attorney Shield offers 24/7 access to attorneys who specialize in assisting you during police encounters. You can easily access their support by opening the app and requesting assistance. (You get connected to an Attorney via Video Call)`,
     link: "/portfolio/joosmoo",
   },
   {

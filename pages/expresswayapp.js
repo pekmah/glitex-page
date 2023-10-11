@@ -1,12 +1,12 @@
 import React from "react";
-import Layout from "../../components/main/layout";
+import Layout from "../components/main/layout";
 import {
   AnalysisSection,
   InteractionSection,
   ReviewSection,
-} from "../../components/pages/projects/express_way";
+} from "../components/pages/projects/express_way";
 
-const ExpresswayApp = () => {
+const Expresswayapp = () => {
   return (
     <Layout className={"bg-white pt-24 px-5 md:px-10"}>
       {/*sections */}
@@ -19,4 +19,4 @@ const ExpresswayApp = () => {
   );
 };
 
-export default ExpresswayApp;
+export default Expresswayapp;

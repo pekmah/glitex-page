@@ -5,7 +5,7 @@ import OutlinedButton from "../general/OutlinedButton";
 export const handleDialerButtonClick = () => {
   window.location.href = "tel:+254707021821";
 };
-const Header = ({ showNav, handleCloseNav, handleOpenNav }) => {
+const Header = ({ showNav, handleCloseNav, hidePhone, handleOpenNav }) => {
   const [isIndex, setIsIndex] = useState();
 
   // Opens phone dailer
@@ -31,23 +31,25 @@ const Header = ({ showNav, handleCloseNav, handleOpenNav }) => {
 
       <div className=" flex justify-center items-center gap-4 fixed top-3.5 md:top-7 right-4 z-30">
         {/* contact */}
-        <OutlinedButton
+        {!hidePhone && (
+          <OutlinedButton
             className={"text-[13px] md:text-[15px] font-[600] bg-[#00000080]"}
             onClick={handleDialerButtonClick}
-        >
-          Call: +254 707 021 821
-        </OutlinedButton>
+          >
+            Call: +254 707 021 821
+          </OutlinedButton>
+        )}
 
         <div
           className={`bg-primary rounded-sm text-secondary px-3 py-2 whitespace-nowrap font-bold hidden sm:block`}
         >
-
-
           <button
             className={"text-[14px] md:text-[15px] border-0 outline-none px-5"}
-            onClick={()=>window.open("https://isy9wdcrpvv.typeform.com/to/QRkraQZ2")}
+            onClick={() =>
+              window.open("https://isy9wdcrpvv.typeform.com/to/QRkraQZ2")
+            }
           >
-           Request quote
+            Request quote
           </button>
         </div>
 

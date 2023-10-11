@@ -8,7 +8,7 @@ import {
 
 const Expresswayapp = () => {
   return (
-    <Layout className={"bg-white pt-24 px-5 md:px-10"}>
+    <Layout className={"bg-white pt-24 px-5 md:px-10"} hidePhone>
       {/*sections */}
       <AnalysisSection />
 

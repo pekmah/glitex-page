@@ -12,7 +12,6 @@ const Interaction = () => {
         }
       >
         <iframe
-          // style="border: 1px solid rgba(0, 0, 0, 0.1);"
           style={{ border: "none" }}
           className={"border-none"}
           width="320"

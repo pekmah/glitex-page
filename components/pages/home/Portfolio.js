@@ -70,11 +70,14 @@ const Portfolio = () => {
 
                     {/* body */}
                     <p className="md:text-xl text-base w-full sm:w-5/6 lg:w-2/3 text-center md:text-start">
-                        Mobile application service are aimed at building iOS & Android
-                        applications that effectively complement or substitute web
-                        solutions. Having delivered 50+ mobile app development projects so
-                        far, Glitex ensures app success by delivering striking UI, secure
-                        app code, and resilient back ends.
+                        With a strong emphasis on user experience and aesthetics, 
+                        we design visually appealing eCommerce mobile apps that reflect your 
+                        brand identity and resonate with your target audience. 
+                            Our team pays meticulous attention to detail, ensuring 
+                            that every element of your website, from product displays to
+                                checkout processes, is optimized for an enhanced customer journey.
+
+
                     </p>
 
                     <div className="flex" data-aos="fade-up">

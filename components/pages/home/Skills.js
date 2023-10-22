@@ -67,22 +67,7 @@ const Skills = () => {
           description={`Glitex helps small to large enterprises develop smart and intelligent products leveraging deep learning and machine learning technology. Our team is well versed with AI and ML tool kits.`}
           path={"/services/ai-developers-in-kenya-2"}
         />
-        <SkillItem
-          className={` h-auto lg:min-h-[625px] `}
-          icon={<Analytics />}
-          title={"Predictive Analytics"}
-          description={`Our team has the capability to create and deploy predictive analytics
-          solutions that visualizes data and help you make better future decisions.
-          Predictive analytics help you develop insights that give you competetive advantage in the 
-          industry you operate.`}
-        />
-        <SkillItem
-          className={"row-span-2"}
-          icon={<BlockChain />}
-          title={"Blockchain development"}
-          description={<Text />}
-          path={"/services/blockchain-developers-in-kenya-3"}
-        />
+       
         <SkillItem
           className={` h-auto lg:min-h-[625px] `}
           icon={<Management />}

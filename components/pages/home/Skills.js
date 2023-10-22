@@ -58,9 +58,7 @@ const Skills = () => {
           Ethiopia, Somalia, Rwanda, or Tanzania, we are dedicated to serving your mobile application needs.
 
 
-At Glitex Solutions Limited, we take pride in our reputation as the best mobile app developers in Kenya. 
-Contact us today to discuss your project requirements and embark on a journey towards unparalleled success in 
-the mobile app market.`}
+`}
         />
         <SkillItem
           className={` h-auto lg:min-h-[625px] `}

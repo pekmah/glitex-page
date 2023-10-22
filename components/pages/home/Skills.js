@@ -52,11 +52,15 @@ const Skills = () => {
           icon={<Phone />}
           title={"Mobile Applications "}
           path={"/services/mobile-app-developers-in-kenya-1"}
-          description={` Discover the leading Mobile App Development Company in Nairobi, Kenya - Glitex Solutions Limited. Our proficient team specializes in Android and iOS mobile app development, delivering top-tier solutions at competitive prices. Whether you're based in Nairobi, Kenya, Ethiopia, Somalia, Rwanda, or Tanzania, we are dedicated to serving your mobile application needs.
+          description={` Discover the leading Mobile App Development Company in Nairobi, Kenya - 
+          Glitex Solutions Limited. Our proficient team specializes in Android and iOS mobile app development, 
+          delivering top-tier solutions at competitive prices. Whether you're based in Nairobi, Kenya, 
+          Ethiopia, Somalia, Rwanda, or Tanzania, we are dedicated to serving your mobile application needs.
 
-As a full-service mobile app development company, we excel in creating and maintaining user-friendly and secure mobile applications for diverse business models. From conception to implementation, we ensure that your app reflects the latest industry standards and technological advancements, empowering your business to thrive in the digital sphere.
 
-At Glitex Solutions Limited, we take pride in our reputation as the best mobile app developers in Kenya. Contact us today to discuss your project requirements and embark on a journey towards unparalleled success in the mobile app market.`}
+At Glitex Solutions Limited, we take pride in our reputation as the best mobile app developers in Kenya. 
+Contact us today to discuss your project requirements and embark on a journey towards unparalleled success in 
+the mobile app market.`}
         />
         <SkillItem
           className={` h-auto lg:min-h-[625px] `}

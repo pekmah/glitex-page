@@ -71,7 +71,10 @@ const Skills = () => {
           className={` h-auto lg:min-h-[625px] `}
           icon={<Analytics />}
           title={"Predictive Analytics"}
-          description={`Our team has the capability to create and deploy predictive analytics solutions that visualizes data and help you make better future decisions. Predictive analytics help you develop insights that give you competetive advantage in the industry you operate.`}
+          description={`Our team has the capability to create and deploy predictive analytics
+          solutions that visualizes data and help you make better future decisions.
+          Predictive analytics help you develop insights that give you competetive advantage in the 
+          industry you operate.`}
         />
         <SkillItem
           className={"row-span-2"}
@@ -157,16 +160,7 @@ const Text = () => (
     services which successfully takes artificial intelligence , data analysis,
     IoT and web security we can confidently guarantee top quality products for
     our clients.
-    <br />
-    <br /> We offer products on ;<br /> 1. Hyperledgers
-    <br /> 2. Smart contract developemnt
-    <br /> 3. Crypto currency wallets.
-    <br /> 4. NFT marketplaces
-    <br /> 5. Side-chain development
-    <br /> 6. DeFi solutions
-    <br /> 7. Chain analysis
-    <br /> 8. Fiat payment on-off Ramps.
-    <br /> 9. Hybrid on-off chain systems
+   
   </p>
 );
 

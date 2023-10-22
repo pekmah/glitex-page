@@ -17,10 +17,10 @@ const Ethiopia = () => {
           Mobile App Development companies in Ethiopia | Glitex Solutions
           Limited
         </title>
-        <meta name="robots" content="index, follow" />
+         <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
-          content="Are you in search of mobile application developers in Ethiopia? Search no more. Glitex Solutions Limited is a mobile development company based in Nairobi, Kenya delivering mobile application development services across the continent."
+          content="Looking for mobile application developers in Ethiopia? Look no further. Glitex Solutions Limited, located in Nairobi, Kenya, specializes in mobile development and provides services for mobile application development throughout the continent."
         />
         <meta
           name="keywords"
@@ -33,6 +33,7 @@ const Ethiopia = () => {
         <meta property="og:site_name" content="Glitex Solutions Limited" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://glitexsolutions.co.ke/" />
+       
         <meta
           property="og:title"
           content="Mobile App Developers in Addis Ababa, Ethiopia"

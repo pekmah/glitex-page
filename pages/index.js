@@ -25,7 +25,7 @@ export default function Index() {
           <title>
             Software Development Company in Kenya | Glitex Solutions Limited
           </title>
-          
+          <meta name="robots" content="index, follow" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta
             name="description"

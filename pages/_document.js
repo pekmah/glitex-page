@@ -12,8 +12,8 @@ class MyDocument extends Document {
 
                     <script src="/js/modernizr.js"/>
                     <script src="/js/pace.min.js"/>
-                    <link rel="shortcut icon" href="logo.png" type="image/x-icon"/>
-                    <link rel="icon" href="logo.png" type="image/x-icon"/>
+                    {/*<link rel="shortcut icon" href="logo.png" type="image/x-icon"/>*/}
+                    {/*<link rel="icon" href="logo.png" type="image/x-icon"/>*/}
                 </Head>
                 <body id="top">
                 <Main/>
@@ -74,7 +74,7 @@ class MyDocument extends Document {
                         </div>
                     </div>
                 </div>
-                
+
                 <script
                     async
                     src="https://www.googletagmanager.com/gtag/js?id=G-6L8MC15QF8"

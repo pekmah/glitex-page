@@ -51,35 +51,7 @@ export default function Index() {
           />
         </Head>
 
-        {/*Header carousel  */}
-        <HeaderCarousel />
-
-        {/* <Header /> */}
-        {/* clients */}
-        <FormerClients />
-
-        {/* About us */}
-        <AboutUs />
-        {/* Our team */}
-        {/*<OurTeam />*/}
-
-        {/* skills/services */}
-        <Skills />
-
-        {/* Product development */}
-        <ProductDevelopment />
-
-        {/* what we have done */}
-        <Portfolio />
-
-        {/* languages */}
-        <TechStack />
-
-        {/* call us */}
-        <CallUs />
-
-        {/* footer */}
-        <Footer />
+      GLITEX MAIN
       </Layout>
     </>
   );

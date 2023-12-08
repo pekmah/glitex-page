@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import SideNav from "../general/SideNav";
 import Header from "./header";
-import WhatsappBtn from "../general/WhatsappBtn";
 
 function Layout({ children, className, hidePhone }) {
   const [showNav, setShowNav] = useState(false);
 
   return (
     <div
-      className={`bg-secondary min-h-screen max-w-screen overflow-hidden ${className}`}
+      className={`bg-white min-h-screen max-w-screen overflow-hidden ${className}`}
     >
       <Header
         showNav={showNav}
@@ -18,7 +17,7 @@ function Layout({ children, className, hidePhone }) {
       <SideNav isOpen={showNav} handleCloseNav={() => setShowNav(false)} />
       {children}
 
-      <WhatsappBtn />
+      {/*<WhatsappBtn />*/}
     </div>
   );
 }

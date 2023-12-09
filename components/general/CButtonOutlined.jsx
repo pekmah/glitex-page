@@ -9,7 +9,7 @@ const CButtonOutlined = ({
 }) => {
   return (
     <button
-      className={`border-2 border-primary px-4 py-2 rounded-full text-primary font-dm-sans font-bold text-sm ${className}`}
+      className={`border border-primary px-4 py-2.5 rounded-full text-primary font-dm-sans font-semibold text-sm ${className}`}
       onClick={handleClick}
       {...rest}
     >

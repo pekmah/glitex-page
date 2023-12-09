@@ -1,5 +1,7 @@
-//fonts: lato, DM Sans, Tinos
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Lato:wght@300;400;700;900&family=Tinos:wght@400;700&display=swap');
+//fonts: DM Sans, Tinos
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Tinos:wght@400;700&display=swap');
+// lato font
+@import url('https://fonts.cdnfonts.com/css/lato');
 
 @tailwind base;
 @tailwind components;
@@ -20,7 +22,7 @@
   }
 
   h4 {
-    @apply font-tinos font-bold text-xl:text-3xl text-primary
+    @apply font-tinos font-bold text-xl md:text-3xl text-primary
   }
 
   // Classes

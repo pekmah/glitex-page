@@ -24,6 +24,9 @@ module.exports = {
         lato: ["Lato", "sans-serif"],
         tinos: ["tinos", "serif"],
       },
+      fontSize: {
+        15: "15px",
+      },
     },
   },
   plugins: [],

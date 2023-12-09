@@ -53,6 +53,7 @@ const Header = ({ showNav, handleCloseNav, hidePhone, handleOpenNav }) => {
           <CButtonGhost
             className={"w-12 h-12 p-0 center md:hidden"}
             text={<FiMenu className={"text-2xl"} />}
+            handleClick={handleOpenNav}
           />
         </div>
       </div>

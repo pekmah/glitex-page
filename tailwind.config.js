@@ -14,6 +14,11 @@ module.exports = {
         primary: "#FFC53F",
         secondary: "#121212",
       },
+      fontFamily: {
+        "dm-sans": ["DM Sans", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
+        tinos: ["tinos", "serif"],
+      },
     },
   },
   plugins: [],

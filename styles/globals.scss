@@ -21,6 +21,10 @@
   .center-y-between-x {
     @apply flex items-center justify-between
   }
+
+  h1 {
+    @apply font-tinos font-bold text-[50px] text-primary
+  }
 }
 
 @layer utilities {
@@ -40,7 +44,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 a {

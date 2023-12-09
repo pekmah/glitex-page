@@ -1,3 +1,4 @@
 import { COLORS } from "./Theme";
+import { NAV_LIST } from "./nav";
 
-export { COLORS };
+export { COLORS, NAV_LIST };

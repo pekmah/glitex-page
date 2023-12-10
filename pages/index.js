@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Head from "next/head";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Layout } from "../components";
+import { Layout, MainSection } from "../components";
 
 export default function Index() {
   useEffect(() => {
@@ -41,7 +41,9 @@ export default function Index() {
             content="software development companies in Kenya, software developers in Kenya, software company in Nairobi"
           />
         </Head>
-        <p className={"text-black"}>GLOTEX</p>
+
+        {/*  main section  */}
+        <MainSection />
       </Layout>
     </>
   );

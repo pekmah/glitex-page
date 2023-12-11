@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Head from "next/head";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Layout, MainSection } from "../components";
+import { AboutSection, Layout, MainSection } from "../components";
 
 export default function Index() {
   useEffect(() => {
@@ -44,9 +44,10 @@ export default function Index() {
 
         {/*  main section  */}
         <MainSection />
+
+        {/*  About section  */}
+        <AboutSection />
       </Layout>
     </>
   );
 }
-
-// BNSwgLP2bh2j63d_UXXUL-47JuhxLBpFHhKvX-lD0zo

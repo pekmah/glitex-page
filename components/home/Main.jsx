@@ -1,10 +1,11 @@
 import React from "react";
 
 import { CButton, SectionWrapper } from "../general";
+import { CustomersSection } from "./index";
 
 const Main = () => {
   return (
-    <SectionWrapper className={"flex md:px-5 md:min-h-[65vh] "}>
+    <SectionWrapper className={"flex md:px-5 md:min-h-[65vh] relative"}>
       {/*  text container   */}
       <div className={"flex-1 center-x flex-col pl-4"}>
         <h1 className={"md:leading-[60px] w-full md:w-4/5"}>
@@ -35,7 +36,7 @@ const Main = () => {
             }
           />
         </div>
-        <div className={"w-full h-10 md:h-28  md:flex"} />
+        <div className={"w-full h-20 md:h-44 md:flex"} />
       </div>
 
       {/*  image container   */}
@@ -53,6 +54,9 @@ const Main = () => {
           className={"absolute inset-0 h-full  object-contain"}
         />
       </div>
+
+      {/*  customers  */}
+      <CustomersSection />
     </SectionWrapper>
   );
 };

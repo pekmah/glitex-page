@@ -28,6 +28,10 @@ module.exports = {
         15: "15px",
         13: "13px",
       },
+      lineHeight: {
+        11: "50px",
+        12: "60px",
+      },
     },
   },
   plugins: [],

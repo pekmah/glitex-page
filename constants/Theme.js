@@ -5,4 +5,5 @@ export const COLORS = {
   "bg-yellow": "#FFFEF0",
   "bg-blue": "#F1F9FF",
   "c-yellow": "#EDA815",
+  "primary-pale": "#333F48",
 };

@@ -3,6 +3,7 @@ import CustomersSection from "./Customers";
 import AboutSection from "./about";
 import WhatWeDoSection from "./WhatWeDo";
 import StartupSection from "./Startup";
+import ProjectsSection from "./Projects";
 
 export {
   MainSection,
@@ -10,4 +11,5 @@ export {
   AboutSection,
   WhatWeDoSection,
   StartupSection,
+  ProjectsSection,
 };

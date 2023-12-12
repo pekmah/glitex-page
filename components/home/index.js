@@ -4,6 +4,7 @@ import AboutSection from "./about";
 import WhatWeDoSection from "./WhatWeDo";
 import StartupSection from "./Startup";
 import ProjectsSection from "./Projects";
+import TechStackSection from "./TechStack";
 
 export {
   MainSection,
@@ -12,4 +13,5 @@ export {
   WhatWeDoSection,
   StartupSection,
   ProjectsSection,
+  TechStackSection,
 };

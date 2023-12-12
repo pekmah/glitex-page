@@ -1,10 +1,11 @@
 import React from "react";
 import { CButton, CButtonOutlined, SectionWrapper } from "../general";
+import { TechStackSection } from "./index";
 
 const Projects = () => {
   return (
     <SectionWrapper
-      sectionClassName={"bg-white "}
+      sectionClassName={"bg-white relative"}
       className={"py-10 md:py-24 px-5 md:px-0 "}
     >
       <h2 className={" leading-8 md:leading-11 mb-10 md:bg-24 text-center"}>
@@ -92,6 +93,9 @@ const Projects = () => {
           text={"View More Projects"}
         />
       </div>
+
+      {/*  Tech stack section  */}
+      <TechStackSection />
     </SectionWrapper>
   );
 };

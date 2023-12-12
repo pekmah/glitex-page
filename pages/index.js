@@ -63,6 +63,8 @@ export default function Index() {
 
         {/*  what we have done  */}
         <ProjectsSection />
+
+        <div className={"w-full bg-primary h-44"} />
       </Layout>
     </>
   );

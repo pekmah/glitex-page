@@ -26,7 +26,7 @@ const WhatWeDo = () => {
         }
       >
         {services.map((service, ind) => (
-          <Card title={service.title} body={service.desc} />
+          <Card key={ind} title={service.title} body={service.desc} />
         ))}
       </div>
     </SectionWrapper>

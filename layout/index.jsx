@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import SideNav from "../general/SideNav";
-import Header from "./header";
+import SideNav from "../components/general/SideNav";
+import Header from "../components/main/header";
+import { Footer } from "../components";
 
 function Layout({ children, className, hidePhone }) {
   const [showNav, setShowNav] = useState(false);
@@ -18,6 +19,8 @@ function Layout({ children, className, hidePhone }) {
       {children}
 
       {/*<WhatsappBtn />*/}
+      {/*  Footer  */}
+      <Footer />
     </div>
   );
 }

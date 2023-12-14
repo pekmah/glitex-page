@@ -1,4 +1,4 @@
-import Layout from "./layout.jsx";
+import Layout from "../../layout";
 import NavList from "./NavList";
 
 export { Layout, NavList };

@@ -5,6 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import {
   AboutSection,
+  CallUsSection,
   Layout,
   MainSection,
   ProjectsSection,
@@ -64,7 +65,8 @@ export default function Index() {
         {/*  what we have done  */}
         <ProjectsSection />
 
-        <div className={"w-full bg-primary h-44"} />
+        {/* Call us today*/}
+        <CallUsSection />
       </Layout>
     </>
   );

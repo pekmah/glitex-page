@@ -9,7 +9,7 @@ export const NAV_LIST = [
   },
   {
     title: "Mobile Application",
-    route: "/",
+    route: "/mobile",
   },
   {
     title: "On Boarding Process",

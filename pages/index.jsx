@@ -6,17 +6,18 @@ import "aos/dist/aos.css";
 import {
   AboutSection,
   CallUsSection,
-  Layout,
   MainSection,
   ProjectsSection,
   StartupSection,
   WhatWeDoSection,
 } from "../components";
+import Layout from "../layout";
 
 export default function Index() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
   return (
     <Layout>
       <Head>

@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 
 const NavItem = ({ to = "/", title }) => {
   const pathName = usePathname();
-
+console.log(pathName)
   const isCurrent = useMemo(() => pathName === to, [pathName, to]);
   return (
     <Link href={to}>

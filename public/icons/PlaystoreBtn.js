@@ -4,14 +4,12 @@ const PlaystoreBtn = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="211"
-      height="71"
+      height="50"
       viewBox="0 0 211 71"
       fill="none"
     >
       <mask
         id="mask0_64_493"
-        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
         x="0"
         y="0"

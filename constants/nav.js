@@ -5,26 +5,26 @@ export const NAV_LIST = [
   },
   {
     title: "Portfolio",
-    route: "/",
+    route: "/portfolio",
   },
   {
     title: "Mobile Application",
-    route: "/",
+    route: "/mobile",
   },
   {
     title: "On Boarding Process",
-    route: "/",
+    route: "/onboarding",
   },
   {
     title: "Our Process ",
-    route: "/",
+    route: "/process",
   },
   {
     title: "About Us",
-    route: "/",
+    route: "/about",
   },
   {
     title: "Contact Us",
-    route: "/",
+    route: "/contact",
   },
 ];

@@ -4,7 +4,7 @@ const PlaystoreBtn = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="50"
+      height="45"
       viewBox="0 0 211 71"
       fill="none"
     >

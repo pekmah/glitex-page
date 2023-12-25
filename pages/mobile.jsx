@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../layout";
-import { AboutMobile, MainMobile } from "../components";
+import { AboutMobile, MainMobile, PortfolioMobile } from "../components";
 
 const Mobile = () => {
   return (
@@ -10,6 +10,9 @@ const Mobile = () => {
 
       {/* About section */}
       <AboutMobile />
+
+      {/* Portfolio section */}
+      <PortfolioMobile />
     </Layout>
   );
 };

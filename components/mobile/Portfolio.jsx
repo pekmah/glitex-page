@@ -1,6 +1,7 @@
 import React from "react";
 import { CButton, SectionWrapper } from "../general";
 import { IosBtnSvg, PlaystoreBtnSvg } from "../../public/icons";
+import RoundedBgFloater from "../general/RoundedBgFloater";
 
 const Portfolio = () => {
   return (
@@ -10,9 +11,11 @@ const Portfolio = () => {
         "py-10 md:py-24 px-5 md:px-0 flex flex-col md:flex-row gap-5 md:gap-0"
       }
     >
-      <div className={"center gap-3 flex-1"}>
+      <div className={"center gap-3 flex-1 relative"}>
+        <RoundedBgFloater />
+
         <img
-          className={"w-44 md:w-64"}
+          className={"w-44 md:w-64 z-10"}
           src="/images/mobile/okapy.png"
           alt="okapy-1"
         />
@@ -47,7 +50,7 @@ const Portfolio = () => {
 
         <CButton
           text={"Portfolio"}
-          className={" text-base md:text-base mr-auto px-10"}
+          className={" text-base md:text-base mr-auto px-10 mt-5"}
         />
       </div>
     </SectionWrapper>

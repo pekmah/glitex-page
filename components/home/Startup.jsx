@@ -4,7 +4,7 @@ import { SectionWrapper } from "../general";
 const Startup = () => {
   return (
     <SectionWrapper
-      sectionClassName={"bg-bg-blue "}
+      sectionClassName={"bg-bg-blue min-h-90"}
       className={"py-10 md:py-24 px-5 md:px-0 text-center"}
     >
       <h2 className={"leading-8 md:leading-11"}>Startup Product Development</h2>

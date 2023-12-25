@@ -5,7 +5,7 @@ import { CustomersSection } from "./index";
 
 const Main = () => {
   return (
-    <SectionWrapper className={"flex md:px-5 md:min-h-[65vh] relative"}>
+    <SectionWrapper className={"flex md:px-5 md:min-h-[85vh] relative"}>
       {/*  text container   */}
       <div className={"flex-1 center-x flex-col pl-4"}>
         <h1 className={"md:leading-[60px] w-full md:w-4/5"}>

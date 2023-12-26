@@ -7,6 +7,7 @@ class MyDocument extends Document {
         <Head>
           <link rel="stylesheet" href="/css/vendor.css" />
           <link rel="stylesheet" href="/css/main.css" />
+          <link rel="stylesheet" href="/css/slider.css" />
 
           {/*<link rel="shortcut icon" href="logo.png" type="image/x-icon"/>*/}
           {/*<link rel="icon" href="logo.png" type="image/x-icon"/>*/}

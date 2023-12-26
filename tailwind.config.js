@@ -19,6 +19,7 @@ module.exports = {
         "bg-blue": COLORS["bg-blue"],
         "c-yellow": COLORS["c-yellow"],
         "primary-pale": COLORS["primary-pale"],
+        "pale-gray": COLORS["pale-gray"],
       },
       fontFamily: {
         "dm-sans": ["DM Sans", "sans-serif"],

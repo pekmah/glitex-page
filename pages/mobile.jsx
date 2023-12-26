@@ -5,6 +5,7 @@ import {
   MainMobile,
   MobileTypes,
   PortfolioMobile,
+  SliderMobile,
 } from "../components";
 
 const Mobile = () => {
@@ -21,6 +22,9 @@ const Mobile = () => {
 
       {/* Mobile types section */}
       <MobileTypes />
+
+      {/* Mobile slider */}
+      <SliderMobile />
     </Layout>
   );
 };

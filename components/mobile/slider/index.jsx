@@ -11,15 +11,16 @@ import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 import { GrNext, GrPrevious } from "react-icons/gr";
 import { portfolioData } from "../../../providers/mobile/data";
 import { CButton } from "../../general";
+import { AreYouInSearch } from "../index";
 
 const Slider = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <SectionWrapper
-      sectionClassName={"relative bg-pale-gray"}
+      sectionClassName={"relative bg-pale-gray pb-20"}
       className={
-        "py-10 md:py-8 px-5 md:px-0 gap-5 md:gap-0 center flex-col md:flex-row  "
+        "py-10 md:py-8 px-5 md:px-0 gap-5 md:gap-0 center flex-col md:flex-row "
       }
     >
       <div className={"flex-[2] flex flex-col h-full md:pl-28"}>
@@ -29,7 +30,11 @@ const Slider = () => {
           {portfolioData[activeIndex + 1]?.title}
         </h4>
 
-        <p className={"text-lg leading-8 font-400 md:pr-5"}>
+        <p
+          className={
+            "text-lg leading-8 font-400 md:pr-5 ease-in-out duration-300"
+          }
+        >
           {portfolioData[activeIndex + 1]?.description}
         </p>
 
@@ -50,6 +55,7 @@ const Slider = () => {
           depth: 100,
           modifier: 2.5,
         }}
+        autoplay={true}
         modules={[EffectCoverflow, Pagination, Navigation]}
         pagination={{ el: ".swiper-pagination", clickable: true }}
         navigation={{
@@ -85,6 +91,8 @@ const Slider = () => {
           <div className={"swiper-pagination mt-2 inset-0 m-auto"}></div>
         </div>
       </Swiper>
+
+      <AreYouInSearch />
     </SectionWrapper>
   );
 };

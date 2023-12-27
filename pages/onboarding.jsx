@@ -1,12 +1,15 @@
 import React from "react";
 import Layout from "../layout";
-import { OnboardingMain } from "../components/onboarding";
+import { OnboardingDevelopment, OnboardingMain } from "../components";
 
 const Onboarding = () => {
   return (
     <Layout>
       {/*  Onboarding Main section*/}
       <OnboardingMain />
+
+      {/*    Onboarding Development process   */}
+      <OnboardingDevelopment />
     </Layout>
   );
 };

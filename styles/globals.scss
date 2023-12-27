@@ -76,6 +76,10 @@
     @apply min-h-[80vh];
   }
 
+  .min-h-70 {
+    @apply min-h-[70vh];
+  }
+
   .min-h-60 {
     @apply min-h-[60vh];
   }
@@ -87,7 +91,7 @@
   .min-h-40 {
     @apply min-h-[40vh];
   }
-  
+
   .min-h-30 {
     @apply min-h-[30vh];
   }

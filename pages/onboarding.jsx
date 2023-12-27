@@ -1,6 +1,10 @@
 import React from "react";
 import Layout from "../layout";
-import { OnboardingDevelopment, OnboardingMain } from "../components";
+import {
+  OnboardingDevelopment,
+  OnboardingMain,
+  OnboardingSteps,
+} from "../components";
 
 const Onboarding = () => {
   return (
@@ -10,6 +14,9 @@ const Onboarding = () => {
 
       {/*    Onboarding Development process   */}
       <OnboardingDevelopment />
+
+      {/*    Onboarding Steps    */}
+      <OnboardingSteps />
     </Layout>
   );
 };

@@ -17,6 +17,8 @@ const Onboarding = () => {
 
       {/*    Onboarding Steps    */}
       <OnboardingSteps />
+
+      <div className={"h-[400px] bg-primary"} />
     </Layout>
   );
 };

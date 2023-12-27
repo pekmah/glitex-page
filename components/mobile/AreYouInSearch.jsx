@@ -1,7 +1,7 @@
 import React from "react";
 import { CButton, SectionWrapper } from "../general";
 
-const MyComponent = () => {
+const AreYouInSearch = () => {
   return (
     <SectionWrapper
       sectionClassName={"absolute inset-x-0 -bottom-[400px] mx-3"}
@@ -36,4 +36,4 @@ const MyComponent = () => {
   );
 };
 
-export default MyComponent;
+export default AreYouInSearch;

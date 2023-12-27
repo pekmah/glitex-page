@@ -4,7 +4,7 @@ import SectionWrapper from "../general/SectionWrapper";
 const OnboardingDevelopment = () => {
   return (
     <SectionWrapper
-      sectionClassName={"bg-bg-yellow -mt-4 md:-mt-12 min-h-90"}
+      sectionClassName={"bg-bg-yellow -mt-4 md:-mt-12 min-h-50 md:min-h-90"}
       className={"py-20 md:py-36 px-5 md:px-0 text-center"}
     >
       <h1 className={"h2 leading-8 md:leading-11 font-normal"}>

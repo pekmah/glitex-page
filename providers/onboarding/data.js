@@ -68,6 +68,12 @@ export const ONBOARDING_STEPS = [
   {
     id: 12,
     title: "Testing & QA",
-    description: "testing & QA will be promptly done during development.",
+    description: "testing & QA will be promptly done during steps.",
+  },
+  {
+    id: 13,
+    title: "Project Completion & Handover",
+    description:
+      "the project will be handed over and offered full development.",
   },
 ];

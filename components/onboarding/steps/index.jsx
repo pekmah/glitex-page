@@ -2,12 +2,13 @@ import React from "react";
 import { SectionWrapper } from "../../general";
 import Card from "./Card";
 import { ONBOARDING_STEPS } from "../../../providers/onboarding/data";
+import { AreYouInSearch } from "../../mobile";
 
 const Steps = () => {
   return (
     <SectionWrapper
       sectionClassName={"bg-white relative"}
-      className={"flex md:px-5 relative pb-12"}
+      className={"flex md:px-5 relative pb-32"}
     >
       <div
         className={
@@ -23,6 +24,8 @@ const Steps = () => {
           />
         ))}
       </div>
+
+      <AreYouInSearch />
     </SectionWrapper>
   );
 };

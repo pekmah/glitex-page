@@ -5,7 +5,9 @@ import { CUSTOMERS } from "../../constants";
 const Customers = () => {
   return (
     <SectionWrapper
-      sectionClassName={"absolute inset-x-0 -bottom-3 md:bottom-0 px-3 md:px-0"}
+      sectionClassName={
+        "z-10 absolute inset-x-0 -bottom-3 md:bottom-0 px-3 md:px-0"
+      }
       className={
         "flex justify-between gap-8 md:gap-12 bg-bg-gray rounded-full px-5 md:px-16 py-3 md:py-5 overflow-scroll no-scrollbar"
       }

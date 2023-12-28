@@ -11,13 +11,14 @@ import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 import { GrNext, GrPrevious } from "react-icons/gr";
 import { portfolioData } from "../../providers/mobile/data";
 import { CButton } from "../general";
+import TurnYourIdeas from "./TurnYourIdeas";
 
 const WorkDone = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <SectionWrapper
-      sectionClassName={"relative bg-bg-yellow pb-20"}
+      sectionClassName={"relative bg-bg-yellow pb-20 -mt-10"}
       className={
         "py-10 md:py-8 px-5 md:px-0 gap-5 md:gap-0 center flex-col md:flex-row "
       }
@@ -90,6 +91,8 @@ const WorkDone = () => {
           <div className={"swiper-pagination mt-2 inset-0 m-auto"}></div>
         </div>
       </Swiper>
+
+      <TurnYourIdeas />
     </SectionWrapper>
   );
 };

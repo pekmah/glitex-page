@@ -10,6 +10,8 @@ const Portfolio = () => {
 
       {/*    Work done   */}
       <PortfolioWorkDone />
+
+      <div className={"h-48 bg-primary"} />
     </Layout>
   );
 };

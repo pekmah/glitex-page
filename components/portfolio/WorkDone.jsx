@@ -18,7 +18,7 @@ const WorkDone = () => {
 
   return (
     <SectionWrapper
-      sectionClassName={"relative bg-bg-yellow pb-20"}
+      sectionClassName={"relative bg-bg-yellow pb-20 -mt-10"}
       className={
         "py-10 md:py-8 px-5 md:px-0 gap-5 md:gap-0 center flex-col md:flex-row "
       }

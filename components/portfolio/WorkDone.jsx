@@ -11,6 +11,7 @@ import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 import { GrNext, GrPrevious } from "react-icons/gr";
 import { portfolioData } from "../../providers/mobile/data";
 import { CButton } from "../general";
+import TurnYourIdeas from "./TurnYourIdeas";
 
 const WorkDone = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -90,6 +91,8 @@ const WorkDone = () => {
           <div className={"swiper-pagination mt-2 inset-0 m-auto"}></div>
         </div>
       </Swiper>
+
+      <TurnYourIdeas />
     </SectionWrapper>
   );
 };

@@ -9,16 +9,25 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 import { GrNext, GrPrevious } from "react-icons/gr";
-import { portfolioData } from "../../providers/mobile/data";
+import { portfolioData } from "../../providers/projects/data";
 import { CButton } from "../general";
 import TurnYourIdeas from "./TurnYourIdeas";
+import { useRouter } from "next/router";
 
 const WorkDone = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const router = useRouter();
+  /**
+   * opens project: /portfolio/[id]
+   * @param {string} id
+   */
+  const handleViewProject = async (id) => {
+    await router.push(`/portfolio/${id}`);
+  };
 
   return (
     <SectionWrapper
-      sectionClassName={"relative bg-bg-yellow pb-20 -mt-10"}
+      sectionClassName={"relative bg-bg-yellow pb-20 -mt-10 min-h-screen"}
       className={
         "py-10 md:py-8 px-5 md:px-0 gap-5 md:gap-0 center flex-col md:flex-row "
       }
@@ -41,6 +50,7 @@ const WorkDone = () => {
         <CButton
           text={"View More"}
           className={"text-lg md:text-base mr-auto px-10 mt-5"}
+          handleClick={() => handleViewProject((activeIndex + 1).toString())}
         />
       </div>
 

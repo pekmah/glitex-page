@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "../layout";
-import { PortfolioMain, PortfolioWorkDone } from "../components";
+import Layout from "../../layout";
+import { PortfolioMain, PortfolioWorkDone } from "../../components";
 
 const Portfolio = () => {
   return (

@@ -6,7 +6,8 @@ const NavItem = ({ to = "/", title }) => {
   const pathName = usePathname();
 
   const isCurrent = useMemo(
-    () => pathName === to || pathName.split("/").at(1) === to.split("/").at(1),
+    () =>
+      pathName === to || pathName?.split("/").at(1) === to?.split("/").at(1),
     [pathName, to],
   );
   return (

@@ -50,7 +50,7 @@ const WorkDone = () => {
         <CButton
           text={"View More"}
           className={"text-lg md:text-base mr-auto px-10 mt-5"}
-          handleClick={() => handleViewProject(activeIndex.toString())}
+          handleClick={() => handleViewProject((activeIndex + 1).toString())}
         />
       </div>
 

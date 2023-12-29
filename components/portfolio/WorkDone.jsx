@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 import { GrNext, GrPrevious } from "react-icons/gr";
-import { portfolioData } from "../../providers/mobile/data";
+import { portfolioData } from "../../providers/projects/data";
 import { CButton } from "../general";
 import TurnYourIdeas from "./TurnYourIdeas";
 import { useRouter } from "next/router";

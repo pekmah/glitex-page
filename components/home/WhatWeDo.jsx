@@ -26,7 +26,12 @@ const WhatWeDo = () => {
         }
       >
         {services.map((service, ind) => (
-          <Card key={ind} title={service.title} body={service.desc} />
+          <Card
+            key={ind}
+            title={service.title}
+            body={service.desc}
+            serviceUrl={`/services/${service?.to}`}
+          />
         ))}
       </div>
     </SectionWrapper>

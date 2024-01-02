@@ -2,6 +2,7 @@ export const services = [
   {
     title: "Search Engine Optimization",
     desc: `<p>We are the leading search engine optimization company in Kenya. With 10+ years experience in search engine optimization, we have developed strategies to help our clients get more website visitors translating into more sales and revenue. Glitex equips you with top SEO strategies to ensure your business is easily discoverable by prospect clients.<p/>`,
+    to: "/seo",
   },
   {
     title: "Mobile Applications",
@@ -20,15 +21,18 @@ export const services = [
      </ul>
     </div>
 `,
+    to: "/mis",
   },
   {
     title: "AI & ML Development",
     desc: `<p>Glitex helps small to large enterprises develop smart and intelligent products leveraging deep learning and machine learning technology. Our team is well versed with AI and ML tool kits.</p>`,
+    to: "/ai",
   },
 
   {
     title: "E-Learning platform",
     desc: `<p>Glitex is well versed with designing and developing technology-based interactive learning solutions.Providing learning technologies , Including custome e-learning , mulit-device leaning, mobile learning and consulting for interactive e-learning curriculum design.</p>`,
+    to: "/e-learning",
   },
   {
     title: "Game Development",
@@ -44,5 +48,6 @@ export const services = [
       We create games for iOS and android plaftorms or cross-platform development.
     </p>
     `,
+    to: "/games",
   },
 ];

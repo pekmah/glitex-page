@@ -206,12 +206,18 @@ export const pages = {
       >
        Benefits of AI & Machine Learning
       </h2>`,
+
       body: `
-        <p class={"my-10 md:w-1/2 mx-auto text-center"}>
-          Working with the best SEO Company in Nairobi and in Kenya can always keep 
-          <br class={"hidden md:block"} />
-          your business on top of all search engines.
-        </p>
+        <strong>
+        The integration of AI and Machine learning technology helps to reduce the occurrence of human error, streamline tasks, and enhance the quality of results.
+        </strong>
+        <br/>
+        <ul class={"my-10 md:w-1/2 mx-auto text-center"}>
+          <li>Accelerated Decision Making with Algorithm-Driven Automation - Harness the power of algorithms to streamline processes and enhance decision making capabilities.</li>
+          <li>Unlock New Opportunities for Innovation and Growth through Understanding Data Patterns.</li>
+          <li>Adapt to Changes Quickly - Machine learning models can analyze and update data at a much faster pace than humans, allowing for greater adaptability in changing circumstances.</li>
+          <li>Accelerate Business Operations - Streamline your operations and enhance efficiency with the power of AI, enabling rapid business growth.</li>
+        </ul>
       `,
     },
   },

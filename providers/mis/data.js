@@ -221,4 +221,149 @@ export const pages = {
       `,
     },
   },
+  games: {
+    //  main section
+    main: {
+      title: `
+          <h1 class={"md:leading-[60px] w-full md:w-4/5"}>
+              Game developers
+              <br class={"hidden md:flex"} /> Nairobi Kenya |
+              <br class={"hidden md:flex"} /> Game Design
+          </h1>
+        `,
+      subtitle: null,
+      imageUrl: "/images/mis/game-main.webp",
+    },
+    //     Description section
+    description: {
+      title: `
+          <h1 class={"h2 leading-8 md:leading-11"}>
+        Game developers Nairobi Kenya | <br class={"hidden md:flex"} /> Game design
+      </h1>
+        `,
+      body: `
+      <p
+        class={
+          "w-full md:w-3/5 mx-auto my-2 md:my-5 text-base text-primary text-left md:text-center"
+        } 
+      >
+        Game development is the process of creating video games for various platforms, such as consoles, PCs, and mobile devices. It involves designing and coding game mechanics, creating game assets, and integrating sound and music.
+      </p>
+      `,
+    },
+    //   About section
+    about: {
+      title: null,
+      //   body
+      body: [
+        {
+          imageUrl: "/images/mis/game-about.webp",
+          description: {
+            title: "Game Development",
+            body: "At Glitex Solutions Limited, we offer a wide range of services related to game software development. We work closely with our clients to understand their game concept and vision and provide comprehensive solutions to bring their ideas to life. Our services include game design, programming, graphics and animation, sound and music, quality assurance, platform support, and more. We specialize in developing games across various genres, including action, adventure, role-playing, simulation, and more. Our team of experienced and skilled game developers use the latest technologies and tools to deliver high-quality and engaging games that provide an immersive experience to players. Contact us today to learn more about our game software development services and how we can help you create your next game.",
+          },
+        },
+      ],
+    },
+    //   Steps section(Benefits)
+    steps: {
+      title: `
+          <h2 class={"leading-8 md:leading-11"}>
+       Our focus on Game Development
+      </h2>
+        `,
+      subtitle:
+        "The game design & development process involves conceptualizing and developing a video game from an idea into a fully functional and engaging experience for players. It is a crucial stage in game development as it sets the foundation for the rest of the development process. Here are the typical steps involved in the game design process:",
+      steps: [
+        {
+          title: "Brain Storming",
+          body: "The first step in the game design process is to brainstorm ideas for the game. This can involve coming up with a game concept, exploring different game mechanics, and identifying potential challenges and opportunities.",
+        },
+        {
+          title: "Game Concept",
+          body: "Once the brainstorming process is complete, the game concept is developed. This is the overall idea for the game, including its genre, story, characters, and game mechanics.",
+        },
+        {
+          title: "Prototyping",
+          body: "A prototype of the game is created to test the concept and refine the game mechanics. This can involve creating a paper-based prototype or a simple digital prototype to test the basic gameplay.",
+        },
+        {
+          title: "Iteration",
+          body: "Based on the feedback from the prototype, the game design is iterated and refined until the core gameplay is fun and engaging.",
+        },
+        {
+          title: "Game Mechanics",
+          body: `
+          Once the core gameplay is established, the game mechanics are developed. This involves defining the rules of the game, including how the player interacts with the game world, the objectives, and the challenges.
+          `,
+        },
+        {
+          title: "Story and Characters",
+          body: "The game story and characters are developed, including the plot, dialogue, and character designs. This is a critical aspect of the game design, as it can greatly influence the player's emotional engagement with the game.",
+        },
+        {
+          title: "Balancing and Tuning",
+          body: "The game is balanced and tuned to ensure that the difficulty level is appropriate and the gameplay is engaging.",
+        },
+        {
+          title: "Design",
+          body: "The final stage of the game design process involves designing the game mechanics, story, characters, and overall design. This includes creating a detailed game design document that outlines all aspects of the game and serves as a reference for the development team.",
+        },
+        {
+          title: "Testimonials",
+          body: "Include testimonials from satisfied clients or players to demonstrate your expertise and the quality of your work.",
+        },
+        {
+          title: "Programming",
+          body: "Describe the programming languages and tools used in game development, such as Unity, Unreal Engine, and C++.",
+        },
+        {
+          title: "Graphics and Animation",
+          body: "Highlight the importance of creating visually appealing game assets, such as character models, textures, and animations.",
+        },
+        {
+          title: "Sound and Music",
+          body: "Explain how sound effects and music can enhance the gaming experience and create an immersive atmosphere.",
+        },
+        {
+          title: "Quality Assurance",
+          body: "Discuss the importance of testing games thoroughly to ensure that they are bug-free and provide a seamless experience for players.",
+        },
+        {
+          title: "Platform Support",
+          body: "Explain the various platforms you support, such as consoles, PCs, and mobile devices.",
+        },
+        {
+          title: "Game Genres",
+          body: "Discuss the different types of games you develop, such as action, adventure, role-playing, and simulation.",
+        },
+        {
+          title: "Portfolio",
+          body: "Showcase some of the games you have developed, including screenshots, trailers, and links to download or purchase the games.",
+        },
+        {
+          title: "Team",
+          body: "Introduce your game development team, highlighting their experience and expertise in the field.",
+        },
+        {
+          title: "Contact Information",
+          body: "Provide contact details so that potential clients or players can get in touch with you for inquiries or support.",
+        },
+      ],
+    },
+    //   Floater section.
+    floater: {
+      title: `<h2
+        class={" leading-8 md:leading-11 mb-10 md:bg-24 text-center mt-12"}
+      >
+       Benefits of Game Development
+      </h2>`,
+
+      body: `
+        <p class={"my-10 md:w-1/2 mx-auto text-center"}>
+          At Glitex Solutions Limited, we offer a wide range of services related to game software development. We work closely with our clients to understand their game concept and vision and provide comprehensive solutions to bring their ideas to life. Our services include game design, programming, graphics and animation, sound and music, quality assurance, platform support, and more. We specialize in developing games across various genres, including action, adventure, role-playing, simulation, and more. Our team of experienced and skilled game developers use the latest technologies and tools to deliver high-quality and engaging games that provide an immersive experience to players. Contact us today to learn more about our game software development services and how we can help you create your next game.
+        </p>
+      `,
+    },
+  },
 };

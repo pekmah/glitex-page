@@ -14,7 +14,7 @@ const Mobile = () => {
       {/*  main section  */}
       <MainMobile />
 
-      {/* About section */}
+      {/* Description section */}
       <AboutMobile />
 
       {/* Portfolio section */}

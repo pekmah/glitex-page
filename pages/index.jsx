@@ -53,7 +53,7 @@ export default function Index() {
       {/*  main section  */}
       <MainSection />
 
-      {/*  About section  */}
+      {/*  Description section  */}
       <AboutSection />
 
       {/*  What we do section */}

@@ -20,7 +20,7 @@ export const NAV_LIST = [
     route: "/process",
   },
   {
-    title: "About Us",
+    title: "Description Us",
     route: "/about",
   },
   {

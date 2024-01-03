@@ -30,7 +30,7 @@ const WhatWeDo = () => {
             key={ind}
             title={service.title}
             body={service.desc}
-            serviceUrl={`/services/${service?.to}`}
+            serviceUrl={`/${service?.to}`}
           />
         ))}
       </div>

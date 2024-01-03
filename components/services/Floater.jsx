@@ -17,11 +17,13 @@ const Floater = (props) => {
       sectionClassName={`absolute inset-x-0 -bottom-[${props?.bottom}] mx-3`}
       className={"bg-white tech-shadow p-5 md:p-8 rounded-2xl "}
     >
-      <h2
-        className={" leading-8 md:leading-11 mb-5 md:bg-24 text-center mt-12"}
+      <h3
+        className={
+          "mb-8 leading-8 md:leading-11 mb-5 md:bg-24 text-center mt-12 md:w-1/2 mx-auto"
+        }
       >
         {props?.title}
-      </h2>
+      </h3>
 
       {verifyStringIsInnerHtml(props?.body) ? (
         <div

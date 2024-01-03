@@ -324,4 +324,69 @@ export const servicePages = {
       style: { bgSpace: "400px", bottom: "-400px" },
     },
   },
+  mis: {
+    //  main section
+    main: {
+      title: `
+             Management Information Systems
+        `,
+      subtitle: null,
+      imageUrl: "/images/mis/mis-main.webp",
+    },
+    //     Description section
+    description: {
+      title: `
+        Management Information Systems
+        `,
+      body: `
+        Developers leverage these languages and frameworks to build hybrid mobile applications capable of operating on diverse platforms such as iOS, Android, and Windows. Moreover, they facilitate the sharing of a substantial portion of the codebase across these platforms. The following are the technologies used React Native, Flutter, Ionic, Xamarin
+      `,
+    },
+    //   About section
+    about: {
+      title: null,
+      //   body
+      body: [
+        {
+          imageUrl: "/images/mis/mis-health.webp",
+          styledImage: true,
+          description: {
+            title: "Health Care Management Systems",
+            body: null,
+          },
+        },
+        {
+          imageUrl: "/images/mis/mis-school.webp",
+          styledImage: true,
+          description: {
+            title: "School Management Systems",
+            body: null,
+          },
+        },
+        {
+          imageUrl: "/images/mis/mis-sacco.webp",
+          styledImage: true,
+          description: {
+            title: "Sacco Management Systems",
+            body: null,
+          },
+        },
+      ],
+    },
+    //   Steps section(Benefits)
+    steps: null,
+    //   Floater section.
+    floater: {
+      title: `
+       Are you in need of developing a Management Information system?
+      `,
+
+      body: `
+        
+          Are you in need of developing a SACCO Management system? You are in the right place. Glitex Solutions is the company to work with to develop your SACCO ERP.
+        
+      `,
+      style: { bgSpace: "400px", bottom: "-350px" },
+    },
+  },
 };

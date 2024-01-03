@@ -41,15 +41,18 @@ const Service = () => {
       <ServiceAbout
         title={currentService?.about?.title}
         body={currentService?.about?.body}
+        floater={!currentService?.steps ? currentService?.floater : null}
       />
 
       {/*    Steps section  */}
-      <ServiceSteps
-        title={currentService?.steps?.title}
-        subtitle={currentService?.steps?.subtitle}
-        steps={currentService?.steps?.steps}
-        floater={currentService?.floater}
-      />
+      {currentService?.steps && (
+        <ServiceSteps
+          title={currentService?.steps?.title}
+          subtitle={currentService?.steps?.subtitle}
+          steps={currentService?.steps?.steps}
+          floater={currentService?.floater}
+        />
+      )}
 
       <div
         style={{ height: currentService?.floater?.style?.bgSpace }}

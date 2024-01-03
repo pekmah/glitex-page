@@ -79,19 +79,18 @@ export const servicePages = {
     },
     //   Floater section.
     floater: {
-      title: `<h2
-        class={" leading-8 md:leading-11 mb-10 md:bg-24 text-center mt-12"}
-      >
-        We will always show up <br class={"hidden md:block"} />
+      title: `
+        We will always show up 
         in your business
-      </h2>`,
-      body: `
-        <p class={"my-10 md:w-1/2 mx-auto text-center"}>
-          Working with the best SEO Company in Nairobi and in Kenya can always keep 
-          <br class={"hidden md:block"} />
-          your business on top of all search engines.
-        </p>
       `,
+      body: `
+        
+          Working with the best SEO Company in Nairobi and in Kenya can always keep 
+         
+          your business on top of all search engines.
+        
+      `,
+      style: { bgSpace: "280px", bottom: "-250px" },
     },
   },
   ai: {
@@ -173,24 +172,24 @@ export const servicePages = {
     },
     //   Floater section.
     floater: {
-      title: `<h2
-        class={" leading-8 md:leading-11 mb-10 md:bg-24 text-center mt-12"}
-      >
+      title: `
        Benefits of AI & Machine Learning
-      </h2>`,
+      `,
 
       body: `
         <strong>
         The integration of AI and Machine learning technology helps to reduce the occurrence of human error, streamline tasks, and enhance the quality of results.
         </strong>
         <br/>
-        <ul class={"my-10 md:w-1/2 mx-auto text-center"}>
-          <li>Accelerated Decision Making with Algorithm-Driven Automation - Harness the power of algorithms to streamline processes and enhance decision making capabilities.</li>
-          <li>Unlock New Opportunities for Innovation and Growth through Understanding Data Patterns.</li>
-          <li>Adapt to Changes Quickly - Machine learning models can analyze and update data at a much faster pace than humans, allowing for greater adaptability in changing circumstances.</li>
-          <li>Accelerate Business Operations - Streamline your operations and enhance efficiency with the power of AI, enabling rapid business growth.</li>
+        <br/>
+        <ul  >
+          <li>1. Accelerated Decision Making with Algorithm-Driven Automation - Harness the power of algorithms to streamline processes and enhance decision making capabilities.</li>
+          <li>2. Unlock New Opportunities for Innovation and Growth through Understanding Data Patterns.</li>
+          <li>3. Adapt to Changes Quickly - Machine learning models can analyze and update data at a much faster pace than humans, allowing for greater adaptability in changing circumstances.</li>
+          <li>4. Accelerate Business Operations - Streamline your operations and enhance efficiency with the power of AI, enabling rapid business growth.</li>
         </ul>
       `,
+      style: { bgSpace: "430px", bottom: "-420px" },
     },
   },
   games: {
@@ -313,17 +312,16 @@ export const servicePages = {
     },
     //   Floater section.
     floater: {
-      title: `<h2
-        class={" leading-8 md:leading-11 mb-10 md:bg-24 text-center mt-12"}
-      >
+      title: `
        Benefits of Game Development
-      </h2>`,
+      `,
 
       body: `
-        <p class={"my-10 md:w-1/2 mx-auto text-center"}>
+        
           At Glitex Solutions Limited, we offer a wide range of services related to game software development. We work closely with our clients to understand their game concept and vision and provide comprehensive solutions to bring their ideas to life. Our services include game design, programming, graphics and animation, sound and music, quality assurance, platform support, and more. We specialize in developing games across various genres, including action, adventure, role-playing, simulation, and more. Our team of experienced and skilled game developers use the latest technologies and tools to deliver high-quality and engaging games that provide an immersive experience to players. Contact us today to learn more about our game software development services and how we can help you create your next game.
-        </p>
+        
       `,
+      style: { bgSpace: "400px", bottom: "-400px" },
     },
   },
 };

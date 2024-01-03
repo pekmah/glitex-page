@@ -1,4 +1,5 @@
 import React from "react";
+import { verifyStringIsInnerHtml } from "../../../helpers/helpers";
 
 const Card = ({ index, title, description }) => {
   return (
@@ -14,7 +15,14 @@ const Card = ({ index, title, description }) => {
       </div>
       <h5 className={"my-5 text-inherit"}>{title}</h5>
 
-      <p className={"text-inherit"}>{description}</p>
+      {verifyStringIsInnerHtml(description) ? (
+        <div
+          className={"text-inherit"}
+          dangerouslySetInnerHTML={{ __html: description }}
+        />
+      ) : (
+        <p className={"text-inherit"}>{description}</p>
+      )}
     </div>
   );
 };

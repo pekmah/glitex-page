@@ -1,15 +1,9 @@
-export const pages = {
+export const servicePages = {
   //page
   seo: {
     //  main section
     main: {
-      title: `
-          <h1 class={"md:leading-[60px] w-full md:w-4/5"}>
-              Search Engine Evaluator
-              <br class={"hidden md:flex"} /> Companies in Kenya |
-              <br class={"hidden md:flex"} /> SEO Services Nairobi
-              <br class={"hidden md:flex"} /> Kenya.
-          </h1>
+      title: `Search Engine Evaluator Companies in Kenya | SEO Services Nairobi Kenya.  
         `,
       subtitle: null,
       imageUrl: "/images/mis/seo-main.webp",
@@ -17,47 +11,38 @@ export const pages = {
     //     Description section
     description: {
       title: `
-          <h1 class={"h2 leading-8 md:leading-11"}>
         Search Engine Evaluator
-        <br class={"hidden md:flex"} /> Companies in Kenya.
-      </h1>
+        Companies in Kenya.
         `,
       body: `
-      <p
-        class={
-          "w-full md:w-3/5 mx-auto my-2 md:my-5 text-base text-primary text-left md:text-center"
-        }
-      >
         Are you searching for Search Engine evaluators companies in Kenya? We are undisputed Search Engine Optimization (SEO) Company in Nairobi, Kenya. Glitex Solutions Limited is the leading search engine optimization company in Kenya and across the region. This guarantees you of quality. Good ranking on all search engines means more website visitors, sales and revenue.
-        <br class={"hidden md:flex"} />
-        <br class={"hidden md:flex"} />
+       <br/>
+       <br/>
         We use our SEO tactics and strategies to ensure you’re on ranked on top of the search engines. Search engine optimization (SEO) is a tested and proven method to grow your company by giving it visibility countrywide and across the region. A website without traffic doesn't serve its purpose but a website with the right traffic flowing in consistently can propel a business to new scales. Our SEO Team will analyze the markets and get to work making your website more visible to your key market through our comprehensive digital marketing services.
-      </p>
       `,
     },
-    //   About section
+    //   Description section
     about: {
       title: `
-          <h2 class={"leading-8 md:leading-11"}>
+          
        SEO Services in Kenya | Search Engine
-        <br class={"hidden md:flex"} /> Optimization Services in Kenya.
-      </h2>
+        Optimization Services in Kenya.
+      
         `,
       //   body
       body: [
         {
           imageUrl: "/images/mis/seo-optimization.webp",
           description:
-            "Are you searching for Search Engine evaluators companies in Kenya? We are undisputed Search Engine Optimization (SEO) Company in Nairobi, Kenya. Glitex Solutions Limited is the leading search engine optimization company in Kenya and across the region. This guarantees you of quality. Good ranking on all search engines means more website visitors, sales and revenue. We use our SEO tactics and strategies to ensure you’re on ranked on top of the search engines. Search engine optimization (SEO) is a tested and proven method to grow your company by giving it visibility countrywide and across the region. A website without traffic doesn't serve its purpose but a website with the right traffic flowing in consistently can propel a business to new scales. Our SEO Team will analyze the markets and get to work making your website more visible to your key market through our comprehensive digital marketing services.",
+            "It will be a great benefit to your business if your website is ranking on top of search engines meaning that proper Search Engine Optimization (SEO) services have been offered. Imagine a scenario where customers (Customers who don’t know your company) search for products and services on the internet, then they find your company then make a call to enquire about products and services. Our team of experts will rank your website and product and services page on the 1st page of Google and all the search engines for the locally searched terms, nation wide search, or even better; global searched terms. Search Engine Optimization (SEO) refers to the practice of boosting organic and the quality traffic to the site in Kenya. SEO is achieved by enhancing ranking results in algorithmic search engine.",
         },
       ],
     },
     //   Steps section(Benefits)
     steps: {
-      title: `
-          <h2 class={"leading-8 md:leading-11"}>
+      title: ` 
        Benefits of Search Engine Optimization (SEO).
-      </h2>
+     
         `,
       subtitle: null,
       steps: [
@@ -94,32 +79,29 @@ export const pages = {
     },
     //   Floater section.
     floater: {
-      title: `<h2
-        class={" leading-8 md:leading-11 mb-10 md:bg-24 text-center mt-12"}
-      >
-        We will always show up <br class={"hidden md:block"} />
+      title: `
+        We will always show up 
         in your business
-      </h2>`,
-      body: `
-        <p class={"my-10 md:w-1/2 mx-auto text-center"}>
-          Working with the best SEO Company in Nairobi and in Kenya can always keep 
-          <br class={"hidden md:block"} />
-          your business on top of all search engines.
-        </p>
       `,
+      body: `
+        
+          Working with the best SEO Company in Nairobi and in Kenya can always keep 
+         
+          your business on top of all search engines.
+        
+      `,
+      style: { bgSpace: "280px", bottom: "-250px" },
     },
   },
   ai: {
     //  main section
     main: {
       title: `
-          <h1 class={"md:leading-[60px] w-full md:w-4/5"}>
               AI and ML (Artifical
-              <br class={"hidden md:flex"} /> Intelligence &
-              <br class={"hidden md:flex"} /> Machine learning)
-              <br class={"hidden md:flex"} /> Developers in
-              <br class={"hidden md:flex"} /> Nairobi Kenya.
-          </h1>
+               Intelligence &
+               Machine learning)
+               Developers in
+               Nairobi Kenya.
         `,
       subtitle: null,
       imageUrl: "/images/mis/ai-main.webp",
@@ -127,23 +109,15 @@ export const pages = {
     //     Description section
     description: {
       title: `
-          <h1 class={"h2 leading-8 md:leading-11"}>
         AI Companies in Kenya.
-      </h1>
         `,
       body: `
-      <p
-        class={
-          "w-full md:w-3/5 mx-auto my-2 md:my-5 text-base text-primary text-left md:text-center"
-        } 
-      >
         Glitex Solutins Limited is an AI and ML (Artificial intelligence & Machine learning) Software development
-        <br class={"hidden md:flex"} />
+        <br  />
         company based in Nairobi Kenya. We have a skilled team that focuses on delivering quality.
-      </p>
       `,
     },
-    //   About section
+    //   Description section
     about: {
       title: null,
       //   body
@@ -167,11 +141,8 @@ export const pages = {
     //   Steps section(Benefits)
     steps: {
       title: `
-          <h2 class={"leading-8 md:leading-11"}>
        Our focus on Artificial Intelligence
-       <br class={"hidden md:flex"} />
        and machine learning.
-      </h2>
         `,
       subtitle: null,
       steps: [
@@ -201,35 +172,33 @@ export const pages = {
     },
     //   Floater section.
     floater: {
-      title: `<h2
-        class={" leading-8 md:leading-11 mb-10 md:bg-24 text-center mt-12"}
-      >
+      title: `
        Benefits of AI & Machine Learning
-      </h2>`,
+      `,
 
       body: `
         <strong>
         The integration of AI and Machine learning technology helps to reduce the occurrence of human error, streamline tasks, and enhance the quality of results.
         </strong>
         <br/>
-        <ul class={"my-10 md:w-1/2 mx-auto text-center"}>
-          <li>Accelerated Decision Making with Algorithm-Driven Automation - Harness the power of algorithms to streamline processes and enhance decision making capabilities.</li>
-          <li>Unlock New Opportunities for Innovation and Growth through Understanding Data Patterns.</li>
-          <li>Adapt to Changes Quickly - Machine learning models can analyze and update data at a much faster pace than humans, allowing for greater adaptability in changing circumstances.</li>
-          <li>Accelerate Business Operations - Streamline your operations and enhance efficiency with the power of AI, enabling rapid business growth.</li>
+        <br/>
+        <ul  >
+          <li>1. Accelerated Decision Making with Algorithm-Driven Automation - Harness the power of algorithms to streamline processes and enhance decision making capabilities.</li>
+          <li>2. Unlock New Opportunities for Innovation and Growth through Understanding Data Patterns.</li>
+          <li>3. Adapt to Changes Quickly - Machine learning models can analyze and update data at a much faster pace than humans, allowing for greater adaptability in changing circumstances.</li>
+          <li>4. Accelerate Business Operations - Streamline your operations and enhance efficiency with the power of AI, enabling rapid business growth.</li>
         </ul>
       `,
+      style: { bgSpace: "430px", bottom: "-420px" },
     },
   },
   games: {
     //  main section
     main: {
       title: `
-          <h1 class={"md:leading-[60px] w-full md:w-4/5"}>
               Game developers
-              <br class={"hidden md:flex"} /> Nairobi Kenya |
-              <br class={"hidden md:flex"} /> Game Design
-          </h1>
+               Nairobi Kenya |
+               Game Design
         `,
       subtitle: null,
       imageUrl: "/images/mis/game-main.webp",
@@ -237,21 +206,13 @@ export const pages = {
     //     Description section
     description: {
       title: `
-          <h1 class={"h2 leading-8 md:leading-11"}>
-        Game developers Nairobi Kenya | <br class={"hidden md:flex"} /> Game design
-      </h1>
+        Game developers Nairobi Kenya | Game design
         `,
       body: `
-      <p
-        class={
-          "w-full md:w-3/5 mx-auto my-2 md:my-5 text-base text-primary text-left md:text-center"
-        } 
-      >
         Game development is the process of creating video games for various platforms, such as consoles, PCs, and mobile devices. It involves designing and coding game mechanics, creating game assets, and integrating sound and music.
-      </p>
       `,
     },
-    //   About section
+    //   Description section
     about: {
       title: null,
       //   body
@@ -268,9 +229,7 @@ export const pages = {
     //   Steps section(Benefits)
     steps: {
       title: `
-          <h2 class={"leading-8 md:leading-11"}>
        Our focus on Game Development
-      </h2>
         `,
       subtitle:
         "The game design & development process involves conceptualizing and developing a video game from an idea into a fully functional and engaging experience for players. It is a crucial stage in game development as it sets the foundation for the rest of the development process. Here are the typical steps involved in the game design process:",
@@ -353,17 +312,16 @@ export const pages = {
     },
     //   Floater section.
     floater: {
-      title: `<h2
-        class={" leading-8 md:leading-11 mb-10 md:bg-24 text-center mt-12"}
-      >
+      title: `
        Benefits of Game Development
-      </h2>`,
+      `,
 
       body: `
-        <p class={"my-10 md:w-1/2 mx-auto text-center"}>
+        
           At Glitex Solutions Limited, we offer a wide range of services related to game software development. We work closely with our clients to understand their game concept and vision and provide comprehensive solutions to bring their ideas to life. Our services include game design, programming, graphics and animation, sound and music, quality assurance, platform support, and more. We specialize in developing games across various genres, including action, adventure, role-playing, simulation, and more. Our team of experienced and skilled game developers use the latest technologies and tools to deliver high-quality and engaging games that provide an immersive experience to players. Contact us today to learn more about our game software development services and how we can help you create your next game.
-        </p>
+        
       `,
+      style: { bgSpace: "400px", bottom: "-400px" },
     },
   },
 };

@@ -1,7 +1,23 @@
 import React from "react";
-import { CButtonOutlined } from "./index";
+import {CButtonOutlined} from "./index";
+import {useRouter} from "next/router";
 
-const Card = ({ title, body }) => {
+/**
+ * @param {string} title
+ * @param {string} body
+ * @param {string} serviceUrl
+ * @returns {JSX.Element}
+ * @constructor
+ */
+const Card = ({ title, body, serviceUrl }) => {
+  const router = useRouter();
+
+  /**
+   * @param {string} url
+   */
+  const handleViewService = async (url) => {
+    await router.push(url);
+  };
   return (
     <div className={"rounded-xl c-shadow bg-white p-5 flex-1 text-left"}>
       {/*    title    */}
@@ -12,7 +28,10 @@ const Card = ({ title, body }) => {
         dangerouslySetInnerHTML={{ __html: body }}
       />
       {/*    button   */}
-      <CButtonOutlined text={"View Services"} />
+      <CButtonOutlined
+        handleClick={() => handleViewService(serviceUrl)}
+        text={"View Services"}
+      />
     </div>
   );
 };

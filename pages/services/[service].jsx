@@ -48,6 +48,12 @@ const Service = () => {
         title={currentService?.steps?.title}
         subtitle={currentService?.steps?.subtitle}
         steps={currentService?.steps?.steps}
+        floater={currentService?.floater}
+      />
+
+      <div
+        style={{ height: currentService?.floater?.style?.bgSpace }}
+        className={` bg-primary`}
       />
     </Layout>
   );

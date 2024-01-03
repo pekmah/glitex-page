@@ -120,4 +120,4 @@ const POSSIBLE_ELEMENTS = [
  * @param {string}  str
  */
 export const verifyStringIsInnerHtml = (str) =>
-  POSSIBLE_ELEMENTS.some((element) => str.includes(element));
+  POSSIBLE_ELEMENTS.some((element) => str?.includes(element));

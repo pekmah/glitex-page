@@ -22,7 +22,7 @@ export const services = [
      </ul>
     </div>
 `,
-    to: "/mis",
+    to: "/services/mis",
   },
   {
     title: "AI & ML Development",

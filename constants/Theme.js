@@ -7,4 +7,5 @@ export const COLORS = {
   "c-yellow": "#EDA815",
   "primary-pale": "#333F48",
   "pale-gray": "#F8FBFC",
+  white: "#ffffff",
 };

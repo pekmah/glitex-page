@@ -10,6 +10,7 @@ function Layout({ children, className, hidePhone }) {
     <div
       className={`bg-white min-h-screen max-w-screen overflow-hidden ${className}`}
     >
+      <div style={{ height: "100px" }} className=" w-full" />
       <Header
         showNav={showNav}
         handleOpenNav={() => setShowNav(true)}

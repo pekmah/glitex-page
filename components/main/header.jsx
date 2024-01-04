@@ -3,6 +3,7 @@ import NavList from "./NavList";
 import { CButton, CButtonOutlined } from "../general";
 import CButtonGhost from "../general/CButtonGhost";
 import { FiMenu } from "react-icons/fi";
+import { COLORS } from "../../constants";
 
 export const handleDialerButtonClick = () => {
   window.location.href = "tel:+254707021821";
@@ -10,17 +11,12 @@ export const handleDialerButtonClick = () => {
 const Header = ({ showNav, handleCloseNav, hidePhone, handleOpenNav }) => {
   const [isIndex, setIsIndex] = useState();
 
-  // Opens phone dailer
-  useEffect(() => {
-    setIsIndex(window.location.pathname === "/");
-  });
-
   return (
-    <header className="center sticky top-0 inset-x-0 z-20 mt-5 ">
+    <header
+      className={`center fixed top-0 inset-x-0 z-20 bg-[${COLORS.white}CC]`}
+    >
       <div
-        className={
-          "center-y-between-x w-full lg:container bg-white p-4 md:px-8 md:py-5"
-        }
+        className={"center-y-between-x w-full lg:container p-4 md:px-8 md:py-5"}
       >
         {/*Logo*/}
         <a href="/">

@@ -1,6 +1,6 @@
 import React, {useMemo} from "react";
 import Layout from "../../layout";
-import {ServiceAbout, ServiceDescription, ServiceMain, ServiceSteps,} from "../../components/services";
+import {ServiceAbout, ServiceDescription, ServiceMain, ServiceSteps,} from "../../components";
 import {useParams} from "next/navigation";
 import {servicePages} from "../../providers/mis/data";
 

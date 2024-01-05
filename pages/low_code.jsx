@@ -1,6 +1,10 @@
 import React from "react";
 import Layout from "../layout";
-import { LowCodeMain, LowCodeOurPurpose } from "../components/low_code";
+import {
+  LowCodeAdvantages,
+  LowCodeMain,
+  LowCodeOurPurpose,
+} from "../components";
 import { ServiceDescription } from "../components/services";
 
 const LowCode = () => {
@@ -18,6 +22,9 @@ const LowCode = () => {
 
       {/* Our purpose section */}
       <LowCodeOurPurpose />
+
+      {/* Unique advantages */}
+      <LowCodeAdvantages />
     </Layout>
   );
 };

@@ -2,12 +2,13 @@ import React from "react";
 
 import { SectionWrapper } from "../general";
 import { FOUNDER } from "../../constants/defaults";
+import StatCard from "../home/about/StatCard";
 
 const OurPurpose = () => {
   return (
     <SectionWrapper
       sectionClassName={"bg-white relative"}
-      className={"md:px-5 relative"}
+      className={"md:px-5 pb-10 relative"}
     >
       <div className="h-32 md:h-[380px] w-full" />
 
@@ -39,7 +40,22 @@ const OurPurpose = () => {
         }
       >
         ~ {FOUNDER}
+        <p className="text-c-yellow mt-1">CEO Glitex Solutions Ltd.</p>
       </p>
+
+      {/*  stats   */}
+      <div className={"center gap-5 md:gap-10"}>
+        <StatCard
+          number={"24+"}
+          subtext={"Apps we've built"}
+          className={"bg-c-yellow"}
+        />
+        <StatCard
+          number={"24+"}
+          subtext={"Partner Startups"}
+          className={"bg-primary"}
+        />
+      </div>
     </SectionWrapper>
   );
 };

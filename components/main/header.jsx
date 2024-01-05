@@ -13,7 +13,8 @@ const Header = ({ showNav, handleCloseNav, hidePhone, handleOpenNav }) => {
 
   return (
     <header
-      className={`center fixed top-0 inset-x-0 z-20 bg-[${COLORS.white}CC]`}
+      style={{ backgroundColor: COLORS.white + "CC" }}
+      className={`center fixed top-0 inset-x-0 z-20`}
     >
       <div
         className={"center-y-between-x w-full lg:container p-4 md:px-8 md:py-5"}

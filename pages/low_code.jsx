@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../layout";
 import {
   LowCodeAdvantages,
+  LowCodeHowItWorks,
   LowCodeMain,
   LowCodeOurPurpose,
 } from "../components";
@@ -25,6 +26,9 @@ const LowCode = () => {
 
       {/* Unique advantages */}
       <LowCodeAdvantages />
+
+      {/*    How it works  */}
+      <LowCodeHowItWorks />
     </Layout>
   );
 };

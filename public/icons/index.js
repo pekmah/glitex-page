@@ -7,6 +7,9 @@ import PhoneSvg from "./Phone";
 import WebSvg from "./Web";
 import IosBtnSvg from "./IosBtn";
 import PlaystoreBtnSvg from "./PlaystoreBtn";
+import MoneyStressSvg from "./low_code/moneyStress";
+import ReviewSvg from "./low_code/Review";
+import WorkTimeSvg from "./low_code/WorkTIme";
 
 export {
   FacebookSvg,
@@ -18,4 +21,7 @@ export {
   WebSvg,
   IosBtnSvg,
   PlaystoreBtnSvg,
+  MoneyStressSvg,
+  ReviewSvg,
+  WorkTimeSvg,
 };

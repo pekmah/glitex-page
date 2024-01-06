@@ -8,7 +8,7 @@ const OurPurpose = () => {
   return (
     <SectionWrapper
       sectionClassName={"bg-white relative"}
-      className={"md:px-5 pb-10 relative"}
+      className={"md:px-5 pb-10 md:pb-20 relative"}
     >
       <div className="h-32 md:h-[380px] w-full" />
 
@@ -26,7 +26,7 @@ const OurPurpose = () => {
 
       <p
         className={
-          "w-full md:w-1/2 mx-auto my-2 md:my-5 text-base text-primary text-left md:text-center"
+          "w-full md:w-1/2 mx-auto my-2 md:my-5 text-base md:text-2xl text-primary text-left md:text-center"
         }
       >
         &quot;We exist to help you build a market-ready product{" "}
@@ -36,7 +36,7 @@ const OurPurpose = () => {
 
       <p
         className={
-          "w-full md:w-1/2 mx-auto my-2 md:my-5 text-base text-primary text-left md:text-center"
+          "w-full md:w-1/2 mx-auto my-2 md:my-5 text-base md:text-2xl text-primary text-left md:text-center"
         }
       >
         ~ {FOUNDER}

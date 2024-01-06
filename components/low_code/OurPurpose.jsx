@@ -8,7 +8,7 @@ const OurPurpose = () => {
   return (
     <SectionWrapper
       sectionClassName={"bg-white relative"}
-      className={"md:px-5 pb-10 relative"}
+      className={"md:px-5 pb-10 md:pb-20 relative"}
     >
       <div className="h-32 md:h-[380px] w-full" />
 

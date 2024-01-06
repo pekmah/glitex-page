@@ -1,7 +1,7 @@
 import React from "react";
 import { verifyStringIsInnerHtml } from "../../../helpers/helpers";
 
-const Card = ({ index, title, description }) => {
+const Card = ({ index, title, description, icon }) => {
   return (
     <div
       className={
@@ -23,6 +23,9 @@ const Card = ({ index, title, description }) => {
       ) : (
         <p className={"text-inherit"}>{description}</p>
       )}
+
+      {/*    svg */}
+      {icon && <div className={"mt-8 md:mt-12"}>{icon}</div>}
     </div>
   );
 };

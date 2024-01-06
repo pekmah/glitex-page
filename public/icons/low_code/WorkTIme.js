@@ -103,19 +103,19 @@ const WorkTime = () => {
         d="M95.1683 76.7666H135.641V70.3428H95.1683V76.7666Z"
         fill="#FAFAFA"
       />
-      <g style="mix-blend-mode:multiply" opacity="0.7">
+      <g opacity="0.7">
         <path
           d="M136.003 78.835H135.641V98.3464H136.003V78.835Z"
           fill="#E6E6E6"
         />
       </g>
-      <g style="mix-blend-mode:multiply" opacity="0.7">
+      <g opacity="0.7">
         <path
           d="M136.003 70.343H135.641V76.7668H136.003V70.343Z"
           fill="#E6E6E6"
         />
       </g>
-      <g style="mix-blend-mode:multiply" opacity="0.7">
+      <g opacity="0.7">
         <path
           d="M146.954 66.6091H95.4727V67.434H146.954V66.6091Z"
           fill="#E6E6E6"

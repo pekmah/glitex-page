@@ -503,7 +503,6 @@ const Review = () => {
       />
       <mask
         id="mask0_207_749"
-        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
         x="61"
         y="42"
@@ -643,7 +642,6 @@ const Review = () => {
       />
       <mask
         id="mask1_207_749"
-        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
         x="64"
         y="21"

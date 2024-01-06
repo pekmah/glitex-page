@@ -1,1 +1,1 @@
-export const FOUNDER = "Peter Muhia";
+export const FOUNDER = "Peter Njenga";

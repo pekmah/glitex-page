@@ -16,7 +16,7 @@ const About = () => {
       {/*    desc   */}
       <p
         className={
-          "w-full md:w-3/4 mx-auto my-2 md:my-5 text-base text-primary text-left md:text-center"
+          "w-full md:w-1/2 mx-auto leading-6 my-2 md:my-5 text-base text-primary text-left md:text-center"
         }
       >
         Glitex Solutions Limited is a tech-solutions company built by a group of

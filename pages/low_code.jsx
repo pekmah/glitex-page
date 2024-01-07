@@ -29,6 +29,8 @@ const LowCode = () => {
 
       {/*    How it works  */}
       <LowCodeHowItWorks />
+
+      <div className={` bg-primary h-[700px]`} />
     </Layout>
   );
 };

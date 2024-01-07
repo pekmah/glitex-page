@@ -1,5 +1,6 @@
 import React from "react";
 import { SectionWrapper } from "../general";
+import { LowCodeFloater } from "./index";
 
 const HowItWorks = () => {
   return (
@@ -36,6 +37,8 @@ const HowItWorks = () => {
       >
         Your product can go to market in the sooner
       </h3>
+
+      <LowCodeFloater />
     </SectionWrapper>
   );
 };

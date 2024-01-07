@@ -19,7 +19,7 @@ const Floater = (props) => {
     >
       <h3
         className={
-          "mb-8 leading-8 md:leading-11 mb-5 md:bg-24 text-center mt-12 md:w-1/2 mx-auto"
+          "mb-8 leading-8 md:leading-11 md:bg-24 text-center mt-12 md:w-1/2 mx-auto"
         }
       >
         {props?.title}

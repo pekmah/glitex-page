@@ -12,16 +12,8 @@ export const NAV_LIST = [
     route: "/mobile",
   },
   {
-    title: "On Boarding Process",
-    route: "/onboarding",
-  },
-  {
     title: "Our Process ",
     route: "/process",
-  },
-  {
-    title: "Description Us",
-    route: "/about",
   },
   {
     title: "Contact Us",

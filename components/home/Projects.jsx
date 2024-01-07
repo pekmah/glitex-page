@@ -8,7 +8,11 @@ const Projects = () => {
       sectionClassName={"bg-white relative"}
       className={"py-10 md:py-24 px-5 md:px-0 "}
     >
-      <h2 className={" leading-8 md:leading-11 mb-10 md:bg-24 text-center"}>
+      <h2
+        className={
+          " leading-8 md:leading-11 mb-10 md:mb-28 md:bg-24 text-center"
+        }
+      >
         What have we done so far
       </h2>
 
@@ -17,12 +21,12 @@ const Projects = () => {
         {/*  images   */}
         <div className={"center gap-3 flex-1"}>
           <img
-            className={"w-44 md:w-64"}
+            className={"w-44 md:w-56"}
             src="/images/portfolio/okapy/1.png"
             alt="okapy-1"
           />
           <img
-            className={"w-44 md:w-64"}
+            className={"w-44 md:w-56"}
             src="/images/portfolio/okapy/2.png"
             alt="okapy-2"
           />
@@ -41,24 +45,26 @@ const Projects = () => {
 
           <CButtonOutlined
             text={"View More"}
-            className={
-              "border-secondary text-secondary text-base md:text-xl mr-auto px-8"
-            }
+            className={" text-base md:text-lg mr-auto px-8"}
           />
         </div>
       </div>
 
       {/*  Ecommerce Application  */}
-      <div className={"flex flex-col md:flex-row-reverse gap-5 md:gap-0 mt-10"}>
+      <div
+        className={
+          "flex flex-col md:flex-row-reverse gap-5 md:gap-0 mt-10 md:mt-20"
+        }
+      >
         {/*  images   */}
         <div className={"center justify-start gap-3 flex-1"}>
           <img
-            className={"w-44 md:w-64"}
+            className={"w-44 md:w-56"}
             src="/images/portfolio/ecommerce/1.png"
             alt="ecommerce-1"
           />
           <img
-            className={"w-44 md:w-64"}
+            className={"w-44 md:w-56"}
             src="/images/portfolio/ecommerce/2.png"
             alt="ecommerce-2"
           />
@@ -79,17 +85,15 @@ const Projects = () => {
 
             <CButtonOutlined
               text={"View More"}
-              className={
-                "border-secondary text-secondary text-base md:text-xl mr-auto px-8 mt-5"
-              }
+              className={"text-base md:text-lg mr-auto px-8 mt-5"}
             />
           </div>
         </div>
       </div>
 
-      <div className={"w-full md:w-4/5 mx-auto mt-5 md:mt-0"}>
+      <div className={"w-full md:w-4/5 mx-auto mt-5 md:mt-0 md:my-12"}>
         <CButton
-          className={"bg-secondary text-white text-base md:text-lg px-10"}
+          className={"text-white text-base md:text-lg px-10"}
           text={"View More Projects"}
         />
       </div>

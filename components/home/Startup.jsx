@@ -19,18 +19,18 @@ const Startup = () => {
         meets the needs and expectations of your customers.
       </p>
 
-      <div className={"flex flex-col md:flex-row mt-8"}>
+      <div className={"flex flex-col md:flex-row mt-8 md:mt-16"}>
         {/*    image    */}
         <div className={"flex-[0.6] center relative"}>
           <img
-            className={"h-72 md:h-96"}
+            className={"h-72 md:h-[500px]"}
             src="/images/general/bg-logo.png"
             alt="bg-logo"
           />
 
           <img
             className={
-              "h-60 md:h-80 w-60 md:w-80 absolute object-cover rounded-full inset-0 m-auto"
+              "h-60 md:h-[400px] w-60 md:w-[400px] absolute object-cover rounded-full inset-0 m-auto"
             }
             src="/images/home/startup-1.png"
             alt="startup"

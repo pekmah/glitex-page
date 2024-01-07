@@ -19,7 +19,7 @@ const Card = ({ title, body, serviceUrl }) => {
     await router.push(url);
   };
   return (
-    <div className={"rounded-xl c-shadow bg-white p-5 flex-1 text-left"}>
+    <div className={"rounded-[30px] c-shadow bg-white p-8 flex-1 text-left"}>
       {/*    title    */}
       <h5>{title}</h5>
       {/*  body  */}

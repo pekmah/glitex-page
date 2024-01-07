@@ -29,7 +29,7 @@ const Footer = () => {
 
           <span className={"center gap-2"}>
             <WebSvg />
-            business@glitexsolutions.co.ke | info@glitexsolutions.co.ke
+            info@glitexsolutions.co.ke
           </span>
 
           <span className={"center gap-2"}>

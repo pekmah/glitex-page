@@ -31,9 +31,9 @@ export const services = [
   },
 
   {
-    title: "E-Learning platform",
-    desc: `<p>Glitex is well versed with designing and developing technology-based interactive learning solutions.Providing learning technologies , Including custome e-learning , mulit-device leaning, mobile learning and consulting for interactive e-learning curriculum design.</p>`,
-    to: "/e-learning",
+    title: "Low Code / No Code Development",
+    desc: `<p>Build your MVP faster and test it with quick deployment rounds that save you time and money and guarantee that you build the right product.</p>`,
+    to: "/low_code",
   },
   {
     title: "Game Development",

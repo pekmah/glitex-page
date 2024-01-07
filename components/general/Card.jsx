@@ -24,7 +24,7 @@ const Card = ({ title, body, serviceUrl }) => {
       <h5>{title}</h5>
       {/*  body  */}
       <div
-        className={"mt-3 mb-5 font-lato font-normal text-primary-pale"}
+        className={"mt-3 mb-10 font-lato font-normal text-primary-pale"}
         dangerouslySetInnerHTML={{ __html: body }}
       />
       {/*    button   */}

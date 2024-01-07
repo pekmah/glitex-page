@@ -22,7 +22,7 @@ const WhatWeDo = () => {
       {/*  services grid  */}
       <div
         className={
-          "my-10 md:my-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10"
+          "my-10 md:my-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mx-auto w-full md:w-11/12"
         }
       >
         {services.map((service, ind) => (

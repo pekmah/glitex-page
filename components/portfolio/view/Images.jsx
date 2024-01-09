@@ -21,8 +21,9 @@ const Images = () => {
         "grid gap-5 md:gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pb-14 md:pb-32 "
       }
     >
-      {currentProject?.images?.map((img) => (
+      {currentProject?.images?.map((img, ind) => (
         <img
+          key={ind}
           src={img}
           className={"object-contain w-full c-shadow rounded-2xl"}
           alt={img}

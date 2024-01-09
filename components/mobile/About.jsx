@@ -18,9 +18,9 @@ const About = () => {
           "w-full md:w-3/5 mx-auto my-2 md:my-5 text-base text-primary text-left md:text-center"
         }
       >
-        We are Kenya's Top & Best Mobile App Development Company in Nairobi,
-        Kenya. Our team of expert is skilled in Android & iOS mobile apps
-        development. We develop mobile applications at affordable prices.
+        We are Kenya&apos;s Top & Best Mobile App Development Company in
+        Nairobi, Kenya. Our team of expert is skilled in Android & iOS mobile
+        apps development. We develop mobile applications at affordable prices.
         Whether you are in Nairobi Kenya, Ethiopia, Somalia, Rwanda & Tanzania
         Glitex Solutions Limited will serve you.
         <br />

@@ -1,16 +1,14 @@
-import { useEffect, useState } from "react";
+import React from "react";
 import NavList from "./NavList";
 import { CButton, CButtonOutlined } from "../general";
 import CButtonGhost from "../general/CButtonGhost";
 import { FiMenu } from "react-icons/fi";
 import { COLORS } from "../../constants";
 
-export const handleDialerButtonClick = () => {
-  window.location.href = "tel:+254707021821";
-};
-const Header = ({ showNav, handleCloseNav, hidePhone, handleOpenNav }) => {
-  const [isIndex, setIsIndex] = useState();
-
+// export const handleDialerButtonClick = () => {
+//   window.location.href = "tel:+254707021821";
+// };
+const Header = ({ handleOpenNav }) => {
   return (
     <header
       style={{ backgroundColor: COLORS.white + "CC" }}

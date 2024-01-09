@@ -43,33 +43,4 @@ const SideNav = ({ handleCloseNav, isOpen }) => {
 export default SideNav;
 
 // nav list items
-const nav_list_items = [
-  {
-    name: "Home",
-    link: "/",
-  },
-  {
-    name: "Team",
-    link: "/#team",
-  },
-  {
-    name: "Services",
-    link: "/#services",
-  },
-  {
-    name: "Portfolio",
-    link: "/portfolio",
-  },
-  {
-    name: "Mobile Application",
-    link: "/services/mobile-app-developers-in-kenya-1",
-  },
-  {
-    name: "Onboarding process",
-    link: "/onboarding",
-  },
-  {
-    name: "Contact",
-    link: "#contact",
-  },
-];
+

@@ -13,7 +13,7 @@ const Startup = () => {
         className={"my-2 leading-7 text-primary-pale text-left md:text-center"}
       >
         As a startup, building, testing, and refining your product can be a
-        daunting task. That's where a Glitex Solutions comes in.
+        daunting task. That&apos;s where a Glitex Solutions comes in.
         <br className={"hidden md:block"} /> We have the expertise and
         experience to help you bring your product to life, and ensure that it
         meets the needs and expectations of your customers.
@@ -56,10 +56,10 @@ const Startup = () => {
               <h4 className={"leading-8 md:leading-11"}>Build & Test</h4>
 
               <p className={"my-2 leading-7 text-primary-pale"}>
-                We'll help you build a robust, scalable, and user-friendly
+                We&apos;ll help you build a robust, scalable, and user-friendly
                 product that meets your business goals. Once your product is
-                built, we'll work with you to test and refine it, ensuring that
-                it meets the highest quality standards.
+                built, we&apos;ll work with you to test and refine it, ensuring
+                that it meets the highest quality standards.
               </p>
             </div>
 
@@ -68,11 +68,11 @@ const Startup = () => {
               <h4 className={"leading-8 md:leading-11"}>Iterate & Support</h4>
 
               <p className={"my-2 leading-7 text-primary-pale"}>
-                Throughout the process, we'll be there to support you and offer
-                guidance, ensuring that your product is a success. With our
-                help, you'll be able to confidently bring your product to
-                market, knowing that it has been thoroughly tested and refined
-                to meet the needs of your customers.
+                Throughout the process, we&apos;ll be there to support you and
+                offer guidance, ensuring that your product is a success. With
+                our help, you&apos;ll be able to confidently bring your product
+                to market, knowing that it has been thoroughly tested and
+                refined to meet the needs of your customers.
               </p>
             </div>
           </div>

@@ -29,6 +29,7 @@ const Floater = () => {
       <div className={"center mx-2 gap-14 md:mx-10 flex-wrap mt-10"}>
         {new Array(4).fill("")?.map((_, ind) => (
           <img
+            key={ind}
             src={`/images/low_code/floater-${ind + 1}.webp`}
             alt={`floater-${ind}`}
             className={`${renderHeight(ind)} object-contain`}

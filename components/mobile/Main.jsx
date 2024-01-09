@@ -1,5 +1,5 @@
 import React from "react";
-import { CButton, SectionWrapper } from "../general";
+import { SectionWrapper } from "../general";
 import { CustomersSection } from "../home";
 import { IosBtnSvg, PlaystoreBtnSvg } from "../../public/icons";
 

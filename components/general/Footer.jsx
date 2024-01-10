@@ -9,6 +9,7 @@ import {
   WebSvg,
   XSvg,
 } from "../../public/icons";
+import { SOCIAL_LINKS } from "../../constants/defaults";
 
 const Footer = () => {
   return (
@@ -39,13 +40,21 @@ const Footer = () => {
         </div>
 
         <div className={"center gap-4 flex-col md:flex-row flex-1 md:flex-[0]"}>
-          <FacebookSvg />
+          <a href={SOCIAL_LINKS.facebook}>
+            <FacebookSvg />
+          </a>
 
-          <InstagramSvg />
+          <a href={SOCIAL_LINKS.instagram}>
+            <InstagramSvg />
+          </a>
 
-          <XSvg />
+          <a href={SOCIAL_LINKS.x}>
+            <XSvg />
+          </a>
 
-          <LinkedinSvg />
+          <a href={SOCIAL_LINKS.linkedin}>
+            <LinkedinSvg />
+          </a>
         </div>
       </div>
 

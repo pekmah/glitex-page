@@ -13,7 +13,7 @@ export const NAV_LIST = [
   },
   {
     title: "Our Process ",
-    route: "/process",
+    route: "/onboarding",
   },
   {
     title: "Contact Us",

@@ -1,12 +1,5 @@
 import Swal from "sweetalert2";
-
-export const initRequiredProperties = () => {
-  //let's set a global document,sessionStorage and localStorage variable to avoid reference errors.
-  global.document = undefined;
-  global.window = undefined;
-  global.localStorage = undefined;
-  global.sessionStorage = undefined;
-};
+import { CONTACT_PHONE_NUMBER } from "../constants/defaults";
 
 export const getGallerySlug = (gallery, index) => {
   return `/gallery/${gallery?.name?.replace(/ /g, "-")}-${index}`;
@@ -121,3 +114,11 @@ const POSSIBLE_ELEMENTS = [
  */
 export const verifyStringIsInnerHtml = (str) =>
   POSSIBLE_ELEMENTS.some((element) => str?.includes(element));
+
+export const handleRequestQuote = () => {
+  window.open("https://isy9wdcrpvv.typeform.com/to/QRkraQZ2");
+};
+
+export const handleCall = () => {
+  window.location.href = `tel:${CONTACT_PHONE_NUMBER}`;
+};

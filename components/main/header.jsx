@@ -4,6 +4,7 @@ import { CButton, CButtonOutlined } from "../general";
 import CButtonGhost from "../general/CButtonGhost";
 import { FiMenu } from "react-icons/fi";
 import { COLORS } from "../../constants";
+import { handleCall, handleRequestQuote } from "../../helpers/helpers";
 
 // export const handleDialerButtonClick = () => {
 //   window.location.href = "tel:+254707021821";
@@ -40,9 +41,10 @@ const Header = ({ handleOpenNav }) => {
           <CButtonOutlined
             text={"Call: +254 707 021 821"}
             className={"hidden md:flex"}
+            handleClick={handleCall}
           />
 
-          <CButton text={"Request Quote"} />
+          <CButton text={"Request Quote"} handleClick={handleRequestQuote} />
 
           {/*  menu button  */}
           <CButtonGhost

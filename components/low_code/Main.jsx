@@ -2,6 +2,7 @@ import React from "react";
 
 import { CButton, SectionWrapper } from "../general";
 import { CustomersSection } from "../home";
+import { handleRequestQuote } from "../../helpers/helpers";
 
 const Main = () => {
   return (
@@ -20,6 +21,7 @@ const Main = () => {
         {/*  buttons  */}
         <div className={"center-y-between-x gap-5 mr-auto mt-1 md:mt-5"}>
           <CButton
+            handleClick={handleRequestQuote}
             className={"px-6 text-xs md:text-base"}
             text={"Request Quote"}
           />

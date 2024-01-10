@@ -3,6 +3,7 @@ import { NavList } from "../main";
 import { CButton, CButtonOutlined } from "./index";
 import CButtonGhost from "./CButtonGhost";
 import { MdClose } from "react-icons/md";
+import { handleCall, handleRequestQuote } from "../../helpers/helpers";
 
 const SideNav = ({ handleCloseNav, isOpen }) => {
   return (
@@ -30,9 +31,12 @@ const SideNav = ({ handleCloseNav, isOpen }) => {
           <NavList className={"text-center gap-6"} />
 
           <div className={"center-x flex-col w-5/6 mx-auto mt-8 gap-5"}>
-            <CButtonOutlined text={"Call: +254 707 021 821"} />
+            <CButtonOutlined
+              text={"Call: +254 707 021 821"}
+              handleClick={handleCall}
+            />
 
-            <CButton text={"Request Quote"} />
+            <CButton text={"Request Quote"} handleClick={handleRequestQuote} />
           </div>
         </div>
       </div>
@@ -43,4 +47,3 @@ const SideNav = ({ handleCloseNav, isOpen }) => {
 export default SideNav;
 
 // nav list items
-

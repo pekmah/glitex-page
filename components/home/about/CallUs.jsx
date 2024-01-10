@@ -1,5 +1,6 @@
 import React from "react";
 import { CButton, SectionWrapper } from "../../general";
+import { handleCall } from "../../../helpers/helpers";
 
 const CallUs = () => {
   return (
@@ -10,6 +11,7 @@ const CallUs = () => {
       <h1 className={"text-white"}>Turn your ideas into reality today</h1>
 
       <CButton
+        handleClick={handleCall}
         className={
           "bg-white font-lato text-primary text-base md:text-3xl py-3 px-14 mt-6 md:mt-10"
         }

@@ -1,6 +1,6 @@
 import React from "react";
-import {CButton, SectionWrapper} from "../general";
-import {verifyStringIsInnerHtml} from "../../helpers/helpers";
+import { CButton, SectionWrapper } from "../general";
+import { handleCall, verifyStringIsInnerHtml } from "../../helpers/helpers";
 
 /**
  * Renders services floater
@@ -38,6 +38,7 @@ const Floater = (props) => {
 
       <div className={"center"}>
         <CButton
+          handleClick={handleCall}
           text={"Call us Today"}
           className={"text-lg md:text-base mr-auto px-10 mt-5 mx-auto"}
         />

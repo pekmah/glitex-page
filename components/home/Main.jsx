@@ -2,6 +2,7 @@ import React from "react";
 
 import { CButton, SectionWrapper } from "../general";
 import { CustomersSection } from "./index";
+import { handleCall, handleRequestQuote } from "../../helpers/helpers";
 
 const Main = () => {
   return (
@@ -28,12 +29,14 @@ const Main = () => {
           <CButton
             className={"px-6 text-xs md:text-base"}
             text={"Request Quote"}
+            handleClick={handleRequestQuote}
           />
           <CButton
             text={"Call: +254 707 021 821"}
             className={
               "bg-white btn-shadow hover:btn-shadow-deep  duration-300 hover:scale-105 hidden md:flex text-primary"
             }
+            handleClick={handleCall}
           />
         </div>
         <div className={"w-full h-20 md:h-44 md:flex"} />

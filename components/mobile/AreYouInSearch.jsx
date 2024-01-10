@@ -1,5 +1,6 @@
 import React from "react";
 import { CButton, SectionWrapper } from "../general";
+import { handleCall } from "../../helpers/helpers";
 
 const AreYouInSearch = () => {
   return (
@@ -28,6 +29,7 @@ const AreYouInSearch = () => {
 
       <div className={"center"}>
         <CButton
+          handleClick={handleCall}
           text={"Call us Today"}
           className={"text-lg md:text-base mr-auto px-10 mt-5 mx-auto"}
         />

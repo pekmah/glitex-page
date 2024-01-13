@@ -8,7 +8,7 @@ import { handleCall, handleRequestQuote } from "../../helpers/helpers";
 const SideNav = ({ handleCloseNav, isOpen }) => {
   return (
     <div
-      className={` z-40 top-0 absolute right-0 bottom-0 h-screen bg-[#00000050]  ${
+      className={` z-40 fixed right-0 inset-y-0 h-screen bg-[#00000050]  ${
         isOpen ? " w-screen " : "w-0"
       } transition-all duration-500 ease-in-out overflow-hidden`}
       //   onClick={handleCloseNav}

@@ -21,12 +21,12 @@ const Projects = () => {
         {/*  images   */}
         <div className={"center gap-3 flex-1"}>
           <img
-            className={"w-44 md:w-56"}
+            className={"w-40 md:w-56"}
             src="/images/portfolio/okapy/1.png"
             alt="okapy-1"
           />
           <img
-            className={"w-44 md:w-56"}
+            className={"w-40 md:w-56"}
             src="/images/portfolio/okapy/2.png"
             alt="okapy-2"
           />
@@ -35,7 +35,11 @@ const Projects = () => {
         <div className={"flex flex-col gap-4 flex-1 text-left"}>
           <h3>Mobile Application</h3>
 
-          <p className={" text-primary-pale text-lg w-full md:w-3/4"}>
+          <p
+            className={
+              " text-primary-pale text-base md:text-lg w-full md:w-3/4"
+            }
+          >
             Mobile application service are aimed at building iOS & Android
             applications that effectively complement or substitute web
             solutions. Having delivered 50+ mobile app development projects so
@@ -59,12 +63,12 @@ const Projects = () => {
         {/*  images   */}
         <div className={"center justify-start gap-3 flex-1"}>
           <img
-            className={"w-44 md:w-56"}
+            className={"w-40 md:w-56"}
             src="/images/portfolio/ecommerce/1.png"
             alt="ecommerce-1"
           />
           <img
-            className={"w-44 md:w-56"}
+            className={"w-40 md:w-56"}
             src="/images/portfolio/ecommerce/2.png"
             alt="ecommerce-2"
           />
@@ -74,7 +78,7 @@ const Projects = () => {
           <div className={"flex flex-col gap-4 w-full md:w-3/5"}>
             <h3>E-Commerce Application</h3>
 
-            <p className={" text-primary-pale text-lg "}>
+            <p className={" text-primary-pale text-base md:text-lg "}>
               With a strong emphasis on user experience and aesthetics, we
               design visually appealing eCommerce mobile apps that reflect your
               brand identity and resonate with your target audience. Our team

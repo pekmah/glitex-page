@@ -6,7 +6,7 @@ const CallUs = () => {
   return (
     <SectionWrapper
       sectionClassName={"bg-primary"}
-      className={"center flex-col pt-40 md:pt-80 pb-20 text-center gap-5 px-5"}
+      className={"center flex-col pt-32 md:pt-80 pb-20 text-center gap-5 px-5"}
     >
       <h1 className={"text-white"}>Turn your ideas into reality today</h1>
 

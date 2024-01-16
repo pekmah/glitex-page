@@ -24,7 +24,7 @@ const Customers = () => {
                 ? "h-6 md:h-8 my-auto"
                 : ind === 7
                   ? "h-12 my-auto"
-                  : "md:h-[70px] h-12 "
+                  : "md:h-[70px] h-10 "
           }`}
         />
       ))}

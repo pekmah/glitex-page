@@ -333,9 +333,9 @@ export const servicePages = {
       `,
       style: {
         bgSpace: "400px",
-        bgSpaceSm: "800px",
+        bgSpaceSm: "650px",
         bottom: "-400px",
-        bottomSm: "-800px",
+        bottomSm: "-650px",
       },
     },
   },

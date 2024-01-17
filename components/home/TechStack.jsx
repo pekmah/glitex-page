@@ -14,7 +14,7 @@ const TechStack = () => {
 
       <div
         className={
-          "flex justify-start md:justify-center gap-12 overflow-scroll no-scrollbar  "
+          "flex justify-start md:justify-center gap-8 md:gap-12 overflow-scroll no-scrollbar  "
         }
       >
         {LANGUAGES.map((lang, ind) => (

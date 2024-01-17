@@ -8,7 +8,7 @@ const Main = () => {
       className={"flex md:px-5 min-h-[30vh] md:min-h-70 relative"}
     >
       {/*  text container   */}
-      <div className={" flex- md:flex-1 center pl-4 "}>
+      <div className={" flex-[0.5] md:flex-1 center pl-4 "}>
         <h1 className={"md:leading-[60px] text-center w-full mb-10 md:mb-0"}>
           Portfolio
         </h1>
@@ -17,7 +17,7 @@ const Main = () => {
       </div>
 
       {/*  image container   */}
-      <div className={"flex-1 pt-0 center justify-start relative h-auto"}>
+      <div className={"flex-1 center justify-start relative h-auto pb-12"}>
         <img
           src="/images/portfolio/portfolio-main.webp"
           alt="bg_logo"

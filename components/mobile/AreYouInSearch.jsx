@@ -5,11 +5,15 @@ import { handleCall } from "../../helpers/helpers";
 const AreYouInSearch = () => {
   return (
     <SectionWrapper
-      sectionClassName={"absolute inset-x-0 -bottom-[400px] mx-3"}
+      sectionClassName={
+        "absolute inset-x-0  -bottom-[450px] md:-bottom-[400px] mx-3"
+      }
       className={"bg-white tech-shadow p-5 md:p-8 rounded-2xl "}
     >
       <h2
-        className={" leading-8 md:leading-11 mb-10 md:bg-24 text-center mt-12"}
+        className={
+          " leading-8 md:leading-11 mb-10 md:bg-24 text-center md:mt-12 mt-5"
+        }
       >
         Are you in search of the mobile app <br className={"hidden md:block"} />
         developers in Kenya?

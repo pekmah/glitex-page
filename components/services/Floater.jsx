@@ -1,6 +1,7 @@
 import React from "react";
-import { CButton, SectionWrapper } from "../general";
-import { handleCall, verifyStringIsInnerHtml } from "../../helpers/helpers";
+import {CButton, SectionWrapper} from "../general";
+import {handleCall, verifyStringIsInnerHtml} from "../../helpers/helpers";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 /**
  * Renders services floater
@@ -9,17 +10,18 @@ import { handleCall, verifyStringIsInnerHtml } from "../../helpers/helpers";
  * @constructor
  */
 const Floater = (props) => {
+  const { size } = useWindowDimensions();
   return (
     <SectionWrapper
       sectionStyles={{
-        bottom: props?.bottom,
+        bottom: size === "sm" ? props?.style?.bottomSm : props?.style?.bottom,
       }}
-      sectionClassName={`absolute inset-x-0 -bottom-[${props?.bottom}] mx-3`}
+      sectionClassName={`absolute inset-x-0 -bottom-[${props?.style?.bottom}] mx-3`}
       className={"bg-white tech-shadow p-5 md:p-8 rounded-2xl "}
     >
       <h3
         className={
-          "mb-8 leading-8 md:leading-11 md:bg-24 text-center mt-12 md:w-1/2 mx-auto"
+          "mb-8 leading-8 md:leading-11 md:bg-24 text-center mt-5 mx:mt-12 md:w-1/2 mx-auto"
         }
       >
         {props?.title}
@@ -27,7 +29,9 @@ const Floater = (props) => {
 
       {verifyStringIsInnerHtml(props?.body) ? (
         <div
-          className={"mb-5 md:w-1/2 mx-auto text-center text-primary"}
+          className={
+            "mb-5 md:w-1/2 mx-auto text-center text-sm md:text-base text-primary"
+          }
           dangerouslySetInnerHTML={{ __html: props?.body }}
         />
       ) : (

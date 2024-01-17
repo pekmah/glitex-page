@@ -42,7 +42,7 @@ const Main = () => {
           src="/images/mis/low_code-main.webp"
           alt="bg_logo"
           className={
-            "absolute h-full inset-0 object-cover w-3/5 m-auto rounded-[40px] object-left shadow"
+            "absolute h-full inset-0 object-cover w-10/12 md:w-3/5 m-auto rounded-[40px] object-left shadow"
           }
         />
       </div>

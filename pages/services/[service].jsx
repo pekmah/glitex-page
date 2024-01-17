@@ -3,6 +3,7 @@ import Layout from "../../layout";
 import {ServiceAbout, ServiceDescription, ServiceMain, ServiceSteps,} from "../../components";
 import {useParams} from "next/navigation";
 import {servicePages} from "../../providers/mis/data";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 /**
  * Possible routes: mis,games,ai,seo
@@ -11,6 +12,7 @@ import {servicePages} from "../../providers/mis/data";
  */
 const Service = () => {
   const params = useParams();
+  const { size } = useWindowDimensions();
 
   const currentService = useMemo(() => {
     if (params?.service) {
@@ -55,7 +57,12 @@ const Service = () => {
       )}
 
       <div
-        style={{ height: currentService?.floater?.style?.bgSpace }}
+        style={{
+          height:
+            size === "sm"
+              ? currentService?.floater?.style?.bgSpaceSm
+              : currentService?.floater?.style?.bgSpace,
+        }}
         className={` bg-primary`}
       />
     </Layout>

@@ -20,13 +20,17 @@ const OurPurpose = () => {
         }
       />
 
-      <h1 className={"h2 leading-8 md:leading-11 md:w-1/2 mx-auto text-center"}>
+      <h1
+        className={
+          "h2 leading-8 md:leading-11 w-3/4 md:w-1/2 mx-auto text-center"
+        }
+      >
         Our Purpose
       </h1>
 
       <p
         className={
-          "w-full md:w-1/2 mx-auto my-2 md:my-5 text-base md:text-2xl text-primary text-left md:text-center"
+          "w-10/12 md:w-1/2 mx-auto my-2 md:my-5 text-base md:text-2xl text-primary text-left md:text-center"
         }
       >
         &quot;We exist to help you build a market-ready product{" "}
@@ -36,7 +40,7 @@ const OurPurpose = () => {
 
       <p
         className={
-          "w-full md:w-1/2 mx-auto my-2 md:my-5 text-base md:text-2xl text-primary text-left md:text-center"
+          "w-full w-3/4 md:w-1/2 mx-auto my-2 md:my-5 text-base md:text-2xl text-primary text-left md:text-center"
         }
       >
         ~ {FOUNDER}

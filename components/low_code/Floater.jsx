@@ -6,12 +6,12 @@ const Floater = () => {
   const renderHeight = (ind) => {
     switch (ind) {
       case 0:
-        return "h-20";
+        return " h-14 md:h-20 ";
       case 1:
-        return "h-16";
+        return "h-12 md:h-16";
 
       default:
-        return "h-12";
+        return "h-8 md:h-12";
     }
   };
   return (
@@ -21,13 +21,15 @@ const Floater = () => {
     >
       <h2
         className={
-          "mb-8 leading-8 md:leading-11  md:bg-24 text-center mt-12 md:w-1/2 mx-auto"
+          "mb-8 leading-8 md:leading-11  md:bg-24 text-center mt-5 md:mt-12 md:w-1/2 mx-auto"
         }
       >
         Our Development Tools
       </h2>
 
-      <div className={"center mx-2 gap-14 md:mx-10 flex-wrap mt-10"}>
+      <div
+        className={"center mx-2 gap-5 md:gap-14 md:mx-10 flex-wrap md:mt-10"}
+      >
         {new Array(4).fill("")?.map((_, ind) => (
           <img
             key={ind}
@@ -61,7 +63,7 @@ const Floater = () => {
         <CButton
           handleClick={handleCall}
           text={"Call us Today"}
-          className={"text-lg md:text-base mr-auto px-10 mt-5 mx-auto"}
+          className={"text-base md:text-lg mr-auto px-10 md:mt-5 mx-auto"}
         />
       </div>
     </SectionWrapper>

@@ -90,7 +90,12 @@ export const servicePages = {
           your business on top of all search engines.
         
       `,
-      style: { bgSpace: "280px", bottom: "-250px" },
+      style: {
+        bgSpace: "280px",
+        bgSpaceSm: "300px",
+        bottom: "-250px",
+        bottomSm: "280px",
+      },
     },
   },
   ai: {
@@ -189,7 +194,12 @@ export const servicePages = {
           <li>4. Accelerate Business Operations - Streamline your operations and enhance efficiency with the power of AI, enabling rapid business growth.</li>
         </ul>
       `,
-      style: { bgSpace: "430px", bottom: "-420px" },
+      style: {
+        bgSpace: "430px",
+        bottom: "-420px",
+        bgSpaceSm: "600px",
+        bottomSm: "-500px",
+      },
     },
   },
   games: {
@@ -321,7 +331,12 @@ export const servicePages = {
           At Glitex Solutions Limited, we offer a wide range of services related to game software development. We work closely with our clients to understand their game concept and vision and provide comprehensive solutions to bring their ideas to life. Our services include game design, programming, graphics and animation, sound and music, quality assurance, platform support, and more. We specialize in developing games across various genres, including action, adventure, role-playing, simulation, and more. Our team of experienced and skilled game developers use the latest technologies and tools to deliver high-quality and engaging games that provide an immersive experience to players. Contact us today to learn more about our game software development services and how we can help you create your next game.
         
       `,
-      style: { bgSpace: "400px", bottom: "-400px" },
+      style: {
+        bgSpace: "400px",
+        bgSpaceSm: "800px",
+        bottom: "-400px",
+        bottomSm: "-800px",
+      },
     },
   },
   mis: {
@@ -386,7 +401,12 @@ export const servicePages = {
           Are you in need of developing a SACCO Management system? You are in the right place. Glitex Solutions is the company to work with to develop your SACCO ERP.
         
       `,
-      style: { bgSpace: "400px", bottom: "-350px" },
+      style: {
+        bgSpace: "400px",
+        bgSpaceSm: "350px",
+        bottom: "-350px",
+        bottomSm: "-350px",
+      },
     },
   },
 };

@@ -30,7 +30,7 @@ const LowCode = () => {
       {/*    How it works  */}
       <LowCodeHowItWorks />
 
-      <div className={` bg-primary h-[700px]`} />
+      <div className={` bg-primary h-[560px] md:h-[700px]`} />
     </Layout>
   );
 };

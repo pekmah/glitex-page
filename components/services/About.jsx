@@ -11,7 +11,7 @@ import {ServiceFloater} from "./index";
 const About = (props) => {
   return (
     <SectionWrapper
-      sectionClassName={"bg-white min-h-90 relative"}
+      sectionClassName={"bg-white md:min-h-90 relative"}
       className={"py-10 md:py-24 px-5 md:px-0 text-center center-x flex-col"}
     >
       {props?.title && (
@@ -41,7 +41,7 @@ const About = (props) => {
           <div
             key={ind}
             className={`flex flex-col md:flex-row ${
-              isEven && "md:flex-row-reverse"
+              isEven && " md:flex-row-reverse"
             } mt-8 center`}
           >
             {/*    image    */}
@@ -52,10 +52,11 @@ const About = (props) => {
                   src={item?.imageUrl}
                   alt={"about-image"}
                 />
+
                 <div
                   className={`absolute ${
                     isEven ? "bg-c-yellow" : "bg-primary"
-                  } z-0 -bottom-6 right-[9%] rounded-[40px] w-8/12 h-full`}
+                  } z-0 -bottom-6 -right-2 md:right-[9%] rounded-[40px] w-10/12 md:w-8/12 h-full`}
                 />
               </div>
             ) : (
@@ -78,7 +79,7 @@ const About = (props) => {
                 {/*  define  */}
                 <div>
                   {item?.description?.title && (
-                    <h4 className={"leading-8 md:leading-11"}>
+                    <h4 className={"leading-8 md:leading-11 mt-12 md:mt-0"}>
                       {item?.description?.title}
                     </h4>
                   )}
@@ -111,7 +112,7 @@ const About = (props) => {
         <ServiceFloater
           title={props?.floater?.title}
           body={props?.floater?.body}
-          bottom={props?.floater?.style?.bottom}
+          style={props?.floater?.style}
         />
       )}
     </SectionWrapper>

@@ -1,10 +1,10 @@
 import React from "react";
 
-const PlaystoreBtn = () => {
+const PlaystoreBtn = ({ h = "45" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="45"
+      height={h}
       viewBox="0 0 211 71"
       fill="none"
     >

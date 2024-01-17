@@ -1,10 +1,10 @@
 import React from "react";
 
-const IosBtn = () => {
+const IosBtn = ({ h = "45" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="45"
+      height={h}
       viewBox="0 0 238 71"
       fill="none"
     >

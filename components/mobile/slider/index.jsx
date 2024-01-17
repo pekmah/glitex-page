@@ -12,8 +12,10 @@ import { GrNext, GrPrevious } from "react-icons/gr";
 import { portfolioData } from "../../../providers/projects/data";
 import { CButton } from "../../general";
 import { AreYouInSearch } from "../index";
+import useWindowDimensions from "../../../hooks/useWindowDimensions";
 
 const Slider = () => {
+  const { size } = useWindowDimensions();
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
@@ -32,7 +34,7 @@ const Slider = () => {
 
         <p
           className={
-            "text-lg leading-8 font-400 md:pr-5 ease-in-out duration-300"
+            "text-base md:text-lg leading-8 font-400 md:pr-5 ease-in-out duration-300 h-60 line-clamp-[7]"
           }
         >
           {portfolioData[activeIndex + 1]?.description}
@@ -48,7 +50,7 @@ const Slider = () => {
         effect={"coverflow"}
         grabCursor
         centeredSlides
-        slidesPerView={3}
+        slidesPerView={size === "sm" ? 2 : 3}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
@@ -64,7 +66,7 @@ const Slider = () => {
           clickable: true,
         }}
         onActiveIndexChange={({ activeIndex }) => setActiveIndex(activeIndex)}
-        spaceBetween={"40px"}
+        spaceBetween={size === "sm" ? "10px" : "40px"}
         className={"swiper_container"}
       >
         {Object.keys(portfolioData).map((item, ind) => (
@@ -77,7 +79,7 @@ const Slider = () => {
 
         <div
           className={
-            "bottom-6 relative w-full md:w-1/3 m-auto center-y-between-x "
+            "bottom-28 md:bottom-6 relative w-3/4 md:w-1/3 m-auto center-y-between-x "
           }
         >
           <button className={" swiper-prev w-8 h-8 my-auto"}>

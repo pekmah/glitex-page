@@ -2,37 +2,42 @@ import React from "react";
 import { SectionWrapper } from "../general";
 import { CustomersSection } from "../home";
 import { IosBtnSvg, PlaystoreBtnSvg } from "../../public/icons";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 const Main = () => {
+  const { size } = useWindowDimensions();
   return (
-    <SectionWrapper className={"flex md:px-5 md:min-h-[65vh] relative"}>
+    <SectionWrapper className={"flex md:px-5 md:h-[85vh] relative"}>
       {/*  text container   */}
-      <div className={"flex-1 center-x flex-col pl-4"}>
+      <div className={"flex-[0.8] center-x flex-col pl-4"}>
         <h1 className={"md:leading-[60px] w-full md:w-4/5"}>
           Mobile App
           <br className={"hidden md:flex"} />
-          Developers in Kenya
-          <br className={"hidden md:flex"} />
+          Developers in Kenya <br className={"hidden md:flex"} />
           Android apps | IOS apps
         </h1>
         {/*  qualities list  */}
 
         {/*  buttons  */}
-        <div className={"center-y-between-x gap-5 mr-auto mt-1 md:mt-5"}>
+        <div
+          className={
+            "center-y-between-x  flex-col md:flex-row gap-5 mr-auto mt-5"
+          }
+        >
           <button>
-            <PlaystoreBtnSvg />
+            <PlaystoreBtnSvg h={size === "sm" ? "35" : "45"} />
           </button>
 
           {/* IOS Button  */}
           <button>
-            <IosBtnSvg />
+            <IosBtnSvg h={size === "sm" ? "35" : "45"} />
           </button>
         </div>
         <div className={"w-full h-20 md:h-44 md:flex"} />
       </div>
 
       {/*  image container   */}
-      <div className={"flex-1 center pt-0 relative h-auto"}>
+      <div className={"flex-1 center pt-0 relative h-auto pb-12 flex-shrink-0"}>
         <img
           src="/images/mobile/attorney.png"
           alt="bg_logo"

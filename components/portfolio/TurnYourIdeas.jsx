@@ -5,7 +5,7 @@ import { handleCall } from "../../helpers/helpers";
 const TurnYourIdeas = () => {
   return (
     <SectionWrapper
-      sectionClassName={"absolute inset-x-0 -bottom-48 mx-3"}
+      sectionClassName={"absolute inset-x-0 -bottom-40 md:-bottom-48 mx-3"}
       className={"bg-white tech-shadow p-5 md:p-8 rounded-2xl "}
     >
       <h2
@@ -16,7 +16,7 @@ const TurnYourIdeas = () => {
 
       <div className={"center"}>
         <CButton
-        handleClick={handleCall}
+          handleClick={handleCall}
           text={"Call us Today"}
           className={"text-lg md:text-base mr-auto px-10 mt-5 mx-auto"}
         />

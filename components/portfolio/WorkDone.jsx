@@ -8,15 +8,17 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
-import { GrNext, GrPrevious } from "react-icons/gr";
 import { portfolioData } from "../../providers/projects/data";
-import { CButton } from "../general";
 import TurnYourIdeas from "./TurnYourIdeas";
 import { useRouter } from "next/router";
+import { CButton } from "../general";
+import { GrNext, GrPrevious } from "react-icons/gr";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 const WorkDone = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const router = useRouter();
+  const { size } = useWindowDimensions();
   /**
    * opens project: /portfolio/[id]
    * @param {string} id
@@ -28,7 +30,7 @@ const WorkDone = () => {
   return (
     <SectionWrapper
       sectionClassName={"relative bg-bg-yellow pb-20 -mt-10 min-h-screen"}
-      className={"py-10 md:py-8 px-5 md:px-0 "}
+      className={"py-10 md:py-3 pt-20 md:pt-0 px-5 md:px-0 "}
     >
       <h2 className={" leading-8 md:leading-11 mb-10 md:mt-24 text-center"}>
         Some of the work we have done
@@ -36,7 +38,7 @@ const WorkDone = () => {
 
       <div className="gap-5 md:gap-0 center flex-col md:flex-row ">
         <div className={"flex-[2] flex flex-col h-full md:pl-28"}>
-          <h3 className={" leading-8 md:leading-11  "}>
+          <h3 className={" leading-8 md:leading-11 hidden md:block "}>
             Some of the work we have done
           </h3>
 
@@ -46,7 +48,7 @@ const WorkDone = () => {
 
           <p
             className={
-              "text-lg leading-8 font-400 md:pr-5 ease-in-out duration-300"
+              "text-base md:text-lg leading-8 font-400 md:pr-5 ease-in-out duration-300 h-60 line-clamp-[7]"
             }
           >
             {portfolioData[activeIndex + 1]?.description}
@@ -59,11 +61,12 @@ const WorkDone = () => {
           />
         </div>
 
+        {/*<div>*/}
         <Swiper
           effect={"coverflow"}
           grabCursor
           centeredSlides
-          slidesPerView={3}
+          slidesPerView={size === "sm" ? 2 : 3}
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
@@ -79,7 +82,7 @@ const WorkDone = () => {
             clickable: true,
           }}
           onActiveIndexChange={({ activeIndex }) => setActiveIndex(activeIndex)}
-          spaceBetween={"40px"}
+          spaceBetween={"10px"}
           className={"swiper_container"}
         >
           {Object.keys(portfolioData).map((item, ind) => (
@@ -92,7 +95,7 @@ const WorkDone = () => {
 
           <div
             className={
-              "bottom-6 relative w-full md:w-1/3 m-auto center-y-between-x "
+              "bottom-4 relative w-3/4 md:w-1/3 m-auto center-y-between-x"
             }
           >
             <button className={" swiper-prev w-8 h-8 my-auto"}>
@@ -103,9 +106,10 @@ const WorkDone = () => {
               <GrNext className={"text-xl text-gray-400"} />
             </button>
 
-            <div className={"swiper-pagination mt-2 inset-0 m-auto"}></div>
+            <div className={"swiper-pagination md:mt-2 inset-0 m-auto"}></div>
           </div>
         </Swiper>
+        {/*</div>*/}
       </div>
 
       <TurnYourIdeas />

@@ -23,21 +23,23 @@ const ComparisonTable = () => {
   };
   return (
     <div className={"max-w-screen overflow-scroll md:overflow-hidden"}>
-      <table className={"mx-auto  md:w-3/4 mt-14 bg-white rounded-[30px]"}>
-        <thead className={"flex"}>
+      <table
+        className={"mx-auto w-auto md:w-3/4 mt-14 bg-white rounded-[30px]"}
+      >
+        <thead className={"flex w-full"}>
           {CODE_COMPARISONS.header?.map((h, ind) => (
             <th
               key={ind}
               className={`flex-1 ${renderBorder(
                 ind,
-              )} min-w-40 border-primary text-center center text-primary text-base md:text-xl font-tinos font-bold py-2 md:py-7 p-0 `}
+              )} min-w-40 flex-shrink-0 border-primary text-center center text-primary text-base md:text-xl font-tinos font-bold py-2 md:py-7 p-0 `}
             >
               {h}
             </th>
           ))}
         </thead>
 
-        <tbody>
+        <tbody className={"w-full"}>
           {Object.keys(CODE_COMPARISONS.body).map((row) => (
             <tr className={"flex"} key={row}>
               {CODE_COMPARISONS.body[row]?.map((r, ind) => (

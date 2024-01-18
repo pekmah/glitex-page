@@ -44,7 +44,7 @@ const Floater = (props) => {
         <CButton
           handleClick={handleCall}
           text={"Call us Today"}
-          className={"text-lg md:text-base mr-auto px-10 mt-5 mx-auto"}
+          className={"text-sm md:text-lg mr-auto px-10 mt-5 mx-auto"}
         />
       </div>
     </SectionWrapper>

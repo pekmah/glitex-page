@@ -105,7 +105,7 @@ const Projects = () => {
 
       <div className={"w-full md:w-4/5 mx-auto mt-5 md:mt-0 md:my-12"}>
         <CButton
-          className={"text-white text-base md:text-lg px-10"}
+          className={"text-white text-sm md:text-base px-10"}
           text={"View More Projects"}
           handleClick={() => {
             router.push("/portfolio");

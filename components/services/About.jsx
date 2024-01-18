@@ -95,7 +95,7 @@ const About = (props) => {
                   <div className={"center"}>
                     <CButton
                       text={"View"}
-                      className={`text-lg md:text-base bg-c-yellow ${
+                      className={`text-sm md:text-base bg-c-yellow ${
                         isEven ? "ml-auto" : "mr-auto"
                       } px-10 mt-5 `}
                     />

@@ -16,7 +16,7 @@ const OurPurpose = () => {
         src="/images/low_code/our_purpose-1.webp"
         alt="low code"
         className={
-          "absolute mx-auto inset-x-0 -top-28 md:-top-60 object-contain w-11/12 md:w-8/12"
+          "absolute mx-auto inset-x-0 -top-20 md:-top-60 object-contain w-11/12 md:w-8/12"
         }
       />
 
@@ -40,7 +40,7 @@ const OurPurpose = () => {
 
       <p
         className={
-          "w-full w-3/4 md:w-1/2 mx-auto my-2 md:my-5 text-base md:text-2xl text-primary text-left md:text-center"
+          " w-3/4 md:w-1/2 mx-auto my-2 md:my-5 text-base md:text-2xl text-primary text-left md:text-center"
         }
       >
         ~ {FOUNDER}

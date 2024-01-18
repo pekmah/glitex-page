@@ -46,7 +46,7 @@ const ComparisonTable = () => {
                   className={`flex-1 ${renderBorder(
                     ind,
                     Object.keys(CODE_COMPARISONS.body).length === parseInt(row),
-                  )} flex-shrink-0 border-primary text-center text-primary md:text-base text-sm min-w-40 font-lato py-1 md:py-8`}
+                  )} flex-shrink-0 border-primary center text-center text-primary md:text-base text-sm min-w-40 font-lato py-4 md:py-8 px-1`}
                 >
                   {r}
                 </td>

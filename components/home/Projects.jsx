@@ -1,8 +1,10 @@
 import React from "react";
 import { CButton, CButtonOutlined, SectionWrapper } from "../general";
 import { TechStackSection } from "./index";
+import { useRouter } from "next/router";
 
 const Projects = () => {
+  const router = useRouter();
   return (
     <SectionWrapper
       sectionClassName={"bg-white relative"}
@@ -50,6 +52,9 @@ const Projects = () => {
           <CButtonOutlined
             text={"View More"}
             className={" text-base md:text-lg mr-auto px-8"}
+            handleClick={() => {
+              router.push("/portfolio");
+            }}
           />
         </div>
       </div>
@@ -90,6 +95,9 @@ const Projects = () => {
             <CButtonOutlined
               text={"View More"}
               className={"text-base md:text-lg mr-auto px-8 mt-5"}
+              handleClick={() => {
+                router.push("/portfolio");
+              }}
             />
           </div>
         </div>
@@ -99,6 +107,9 @@ const Projects = () => {
         <CButton
           className={"text-white text-base md:text-lg px-10"}
           text={"View More Projects"}
+          handleClick={() => {
+            router.push("/portfolio");
+          }}
         />
       </div>
 

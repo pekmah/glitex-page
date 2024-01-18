@@ -1,5 +1,5 @@
 import React from "react";
-import { SectionWrapper } from "../general";
+import {SectionWrapper} from "../general";
 import PropTypes from "prop-types";
 
 /**
@@ -14,7 +14,9 @@ const Description = (props) => {
       sectionClassName={"bg-bg-yellow -mt-4 md:-mt-12 min-h-50 md:min-h-70"}
       className={"py-20 md:py-36 px-5 md:px-0 text-center center flex-col"}
     >
-      <h1 className={"h2 leading-8 md:leading-11 md:w-1/2"}>{props?.title}</h1>
+      <h1 className={"h3 md:h2 leading-8 md:leading-11 md:w-1/2"}>
+        {props?.title}
+      </h1>
 
       {/*    desc   */}
       <p

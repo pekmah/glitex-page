@@ -2,8 +2,13 @@ import React from "react";
 import { CButton, SectionWrapper } from "../general";
 import { IosBtnSvg, PlaystoreBtnSvg } from "../../public/icons";
 import RoundedBgFloater from "../general/RoundedBgFloater";
+import { useRouter } from "next/router";
 
 const Portfolio = () => {
+  const router = useRouter();
+  const handlePortfolioNavigation = () => {
+    router.push("/portfolio");
+  };
   return (
     <>
       {/* Okapy app */}
@@ -51,6 +56,7 @@ const Portfolio = () => {
           </div> */}
 
           <CButton
+            onClick={handlePortfolioNavigation}
             text={"Portfolio"}
             className={" text-base md:text-base mr-auto px-10 mt-5"}
           />
@@ -102,6 +108,7 @@ const Portfolio = () => {
           </div> */}
 
           <CButton
+            onClick={handlePortfolioNavigation}
             text={"Portfolio"}
             className={" text-base md:text-base mr-auto px-10 mt-5"}
           />

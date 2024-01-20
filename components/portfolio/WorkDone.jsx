@@ -36,7 +36,7 @@ const WorkDone = () => {
         Some of the work we have done
       </h2>
 
-      <div className="gap-5 md:gap-0 center flex-col md:flex-row ">
+      <div className="gap-5 md:gap-0 center flex-col-reverse md:flex-row ">
         <div className={"flex-[2] flex flex-col h-full md:pl-28"}>
           <h3 className={" leading-8 md:leading-11 hidden md:block "}>
             Some of the work we have done

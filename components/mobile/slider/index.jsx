@@ -22,7 +22,7 @@ const Slider = () => {
     <SectionWrapper
       sectionClassName={"relative bg-pale-gray pb-20"}
       className={
-        "py-10 md:py-8 px-5 md:px-0 gap-5 md:gap-0 center flex-col md:flex-row "
+        "py-10 md:py-8 px-5 md:px-0 gap-5 md:gap-0 center flex-col-reverse md:flex-row "
       }
     >
       <div className={"flex-[2] flex flex-col h-full md:pl-28"}>

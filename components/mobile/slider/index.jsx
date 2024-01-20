@@ -82,11 +82,15 @@ const Slider = () => {
             "bottom-28 md:bottom-6 relative w-3/4 md:w-1/3 m-auto center-y-between-x "
           }
         >
-          <button className={" swiper-prev w-8 h-8 my-auto"}>
+          <button className={" swiper-prev  z-50 w-12 h-12 my-auto center"}>
             <GrPrevious className={"text-xl text-gray-400"} />
           </button>
 
-          <button className={" swiper-next w-8 h-8 m y-auto cursor-pointer"}>
+          <button
+            className={
+              " swiper-next w-12 z-50 h-12 m y-auto cursor-pointer center"
+            }
+          >
             <GrNext className={"text-xl text-gray-400"} />
           </button>
 

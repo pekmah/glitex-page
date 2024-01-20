@@ -65,7 +65,7 @@ const Footer = () => {
           "text-center text-sm md:text-base text-white font-lato font-light"
         }
       >
-        © Copyright Glitex Solutions 2023
+        © Copyright Glitex Solutions ${new Date().getFullYear()}
       </p>
     </SectionWrapper>
   );

@@ -1,6 +1,5 @@
 import React from "react";
 import { CButton, SectionWrapper } from "../general";
-import { IosBtnSvg, PlaystoreBtnSvg } from "../../public/icons";
 import RoundedBgFloater from "../general/RoundedBgFloater";
 import { useRouter } from "next/router";
 

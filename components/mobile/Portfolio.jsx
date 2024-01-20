@@ -39,16 +39,16 @@ const Portfolio = () => {
             development needs for both iOS and Android.
           </p>
 
-          <div className={"center-y-between-x gap-5 mr-auto mt-1 md:my-5"}>
+          {/* <div className={"center-y-between-x gap-5 mr-auto mt-1 md:my-5"}>
             <button>
               <PlaystoreBtnSvg />
-            </button>
+            </button> */}
 
-            {/* IOS Button  */}
-            <button>
+          {/* IOS Button  */}
+          {/* <button>
               <IosBtnSvg />
             </button>
-          </div>
+          </div> */}
 
           <CButton
             text={"Portfolio"}
@@ -90,16 +90,16 @@ const Portfolio = () => {
             development needs for both iOS and Android.
           </p>
 
-          <div className={"center-y-between-x gap-5 mr-auto mt-1 md:my-5"}>
+          {/* <div className={"center-y-between-x gap-5 mr-auto mt-1 md:my-5"}>
             <button>
               <PlaystoreBtnSvg />
-            </button>
+            </button> */}
 
-            {/* IOS Button  */}
-            <button>
+          {/* IOS Button  */}
+          {/* <button>
               <IosBtnSvg />
             </button>
-          </div>
+          </div> */}
 
           <CButton
             text={"Portfolio"}

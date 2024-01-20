@@ -1,11 +1,9 @@
 import React from "react";
 import { SectionWrapper } from "../general";
 import { CustomersSection } from "../home";
-import { IosBtnSvg, PlaystoreBtnSvg } from "../../public/icons";
-import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 const Main = () => {
-  const { size } = useWindowDimensions();
+  // const { size } = useWindowDimensions();
   return (
     <SectionWrapper className={"flex md:px-5 md:h-[85vh] relative"}>
       {/*  text container   */}
@@ -19,20 +17,20 @@ const Main = () => {
         {/*  qualities list  */}
 
         {/*  buttons  */}
-        <div
+        {/* <div
           className={
             "center-y-between-x  flex-col md:flex-row gap-5 mr-auto mt-5"
           }
-        >
-          <button>
+        > */}
+        {/* <button>
             <PlaystoreBtnSvg h={size === "sm" ? "35" : "45"} />
-          </button>
+          </button> */}
 
-          {/* IOS Button  */}
-          <button>
+        {/* IOS Button  */}
+        {/* <button>
             <IosBtnSvg h={size === "sm" ? "35" : "45"} />
-          </button>
-        </div>
+          </button> */}
+        {/* </div> */}
         <div className={"w-full h-20 md:h-44 md:flex"} />
       </div>
 

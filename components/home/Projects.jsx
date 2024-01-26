@@ -24,12 +24,12 @@ const Projects = () => {
         <div className={"center gap-3 flex-1"}>
           <img
             className={"w-40 md:w-56"}
-            src="/images/portfolio/okapy/1.png"
+            src="/images/portfolio/okapy/1.webp"
             alt="okapy-1"
           />
           <img
             className={"w-40 md:w-56"}
-            src="/images/portfolio/okapy/2.png"
+            src="/images/portfolio/okapy/2.webp"
             alt="okapy-2"
           />
         </div>
@@ -69,12 +69,12 @@ const Projects = () => {
         <div className={"center justify-start gap-3 flex-1"}>
           <img
             className={"w-40 md:w-56"}
-            src="/images/portfolio/ecommerce/1.png"
+            src="/images/portfolio/ecommerce/1.webp"
             alt="ecommerce-1"
           />
           <img
             className={"w-40 md:w-56"}
-            src="/images/portfolio/ecommerce/2.png"
+            src="/images/portfolio/ecommerce/2.webp"
             alt="ecommerce-2"
           />
         </div>

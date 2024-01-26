@@ -1,6 +1,6 @@
 export const servicePages = {
   //page
-  seo: {
+  "seo-companies-in-nairobi-kenya-0": {
     //  main section
     main: {
       title: `Search Engine Evaluator Companies in Kenya | SEO Services Nairobi Kenya.  
@@ -98,7 +98,7 @@ export const servicePages = {
       },
     },
   },
-  ai: {
+  "ai-developers-in-kenya-2": {
     //  main section
     main: {
       title: `
@@ -202,7 +202,7 @@ export const servicePages = {
       },
     },
   },
-  games: {
+  "game-developers-in-kenya-5": {
     //  main section
     main: {
       title: `
@@ -339,7 +339,7 @@ export const servicePages = {
       },
     },
   },
-  mis: {
+  management: {
     //  main section
     main: {
       title: `

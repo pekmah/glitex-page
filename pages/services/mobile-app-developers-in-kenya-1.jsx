@@ -1,12 +1,12 @@
 import React from "react";
-import Layout from "../layout";
+import Layout from "../../layout";
 import {
   AboutMobile,
   MainMobile,
   MobileTypes,
   PortfolioMobile,
   SliderMobile,
-} from "../components";
+} from "../../components";
 
 const Mobile = () => {
   return (

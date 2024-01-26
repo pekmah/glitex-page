@@ -9,18 +9,22 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/css/vendor.css" />
           <link rel="stylesheet" href="/css/main.css" />
           <link rel="stylesheet" href="/css/slider.css" />
-          <script type="text/javascript">
-              (function(c,l,a,r,i,t,y){
-                  // eslint-disable-next-line
-                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-                  // eslint-disable-next-line
-              })(window, document, "clarity", "script", "kjoq58b3y8");
-          </script>
+          <script type="text/javascript"></script>
 
-          {/*<link rel="shortcut icon" href="logo.png" type="image/x-icon"/>*/}
-          {/*<link rel="icon" href="logo.png" type="image/x-icon"/>*/}
+          <script
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html: `
+            (function(c,l,a,r,i,t,y){
+              // eslint-disable-next-line
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              // eslint-disable-next-line
+              })(window, document, "clarity", "script", "kjoq58b3y8");
+            `,
+            }}
+          />
         </Head>
         <body id="top">
           <Main />
@@ -29,7 +33,6 @@ class MyDocument extends Document {
           <script src="/js/plugins.js" />
           <script src="/js/main.js" />
 
-          
           {/*Scripts etc.*/}
           <div aria-hidden="true" className="pswp" role="dialog" tabIndex="-1">
             <div className="pswp__bg h-0" />

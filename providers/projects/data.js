@@ -1,6 +1,6 @@
 export const portfolioData = {
   1: {
-    image: "/images/portfolio/attorney_shield/1.png",
+    image: "/images/portfolio/attorney_shield/1.webp",
     title: "Okapy Customer Application",
     description:
       "Okapy Secure is a tech-driven end-to-end local and cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods and shop directly from the U.S. stores and delivers to your door step.",

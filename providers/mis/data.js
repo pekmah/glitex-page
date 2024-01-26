@@ -1,3 +1,5 @@
+import Head from "next/head";
+import React from "react";
 export const servicePages = {
   //page
   "seo-companies-in-nairobi-kenya-0": {
@@ -409,4 +411,155 @@ export const servicePages = {
       },
     },
   },
+};
+
+export const serviceMeta = {
+  "seo-companies-in-nairobi-kenya-0": (
+    <Head>
+      <title>
+        SEO Company in Kenya | Search Engine Optimization in Nairobi, Kenya |
+        Glitex Solutions Limited
+      </title>
+      <meta name="robots" content="index, follow" />
+      <meta
+        name="description"
+        content="
+      We are the leading search engine optimization company in Kenya and across the region.
+      Good ranking on top search engines means more website visitors ,sales and revenue.We use our SEO
+      tactics and
+      strategies to ensure your dominate the search engines.
+  "
+      />
+      <meta name="keywords" />
+      <link
+        rel="canonical"
+        href="https://glitexsolutions.co.ke/services/seo-companies-in-nairobi-kenya-0"
+      />
+      <meta property="og:site_name" content="Glitex Solutions Limited" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://glitexsolutions.co.ke/" />
+      <meta
+        property="og:title"
+        content="SEO Company in Kenya | Search Engine Optimization in Nairobi, Kenya"
+      />
+      <meta
+        property="og:description"
+        content="
+      We are the leading search engine optimization company in Kenya and across the region.
+      Good ranking on top search engines means more website visitors ,sales and revenue.We use our SEO
+      tactics and
+      strategies to ensure your dominate the search engines.
+  "
+      />
+      <meta name="next-head-count" content="14" />
+    </Head>
+  ),
+  "ai-developers-in-kenya-2": (
+    <Head>
+      <title>AI companies in Kenya | Glitex Solutions Limited</title>
+      <meta name="robots" content="index, follow" />
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta
+        name="description"
+        content="Are you in search of an AI company in Nairobi, Kenya ? Search no more Glitex Solution delivers quality. Contact us today"
+      />
+      <link
+        rel="canonical"
+        href="https://www.glitexsolutions.co.ke/services/ai-developers-in-kenya-2"
+      />
+
+      <meta property="og:site_name" content="Glitex Solutions Limited" />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:url"
+        content="https://www.glitexsolutions.co.ke/services/ai-developers-in-kenya-2"
+      />
+      <meta
+        property="og:title"
+        content="AI Company in Kenya | Glitex Solutions Limited"
+      />
+
+      <meta
+        property="og:description"
+        content="Are you in search of an AI company in Nairobi, Kenya ? Search no more Glitex Solution delivers quality. Contact us today"
+      />
+      <meta
+        name="keywords"
+        content="ai companies in Kenya, artificial intelligence companies in Kenya, software company in Nairobi"
+      />
+    </Head>
+  ),
+  "game-developers-in-kenya-5": (
+    <Head>
+      <title>Game developers in Kenya | Glitex Solutions Limited</title>
+      <meta name="robots" content="index, follow" />
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta
+        name="description"
+        content="At Glitex Solutions Limited, we offer a wide range of services related to game software development. We work closely with our clients to understand their game concept and vision and provide comprehensive solutions to bring their ideas to life. "
+      />
+      <link
+        rel="canonical"
+        href="https://www.glitexsolutions.co.ke/services/game-developers-in-kenya-5"
+      />
+
+      <meta property="og:site_name" content="Glitex Solutions Limited" />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:url"
+        content="https://www.glitexsolutions.co.ke/services/game-developers-in-kenya-5"
+      />
+      <meta
+        property="og:title"
+        content="Game Development Companies in Kenya | Glitex Solutions Limited"
+      />
+
+      <meta
+        property="og:description"
+        content="At Glitex Solutions Limited, we offer a wide range of services related to game software development. We work closely with our clients to understand their game concept and vision and provide comprehensive solutions to bring their ideas to life."
+      />
+      <meta
+        name="keywords"
+        content="Game development companies in Kenya, Game developers in Kenya, software company in Nairobi"
+      />
+    </Head>
+  ),
+  management: (
+    <Head>
+      <title>
+        Hospital Management System Kenya &amp; SACCO Management System Nairobi
+        Kenya | Glitex Solutions Limited
+      </title>
+      <meta name="robots" content="index, follow" />
+      <meta
+        name="description"
+        content="
+      Are you in search of Hospital Management System or HMIS system in Kenya? This is the right place. Glitex Solutions Limited are experts in developing management systems for hospitals.
+  "
+      />
+      <meta
+        name="keywords"
+        content="HMIS system kenya, Hospital management systems kenya, pharmacy systems"
+      />
+      <link
+        rel="canonical"
+        href="https://glitexsolutions.co.ke/services/management-information-systems-in-kenya-3"
+      />
+      <meta property="og:site_name" content="Glitex Solutions Limited" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://glitexsolutions.co.ke/" />
+      <meta
+        property="og:title"
+        content="Hospital Management System Kenya &amp; HMIS System kenya."
+      />
+      <meta
+        property="og:description"
+        content="
+      Are you in search of Hospital Management System or HMIS system in Kenya?
+      This is the right place. Glitex Solutions Limited are experts in developing management systems for hospitals.
+      "
+      />
+      <meta name="next-head-count" content="14" />
+    </Head>
+  ),
 };

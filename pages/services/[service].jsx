@@ -1,8 +1,13 @@
-import React, {useMemo} from "react";
+import React, { useMemo } from "react";
 import Layout from "../../layout";
-import {ServiceAbout, ServiceDescription, ServiceMain, ServiceSteps,} from "../../components";
-import {useParams} from "next/navigation";
-import {servicePages} from "../../providers/mis/data";
+import {
+  ServiceAbout,
+  ServiceDescription,
+  ServiceMain,
+  ServiceSteps,
+} from "../../components";
+import { useParams } from "next/navigation";
+import { serviceMeta, servicePages } from "../../providers/mis/data";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 /**
@@ -24,8 +29,19 @@ const Service = () => {
     }
   }, [params?.service]);
 
+  const currentServiceMeta = useMemo(() => {
+    if (params?.service) {
+      return serviceMeta && serviceMeta[params?.service];
+
+      // return servicePages[params?.service];
+    } else {
+      return null;
+    }
+  }, [params?.service]);
+
   return (
     <Layout>
+      {currentServiceMeta}
       {/*  Main Section  */}
       <ServiceMain
         title={currentService?.main?.title}

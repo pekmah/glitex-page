@@ -4,7 +4,7 @@ export default async function (req, res) {
   const body = req.body;
   const response = await sendMail(body);
 
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     res.setHeader("Content-Type", "application/json");
     res.setHeader("Cache-Control", "max-age=180000");
     if (response) {

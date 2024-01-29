@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SideNav from "../components/general/SideNav";
 import Header from "../components/main/header";
-import { Footer } from "../components";
+import { Footer, WhatsappBtn } from "../components";
 
 function Layout({ children, className, hidePhone }) {
   const [showNav, setShowNav] = useState(false);
@@ -19,7 +19,7 @@ function Layout({ children, className, hidePhone }) {
       <SideNav isOpen={showNav} handleCloseNav={() => setShowNav(false)} />
       {children}
 
-      {/*<WhatsappBtn />*/}
+      <WhatsappBtn />
       {/*  Footer  */}
       <Footer />
     </div>

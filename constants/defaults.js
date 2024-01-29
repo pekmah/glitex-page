@@ -6,3 +6,5 @@ export const SOCIAL_LINKS = {
   x: "https://twitter.com/GlitexSolutions",
   linkedin: "https://www.linkedin.com/company/glitex-solutions-limited/",
 };
+
+export const LOCATION = "Applewood Adams, Ngong Rd";

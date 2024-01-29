@@ -9,7 +9,7 @@ import {
   WebSvg,
   XSvg,
 } from "../../public/icons";
-import { SOCIAL_LINKS } from "../../constants/defaults";
+import { LOCATION, SOCIAL_LINKS } from "../../constants/defaults";
 
 const Footer = () => {
   return (
@@ -25,7 +25,7 @@ const Footer = () => {
         >
           <span className={"center gap-2"}>
             <LocationSvg />
-            Thika Road Royal plaza.
+            {LOCATION}
           </span>
 
           <span className={"center gap-2"}>

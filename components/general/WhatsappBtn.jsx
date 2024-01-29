@@ -8,7 +8,7 @@ const WhatsAppButton = () => {
 
   return (
     <div
-      className={"shadow"}
+      className={"shadow z-20"}
       style={{
         position: "fixed",
         bottom: "20px",

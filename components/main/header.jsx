@@ -40,11 +40,15 @@ const Header = ({ handleOpenNav }) => {
         <div className={"center-y-between-x gap-5"}>
           <CButtonOutlined
             text={"Call: +254 707 021 821"}
-            className={"hidden md:flex"}
+            className={"flex md:text-sm text-xs"}
             handleClick={handleCall}
           />
 
-          <CButton text={"Request Quote"} handleClick={handleRequestQuote} />
+          <CButton
+            className={"hidden md:flex "}
+            text={"Request Quote "}
+            handleClick={handleRequestQuote}
+          />
 
           {/*  menu button  */}
           <CButtonGhost

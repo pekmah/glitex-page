@@ -3,11 +3,6 @@ import "../styles/globals.scss";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
-  // useEffect(() => {
-  //     mixpanel.init(process.env.NEXT_PUBLIC_MIXPANEL_ID||'',{ debug: true, track_pageview: true, persistence: 'localStorage' })
-  //     mixpanel.track_pageview();
-  // }, []);
-
   return (
     <>
       <Head>

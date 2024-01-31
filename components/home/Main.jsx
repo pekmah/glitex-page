@@ -10,10 +10,11 @@ const Main = () => {
       {/*  text container   */}
       <div className={"flex-1 center-x flex-col pl-4"}>
         <h1 className={"md:leading-[60px] w-full md:w-4/5"}>
-          Enabling 1M+ Visionaries:
-          <br className={"hidden md:flex"} /> Your Trusted Tech Partner for
-          Shaping Tomorrow
+          Enabling 1M+ Visionaries;
+          <br className={"hidden md:flex"} /> We build with visionaries to turn
+          ideas into widely adopted products
         </h1>
+
         {/*  qualities list  */}
         <p
           className={

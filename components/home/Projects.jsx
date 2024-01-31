@@ -15,7 +15,7 @@ const Projects = () => {
           " leading-8 md:leading-11 mb-10 md:mb-28 md:bg-24 text-center"
         }
       >
-        What have we done so far
+        Recent Projects
       </h2>
 
       {/*  mobile apps  */}

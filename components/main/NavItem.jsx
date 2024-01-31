@@ -5,11 +5,17 @@ import { usePathname } from "next/navigation";
 const NavItem = ({ to = "/", title }) => {
   const pathName = usePathname();
 
-  const isCurrent = useMemo(
-    () =>
-      pathName === to || pathName?.split("/").at(1) === to?.split("/").at(1),
-    [pathName, to],
-  );
+  const isCurrent = useMemo(() => {
+    if (to === "/") {
+      return (
+        pathName === "/" ||
+        ((pathName?.includes("services") || pathName?.includes("low_code")) &&
+          !pathName?.includes("mobile"))
+      );
+    }
+    return pathName === to;
+  }, [pathName, to]);
+
   return (
     <Link href={to}>
       <li

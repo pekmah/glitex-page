@@ -33,17 +33,13 @@ const WorkDone = () => {
       className={"py-10 md:py-3 pt-20 md:pt-0 px-5 md:px-0 "}
     >
       <h2 className={" leading-8 md:leading-11 mb-10 md:mt-24 text-center"}>
-        Some of the work we have done
+        Recent Projects
       </h2>
 
       <div className="gap-5 md:gap-0 center flex-col-reverse md:flex-row ">
         <div className={"flex-[2] flex flex-col h-full md:pl-28"}>
-          <h3 className={" leading-8 md:leading-11 hidden md:block "}>
-            Some of the work we have done
-          </h3>
-
           <h4 className="text-c-yellow my-5">
-            {portfolioData[activeIndex + 1]?.title}
+            {portfolioData[activeIndex]?.title}
           </h4>
 
           <p
@@ -51,13 +47,13 @@ const WorkDone = () => {
               "text-base md:text-lg leading-8 font-400 md:pr-5 ease-in-out duration-300 h-60 line-clamp-[7]"
             }
           >
-            {portfolioData[activeIndex + 1]?.description}
+            {portfolioData[activeIndex]?.description}
           </p>
 
           <CButton
             text={"View More"}
             className={"text-sm md:text-base mr-auto px-10 mt-5"}
-            handleClick={() => handleViewProject((activeIndex + 1).toString())}
+            handleClick={() => handleViewProject(activeIndex.toString())}
           />
         </div>
 

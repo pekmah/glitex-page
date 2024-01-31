@@ -13,7 +13,7 @@ const CallUs = () => {
       <CButton
         handleClick={handleCall}
         className={
-          "bg-white font-lato text-primary text-base md:text-3xl py-3 px-14 mt-6 md:mt-10"
+          "bg-white font-lato text-primary text-base md:text-xl py-3 px-14 mt-6 md:mt-10"
         }
         text={"Call Us Today"}
       />

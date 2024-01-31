@@ -15,7 +15,7 @@ const Projects = () => {
           " leading-8 md:leading-11 mb-10 md:mb-28 md:bg-24 text-center"
         }
       >
-        What have we done so far
+        Recent Projects
       </h2>
 
       {/*  mobile apps  */}
@@ -24,12 +24,12 @@ const Projects = () => {
         <div className={"center gap-3 flex-1"}>
           <img
             className={"w-40 md:w-56"}
-            src="/images/portfolio/okapy/1.webp"
+            src="/images/portfolio/okapy/3.png"
             alt="okapy-1"
           />
           <img
             className={"w-40 md:w-56"}
-            src="/images/portfolio/okapy/2.webp"
+            src="/images/portfolio/okapy/2.png"
             alt="okapy-2"
           />
         </div>

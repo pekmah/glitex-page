@@ -8,7 +8,7 @@ const OnboardingMain = () => {
       {/*  text container   */}
       <div className={"flex-1 center-x flex-col pl-4"}>
         <h1 className={"md:leading-[60px] w-full md:w-4/5"}>
-          Onboarding
+          Our Onboarding
           <br className={"hidden md:flex"} />
           Process
         </h1>

@@ -51,7 +51,7 @@ export const portfolioData = {
     ],
   },
   3: {
-    image: "/images/portfolio/rafu/1.png",
+    image: "/images/portfolio/rafu/3.png",
     title: "Rafu Zetu App ",
     description:
       "Rafu is a solution developed for ‘Rent a Shelf’ businesses looking to publicize their products online as well as manage inventory in a way that their clients can follow their sales and cashflow over a dedicated mobile app\n",
@@ -67,7 +67,7 @@ export const portfolioData = {
     ],
   },
   4: {
-    image: "/images/portfolio/towgig/1.png",
+    image: "/images/portfolio/towgig/5.png",
     title: "Towgig",
     description:
       "Towgig is a platform that connects motorists and drivers to towing and mechanic services according to their schedule or incases of accidents. The app brings together a pool of experts and avails their services to those within their vicinity at the moment they request them.",

@@ -13,10 +13,21 @@ import { portfolioData } from "../../../providers/projects/data";
 import { CButton } from "../../general";
 import { AreYouInSearch } from "../index";
 import useWindowDimensions from "../../../hooks/useWindowDimensions";
+import { useRouter } from "next/router";
 
 const Slider = () => {
   const { size } = useWindowDimensions();
+  const router = useRouter();
+
   const [activeIndex, setActiveIndex] = useState(0);
+
+  /**
+   * opens project: /portfolio/[id]
+   * @param {string} id
+   */
+  const handleViewProject = async (id) => {
+    await router.push(`/portfolio/${id}`);
+  };
 
   return (
     <SectionWrapper
@@ -43,6 +54,7 @@ const Slider = () => {
         <CButton
           text={"View More"}
           className={"text-sm md:text-base mr-auto px-10 mt-5"}
+          handleClick={() => handleViewProject(activeIndex.toString())}
         />
       </div>
 

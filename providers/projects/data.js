@@ -17,21 +17,8 @@ export const portfolioData = {
       "/images/portfolio/rmf/10.png",
     ],
   },
+
   1: {
-    image: "/images/portfolio/okapy/2.png",
-    title: "Okapy Secure App",
-    description:
-      "Okapy Secure is a tech-driven end-to-end local and cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods and shop directly from the U.S. stores and delivers to your door step.",
-    images: [
-      "/images/portfolio/okapy/2.png",
-      "/images/portfolio/okapy/1.png",
-      "/images/portfolio/okapy/3.png",
-      "/images/portfolio/okapy/4.png",
-      "/images/portfolio/okapy/5.png",
-      "/images/portfolio/okapy/6.png",
-    ],
-  },
-  2: {
     image: "/images/portfolio/attorney_shield/1.png",
     title: "Attorney Shield",
     description:
@@ -50,7 +37,7 @@ export const portfolioData = {
       "/images/portfolio/attorney_shield/11.png",
     ],
   },
-  3: {
+  2: {
     image: "/images/portfolio/rafu/3.png",
     title: "Rafu Zetu App ",
     description:
@@ -66,7 +53,7 @@ export const portfolioData = {
       "/images/portfolio/rafu/8.png",
     ],
   },
-  4: {
+  3: {
     image: "/images/portfolio/towgig/5.png",
     title: "Towgig",
     description:
@@ -81,6 +68,21 @@ export const portfolioData = {
       "/images/portfolio/towgig/7.png",
       "/images/portfolio/towgig/8.png",
       "/images/portfolio/towgig/9.png",
+    ],
+  },
+
+  4: {
+    image: "/images/portfolio/okapy/2.png",
+    title: "Okapy Secure App",
+    description:
+      "Okapy Secure is a tech-driven end-to-end local and cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods and shop directly from the U.S. stores and delivers to your door step.",
+    images: [
+      "/images/portfolio/okapy/2.png",
+      "/images/portfolio/okapy/1.png",
+      "/images/portfolio/okapy/3.png",
+      "/images/portfolio/okapy/4.png",
+      "/images/portfolio/okapy/5.png",
+      "/images/portfolio/okapy/6.png",
     ],
   },
 };

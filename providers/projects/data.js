@@ -17,21 +17,8 @@ export const portfolioData = {
       "/images/portfolio/rmf/10.png",
     ],
   },
+
   1: {
-    image: "/images/portfolio/okapy/2.png",
-    title: "Okapy Secure App",
-    description:
-      "Okapy Secure is a tech-driven end-to-end local and cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods and shop directly from the U.S. stores and delivers to your door step.",
-    images: [
-      "/images/portfolio/okapy/2.png",
-      "/images/portfolio/okapy/1.png",
-      "/images/portfolio/okapy/3.png",
-      "/images/portfolio/okapy/4.png",
-      "/images/portfolio/okapy/5.png",
-      "/images/portfolio/okapy/6.png",
-    ],
-  },
-  2: {
     image: "/images/portfolio/attorney_shield/1.png",
     title: "Attorney Shield",
     description:
@@ -50,8 +37,8 @@ export const portfolioData = {
       "/images/portfolio/attorney_shield/11.png",
     ],
   },
-  3: {
-    image: "/images/portfolio/rafu/1.png",
+  2: {
+    image: "/images/portfolio/rafu/3.png",
     title: "Rafu Zetu App ",
     description:
       "Rafu is a solution developed for ‘Rent a Shelf’ businesses looking to publicize their products online as well as manage inventory in a way that their clients can follow their sales and cashflow over a dedicated mobile app\n",
@@ -66,8 +53,8 @@ export const portfolioData = {
       "/images/portfolio/rafu/8.png",
     ],
   },
-  4: {
-    image: "/images/portfolio/towgig/1.png",
+  3: {
+    image: "/images/portfolio/towgig/5.png",
     title: "Towgig",
     description:
       "Towgig is a platform that connects motorists and drivers to towing and mechanic services according to their schedule or incases of accidents. The app brings together a pool of experts and avails their services to those within their vicinity at the moment they request them.",
@@ -81,6 +68,21 @@ export const portfolioData = {
       "/images/portfolio/towgig/7.png",
       "/images/portfolio/towgig/8.png",
       "/images/portfolio/towgig/9.png",
+    ],
+  },
+
+  4: {
+    image: "/images/portfolio/okapy/2.png",
+    title: "Okapy Secure App",
+    description:
+      "Okapy Secure is a tech-driven end-to-end local and cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods and shop directly from the U.S. stores and delivers to your door step.",
+    images: [
+      "/images/portfolio/okapy/2.png",
+      "/images/portfolio/okapy/1.png",
+      "/images/portfolio/okapy/3.png",
+      "/images/portfolio/okapy/4.png",
+      "/images/portfolio/okapy/5.png",
+      "/images/portfolio/okapy/6.png",
     ],
   },
 };

@@ -25,7 +25,7 @@ const Images = () => {
         <img
           key={ind}
           src={img}
-          className={"object-contain w-full c-shadow rounded-2xl"}
+          className={"object-contain w-full c-shadow rounded-2xl lg:h-[720px]"}
           alt={img}
         />
       ))}

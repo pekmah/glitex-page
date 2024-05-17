@@ -1,5 +1,5 @@
 import Swal from "sweetalert2";
-import { CONTACT_PHONE_NUMBER } from "../constants/defaults";
+import { CONTACT_EMAIL, CONTACT_PHONE_NUMBER } from "../constants/defaults";
 
 export const getGallerySlug = (gallery, index) => {
   return `/gallery/${gallery?.name?.replace(/ /g, "-")}-${index}`;
@@ -117,6 +117,9 @@ export const verifyStringIsInnerHtml = (str) =>
 
 export const handleRequestQuote = () => {
   window.open("https://isy9wdcrpvv.typeform.com/to/QRkraQZ2");
+};
+export const handleEmail = () => {
+  window.open(`mailto:${CONTACT_EMAIL}?subject=Enquiry&body=`);
 };
 
 export const handleCall = () => {

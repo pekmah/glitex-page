@@ -1,5 +1,6 @@
 export const FOUNDER = "Peter Njenga";
 export const CONTACT_PHONE_NUMBER = "+254707021821";
+export const CONTACT_EMAIL = "info@glitexsolutions.co.ke";
 export const SOCIAL_LINKS = {
   facebook: "https://web.facebook.com/glitexsolutionslimited",
   instagram: "https://www.instagram.com/glitexsolutions/",

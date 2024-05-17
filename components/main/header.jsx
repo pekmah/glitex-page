@@ -4,16 +4,9 @@ import { CButton, CButtonOutlined } from "../general";
 import CButtonGhost from "../general/CButtonGhost";
 import { FiMenu } from "react-icons/fi";
 import { COLORS } from "../../constants";
-import {
-  handleCall,
-  handleEmail,
-  handleRequestQuote,
-} from "../../helpers/helpers";
+import { handleCall, handleEmail } from "../../helpers/helpers";
 import { CONTACT_EMAIL } from "../../constants/defaults";
 
-// export const handleDialerButtonClick = () => {
-//   window.location.href = "tel:+254707021821";
-// };
 const Header = ({ handleOpenNav }) => {
   return (
     <header

@@ -3,7 +3,12 @@ import { NavList } from "../main";
 import { CButton, CButtonOutlined } from "./index";
 import CButtonGhost from "./CButtonGhost";
 import { MdClose } from "react-icons/md";
-import { handleCall, handleRequestQuote } from "../../helpers/helpers";
+import {
+  handleCall,
+  handleEmail,
+  handleRequestQuote,
+} from "../../helpers/helpers";
+import { CONTACT_EMAIL } from "../../constants/defaults";
 
 const SideNav = ({ handleCloseNav, isOpen }) => {
   return (
@@ -36,7 +41,11 @@ const SideNav = ({ handleCloseNav, isOpen }) => {
               handleClick={handleCall}
             />
 
-            <CButton text={"Request Quote"} handleClick={handleRequestQuote} />
+            <CButton
+              className={" font-medium md:flex text-base tracking-wide"}
+              text={`${CONTACT_EMAIL} `}
+              handleClick={handleEmail}
+            />
           </div>
         </div>
       </div>

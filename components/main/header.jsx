@@ -36,12 +36,19 @@ const Header = ({ handleOpenNav }) => {
 
         {/*  nav buttons  */}
         <div className={"center-y-between-x gap-5"}>
-          <CButtonOutlined
-            text={"Call: +254 707 021 821"}
-            className={"flex md:text-sm text-xs"}
-            handleClick={handleCall}
-          />
-
+          <div className={"flex flex-col items-center justify-center"}>
+            <CButtonOutlined
+              text={"Call: +254 707 021 821"}
+              className={"flex md:text-sm text-xs"}
+              handleClick={handleCall}
+            />
+            <a
+              className={` rounded-full text-primary font-dm-sans font-semibold text-sm mt-1`}
+              href={`mailto:${CONTACT_EMAIL}?subject=Enquiry&body=`}
+            >
+              {CONTACT_EMAIL}
+            </a>
+          </div>
           <CButton
             className={"hidden font-medium md:flex text-base tracking-wide"}
             text={`${CONTACT_EMAIL} `}

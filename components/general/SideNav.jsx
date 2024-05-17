@@ -3,11 +3,7 @@ import { NavList } from "../main";
 import { CButton, CButtonOutlined } from "./index";
 import CButtonGhost from "./CButtonGhost";
 import { MdClose } from "react-icons/md";
-import {
-  handleCall,
-  handleEmail,
-  handleRequestQuote,
-} from "../../helpers/helpers";
+import { handleCall, handleEmail } from "../../helpers/helpers";
 import { CONTACT_EMAIL } from "../../constants/defaults";
 
 const SideNav = ({ handleCloseNav, isOpen }) => {

@@ -43,7 +43,7 @@ const Header = ({ handleOpenNav }) => {
           />
 
           <CButton
-            className={"hidden md:flex "}
+            className={"hidden font-medium md:flex text-base tracking-wide"}
             text={`${CONTACT_EMAIL} `}
             handleClick={handleEmail}
           />

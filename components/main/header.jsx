@@ -43,7 +43,7 @@ const Header = ({ handleOpenNav }) => {
               handleClick={handleCall}
             />
             <a
-              className={` rounded-full text-primary font-dm-sans font-semibold text-sm mt-1`}
+              className={`block md:hidden rounded-full text-primary font-dm-sans font-semibold text-sm mt-1`}
               href={`mailto:${CONTACT_EMAIL}?subject=Enquiry&body=`}
             >
               {CONTACT_EMAIL}

@@ -1,3 +1,4 @@
 import ContactForm from "./Form";
+import Map from "./Map";
 
-export { ContactForm };
+export { ContactForm, Map };

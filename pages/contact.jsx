@@ -1,7 +1,7 @@
+import { ContactForm, Map } from "../components/contact";
 import { handleCall, handleRequestQuote, handleSms } from "../helpers/helpers";
 
 import { CButton } from "../components";
-import { ContactForm } from "../components/contact";
 import Layout from "../layout";
 import React from "react";
 import { handleWhatsAppButtonClick } from "../components/general/WhatsappBtn";
@@ -12,7 +12,7 @@ const contact = () => {
       <div className="min-h-[75vh] px-5 md:px-12">
         <div className="flex flex-col-reverse gap-5 my-10 md:flex-row">
           <div className="flex-1 bg-slate-300 min-h-[50vh] md:min-h-full">
-            Map comes here{" "}
+            <Map />
           </div>
           <div className="flex-1">
             <h2

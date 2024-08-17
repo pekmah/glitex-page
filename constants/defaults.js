@@ -9,3 +9,4 @@ export const SOCIAL_LINKS = {
 };
 
 export const LOCATION = "Applewood Adams, Ngong Rd";
+export const GOOGLE_MAPS_KEY = "AIzaSyDQ2zPHekGlXo_mmL1l4SgFYOA9bkcEKLY";

@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
     "@react-spring/parallax": "^9.2.3",
     "aos": "^2.3.4",
     "axios": "^1.4.0",

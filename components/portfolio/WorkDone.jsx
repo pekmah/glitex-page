@@ -19,16 +19,6 @@ const WorkDone = () => {
         >
           Some of the work we have done
         </h2>
-        <p
-          className={
-            "w-full md:w-3/4 mx-auto leading-6 my-2 md:my-5 text-base text-primary text-left md:text-center"
-          }
-        >
-          Okapy Secure is a tech-driven end-to-end local and cross border goods
-          transport platform for individuals and businesses. Okapy partners with
-          retailers, manufacturers, suppliers, and startups to transport goods
-          and shop directly from the U.S. stores and delivers to your door step.
-        </p>
 
         <div className="container grid grid-cols-1 gap-6 py-10 mx-auto sm:grid-cols-2 lg:grid-cols-3">
           {Object.keys(portfolioData).map((item, ind) => (
@@ -61,11 +51,15 @@ const PortfolioItem = ({ title, image, desc, ind }) => {
       }
     >
       <div className={"bg-white overflow-hidden"}>
-        <div className={"relative gradient-270 w-full h-64 pt-2"}>
+        <div
+          className={
+            "relative gradient-270 w-full h-64 pt-2 flex justify-center"
+          }
+        >
           <img
             src={image}
             alt={"okapy secure"}
-            className={"w-full h-full object-contain object-top"}
+            className={"w-1/2 h-full object-cover object-top "}
           />
         </div>
         <div className="p-3">

@@ -35,19 +35,12 @@ export const services = [
     to: "/low_code",
   },
   {
-    title: "Game Development",
+    title: "Business Development",
     desc: `
     <p>
-      Together we lead your project through all stages from game design to post-release support, using the extensive experience and creativity of our experts.
-      <br/>
-      <strong>PC</strong><br/>
-      We design and develop end-to-end games for personal computers with porting to windows and MacOS.
-      <br/>
-      <strong >Mobile</strong>
-        <br/>
-      We create games for iOS and android plaftorms or cross-platform development.
+      By partnering with us, your business gain access to a dedicated team of developers who seamlessly integrate with your existing staff, aligning with your goals, processes, and culture. Whether you need specialized expertise for a specific project or ongoing support to scale your operations, our team becomes an extension of your workflow, delivering the flexibility and talent required to propel your business forward.
     </p>
     `,
-    to: "/services/game-developers-in-kenya-5",
+    to: "/services/software-development-company-in-kenya",
   },
 ];

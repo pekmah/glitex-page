@@ -5,7 +5,7 @@ export const servicePages = {
   "seo-companies-in-nairobi-kenya-0": {
     //  main section
     main: {
-      title: `Search Engine Evaluator Companies in Kenya | SEO Services Nairobi Kenya.  
+      title: `SEO Company in Nairobi Kenya.  
         `,
       subtitle: null,
       imageUrl: "/images/mis/seo-main.webp",
@@ -13,11 +13,10 @@ export const servicePages = {
     //     Description section
     description: {
       title: `
-        Search Engine Evaluator
-        Companies in Kenya.
+        SEO Companies in Nairobi, Kenya.
         `,
       body: `
-        Are you searching for Search Engine evaluators companies in Kenya? We are undisputed Search Engine Optimization (SEO) Company in Nairobi, Kenya. Glitex Solutions Limited is the leading search engine optimization company in Kenya and across the region. This guarantees you of quality. Good ranking on all search engines means more website visitors, sales and revenue.
+        Are you searching for SEO companies in Kenya? We are undisputed SEO Company in Nairobi, Kenya. Glitex Solutions Limited is the leading SEO company in Kenya and across the region. This guarantees you of quality. Good ranking on all search engines means more website visitors, sales and revenue.
        <br/>
        <br/>
         We use our SEO tactics and strategies to ensure you’re on ranked on top of the search engines. Search engine optimization (SEO) is a tested and proven method to grow your company by giving it visibility countrywide and across the region. A website without traffic doesn't serve its purpose but a website with the right traffic flowing in consistently can propel a business to new scales. Our SEO Team will analyze the markets and get to work making your website more visible to your key market through our comprehensive digital marketing services.

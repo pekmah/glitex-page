@@ -18,21 +18,13 @@ const Customers = () => {
           key={ind}
           alt={"customer" + ind}
           className={`object-contain ${
-            ind === 0
-              ? "h-16 md:h-20 w-20 object-cover my-auto "
-              : ind === 2
-                ? "h-10 md:h-12 my-auto"
-                : ind === 4
-                  ? "h-10 md:h-12 my-auto"
-                  : ind === 5
-                    ? "h-14 md:h-16 my-auto"
-                    : ind === 6
-                      ? "h-10 md:h-12 my-auto"
-                      : ind === 7
-                        ? "h-12 md:h-14 my-auto"
-                        : ind === 8
-                          ? "h-8 md:h-8 my-auto"
-                          : "md:h-[70px] h-10 "
+            ind === 5
+              ? "h-10 md:h-14 my-auto"
+              : ind === 6
+                ? "h-6 md:h-8 my-auto"
+                : ind === 7
+                  ? "h-12 my-auto"
+                  : "md:h-[70px] h-10 "
           }`}
         />
       ))}

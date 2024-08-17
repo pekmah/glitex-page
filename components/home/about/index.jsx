@@ -31,12 +31,12 @@ const About = () => {
       {/*  stats   */}
       <div className={"center gap-5 md:gap-10"}>
         <StatCard
-          number={"14"}
+          number={"100+"}
           subtext={"Projects Completed"}
           className={"bg-primary"}
         />
         <StatCard
-          number={"16"}
+          number={"200+"}
           subtext={"Happy Clients"}
           className={"bg-c-yellow"}
         />

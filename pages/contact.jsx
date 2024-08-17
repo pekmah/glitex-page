@@ -79,10 +79,10 @@ const contact = () => {
 
 export default contact;
 
-type SvgProps = {
-  className?: string;
-};
-const CallSvg = ({ className }: SvgProps) => (
+// type SvgProps = {
+//   className?: string;
+// };
+const CallSvg = ({ className }) => (
   <svg
     width="16"
     height="16"
@@ -106,7 +106,7 @@ const WhatsappSvg = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_520_148)">
+    <g clipPath="url(#clip0_520_148)">
       <path
         d="M0.507923 11.8563C0.507365 13.8728 1.03425 15.8417 2.03611 17.5771L0.412109 23.5066L6.4802 21.9156C8.15856 22.8292 10.039 23.308 11.95 23.3081H11.955C18.2634 23.3081 23.3985 18.1748 23.4012 11.8653C23.4024 8.80792 22.2129 5.93295 20.0516 3.76997C17.8906 1.60718 15.0167 0.415458 11.9545 0.414062C5.64541 0.414062 0.510621 5.54709 0.508016 11.8563"
         fill="url(#paint0_linear_520_148)"
@@ -129,8 +129,8 @@ const WhatsappSvg = () => (
         y2="0.414062"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#1FAF38" />
-        <stop offset="1" stop-color="#60D669" />
+        <stop stopColor="#1FAF38" />
+        <stop offset="1" stopColor="#60D669" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_520_148"
@@ -140,8 +140,8 @@ const WhatsappSvg = () => (
         y2="0"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#F9F9F9" />
-        <stop offset="1" stop-color="white" />
+        <stop stopColor="#F9F9F9" />
+        <stop offset="1" stopColor="white" />
       </linearGradient>
       <clipPath id="clip0_520_148">
         <rect width="23.814" height="24" fill="white" />
@@ -150,7 +150,7 @@ const WhatsappSvg = () => (
   </svg>
 );
 
-const MailSvg = ({ className }: SvgProps) => (
+const MailSvg = ({ className }) => (
   <svg
     width="20"
     height="20"
@@ -162,14 +162,14 @@ const MailSvg = ({ className }: SvgProps) => (
     <path
       d="M7 9L10.75 12C11.1047 12.284 11.5456 12.4388 12 12.4388C12.4544 12.4388 12.8953 12.284 13.25 12L17 9M21 17V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19H19C19.5304 19 20.0391 18.7893 20.4142 18.4142C20.7893 18.0391 21 17.5304 21 17Z"
       stroke="inherit"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
 
-const QuoteSvg = ({ className }: SvgProps) => (
+const QuoteSvg = ({ className }) => (
   <svg
     width="20"
     height="20"

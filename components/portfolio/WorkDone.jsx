@@ -34,7 +34,7 @@ const WorkDone = () => {
           {Object.keys(portfolioData).map((item, ind) => (
             <PortfolioItem
               key={ind}
-              image={"/images/portfolio/attorney.png"}
+              image={portfolioData[item]?.image}
               title={portfolioData[item]?.title}
               desc={portfolioData[item]?.description}
               ind={item}
@@ -61,7 +61,7 @@ const PortfolioItem = ({ title, image, desc, ind }) => {
       }
     >
       <div className={"bg-white overflow-hidden"}>
-        <div className={"relative gradient-270 w-full h-64 pt-10"}>
+        <div className={"relative gradient-270 w-full h-64 pt-2"}>
           <img
             src={image}
             alt={"okapy secure"}

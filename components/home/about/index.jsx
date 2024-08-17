@@ -19,14 +19,13 @@ const About = () => {
           "w-full md:w-1/2 mx-auto leading-6 my-2 md:my-5 text-base text-primary text-left md:text-center"
         }
       >
-        Glitex Solutions Limited is a tech-solutions company built by a group of
-        visionary young and passionate individuals, dedicated to help our
-        clients continuously create value for their customers.We believe in
-        transforming ideas into reality through technology. Dedicating our lives
-        to providing our clients with top-notch software solutions that serves
-        their business needs right. You can count on us to convert your business
-        use-case into an innovative software solution leveraging modern day tech
-        stacks.
+        Glitex Solutions Limited is a tech-solutions company built by passionate
+        individuals, dedicated to help our clients continuously create value for
+        their customers.We believe in transforming ideas into reality through
+        technology. Dedicating our lives to providing our clients with top-notch
+        software solutions that serves their business needs right. You can count
+        on us to convert your business use-case into an innovative software
+        solution leveraging modern day tech stacks.
       </p>
 
       {/*  stats   */}

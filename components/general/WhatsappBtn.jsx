@@ -1,11 +1,10 @@
-import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
+import React from "react";
 
+export const handleWhatsAppButtonClick = () => {
+  window.open("https://wa.me/254707021821", "_blank");
+};
 const WhatsAppButton = () => {
-  const handleWhatsAppButtonClick = () => {
-    window.open("https://wa.me/254707021821", "_blank");
-  };
-
   return (
     <div
       className={"shadow z-20"}

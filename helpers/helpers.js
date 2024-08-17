@@ -1,5 +1,6 @@
-import Swal from "sweetalert2";
 import { CONTACT_EMAIL, CONTACT_PHONE_NUMBER } from "../constants/defaults";
+
+import Swal from "sweetalert2";
 
 export const getGallerySlug = (gallery, index) => {
   return `/gallery/${gallery?.name?.replace(/ /g, "-")}-${index}`;
@@ -124,4 +125,7 @@ export const handleEmail = () => {
 
 export const handleCall = () => {
   window.location.href = `tel:${CONTACT_PHONE_NUMBER}`;
+};
+export const handleSms = () => {
+  window.location.href = `sms:${CONTACT_PHONE_NUMBER}`;
 };

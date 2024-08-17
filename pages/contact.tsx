@@ -1,7 +1,10 @@
+import { handleCall, handleRequestQuote, handleSms } from "../helpers/helpers";
+
 import { CButton } from "../components";
 import { ContactForm } from "../components/contact";
 import Layout from "../layout";
 import React from "react";
+import { handleWhatsAppButtonClick } from "../components/general/WhatsappBtn";
 
 const contact = () => {
   return (
@@ -32,7 +35,7 @@ const contact = () => {
 
         <div className="container flex flex-wrap justify-center gap-6 pb-10 mx-auto md:justify-start md:gap-12">
           <CButton
-            handleClick={() => {}}
+            handleClick={handleCall}
             className={
               "w-3/4 md:w-auto flex justify-center px-3 first:md:px-7 text-xs md:text-sm rounded-lg font-medium bg-white text-primary hover:bg-primary hover:text-white shadow-md"
             }
@@ -40,7 +43,7 @@ const contact = () => {
             left={<CallSvg className="mr-2 fill-current" />}
           />
           <CButton
-            handleClick={() => {}}
+            handleClick={handleWhatsAppButtonClick}
             className={
               "w-3/4 md:w-auto flex justify-center px-3 first:md:px-7 text-xs md:text-sm rounded-lg font-medium bg-white text-primary hover:bg-primary hover:text-white shadow-md"
             }
@@ -52,7 +55,7 @@ const contact = () => {
             }
           />
           <CButton
-            handleClick={() => {}}
+            handleClick={handleSms}
             className={
               "w-3/4 md:w-auto flex justify-center px-3 first:md:px-7 text-xs md:text-sm rounded-lg font-medium bg-white text-primary hover:bg-primary hover:text-white shadow-md"
             }
@@ -61,7 +64,7 @@ const contact = () => {
           />
 
           <CButton
-            handleClick={() => {}}
+            handleClick={handleRequestQuote}
             className={
               "w-3/4 md:w-auto flex justify-center px-5 md:px-12 text-xs md:text-sm rounded-lg font-medium bg-white text-primary hover:bg-primary hover:text-white shadow-md"
             }

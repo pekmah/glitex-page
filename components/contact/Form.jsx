@@ -1,6 +1,5 @@
-import React, { ReactNode } from "react";
-
 import { CButton } from "../general";
+import React from "react";
 
 const Form = () => {
   return (
@@ -42,16 +41,11 @@ const Form = () => {
 
 export default Form;
 
-type InputItemProps = {
-  label: string;
-  leftElement?: ReactNode;
-} & React.InputHTMLAttributes<HTMLInputElement>;
-const InputItem = ({
-  className,
-  label,
-  leftElement,
-  ...rest
-}: InputItemProps) => {
+// type InputItemProps = {
+//   label: string;
+//   leftElement?: ReactNode;
+// } & React.InputHTMLAttributes<HTMLInputElement>;
+const InputItem = ({ className, label, leftElement, ...rest }) => {
   return (
     <div className={`p-3 border rounded-xl border-[#E6E6E6] ${className}`}>
       <label className="mb-0 text-base font-normal text-primary font-lato">
@@ -69,12 +63,12 @@ const InputItem = ({
   );
 };
 
-type TextAreaItemProps = {} & React.InputHTMLAttributes<HTMLTextAreaElement>;
+// type TextAreaItemProps = {} & React.InputHTMLAttributes<HTMLTextAreaElement>;
 const TextArea = ({
   className,
 
   ...rest
-}: TextAreaItemProps) => {
+}) => {
   return (
     <div className={`p-3 border rounded-xl border-[#E6E6E6] ${className}`}>
       <div className="flex gap-1 group-focus:border-primary ">

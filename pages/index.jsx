@@ -1,8 +1,5 @@
-import React, { useEffect } from "react";
-
-import Head from "next/head";
-import Aos from "aos";
 import "aos/dist/aos.css";
+
 import {
   AboutSection,
   CallUsSection,
@@ -11,6 +8,10 @@ import {
   StartupSection,
   WhatWeDoSection,
 } from "../components";
+import React, { useEffect } from "react";
+
+import Aos from "aos";
+import Head from "next/head";
 import Layout from "../layout";
 
 export default function Index() {

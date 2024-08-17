@@ -1,9 +1,13 @@
 import React from "react";
 
-const CButton = ({ text, handleClick, className, ...rest }) => {
+const CButton = ({ text, handleClick, className, left = null, ...rest }) => {
   return (
-    <button className={`btn ${className}`} onClick={handleClick} {...rest}>
-      {text}
+    <button
+      className={`btn flex items-center ${className}`}
+      onClick={handleClick}
+      {...rest}
+    >
+      {left} {text}
     </button>
   );
 };

@@ -1,13 +1,14 @@
 import React, { useMemo } from "react";
-import Layout from "../../layout";
 import {
   ServiceAbout,
   ServiceDescription,
   ServiceMain,
   ServiceSteps,
 } from "../../components";
-import { useParams } from "next/navigation";
 import { serviceMeta, servicePages } from "../../providers/mis/data";
+
+import Layout from "../../layout";
+import { useParams } from "next/navigation";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 /**

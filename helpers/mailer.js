@@ -14,7 +14,7 @@ export const sendMail = async (data = {}) => {
     },
   });
 
-  transporter.verify(function (error, success) {
+  transporter.verify(function (error) {
     if (error) {
       console.log(error);
     } else {
@@ -30,7 +30,7 @@ export const sendMail = async (data = {}) => {
       to: "business@glitexsolutions.co.ke",
       subject: "Glitex Site Enquiry (Contact Form)",
       //text: "Plaintext version of the message",
-      html: `<div><h4>Message From: ${name}, Subject: ${subject}, Email: ${email}</h4><p>${message}</p></div>`,
+      html: `<div><h4>Message From: ${name}, Phone: ${data?.phone}, Subject: ${subject}, Email: ${email}</h4><p>${message}</p></div>`,
     });
   } catch (e) {
     console.log("SEND MAIL ERROR: ", e);

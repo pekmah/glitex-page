@@ -30,7 +30,11 @@ const Main = () => {
           <span>Scalable</span>
         </p>
         {/*  buttons  */}
-        <div className={"center-y-between-x gap-5 mr-auto mt-1 md:mt-5"}>
+        <div
+          className={
+            "center-y-between-x flex-col md:flex-row gap-5 mr-auto mt-1 md:mt-5"
+          }
+        >
           <CButton
             className={"px-6 text-xs md:text-base"}
             text={"Request Quote"}
@@ -39,7 +43,7 @@ const Main = () => {
           <CButton
             text={"Book Appointment"}
             className={
-              "bg-white btn-shadow hover:btn-shadow-deep  duration-300 hover:scale-105 hidden md:flex text-primary"
+              "bg-white btn-shadow hover:btn-shadow-deep  duration-300 md:hover:scale-105 flex text-primary"
             }
             handleClick={handleBook}
           />

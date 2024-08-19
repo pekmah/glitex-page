@@ -1,4 +1,5 @@
 import { ContactForm, Map } from "../components/contact";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { handleCall, handleRequestQuote, handleSms } from "../helpers/helpers";
 
 import { CButton } from "../components";
@@ -6,74 +7,78 @@ import Layout from "../layout";
 import React from "react";
 import { handleWhatsAppButtonClick } from "../components/general/WhatsappBtn";
 
+const queryClient = new QueryClient();
+
 const contact = () => {
   return (
-    <Layout className="">
-      <div className="min-h-[75vh] px-5 md:px-12">
-        <div className="flex flex-col-reverse gap-5 my-10 md:flex-row">
-          <div className="flex-1 bg-slate-300 min-h-[50vh] md:min-h-full">
-            <Map />
+    <QueryClientProvider client={queryClient}>
+      <Layout className="">
+        <div className="min-h-[75vh] px-5 md:px-12">
+          <div className="flex flex-col-reverse gap-5 my-10 md:flex-row">
+            <div className="flex-1 bg-slate-300 min-h-[50vh] md:min-h-full">
+              <Map />
+            </div>
+            <div className="flex-1">
+              <h2
+                className={
+                  "leading-8 md:leading-11 text-primary text-xl sm:text-2xl md:text-3xl font-bold"
+                }
+              >
+                Get in Touch
+              </h2>
+
+              <p className={" leading-7 text-primary text-left mb-2"}>
+                Send us an inquiry and we’ll get back to you within 24 business
+                hours
+              </p>
+
+              {/* form */}
+              <ContactForm />
+            </div>
           </div>
-          <div className="flex-1">
-            <h2
+
+          <div className="container flex flex-wrap justify-center gap-6 pb-10 mx-auto md:justify-start md:gap-12">
+            <CButton
+              handleClick={handleCall}
               className={
-                "leading-8 md:leading-11 text-primary text-xl sm:text-2xl md:text-3xl font-bold"
+                "w-3/4 md:w-auto flex justify-center px-3 first:md:px-7 text-xs md:text-sm rounded-lg font-medium bg-white text-primary hover:bg-primary hover:text-white shadow-md"
               }
-            >
-              Get in Touch
-            </h2>
+              text={"Call: +254 707 021 821"}
+              left={<CallSvg className="mr-2 fill-current" />}
+            />
+            <CButton
+              handleClick={handleWhatsAppButtonClick}
+              className={
+                "w-3/4 md:w-auto flex justify-center px-3 first:md:px-7 text-xs md:text-sm rounded-lg font-medium bg-white text-primary hover:bg-primary hover:text-white shadow-md"
+              }
+              text={"Chat: +254 707 021 821"}
+              left={
+                <div className="mr-2">
+                  <WhatsappSvg />
+                </div>
+              }
+            />
+            <CButton
+              handleClick={handleSms}
+              className={
+                "w-3/4 md:w-auto flex justify-center px-3 first:md:px-7 text-xs md:text-sm rounded-lg font-medium bg-white text-primary hover:bg-primary hover:text-white shadow-md"
+              }
+              text={"Chat: +254 707 021 821"}
+              left={<MailSvg className="mr-2 stroke-current" />}
+            />
 
-            <p className={" leading-7 text-primary text-left mb-2"}>
-              Send us an inquiry and we’ll get back to you within 24 business
-              hours
-            </p>
-
-            {/* form */}
-            <ContactForm />
+            <CButton
+              handleClick={handleRequestQuote}
+              className={
+                "w-3/4 md:w-auto flex justify-center px-5 md:px-12 text-xs md:text-sm rounded-lg font-medium bg-white text-primary hover:bg-primary hover:text-white shadow-md"
+              }
+              text={"Request Quote"}
+              left={<QuoteSvg className="mr-2 stroke-current" />}
+            />
           </div>
         </div>
-
-        <div className="container flex flex-wrap justify-center gap-6 pb-10 mx-auto md:justify-start md:gap-12">
-          <CButton
-            handleClick={handleCall}
-            className={
-              "w-3/4 md:w-auto flex justify-center px-3 first:md:px-7 text-xs md:text-sm rounded-lg font-medium bg-white text-primary hover:bg-primary hover:text-white shadow-md"
-            }
-            text={"Call: +254 707 021 821"}
-            left={<CallSvg className="mr-2 fill-current" />}
-          />
-          <CButton
-            handleClick={handleWhatsAppButtonClick}
-            className={
-              "w-3/4 md:w-auto flex justify-center px-3 first:md:px-7 text-xs md:text-sm rounded-lg font-medium bg-white text-primary hover:bg-primary hover:text-white shadow-md"
-            }
-            text={"Chat: +254 707 021 821"}
-            left={
-              <div className="mr-2">
-                <WhatsappSvg />
-              </div>
-            }
-          />
-          <CButton
-            handleClick={handleSms}
-            className={
-              "w-3/4 md:w-auto flex justify-center px-3 first:md:px-7 text-xs md:text-sm rounded-lg font-medium bg-white text-primary hover:bg-primary hover:text-white shadow-md"
-            }
-            text={"Chat: +254 707 021 821"}
-            left={<MailSvg className="mr-2 stroke-current" />}
-          />
-
-          <CButton
-            handleClick={handleRequestQuote}
-            className={
-              "w-3/4 md:w-auto flex justify-center px-5 md:px-12 text-xs md:text-sm rounded-lg font-medium bg-white text-primary hover:bg-primary hover:text-white shadow-md"
-            }
-            text={"Request Quote"}
-            left={<QuoteSvg className="mr-2 stroke-current" />}
-          />
-        </div>
-      </div>
-    </Layout>
+      </Layout>
+    </QueryClientProvider>
   );
 };
 

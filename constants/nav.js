@@ -15,8 +15,8 @@ export const NAV_LIST = [
     title: "Our Process ",
     route: "/onboarding",
   },
-  // {
-  //   title: "Contact Us",
-  //   route: "/contact",
-  // },
+  {
+    title: "Contact",
+    route: "/contact",
+  },
 ];

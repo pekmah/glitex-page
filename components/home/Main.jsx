@@ -1,10 +1,14 @@
-import React from "react";
-
 import { CButton, SectionWrapper } from "../general";
-import { CustomersSection } from "./index";
 import { handleCall, handleRequestQuote } from "../../helpers/helpers";
 
+import { CustomersSection } from "./index";
+import React from "react";
+import Router from "next/router";
+
 const Main = () => {
+  const handleBook = () => {
+    Router.push("/book");
+  };
   return (
     <SectionWrapper className={"flex md:px-5 md:min-h-[85vh] relative"}>
       {/*  text container   */}
@@ -26,11 +30,22 @@ const Main = () => {
           <span>Scalable</span>
         </p>
         {/*  buttons  */}
-        <div className={"center-y-between-x gap-5 mr-auto mt-1 md:mt-5"}>
+        <div
+          className={
+            "center-y-between-x flex-col md:flex-row gap-5 mr-auto mt-1 md:mt-5"
+          }
+        >
           <CButton
             className={"px-6 text-xs md:text-base"}
             text={"Request Quote"}
             handleClick={handleRequestQuote}
+          />
+          <CButton
+            text={"Book Appointment"}
+            className={
+              "bg-white btn-shadow hover:btn-shadow-deep  duration-300 md:hover:scale-105 flex text-primary"
+            }
+            handleClick={handleBook}
           />
           <CButton
             text={"Call: +254 707 021 821"}

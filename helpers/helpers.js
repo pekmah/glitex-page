@@ -1,6 +1,7 @@
 import { CONTACT_EMAIL, CONTACT_PHONE_NUMBER } from "../constants/defaults";
 
 import Swal from "sweetalert2";
+import axios from "axios";
 
 export const getGallerySlug = (gallery, index) => {
   return `/gallery/${gallery?.name?.replace(/ /g, "-")}-${index}`;
@@ -128,4 +129,9 @@ export const handleCall = () => {
 };
 export const handleSms = () => {
   window.location.href = `sms:${CONTACT_PHONE_NUMBER}`;
+};
+
+export const sendEmail = async (data) => {
+  const res = await axios.post("/api/contact", data);
+  return res;
 };

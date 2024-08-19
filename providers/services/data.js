@@ -1,8 +1,12 @@
 export const services = [
   {
-    title: "Search Engine Optimization",
-    desc: `<p>We are the leading search engine optimization company in Kenya. With 10+ years experience in search engine optimization, we have developed strategies to help our clients get more website visitors translating into more sales and revenue. Glitex equips you with top SEO strategies to ensure your business is easily discoverable by prospect clients.<p/>`,
-    to: "/services/seo-companies-in-nairobi-kenya-0",
+    title: "Business Development",
+    desc: `
+    <p>
+      By partnering with us, your business gain access to a dedicated team of developers who seamlessly integrate with your existing staff, aligning with your goals, processes, and culture. Whether you need specialized expertise for a specific project or ongoing support to scale your operations, our team becomes an extension of your workflow, delivering the flexibility and talent required to propel your business forward.
+    </p>
+    `,
+    to: "/services/software-development-company-in-kenya",
   },
   {
     title: "Mobile Applications",
@@ -35,12 +39,8 @@ export const services = [
     to: "/low_code",
   },
   {
-    title: "Business Development",
-    desc: `
-    <p>
-      By partnering with us, your business gain access to a dedicated team of developers who seamlessly integrate with your existing staff, aligning with your goals, processes, and culture. Whether you need specialized expertise for a specific project or ongoing support to scale your operations, our team becomes an extension of your workflow, delivering the flexibility and talent required to propel your business forward.
-    </p>
-    `,
-    to: "/services/software-development-company-in-kenya",
+    title: "Search Engine Optimization",
+    desc: `<p>We are the leading search engine optimization company in Kenya. With 10+ years experience in search engine optimization, we have developed strategies to help our clients get more website visitors translating into more sales and revenue. Glitex equips you with top SEO strategies to ensure your business is easily discoverable by prospect clients.<p/>`,
+    to: "/services/seo-companies-in-nairobi-kenya-0",
   },
 ];

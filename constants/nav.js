@@ -16,7 +16,7 @@ export const NAV_LIST = [
     route: "/onboarding",
   },
   {
-    title: "Contact Us",
+    title: "Contact",
     route: "/contact",
   },
 ];

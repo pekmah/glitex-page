@@ -18,7 +18,7 @@ const Mobile = () => {
   return (
     <Layout>
       <SectionWrapper
-        sectionClassName={"md:h-[75vh] md:-bottom-[400px] mx-3"}
+        sectionClassName={"md:min-h-[75vh] md:-bottom-[400px] mx-3"}
         className={" p-5 md:p-8 rounded-2xl "}
       >
         <div

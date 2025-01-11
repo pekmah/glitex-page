@@ -1,7 +1,7 @@
 import React from "react";
 import { verifyStringIsInnerHtml } from "../../../helpers/helpers";
 
-const Card = ({ index, title, description, icon }) => {
+const Card = ({ index, title, description, icon = null }) => {
   return (
     <div
       className={

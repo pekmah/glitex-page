@@ -9,6 +9,7 @@ import {
   AiStagesSection,
   AiStrategy,
   AiWhyChoose,
+  AiWhyWork,
 } from "../../components/ai";
 
 export default function Ai() {
@@ -20,6 +21,9 @@ export default function Ai() {
 
       {/* let's build ai */}
       <AiBuild />
+
+      {/* why work with us */}
+      <AiWhyWork />
 
       {/* stages */}
       <AiStagesSection />

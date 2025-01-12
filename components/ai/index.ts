@@ -6,6 +6,7 @@ import AiWhyChoose from "./ai-why-choose-section";
 import AiPortfolioSection from "./ai-portfolio-section";
 import AiAcquisition from "./ai-acquisition";
 import AiStagesSection from "./ai-stages-section";
+import AiWhyWork from "./ai-why-work";
 
 export {
   AiMain,
@@ -16,4 +17,5 @@ export {
   AiPortfolioSection,
   AiAcquisition,
   AiStagesSection,
+  AiWhyWork,
 };

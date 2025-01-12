@@ -34,17 +34,19 @@ export default function AiWhyChoose() {
   );
 }
 
+export type ChooseItemProps = {
+  title: string;
+  description: string;
+  imageUrl: string;
+  className?: string;
+};
+
 const ChooseItem = ({
   title,
   description,
   imageUrl,
   className,
-}: {
-  title: string;
-  description: string;
-  imageUrl: string;
-  className?: string;
-}) => {
+}: ChooseItemProps) => {
   return (
     <div
       className={`flex gap-10 p-10 shadow-lg rounded-3xl lg:rounded-[40px] text-primary ${className}`}

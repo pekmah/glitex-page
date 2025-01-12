@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../../layout";
 import {
+  AiAcquisition,
   AiBuild,
   AiExperience,
   AiMain,
@@ -18,6 +19,9 @@ export default function Ai() {
 
       {/* let's build ai */}
       <AiBuild />
+
+      {/* acquistion & privacy */}
+      <AiAcquisition />
 
       {/* portfolio section */}
       <AiPortfolioSection />

@@ -4,6 +4,7 @@ import AiBuild from "./ai-build";
 import AiExperience from "./ai-experience";
 import AiWhyChoose from "./ai-why-choose-section";
 import AiPortfolioSection from "./ai-portfolio-section";
+import AiAcquisition from "./ai-acquisition";
 
 export {
   AiMain,
@@ -12,4 +13,5 @@ export {
   AiExperience,
   AiWhyChoose,
   AiPortfolioSection,
+  AiAcquisition,
 };

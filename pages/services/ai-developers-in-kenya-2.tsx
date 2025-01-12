@@ -1,6 +1,12 @@
 import React from "react";
 import Layout from "../../layout";
-import { AiBuild, AiExperience, AiMain, AiStrategy } from "../../components/ai";
+import {
+  AiBuild,
+  AiExperience,
+  AiMain,
+  AiStrategy,
+  AiWhyChoose,
+} from "../../components/ai";
 
 export default function Ai() {
   return (
@@ -11,6 +17,9 @@ export default function Ai() {
 
       {/* let's build ai */}
       <AiBuild />
+
+      {/* why choose ud */}
+      <AiWhyChoose />
 
       {/* experince */}
       <AiExperience />

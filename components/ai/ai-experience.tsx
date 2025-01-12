@@ -42,7 +42,7 @@ export default function AiExperience() {
           </div>
 
           <TurnYourIdeas
-            className="-bottom-10 md:-bottom-10 mx-20 "
+            className="-bottom-10 md:-bottom-5 mx-20 "
             innerClassName="rounded-[40px]"
           />
         </>

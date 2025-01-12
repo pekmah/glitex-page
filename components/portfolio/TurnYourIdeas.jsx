@@ -5,7 +5,7 @@ import { handleCall } from "../../helpers/helpers";
 const TurnYourIdeas = ({ className = "", innerClassName = "" }) => {
   return (
     <SectionWrapper
-      sectionClassName={`absolute inset-x-0 -bottom-40 md:-bottom-48 mx-3 ${className}`}
+      sectionClassName={`absolute inset-x-0 ${className ? className : `-bottom-40 md:-bottom-48 mx-3`}`}
       className={`bg-white tech-shadow p-5 md:p-8 rounded-2xl ${innerClassName}`}
     >
       <h2

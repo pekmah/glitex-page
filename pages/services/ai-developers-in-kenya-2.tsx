@@ -4,6 +4,7 @@ import {
   AiBuild,
   AiExperience,
   AiMain,
+  AiPortfolioSection,
   AiStrategy,
   AiWhyChoose,
 } from "../../components/ai";
@@ -18,7 +19,10 @@ export default function Ai() {
       {/* let's build ai */}
       <AiBuild />
 
-      {/* why choose ud */}
+      {/* portfolio section */}
+      <AiPortfolioSection />
+
+      {/* why choose us */}
       <AiWhyChoose />
 
       {/* experince */}

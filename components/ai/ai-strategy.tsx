@@ -1,6 +1,4 @@
-import React from "react";
 import { SectionWrapper } from "../general";
-import { ServiceSteps } from "../services";
 import Card from "../onboarding/steps/Card";
 
 const description =

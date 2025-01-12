@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../layout";
-import { AiMain, AiStrategy } from "../../components/ai";
+import { AiBuild, AiExperience, AiMain, AiStrategy } from "../../components/ai";
 
 export default function Ai() {
   return (
@@ -8,6 +8,12 @@ export default function Ai() {
       <AiMain />
 
       <AiStrategy />
+
+      {/* let's build ai */}
+      <AiBuild />
+
+      {/* experince */}
+      <AiExperience />
     </Layout>
   );
 }

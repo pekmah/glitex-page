@@ -11,7 +11,9 @@ export default function AiPortfolioSection() {
       >
         <div className="flex flex-col md:flex-row gap-10">
           <div className="flex-1 py-20">
-            <h3 className="text-3xl mb-12 text-white">Our Product Portfolio</h3>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl mb-12 text-white">
+              Our Product Portfolio
+            </h3>
 
             <div className="">
               <h3 className="text-2xl text-white mb-2">Attorney Shield</h3>
@@ -69,7 +71,7 @@ export default function AiPortfolioSection() {
 const StatItem = ({ value, title, className }) => {
   return (
     <div className={`flex-1 flex items-center py-10 ${className}`}>
-      <h3 className="text-c-yellow text-2xl md:text-2xl xl:text-3xl mr-3">
+      <h3 className="text-c-yellow text-2xl md:text-2xl xl:text-2xl mr-3">
         {value}
       </h3>
 
@@ -85,7 +87,7 @@ const stats = [
   {
     title: `Capital Raised <br/> by Jan 2025`,
     value: "$590.8K",
-    className: "mr-5",
+    className: "mr-2 flex-[1.5]",
   },
   {
     title: `Investors <br/> by Jan 2025`,

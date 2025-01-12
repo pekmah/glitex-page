@@ -4,7 +4,7 @@ import { SectionWrapper } from "../general";
 export default function AiAcquisition() {
   return (
     <SectionWrapper
-      sectionClassName={"bg-white min-h-[50vh] relative"}
+      sectionClassName={"bg-white relative py-32"}
       className={""}
       sectionStyles={undefined}
     >

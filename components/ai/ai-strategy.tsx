@@ -45,7 +45,7 @@ export default function Strategy() {
           ))}
         </div>
 
-        <div className="flex gap-20 py-10 pt-16">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-20 py-10 pt-16">
           <div className="flex-1">
             {/* image */}
             <img

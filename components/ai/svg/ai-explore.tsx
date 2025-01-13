@@ -13,9 +13,9 @@ export default function AiExplore() {
       <path
         d="M12 20H28M28 20L22 26M28 20L22 14"
         stroke="white"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

@@ -1,4 +1,5 @@
-import { CButton, SectionWrapper } from "../general";
+import React from "react";
+import { SectionWrapper } from "../general";
 import AiExplore from "./svg/ai-explore";
 import AiWhyWorkShake from "./svg/ai-why-work-shake";
 import AiWhyWorkSpeedSvg from "./svg/ai-why-work-speed";

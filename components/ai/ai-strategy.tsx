@@ -1,3 +1,4 @@
+import React from "react";
 import { SectionWrapper } from "../general";
 import Card from "../onboarding/steps/Card";
 

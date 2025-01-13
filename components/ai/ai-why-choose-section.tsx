@@ -1,6 +1,5 @@
 import React from "react";
 import { SectionWrapper } from "../general";
-import { title } from "process";
 
 export default function AiWhyChoose() {
   return (

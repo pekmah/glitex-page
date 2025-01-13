@@ -1,5 +1,4 @@
 import React from "react";
-import { SectionWrapper } from "../general";
 
 export default function carousel(props) {
   return (

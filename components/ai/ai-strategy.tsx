@@ -32,7 +32,7 @@ export default function Strategy() {
         {/*    Steps section  */}
         <div
           className={
-            "min-h-80 w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 p-2 pt-20"
+            "min-h-80 w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 p-2 pt-8 md:pt-20"
           }
         >
           {steps?.map((step, ind) => (

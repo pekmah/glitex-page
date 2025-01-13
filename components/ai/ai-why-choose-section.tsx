@@ -4,14 +4,14 @@ import { SectionWrapper } from "../general";
 export default function AiWhyChoose() {
   return (
     <SectionWrapper
-      className={"relative py-24 "}
+      className={"relative py-12 md:py-24 "}
       sectionClassName={undefined}
       sectionStyles={undefined}
     >
       <div className="max-w-[1300px] mx-auto">
         <h2
           className={
-            "leading-8 md:leading-11 md:w-1/2 mx-auto text-center mb-16 text-primary font-bold"
+            "leading-8 md:leading-11 md:w-1/2 mx-auto text-center mb-8 sm:mb-10 md:mb-16 text-primary font-bold"
           }
         >
           Why Choose Us
@@ -48,11 +48,13 @@ const ChooseItem = ({
 }: ChooseItemProps) => {
   return (
     <div
-      className={`flex gap-10 p-10 shadow-lg rounded-3xl lg:rounded-[40px] text-primary ${className}`}
+      className={`mx-3 md:mx-0 flex flex-col md:flex-row gap-3 sm:gap-6 md:gap-10 p-10 shadow-lg rounded-3xl lg:rounded-[40px] text-primary ${className}`}
     >
       <div className="flex-1 flex flex-col justify-center">
-        <h3 className="text-3xl mb-5">{title}</h3>
-        <p className="lg:pr-10">{description}</p>
+        <h3 className="text-2xl sm:text-2xl md:text-3xl mb-5">{title}</h3>
+        <p className="text-sm sm:text-base leading-relaxed lg:pr-10">
+          {description}
+        </p>
       </div>
       <div className="flex-1 lg:pr-10">
         <div className="rounded-3xl overflow-hidden">

@@ -15,7 +15,7 @@ import { TurnYourIdeas } from "../portfolio";
 
 export default function AiExperience() {
   return (
-    <div className="bg-primary py-20">
+    <div className="bg-primary py-16 sm:py-20">
       <SectionWrapper
         className={"relative pb-96"}
         sectionClassName={undefined}
@@ -24,7 +24,7 @@ export default function AiExperience() {
         <>
           <h2
             className={
-              "leading-8 md:leading-11 md:w-1/2 mx-auto text-center mb-16 text-white"
+              "text-2xl sm:text-3xl md:text-5xl leading-8 md:leading-11 md:w-1/2 mx-auto text-center mb-16 text-white"
             }
           >
             AI Fields We’re Experienced In
@@ -60,12 +60,14 @@ const Card = ({
   description: string;
   icon: React.ReactNode;
 }) => (
-  <div className="relative overflow-hidden bg-cover bg-[url('/images/ai/subtract.png')] p-10">
-    <h3 className="mb-10 mt-1 text-[28px] w-10/12">{title}</h3>
+  <div className="relative overflow-hidden bg-cover md:bg-[url('/images/ai/subtract.png')] bg-none bg-white lg:bg-transparent p-10">
+    <h3 className="mb-3 md:mb-10 mt-1 text-2xl md:text-[28px] w-10/12">
+      {title}
+    </h3>
 
-    <p>{description}</p>
+    <p className="leading-relaxed text-primary"> {description}</p>
 
-    <div className="w-[75px] h-[75px] rounded-full absolute top-4 right-4 bg-c-yellow flex items-center justify-center">
+    <div className="w-14 md:w-[75px] h-14 md:h-[75px] p-3 md:p-0 rounded-full absolute top-4 right-4 bg-c-yellow flex items-center justify-center">
       {icon}
     </div>
   </div>

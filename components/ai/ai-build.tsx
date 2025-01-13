@@ -19,7 +19,7 @@ export default function AiBuild() {
               "leading-8 md:leading-11 md:w-1/2 mx-auto text-center mb-16"
             }
           >
-            Let’s Build your AI Powered Product from MVP to Full Product
+            Let&apos;s Build your AI Powered Product from MVP to Full Product
           </h2>
 
           <div className="flex gap-10">

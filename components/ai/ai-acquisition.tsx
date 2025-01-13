@@ -44,7 +44,7 @@ export default function AiAcquisition() {
             <br />
             <br />
             We prioritize data privacy and compliance, strictly adhering to
-            GDPR, UAE, US, and other relevant jurisdictional data policies. We
+            GDPR, UAE, US, and other relevant jurisdictional data policies.We
             provide strategic advice on how to collect and use only consented
             data responsibly, ensuring the privacy and security of all
             information handled.

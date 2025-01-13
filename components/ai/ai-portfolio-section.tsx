@@ -9,9 +9,9 @@ export default function AiPortfolioSection() {
         className={"px-5 md:px-0"}
         sectionStyles={undefined}
       >
-        <div className="flex flex-col md:flex-row gap-10">
-          <div className="flex-1 py-20">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl mb-12 text-white">
+        <div className="flex flex-col md:flex-row gap-0 sm:gap-6 md:gap-10">
+          <div className="flex-1 py-16 md:py-20">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl mb-5 md:mb-12 text-white">
               Our Product Portfolio
             </h3>
 
@@ -26,7 +26,7 @@ export default function AiPortfolioSection() {
               </p>
             </div>
 
-            <div className="flex gap-12">
+            <div className="flex flex-wrap gap-3 md:gap-12 pt-5 md:pt-0">
               {stats.map(({ title, value, className = "" }, ind) => (
                 <StatItem
                   key={ind}
@@ -37,11 +37,11 @@ export default function AiPortfolioSection() {
               ))}
             </div>
 
-            <div className="flex py-5 gap-10">
+            <div className="flex flex-col md:flex-row py-5 gap-5 md:gap-10">
               <CButton
                 text={"Read Case Study"}
                 className={
-                  "bg-white text-base md:text-base text-primary px-10 mt-5"
+                  "bg-white text-base md:text-base text-primary px-10 mt-5 mr-auto"
                 }
                 handleClick={() => {}}
               />
@@ -49,7 +49,7 @@ export default function AiPortfolioSection() {
               <CButton
                 text={"View Full Portfolio"}
                 className={
-                  "bg-transparent text-base md:text-base text-white mr-auto px-10 mt-5"
+                  "bg-transparent text-base md:text-base text-white px-10 mt-5 mr-auto"
                 }
                 handleClick={() => {}}
               />
@@ -70,7 +70,9 @@ export default function AiPortfolioSection() {
 
 const StatItem = ({ value, title, className }) => {
   return (
-    <div className={`flex-1 flex items-center py-10 ${className}`}>
+    <div
+      className={`flex-1 flex items-center py-3 sm:py-6 md:py-10 ${className}`}
+    >
       <h3 className="text-c-yellow text-2xl md:text-2xl xl:text-2xl mr-3">
         {value}
       </h3>

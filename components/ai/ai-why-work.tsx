@@ -6,7 +6,7 @@ import AiWhyWorkSpeedSvg from "./svg/ai-why-work-speed";
 
 export default function AiWhyWork() {
   return (
-    <div className="py-20">
+    <div className="py-16 md:py-20">
       <SectionWrapper
         className={"lg:px-10"}
         sectionStyles={undefined}
@@ -25,18 +25,18 @@ export default function AiWhyWork() {
                 What’s the magic sauce to ensure as a business you ship faster?
               </h3>
 
-              <span className="text-xl text-primary font-tinos">
+              <span className="text-base md:text-xl text-primary font-tinos">
                 We integrate AI models with low-code development
               </span>
             </div>
             {/* image */}
             <img
-              className={"w-full object-contain my-20"}
+              className={"w-full object-contain my-5 sm:my-10 md:my-20"}
               src="/images/ai/ai-work-implementation.png"
               alt="why-work-implementation"
             />
 
-            <div className="flex lg:gap-10">
+            <div className="flex flex-col md:flex-row gap-5 md:gap-8 lg:gap-10">
               <div className="flex-1 px-6">
                 <h3 className={"leading-8 md:leading-10"}>
                   What stage are you?
@@ -47,7 +47,7 @@ export default function AiWhyWork() {
                 </div>
               </div>
 
-              <div className="flex-1 rounded-[40px] overflow-hidden">
+              <div className="flex-1 mx-5 md:mx-0 rounded-3xl md:rounded-[40px] overflow-hidden">
                 <img
                   className={"object-contain "}
                   src="/images/ai/ai-work-stage.jpg"
@@ -64,10 +64,10 @@ export default function AiWhyWork() {
 
 const Card = () => (
   <div
-    className={`flex gap-10 p-10 shadow-lg rounded-3xl lg:rounded-[40px] text-primary `}
+    className={`flex flex-col md:flex-row mx-3 md:mx-0 gap-5 md:gap-10 p-10 shadow-lg rounded-3xl lg:rounded-[40px] text-primary `}
   >
     <div className="flex-1 flex flex-col justify-center">
-      <p className="text-2xl font-tinos lg:mr-12">
+      <p className="text-xl md:text-2xl font-tinos lg:mr-12">
         With over <strong>40% of our team made of ex-founders</strong> and
         <strong> ex-employees of startups</strong> we understand that products
         increase their odds of success with by ensuring;

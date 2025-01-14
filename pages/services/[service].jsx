@@ -1,0 +1,89 @@
+import React, { useMemo } from "react";
+import {
+  ServiceAbout,
+  ServiceDescription,
+  ServiceMain,
+  ServiceSteps,
+} from "../../components";
+import { serviceMeta, servicePages } from "../../providers/mis/data";
+
+import Layout from "../../layout";
+import { useParams } from "next/navigation";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
+
+/**
+ * Possible routes: mis,games,ai,seo
+ * @returns {JSX.Element}
+ * @constructor
+ */
+const Service = () => {
+  const params = useParams();
+  const { size } = useWindowDimensions();
+
+  const currentService = useMemo(() => {
+    if (params?.service) {
+      return servicePages && servicePages[params?.service];
+
+      // return servicePages[params?.service];
+    } else {
+      return null;
+    }
+  }, [params?.service]);
+
+  const currentServiceMeta = useMemo(() => {
+    if (params?.service) {
+      return serviceMeta && serviceMeta[params?.service];
+
+      // return servicePages[params?.service];
+    } else {
+      return null;
+    }
+  }, [params?.service]);
+
+  return (
+    <Layout>
+      {currentServiceMeta}
+      {/*  Main Section  */}
+      <ServiceMain
+        title={currentService?.main?.title}
+        subtitle={currentService?.main?.subtitle}
+        imageUrl={currentService?.main?.imageUrl}
+      />
+
+      {/* Description */}
+      <ServiceDescription
+        title={currentService?.description?.title}
+        body={currentService?.description?.body}
+      />
+
+      {/*    About  */}
+      <ServiceAbout
+        title={currentService?.about?.title}
+        body={currentService?.about?.body}
+        floater={!currentService?.steps ? currentService?.floater : null}
+      />
+
+      {/*    Steps section  */}
+      {currentService?.steps && (
+        <ServiceSteps
+          title={currentService?.steps?.title}
+          subtitle={currentService?.steps?.subtitle}
+          steps={currentService?.steps?.steps}
+          floater={currentService?.floater}
+        />
+      )}
+
+      <div
+        style={{
+          height:
+            size === "sm"
+              ? currentService?.floater?.style?.bgSpaceSm
+              : currentService?.floater?.style?.bgSpace,
+        }}
+        className={` bg-primary`}
+      />
+    </Layout>
+  );
+};
+
+export default Service;

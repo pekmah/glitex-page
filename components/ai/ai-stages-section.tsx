@@ -1,7 +1,11 @@
 import React from "react";
 import { SectionWrapper } from "../general";
 
-export default function AiStagesSection() {
+export default function AiStagesSection({
+  currentStage,
+}: {
+  currentStage: number;
+}) {
   return (
     <SectionWrapper
       className={"px-3 lg:px-10"}
@@ -14,13 +18,21 @@ export default function AiStagesSection() {
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 p-2 pt-10 md:pt-20">
-          {stages.map((stage, ind) => (
-            <Card
-              key={ind}
-              title={stage.title}
-              description={stage.description}
-            />
-          ))}
+          {currentStage === 1
+            ? stages.map((stage, ind) => (
+                <Card
+                  key={ind}
+                  title={stage.title}
+                  description={stage.description}
+                />
+              ))
+            : stages2.map((stage, ind) => (
+                <Card
+                  key={ind}
+                  title={stage.title}
+                  description={stage.description}
+                />
+              ))}
         </div>
       </div>
     </SectionWrapper>
@@ -68,5 +80,33 @@ const stages = [
     title: "Stable development",
     description:
       "We support founders who have already built a prototype to build a fully scalable AI powered or Native application.",
+  },
+];
+
+const stages2 = [
+  {
+    title: "You will streamline operations and reduce manual tasks",
+    description:
+      "This allows your team to focus on more strategic initiatives, thus increasing productivity",
+  },
+  {
+    title: "Make better business decisions",
+    description:
+      "Transform your data into valuable insights that drive informed decision-making, leading to better business outcomes and competitive advantages.",
+  },
+  {
+    title: "Delight your customers",
+    description:
+      "Deliver a personalized customer experience that meets individual needs and preferences.",
+  },
+  {
+    title: "Lower operational costs & Increase ROI",
+    description:
+      "automating your processes and analyzing the data gives you insights to optimize costs and invest in higher ROI components.",
+  },
+  {
+    title: "Future proof your business",
+    description:
+      "Foster a culture of innovation by exploring new business models and services powered by AI.",
   },
 ];

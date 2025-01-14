@@ -13,6 +13,8 @@ import {
 } from "../../components/ai";
 
 export default function Ai() {
+  const [currentStage, setCurrentStage] = React.useState(1);
+
   return (
     <Layout>
       <AiMain />
@@ -23,10 +25,10 @@ export default function Ai() {
       <AiBuild />
 
       {/* why work with us */}
-      <AiWhyWork />
+      <AiWhyWork currentStage={currentStage} handleSwitch={setCurrentStage} />
 
       {/* stages */}
-      <AiStagesSection />
+      <AiStagesSection currentStage={currentStage} />
 
       {/* acquistion & privacy */}
       <AiAcquisition />

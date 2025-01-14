@@ -4,7 +4,13 @@ import AiExplore from "./svg/ai-explore";
 import AiWhyWorkShake from "./svg/ai-why-work-shake";
 import AiWhyWorkSpeedSvg from "./svg/ai-why-work-speed";
 
-export default function AiWhyWork() {
+export default function AiWhyWork({
+  handleSwitch,
+  currentStage,
+}: {
+  handleSwitch: (stage: number) => void;
+  currentStage: number;
+}) {
   return (
     <div className="py-16 md:py-20">
       <SectionWrapper
@@ -45,14 +51,16 @@ export default function AiWhyWork() {
                   <StageSwitch
                     title={"I am building a startup "}
                     desc="And I need help with AI"
-                    isCurrent
+                    isCurrent={currentStage === 1}
+                    handleSwitch={() => handleSwitch(1)}
                   />
                   <StageSwitch
                     title={
                       "I have and existing business & want to incorporate AI "
                     }
                     desc="Show me the possibilities and where to start"
-                    isCurrent={false}
+                    isCurrent={currentStage === 2}
+                    handleSwitch={() => handleSwitch(2)}
                   />
                 </div>
               </div>
@@ -107,13 +115,16 @@ const StageSwitch = ({
   title,
   desc,
   isCurrent,
+  handleSwitch,
 }: {
   isCurrent?: boolean;
   title: string;
   desc: string;
+  handleSwitch: () => void;
 }) => (
   <div
     className={`flex flex-col rounded-3xl  p-5 px-8 cursor-pointer shadow-md ${!isCurrent ? "bg-white text-primary" : "bg-primary text-white"}`}
+    onClick={handleSwitch}
   >
     <h3 className={"leading-8 md:leading-10 text-inherit text-2xl mb-3"}>
       {title}

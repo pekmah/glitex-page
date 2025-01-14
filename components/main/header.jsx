@@ -1,11 +1,13 @@
-import React from "react";
-import NavList from "./NavList";
 import { CButton, CButtonOutlined } from "../general";
+
 import CButtonGhost from "../general/CButtonGhost";
-import { FiMenu } from "react-icons/fi";
 import { COLORS } from "../../constants";
-import { handleCall, handleEmail } from "../../helpers/helpers";
 import { CONTACT_EMAIL } from "../../constants/defaults";
+import { FiMenu } from "react-icons/fi";
+import NavList from "./NavList";
+import React from "react";
+import { handleBook } from "../home/Main";
+import { handleCall } from "../../helpers/helpers";
 
 const Header = ({ handleOpenNav }) => {
   return (
@@ -18,12 +20,12 @@ const Header = ({ handleOpenNav }) => {
       >
         {/*Logo*/}
         <a href="/">
-          <div className="header-logo flex gap-3 items-center w-full px-1">
+          <div className="flex items-center w-full gap-3 px-1 header-logo">
             {/*logo */}
             <img className={"h-12 md:h-14"} src="/logo.png" alt="logo" />
 
             {/*title*/}
-            <h3 className="font-lato text-primary hidden sm:flex lg:text-2xl sm:text-2xl text-xl font-semibold">
+            <h3 className="hidden text-xl font-semibold font-lato text-primary sm:flex lg:text-2xl sm:text-2xl">
               Glitex Solutions
             </h3>
           </div>
@@ -49,10 +51,11 @@ const Header = ({ handleOpenNav }) => {
               {CONTACT_EMAIL}
             </a>
           </div>
+
           <CButton
             className={"hidden font-medium md:flex text-base tracking-wide"}
-            text={`${CONTACT_EMAIL} `}
-            handleClick={handleEmail}
+            text={`Book Appointment`}
+            handleClick={handleBook}
           />
 
           {/*  menu button  */}

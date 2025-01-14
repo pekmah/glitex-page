@@ -1,14 +1,19 @@
 import { CButton, SectionWrapper } from "../general";
-import { handleCall, handleRequestQuote } from "../../helpers/helpers";
+import {
+  handleCall,
+  handleEmail,
+  handleRequestQuote,
+} from "../../helpers/helpers";
 
+import { CONTACT_EMAIL } from "../../constants/defaults";
 import { CustomersSection } from "./index";
 import React from "react";
 import Router from "next/router";
 
+export const handleBook = () => {
+  Router.push("/book");
+};
 const Main = () => {
-  const handleBook = () => {
-    Router.push("/book");
-  };
   return (
     <SectionWrapper className={"flex md:px-5 md:min-h-[85vh] relative"}>
       {/*  text container   */}
@@ -40,13 +45,26 @@ const Main = () => {
             text={"Request Quote"}
             handleClick={handleRequestQuote}
           />
-          <CButton
-            text={"Book Appointment"}
-            className={
-              "bg-white btn-shadow hover:btn-shadow-deep  duration-300 md:hover:scale-105 flex text-primary"
-            }
-            handleClick={handleBook}
-          />
+
+          <div className="hidden md:block">
+            <CButton
+              text={`${CONTACT_EMAIL} `}
+              className={
+                "bg-white btn-shadow hover:btn-shadow-deep  duration-300 md:hover:scale-105 flex text-primary"
+              }
+              handleClick={handleEmail}
+            />
+          </div>
+
+          <div className="block md:hidden">
+            <CButton
+              text={"Book Appointment"}
+              className={
+                "bg-white btn-shadow hover:btn-shadow-deep  duration-300 md:hover:scale-105 flex text-primary"
+              }
+              handleClick={handleBook}
+            />
+          </div>
           <CButton
             text={"Call: +254 707 021 821"}
             className={

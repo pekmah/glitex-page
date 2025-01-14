@@ -3,7 +3,7 @@ import React from "react";
 const SectionWrapper = ({
   className,
   sectionClassName,
-  children,
+  children = <></>,
   sectionStyles,
 }) => {
   return (

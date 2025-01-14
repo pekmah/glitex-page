@@ -99,7 +99,7 @@ export const servicePages = {
       },
     },
   },
-  "ai-developers-in-kenya-2": {
+  "ai-developers": {
     //  main section
     main: {
       title: `

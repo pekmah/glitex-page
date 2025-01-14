@@ -2,11 +2,11 @@ import React from "react";
 import { CButton, SectionWrapper } from "../general";
 import { handleCall } from "../../helpers/helpers";
 
-const TurnYourIdeas = () => {
+const TurnYourIdeas = ({ className = "", innerClassName = "" }) => {
   return (
     <SectionWrapper
-      sectionClassName={"absolute inset-x-0 -bottom-40 md:-bottom-48 mx-3"}
-      className={"bg-white tech-shadow p-5 md:p-8 rounded-2xl "}
+      sectionClassName={`absolute inset-x-0 ${className ? className : `-bottom-40 md:-bottom-48 mx-3`}`}
+      className={`bg-white tech-shadow p-5 md:p-8 rounded-2xl ${innerClassName}`}
     >
       <h2
         className={" leading-8 md:leading-11 mb-10 md:bg-24 text-center mt-12"}

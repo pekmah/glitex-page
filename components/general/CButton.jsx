@@ -2,7 +2,7 @@ import React from "react";
 
 const CButton = ({
   text,
-  handleClick,
+  handleClick = () => {},
   className,
   left = null,
   disabled = false,

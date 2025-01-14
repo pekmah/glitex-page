@@ -18,11 +18,15 @@ export default function carousel(props) {
       />
 
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className=" lg:w-3/5 ">
-          <h2 className="h3 text-white font-tinos text-2xl text-wrap md:text-4xl lg:text-5xl text-center leading w-9/12 sm:w-auto mx-auto">
-            We leverage ML and AI to build AI- Native solutions or Integrate AI
-            into your existing business
-          </h2>
+        <div className="">
+          <h1 className="h3 text-white font-tinos text-2xl text-wrap md:text-4xl lg:text-5xl text-center w-11/12 leading sm:w-auto mx-auto">
+            Ai Companies in Kenya | Artificial Intelligence Companies in Kenya
+          </h1>
+          <p className=" text-white tracking-wide w-full md:w-8/12  my-8 text-base sm:text-lg md:text-xl text-wrap text-center leading m:w-auto mx-auto">
+            In search of Artificial Intelligent (AI) company in Nairobi, Kenya
+            or across the globe? We leverage ML and AI to build AI- Native
+            solutions or Integrate AI into your existing business
+          </p>
 
           <div className="flex mt-12 md:mt-28 px-5 md:px-10 flex-wrap gap-y-3">
             {stats?.map(({ title, value }, ind) => (
@@ -60,7 +64,7 @@ export default function carousel(props) {
 const stats = [
   {
     title: `Completed <br/> Projects`,
-    value: "590",
+    value: "100+",
   },
   {
     title: `Inhouse <br/> AI Experts`,

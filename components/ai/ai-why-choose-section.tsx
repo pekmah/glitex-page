@@ -24,7 +24,11 @@ export default function AiWhyChoose() {
               title={item.title}
               description={item.description}
               imageUrl={item.imageUrl}
-              className={index % 2 === 0 ? "flex-row" : "flex-row-reverse"}
+              className={
+                index % 2 === 0
+                  ? "flex-col md:flex-row"
+                  : "flex-col md:flex-row-reverse"
+              }
             />
           ))}
         </div>
@@ -48,7 +52,7 @@ const ChooseItem = ({
 }: ChooseItemProps) => {
   return (
     <div
-      className={`mx-3 md:mx-0 flex flex-col md:flex-row gap-3 sm:gap-6 md:gap-10 p-10 shadow-lg rounded-3xl lg:rounded-[40px] text-primary ${className}`}
+      className={`mx-3 md:mx-0 flex gap-3 sm:gap-6 md:gap-10 p-10 shadow-lg rounded-3xl lg:rounded-[40px] text-primary ${className}`}
     >
       <div className="flex-1 flex flex-col justify-center">
         <h3 className="text-2xl sm:text-2xl md:text-3xl mb-5">{title}</h3>

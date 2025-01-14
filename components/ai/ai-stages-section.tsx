@@ -14,7 +14,9 @@ export default function AiStagesSection({
     >
       <div className="bg-[url('/images/ai/ai-stages-bg.jpg')] bg-contain bg-center bg-no-repeat py-16 sm:py-20 ">
         <h2 className={"leading-8 md:leading-11 text-white"}>
-          What does this mean for your startup?
+          {currentStage === 1
+            ? "What does this mean for your startup?"
+            : "What Can You Do?"}
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 p-2 pt-10 md:pt-20">

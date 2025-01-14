@@ -1,5 +1,6 @@
 import React from "react";
 import { CButton, SectionWrapper } from "../general";
+import Link from "next/link";
 
 export default function AiPortfolioSection() {
   return (
@@ -38,21 +39,14 @@ export default function AiPortfolioSection() {
             </div>
 
             <div className="flex flex-col md:flex-row py-5 gap-5 md:gap-10">
-              <CButton
-                text={"Read Case Study"}
-                className={
-                  "bg-white text-base md:text-base text-primary px-10 mt-5 mr-auto"
-                }
-                handleClick={() => {}}
-              />
-
-              <CButton
-                text={"View Full Portfolio"}
-                className={
-                  "bg-transparent text-base md:text-base text-white px-10 mt-5 mr-auto"
-                }
-                handleClick={() => {}}
-              />
+              <Link href="/portfolio/1">
+                <CButton
+                  text={"View Portfolio"}
+                  className={
+                    "bg-white text-base md:text-base text-primary px-10 mt-5 mr-auto"
+                  }
+                />
+              </Link>
             </div>
           </div>
           <div className="flex-1 flex flex-col justify-end items-center">

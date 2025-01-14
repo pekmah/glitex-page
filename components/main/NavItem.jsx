@@ -10,7 +10,8 @@ const NavItem = ({ to = "/", title }) => {
       return (
         pathName === "/" ||
         ((pathName?.includes("services") || pathName?.includes("low_code")) &&
-          !pathName?.includes("mobile"))
+          !pathName?.includes("mobile") &&
+          !pathName?.includes("ai-companies-in-nairobi-kenya"))
       );
     }
     return pathName === to;

@@ -2,9 +2,6 @@ import React from "react";
 import { SectionWrapper } from "../general";
 import Card from "../onboarding/steps/Card";
 
-const description =
-  "Okapy Secure is a tech-driven end-to-end local and cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods and shop directly from the U.S. stores and delivers to your door step.";
-
 export default function Strategy() {
   return (
     <SectionWrapper
@@ -20,14 +17,6 @@ export default function Strategy() {
         >
           Our AI Strategry
         </h2>
-
-        <p
-          className={
-            "leading-7 text-primary-pale text-left md:text-center md:w-3/4 mx-auto my-3"
-          }
-        >
-          {description}
-        </p>
 
         {/*    Steps section  */}
         <div

@@ -1,6 +1,7 @@
 import React from "react";
+import { COLORS } from "../../../constants";
 
-export default function AiExplore() {
+export default function AiExplore({ isCurrent }: { isCurrent?: boolean }) {
   return (
     <svg
       width="25"
@@ -9,10 +10,18 @@ export default function AiExplore() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#EBEBEB" />
+      <rect
+        x="0.5"
+        y="0.5"
+        width="39"
+        height="39"
+        rx="19.5"
+        stroke={!isCurrent ? COLORS.primary : "#EBEBEB"}
+        strokeWidth={2}
+      />
       <path
         d="M12 20H28M28 20L22 26M28 20L22 14"
-        stroke="white"
+        stroke={!isCurrent ? COLORS.primary : "white"}
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"

@@ -17,7 +17,7 @@ export default function AiExperience() {
   return (
     <div className="bg-primary py-16 sm:py-20">
       <SectionWrapper
-        className={"relative pb-96"}
+        className={"relative pb-64 md:pb-96"}
         sectionClassName={undefined}
         sectionStyles={undefined}
       >
@@ -42,7 +42,7 @@ export default function AiExperience() {
           </div>
 
           <TurnYourIdeas
-            className="-bottom-10 md:-bottom-5 mx-20 "
+            className="-bottom-10 md:-bottom-5 mx-3 md:mx-20 "
             innerClassName="rounded-[40px]"
           />
         </>

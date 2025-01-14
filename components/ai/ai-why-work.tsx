@@ -42,8 +42,18 @@ export default function AiWhyWork() {
                   What stage are you?
                 </h3>
                 <div className="flex flex-col gap-8 py-5">
-                  <StageSwitch isCurrent />
-                  <StageSwitch isCurrent={false} />
+                  <StageSwitch
+                    title={"I am building a startup "}
+                    desc="And I need help with AI"
+                    isCurrent
+                  />
+                  <StageSwitch
+                    title={
+                      "I have and existing business & want to incorporate AI "
+                    }
+                    desc="Show me the possibilities and where to start"
+                    isCurrent={false}
+                  />
                 </div>
               </div>
 
@@ -93,20 +103,28 @@ const Card = () => (
   </div>
 );
 
-const StageSwitch = ({ isCurrent }) => (
+const StageSwitch = ({
+  title,
+  desc,
+  isCurrent,
+}: {
+  isCurrent?: boolean;
+  title: string;
+  desc: string;
+}) => (
   <div
     className={`flex flex-col rounded-3xl  p-5 px-8 cursor-pointer shadow-md ${!isCurrent ? "bg-white text-primary" : "bg-primary text-white"}`}
   >
     <h3 className={"leading-8 md:leading-10 text-inherit text-2xl mb-3"}>
-      What stage are you?
+      {title}
     </h3>
 
-    <span>And I need help with AI</span>
+    <span>{desc}</span>
 
     <div className="flex justify-end">
       <a className="flex gap-2">
         Explore
-        <AiExplore />
+        <AiExplore isCurrent={isCurrent} />
       </a>
     </div>
   </div>

@@ -1,8 +1,8 @@
+import React, { useState } from "react";
 import { Footer, WhatsappBtn } from "../components";
-import React, { useEffect, useState } from "react";
 
-import Header from "../components/main/header";
 import SideNav from "../components/general/SideNav";
+import Header from "../components/main/header";
 
 type LayoutProps = {
   hidePhone?: boolean;

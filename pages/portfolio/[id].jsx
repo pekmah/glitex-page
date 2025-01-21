@@ -6,12 +6,12 @@ import { portfolioData } from "../../providers/projects/data";
 import { useParams } from "next/navigation";
 
 const View = () => {
-  const [currentTab, setCurrentTab] = React.useState("mobile"); // mobile/admin
+  const [currentTab] = React.useState("mobile"); // mobile/admin
   // path name
 
-  const handleSwitch = (tab) => {
-    setCurrentTab(tab);
-  };
+  // const handleSwitch = (tab) => {
+  //   setCurrentTab(tab);
+  // };
 
   const params = useParams();
 

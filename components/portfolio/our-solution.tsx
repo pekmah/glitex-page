@@ -17,16 +17,7 @@ export default function OurSolution() {
               Our Solution
             </h2>
 
-            <div className={"flex gap-1"}>
-              <p
-                className={
-                  "mb-5 font-tinos text-2xl font-semibold text-primary leading-9"
-                }
-              >
-                People of color want and can pay for a platform that provides
-                attorneys on demand.
-              </p>
-            </div>
+            <div className={"flex gap-1"}>{""}</div>
             <div
               className="text-primary"
               dangerouslySetInnerHTML={{ __html: body }}

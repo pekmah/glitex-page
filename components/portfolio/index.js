@@ -6,6 +6,7 @@ import PortfolioViewImages from "./view/Images";
 import HypothesisSection from "./hypothesis";
 import BuildingProcessSection from "./building-process";
 import OurSolutionSection from "./our-solution";
+import KeyFeaturesSection from "./key-features";
 
 export {
   PortfolioMain,
@@ -16,4 +17,5 @@ export {
   HypothesisSection,
   BuildingProcessSection,
   OurSolutionSection,
+  KeyFeaturesSection,
 };

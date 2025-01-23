@@ -2,6 +2,7 @@ import {
   BuildingProcessSection,
   CButton,
   HypothesisSection,
+  OurSolutionSection,
   PortfolioViewImages,
   SectionWrapper,
 } from "../../components";
@@ -121,6 +122,7 @@ const View = () => {
       <BuildingProcessSection />
 
       {/* Our Solution */}
+      <OurSolutionSection />
     </Layout>
   );
 };

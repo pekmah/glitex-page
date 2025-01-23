@@ -10,7 +10,7 @@ const BuildingProcess = () => {
       sectionStyles={undefined}
     >
       <>
-        <h2 className={"leading-8 md:leading-11 md:w-1/2 mr-auto mb-5"}>
+        <h2 className={"leading-8 md:leading-11 md:w-1/2 mr-auto"}>
           Our Building Process
         </h2>
 

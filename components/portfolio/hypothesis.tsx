@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "../onboarding/steps/Card";
 import { SectionWrapper } from "../general";
 import { QuotesSvg } from "./svg";
 

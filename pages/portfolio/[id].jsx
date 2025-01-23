@@ -1,4 +1,5 @@
 import {
+  BuildingProcessSection,
   CButton,
   HypothesisSection,
   PortfolioViewImages,
@@ -115,6 +116,11 @@ const View = () => {
 
       {/* hypothesis section */}
       <HypothesisSection />
+
+      {/* Building Process  */}
+      <BuildingProcessSection />
+
+      {/* Our Solution */}
     </Layout>
   );
 };

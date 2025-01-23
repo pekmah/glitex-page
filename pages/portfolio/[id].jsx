@@ -1,36 +1,29 @@
-import {
-  CButton,
-  PortfolioViewHeader,
-  PortfolioViewImages,
-  SectionWrapper,
-} from "../../components";
-import React, { useMemo } from "react";
+import { CButton, PortfolioViewImages, SectionWrapper } from "../../components";
+import React from "react";
 
 import Layout from "../../layout";
-import { portfolioData } from "../../providers/projects/data";
-import { useParams } from "next/navigation";
 import {
   DurationSvg,
-  LaunchSvg,
   IndustrySvg,
+  LaunchSvg,
   MembersSvg,
 } from "../../public/icons/portfolio";
 
 const View = () => {
   const [currentTab] = React.useState("mobile"); // mobile/admin
-  const [currentBtn, setCurrentBtn] = React.useState(btns[0]);
+  const [currentBtn] = React.useState(btns[0]);
 
-  const params = useParams();
+  // const params = useParams();
 
-  const currentProject = useMemo(() => {
-    if (params?.id) {
-      return portfolioData[params?.id];
-    } else {
-      return null;
-    }
-  }, [params?.id]);
+  // const currentProject = useMemo(() => {
+  //   if (params?.id) {
+  //     return portfolioData[params?.id];
+  //   } else {
+  //     return null;
+  //   }
+  // }, [params?.id]);
 
-  const handleSwitch = (tab) => {};
+  const handleSwitch = () => {};
 
   return (
     <Layout>
@@ -102,6 +95,7 @@ const View = () => {
           <div className={"flex justify-center gap-5 py-10"}>
             {btns?.map((btn, index) => (
               <CButton
+                key={index}
                 className={`py-3.5 px-12 border min-w-44 text-center justify-center ${btn === currentBtn ? "border-white bg-primary" : "border-primary bg-white text-primary"}  text-base`}
                 text={btn}
               />

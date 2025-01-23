@@ -1,4 +1,9 @@
-import { CButton, PortfolioViewImages, SectionWrapper } from "../../components";
+import {
+  CButton,
+  HypothesisSection,
+  PortfolioViewImages,
+  SectionWrapper,
+} from "../../components";
 import React from "react";
 
 import Layout from "../../layout";
@@ -107,6 +112,9 @@ const View = () => {
           <PortfolioViewImages tab={currentTab} />
         </div>
       </SectionWrapper>
+
+      {/* hypothesis section */}
+      <HypothesisSection />
     </Layout>
   );
 };

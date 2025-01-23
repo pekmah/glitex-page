@@ -8,6 +8,7 @@ import BuildingProcessSection from "./building-process";
 import OurSolutionSection from "./our-solution";
 import KeyFeaturesSection from "./key-features";
 import ProductImpactSection from "./product-impact";
+import OurLearningSection from "./our-learnings";
 
 export {
   PortfolioMain,
@@ -20,4 +21,5 @@ export {
   OurSolutionSection,
   KeyFeaturesSection,
   ProductImpactSection,
+  OurLearningSection,
 };

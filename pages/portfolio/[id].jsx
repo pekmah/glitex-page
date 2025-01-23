@@ -3,6 +3,7 @@ import {
   CButton,
   HypothesisSection,
   KeyFeaturesSection,
+  OurLearningSection,
   OurSolutionSection,
   PortfolioViewImages,
   ProductImpactSection,
@@ -131,6 +132,9 @@ const View = () => {
 
       {/* Product Impact */}
       <ProductImpactSection />
+
+      {/* Our Learnings */}
+      <OurLearningSection />
     </Layout>
   );
 };

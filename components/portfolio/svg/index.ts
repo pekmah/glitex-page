@@ -5,6 +5,12 @@ import SubscriptionSvg from "./subsciption";
 import UiSvg from "./ui";
 import PerformanceSvg from "./performance";
 
+import FigmaSvg from "./figma";
+import NodeSvg from "./node";
+import NotionSvg from "./notion";
+import FlutterSvg from "./flutter";
+import SupabaseSvg from "./supabase";
+
 export {
   QuotesSvg,
   BrandSvg,
@@ -12,4 +18,9 @@ export {
   SubscriptionSvg,
   UiSvg,
   PerformanceSvg,
+  FigmaSvg,
+  NodeSvg,
+  NotionSvg,
+  FlutterSvg,
+  SupabaseSvg,
 };

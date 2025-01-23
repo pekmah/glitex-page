@@ -7,6 +7,7 @@ import HypothesisSection from "./hypothesis";
 import BuildingProcessSection from "./building-process";
 import OurSolutionSection from "./our-solution";
 import KeyFeaturesSection from "./key-features";
+import ProductImpactSection from "./product-impact";
 
 export {
   PortfolioMain,
@@ -18,4 +19,5 @@ export {
   BuildingProcessSection,
   OurSolutionSection,
   KeyFeaturesSection,
+  ProductImpactSection,
 };

@@ -5,6 +5,7 @@ import {
   KeyFeaturesSection,
   OurSolutionSection,
   PortfolioViewImages,
+  ProductImpactSection,
   SectionWrapper,
 } from "../../components";
 import React from "react";
@@ -127,6 +128,9 @@ const View = () => {
 
       {/* Key Features section */}
       <KeyFeaturesSection />
+
+      {/* Product Impact */}
+      <ProductImpactSection />
     </Layout>
   );
 };

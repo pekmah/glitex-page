@@ -103,6 +103,17 @@ export const portfolioData = {
         body: "A member-specific PIN is used to authorize ending the video-recorded session, adding an extra layer of security to the interaction.",
       },
     ],
+    learnings: {
+      title:
+        "This project provided valuable insights across various aspects of product development, user engagement, and operational challenges. Here are some key learnings: ",
+      steps: [
+        "Understanding users requirements",
+        "Legal and compliance considerations",
+        "Building for reliability",
+        "Users acquisition & retention",
+        "Monetization & strategy & importance of atility",
+      ],
+    },
   },
   2: {
     image: "/images/portfolio/rafu/3.png",

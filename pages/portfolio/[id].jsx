@@ -141,7 +141,10 @@ const View = () => {
       <ProductImpactSection />
 
       {/* Our Learnings */}
-      <OurLearningSection />
+      <OurLearningSection
+        description={currentProject?.learnings?.title}
+        steps={currentProject?.learnings?.steps}
+      />
     </Layout>
   );
 };

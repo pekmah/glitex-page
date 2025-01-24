@@ -2,7 +2,13 @@ import React from "react";
 import { SectionWrapper } from "../general";
 import TurnYourIdeas from "./TurnYourIdeas";
 
-export default function OurLearnings() {
+export default function OurLearnings({
+  description,
+  steps,
+}: {
+  description: "";
+  steps: string[];
+}) {
   return (
     <div className=" bg-white">
       <SectionWrapper
@@ -15,24 +21,21 @@ export default function OurLearnings() {
             Our Learnings
           </h3>
           <p className="text-primary w-11/12 sm:w-3/4 mr-auto leading-6">
-            We document the insights we gather from our product development life
-            cycle to build a knowledge base that both the team involved and
-            others can learn from to improve their skill and refer to when such
-            scenarios come up in the future.{" "}
+            {description || _description}
           </p>
 
-          <div className="flex flex-col-reverse md:flex-row py-5 md:py-10">
+          <div className="flex flex-col-reverse md:flex-row py-5">
             {/* text */}
             <div className="flex-1 flex flex-col gap-5 pt-5">
-              {new Array(3).fill(0).map((_, i) => (
-                <div key={i} className="flex gap-8">
-                  <div className="h-5 w-5 rounded-full font-tinos text-primary text-xl md:text-2xl font-semibold">
+              {(steps ? steps : new Array(3).fill(0)).map((step, i) => (
+                <div key={i} className="flex gap-3">
+                  <div className="h-5 w-5 rounded-full font-tinos text-primary text-xl md:text-lg font-semibold">
                     0{i + 1}.
                   </div>
 
                   <div
                     className="font-lato font-normal tracking-wide text-sm lg:text-[15px] text-primary pr-10 leading-6"
-                    dangerouslySetInnerHTML={{ __html: learnings }}
+                    dangerouslySetInnerHTML={{ __html: step || learnings }}
                   />
                 </div>
               ))}
@@ -61,3 +64,5 @@ export default function OurLearnings() {
 
 const learnings =
   "<strong>Demand Forecast Solution:</strong> Minimize stock outs and reduce inventory holding costs by implementing AI-powered demand forecasting. By accurately predicting future demand, you can optimize production schedules, ensuring you produce the right amount of goods at the right time. This leads to improved inventory management, reduced waste, and increased profitability.";
+const _description =
+  "We document the insights we gather from our product development life cycle to build a knowledge base that both the team involved and others can learn from to improve their skill and refer to when such scenarios come up in the future.";

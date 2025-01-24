@@ -27,7 +27,7 @@ export default function OurSolution() {
           <div className="flex-1 relative">
             {/* image */}
             <img
-              className={"max-h-[550px] rounded-[40px] relative -mb-20 mx-auto"}
+              className={"max-h-[450px] rounded-[40px] relative -mb-20 mx-auto"}
               src="/images/ai/ai-portfolio.png"
               alt="bg_logo"
             />

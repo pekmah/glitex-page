@@ -9,7 +9,7 @@ import {
   ProductImpactSection,
   SectionWrapper,
 } from "../../components";
-import React from "react";
+import React, { useMemo } from "react";
 
 import Layout from "../../layout";
 import {
@@ -18,20 +18,22 @@ import {
   LaunchSvg,
   MembersSvg,
 } from "../../public/icons/portfolio";
+import { useParams } from "next/navigation";
+import { portfolioData } from "../../providers/projects/data";
 
 const View = () => {
   const [currentTab] = React.useState("mobile"); // mobile/admin
   const [currentBtn] = React.useState(btns[0]);
 
-  // const params = useParams();
+  const params = useParams();
 
-  // const currentProject = useMemo(() => {
-  //   if (params?.id) {
-  //     return portfolioData[params?.id];
-  //   } else {
-  //     return null;
-  //   }
-  // }, [params?.id]);
+  const currentProject = useMemo(() => {
+    if (params?.id) {
+      return portfolioData[params?.id];
+    } else {
+      return null;
+    }
+  }, [params?.id]);
 
   const handleSwitch = () => {};
 
@@ -48,14 +50,10 @@ const View = () => {
               "leading-8 md:leading-11 text-white text-center text-3xl sm:text-4xl lg:text-5xl "
             }
           >
-            Okapy Customer Application
+            {currentProject?.title}
           </h1>
           <p className={" my-8 text-white md:w-1/2 text-center leading-8"}>
-            Okapy Secure is a tech-driven end-to-end local and cross border
-            goods transport platform for individuals and businesses. Okapy
-            partners with retailers, manufacturers, suppliers, and startups to
-            transport goods and shop directly from the U.S. stores and delivers
-            to your door step.
+            {currentProject?.description}
           </p>
 
           <div
@@ -63,7 +61,10 @@ const View = () => {
               "bg-none py-8 w-full grid grid-cols-1 gap-3 md:flex flex-row flex-wrap md:justify-evenly"
             }
           >
-            {applicationDetails?.map((item, index) => (
+            {(currentProject?.projectStats
+              ? currentProject?.projectStats
+              : applicationDetails
+            )?.map((item, index) => (
               <div
                 key={index}
                 className={
@@ -71,7 +72,9 @@ const View = () => {
                 }
               >
                 {/*  icon  */}
-                <div className={"flex justify-end pb-1"}>{item.icon}</div>
+                <div className={"flex justify-end pb-1"}>
+                  {applicationDetails[index].icon}
+                </div>
 
                 {/* title */}
                 <h5 className={"text-white text-xl sm:text-2xl md:text-[28px]"}>
@@ -82,7 +85,7 @@ const View = () => {
                     "font-tinos text-base md:text-lg tracking-wide mt-2"
                   }
                 >
-                  {item.description}
+                  {item.subTitle}
                 </p>
               </div>
             ))}
@@ -102,21 +105,25 @@ const View = () => {
           }
         >
           {/*buttons*/}
-          <div
-            className={
-              "flex justify-center flex-wrap gap-2 md:gap-5 py-5 md:py-10"
-            }
-          >
-            {btns?.map((btn, index) => (
-              <CButton
-                key={index}
-                className={`py-3.5 px-6 md:px-12 border min-w-44 text-center justify-center ${btn === currentBtn ? "border-white bg-primary" : "border-primary bg-white text-primary"}  text-base`}
-                text={btn}
-              />
-            ))}
-          </div>
+          {currentProject?.showButtons !== false && (
+            <div
+              className={
+                "flex justify-center flex-wrap gap-2 md:gap-5 py-5 md:py-10"
+              }
+            >
+              {btns?.map((btn, index) => (
+                <CButton
+                  key={index}
+                  className={`py-3.5 px-6 md:px-12 border min-w-44 text-center justify-center ${btn === currentBtn ? "border-white bg-primary" : "border-primary bg-white text-primary"}  text-base`}
+                  text={btn}
+                />
+              ))}
+            </div>
+          )}
 
-          <PortfolioNav currentTab={currentTab} onSwitch={handleSwitch} />
+          {currentProject?.showNav !== false && (
+            <PortfolioNav currentTab={currentTab} onSwitch={handleSwitch} />
+          )}
 
           <PortfolioViewImages tab={currentTab} />
         </div>
@@ -132,7 +139,7 @@ const View = () => {
       <OurSolutionSection />
 
       {/* Key Features section */}
-      <KeyFeaturesSection />
+      <KeyFeaturesSection features={currentProject?.features} />
 
       {/* Product Impact */}
       <ProductImpactSection />
@@ -147,22 +154,22 @@ const applicationDetails = [
   {
     icon: <MembersSvg />,
     title: 12,
-    description: "Team members involved",
+    subTitle: "Team members involved",
   },
   {
     icon: <IndustrySvg />,
     title: "Law",
-    description: "Product Industry",
+    subTitle: "Product Industry",
   },
   {
     icon: <DurationSvg />,
     title: "14 Weeks",
-    description: "Product Development Duration",
+    subTitle: "Product Development Duration",
   },
   {
     icon: <LaunchSvg />,
     title: "2024",
-    description: "Year of Launch",
+    subTitle: "Year of Launch",
   },
 ];
 
@@ -171,7 +178,7 @@ const btns = ["Screenshots", "Prototype"];
 export default View;
 
 const PortfolioNav = ({ currentTab, onSwitch }) => (
-  <div className="container flex justify-center gap-6 overflow-y-hidden overflow-x-scroll mx-auto mb-10 border-b-4 border-gray-100 lg:gap-16 ">
+  <div className="container flex justify-center gap-6 overflow-y-hidden overflow-x-scroll md:overflow-x-hidden mx-auto mb-10 border-b-4 border-gray-100 lg:gap-16 ">
     {tabs.map(({ id, name }) => (
       <PortfolioTab
         key={id}

@@ -8,7 +8,11 @@ import {
   UiSvg,
 } from "./svg";
 
-export default function KeyFeatures() {
+export default function KeyFeatures({
+  features,
+}: {
+  features: Partial<IFeature>[];
+}) {
   return (
     <SectionWrapper
       sectionClassName={"bg-white min-h-90 relative"}
@@ -26,13 +30,13 @@ export default function KeyFeatures() {
             "min-h-80 w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 p-2 pt-8 md:pt-20"
           }
         >
-          {features?.map((step, ind) => (
+          {(features ? features : _features)?.map((step, ind) => (
             <Card
               key={ind}
               index={ind + 1}
               title={step.title}
               description={step.body}
-              icon={step.icon}
+              icon={_features[ind].icon}
             />
           ))}
         </div>
@@ -64,7 +68,13 @@ const Card = (props) => {
   );
 };
 
-const features = [
+interface IFeature {
+  title: string;
+  body: string;
+  icon: React.ReactNode;
+}
+
+const _features: IFeature[] = [
   {
     title: "Intuitive User Interface Designs",
     body: "Enhance your operations with smart AI solutions that work independently or in teams. We use versatile tools like Autogen, CrewAI, Semantic Kernel, and LlamaIndex to optimize performance and efficiency.",

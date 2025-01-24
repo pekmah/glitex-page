@@ -2,7 +2,13 @@ import React from "react";
 import { SectionWrapper } from "../general";
 import { QuotesSvg } from "./svg";
 
-const Hypothesis = ({ hypothesis }: { hypothesis?: string }) => {
+const Hypothesis = ({
+  hypothesis,
+  subtitle,
+}: {
+  hypothesis?: string;
+  subtitle: string;
+}) => {
   return (
     <SectionWrapper
       sectionClassName={"bg-white relative"}
@@ -31,8 +37,7 @@ const Hypothesis = ({ hypothesis }: { hypothesis?: string }) => {
                 "mb-5 font-tinos text-xl md:text-2xl font-semibold text-primary leading-9"
               }
             >
-              People of color want and can pay for a platform that provides
-              attorneys on demand.
+              {subtitle || _subtitle}
             </p>
           </div>
           <div
@@ -53,3 +58,6 @@ const body = `
     <br />
     We provide AI development services designed to help established businesses streamline operations by automating manual tasks, building AI models to extract insights from data, and uncovering patterns that drive smarter decision-making.
 `;
+
+const _subtitle =
+  " People of color want and can pay for a platform that provides attorneys on demand.";

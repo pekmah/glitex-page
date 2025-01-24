@@ -92,6 +92,24 @@ export const portfolioData = {
   1: {
     image: "/images/portfolio/towgig/5.png",
     title: "Towgig",
+    projectStats: [
+      {
+        title: 8,
+        subTitle: "Team members involved",
+      },
+      {
+        title: "Towing",
+        subTitle: "Towing Industry",
+      },
+      {
+        title: "4 Months",
+        subTitle: "Product Development Duration",
+      },
+      {
+        title: "2024",
+        subTitle: "Year of Launch",
+      },
+    ],
     description:
       "Towgig is a platform that connects motorists and drivers to towing and mechanic services according to their schedule or incases of accidents. The app brings together a pool of experts and avails their services to those within their vicinity at the moment they request them.",
     tabs: [
@@ -140,6 +158,36 @@ export const portfolioData = {
         "/images/portfolio/towgig/admin/9.png",
       ],
     },
+    hypothesis:
+      "If TowGig effectively connects motorists and car dealers with trusted service providers through a secure and user-friendly mobile platform, it will facilitate safe and genuine business transactions, leading to increased user trust, engagement, and platform adoption.",
+    hypothesisSubtitle:
+      "Enhancing Trust and Convenience in Automotive Services Through TowGig",
+    features: [
+      {
+        title: "Key Features",
+        body: "Seamless Service Provider Connection Instantly connects motorists and car dealers with verified towing and automotive service providers. Location-based search to find the nearest available service providers.",
+      },
+      {
+        title: "Secure and Transparent Transactions",
+        body: "Ensures safe and genuine business dealings through verified profiles and secure payment options.Real-time tracking and status updates for service requests.",
+      },
+      {
+        title: "User-Friendly Mobile Experience",
+        body: "Intuitive interface allowing users to easily request services and track service progress. Notifications and alerts for job confirmations, service completions, and promotions.",
+      },
+      {
+        title: "⁠24/7 Availability and Emergency Support",
+        body: "Round-the-clock access to towing services and roadside assistance. Emergency response features for stranded motorists.",
+      },
+      {
+        title: "Reviews and Ratings System",
+        body: "Users can review and rate service providers, ensuring quality and accountability.Helps in choosing the most reliable service provider based on past customer experiences.",
+      },
+      {
+        title: "Free Sign-Up and Membership Benefits",
+        body: "Users can sign up for free and explore available services without any initial costs. Exclusive bonuses, promotions, and loyalty rewards for frequent users.",
+      },
+    ],
   },
 
   2: {

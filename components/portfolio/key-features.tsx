@@ -100,4 +100,14 @@ const _features: IFeature[] = [
     body: "Our systems are capable of making intelligent decisions in dynamic environments. Our reinforcement learning expertise helps develop AI solutions for gaming, personalizations, optimization, and autonomous systems.",
     icon: <PerformanceSvg />,
   },
+  {
+    title: "In App Video Conferencing",
+    body: "We build AI systems capable of creating high-quality text, images, code, and more. With expertise in tools like OpenAI, Stability AI, Llama and custom generative models, we deliver applications ranging from content creation to design automation.",
+    icon: <ConferencingSvg />,
+  },
+  {
+    title: "Brand Identity",
+    body: "Our AI chatbots engage in natural, human-like conversations. They provide intelligent, helpful responses across various platforms and purposes, making user interactions seamless. - We leverage OpenAI, Llama 3, Claude Api’s.",
+    icon: <BrandSvg />,
+  },
 ];

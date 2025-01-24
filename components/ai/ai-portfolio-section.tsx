@@ -62,7 +62,7 @@ export default function AiPortfolioSection() {
   );
 }
 
-const StatItem = ({ value, title, className }) => {
+export const StatItem = ({ value, title, className }) => {
   return (
     <div
       className={`flex-1 flex items-center py-3 sm:py-6 md:py-10 ${className}`}

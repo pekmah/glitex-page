@@ -31,8 +31,28 @@ export const portfolioData = {
   1: {
     image: "/images/portfolio/attorney_shield/1.png",
     title: "Attorney Shield",
+    projectStats: [
+      {
+        title: 12,
+        subTitle: "Team members involved",
+      },
+      {
+        title: "Law",
+        subTitle: "Law Enforcement",
+      },
+      {
+        title: "3 Months",
+        subTitle: "Product Development Duration",
+      },
+      {
+        title: "2024",
+        subTitle: "Year of Launch",
+      },
+    ],
     description:
       "This app seeks addresses the rampant issue of police brutality in the United States by instantly connecting a person of color suspected by the police to an attorney who now provides instructions on how to respond and talk to the police or addresses them on the person’s behalf.\n",
+    showButtons: false,
+    showNav: false,
     images: {
       admin: [],
       mobile: [
@@ -59,6 +79,28 @@ export const portfolioData = {
         "/images/portfolio/attorney_shield/20.png",
       ],
     },
+    features: [
+      {
+        title: "Access to Legal Support",
+        body: "Users can connect with licensed attorneys at any time, ensuring expert legal assistance is available during any police-initiated interaction.",
+      },
+      {
+        title: "Live Video Sessions",
+        body: "The app facilitates live, recorded video sessions between users and attorneys, allowing individuals to assert their rights while remaining silent and ensuring interactions are documented.",
+      },
+      {
+        title: "Emergency Contact Notifications",
+        body: "Users can add emergency contacts who will receive email or text notifications upon requesting legal support, keeping loved ones informed during critical moments.",
+      },
+      {
+        title: "Important Document Upload",
+        body: "The app allows users to upload important documents for quick access without interrupting the recorded video session, ensuring pertinent information is readily available when needed.",
+      },
+      {
+        title: "Secret Member pin",
+        body: "A member-specific PIN is used to authorize ending the video-recorded session, adding an extra layer of security to the interaction.",
+      },
+    ],
   },
   2: {
     image: "/images/portfolio/rafu/3.png",

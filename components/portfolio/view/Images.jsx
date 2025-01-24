@@ -18,13 +18,13 @@ const Images = ({ tab }) => {
   return (
     <SectionWrapper
       sectionClassName={""}
-      className={`grid gap-5 md:gap-8  pb-14 md:pb-32 ${tab === "admin" ? "grid-cols-1" : "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"} `}
+      className={`grid gap-5 md:gap-8 pb-14 md:pb-32 pt-5 md:pt-8 ${tab === "admin" ? "grid-cols-1" : "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"} `}
     >
       {currentProject?.map((img, ind) => (
         <img
           key={ind}
           src={img}
-          className={`object-contain w-full rounded-2xl  ${tab === "admin" ? "" : "lg:h-[720px]"} `}
+          className={`object-contain w-11/12 mx-auto md:w-full rounded-2xl  ${tab === "admin" ? "" : "lg:h-[600px]"} `}
           alt={img}
         />
       ))}

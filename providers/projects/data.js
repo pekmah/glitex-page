@@ -79,6 +79,8 @@ export const portfolioData = {
         "/images/portfolio/attorney_shield/20.png",
       ],
     },
+    hypothesis:
+      "A well designed and working MVP will help the company attract early adopters, strategic partners and Investors to help scale access to attorney on demand during police interactions",
     features: [
       {
         title: "Access to Legal Support",

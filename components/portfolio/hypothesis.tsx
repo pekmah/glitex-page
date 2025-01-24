@@ -2,7 +2,7 @@ import React from "react";
 import { SectionWrapper } from "../general";
 import { QuotesSvg } from "./svg";
 
-const Hypothesis = () => {
+const Hypothesis = ({ hypothesis }: { hypothesis?: string }) => {
   return (
     <SectionWrapper
       sectionClassName={"bg-white relative"}
@@ -37,7 +37,7 @@ const Hypothesis = () => {
           </div>
           <div
             className="text-primary"
-            dangerouslySetInnerHTML={{ __html: body }}
+            dangerouslySetInnerHTML={{ __html: hypothesis || body }}
           />
         </div>
       </div>

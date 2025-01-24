@@ -129,7 +129,7 @@ const View = () => {
       </SectionWrapper>
 
       {/* hypothesis section */}
-      <HypothesisSection />
+      <HypothesisSection hypothesis={currentProject?.hypothesis} />
 
       {/* Our Solution */}
       <OurSolutionSection />

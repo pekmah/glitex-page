@@ -202,7 +202,7 @@ export const portfolioData = {
   },
   2: {
     image: "/images/portfolio/kra/4-min.png",
-    title: "Kenya Revenue Authority",
+    title: "Kenya Revenue Authority Pension Scheme Staff Portal",
     description:
       "We developed KRA Employee Retirement Portal, a platform designed to provide secure, supportive, and sustainable solutions for Kenya Revenue Authority employees.The government parastatal allowed us to share only a limited amount of information about this.",
     showButtons: false,

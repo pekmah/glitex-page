@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useEffect, useMemo } from "react";
 import {
   CButton,
   HypothesisSection,
@@ -29,14 +29,16 @@ const View = () => {
     }
   }, [params?.id]);
 
-  const [currentTab, setCurrentTab] = React.useState(
-    currentProject?.tabs[0]?.id || "mobile"
-  ); // mobile/admin
+  const [currentTab, setCurrentTab] = React.useState("mobile"); // mobile/admin
   const [currentBtn] = React.useState(btns[0]);
 
   const handleSwitch = (tab) => {
     setCurrentTab(tab);
   };
+
+  useEffect(() => {
+    setCurrentTab(currentProject?.tabs[0]?.id);
+  }, [currentProject]);
 
   return (
     <Layout>

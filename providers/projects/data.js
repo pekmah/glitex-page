@@ -1,34 +1,5 @@
 export const portfolioData = {
   0: {
-    image: "/images/portfolio/rmf/1.png",
-    title: "Royal mabati App",
-    description:
-      "The popular roofing material manufacturer in Kenya, Royal Mabati implemented a web and mobile application solution to handle ecommerce customers all around the country. Glitex developed a world-class app that is available for Android and iOS as well as a comprehensive web-based system.\n",
-    images: {
-      admin: [],
-      mobile: [
-        "/images/portfolio/rmf/1.png",
-        "/images/portfolio/rmf/2.png",
-        "/images/portfolio/rmf/3.png",
-        "/images/portfolio/rmf/4.png",
-        "/images/portfolio/rmf/5.png",
-        "/images/portfolio/rmf/6.png",
-        "/images/portfolio/rmf/7.png",
-        "/images/portfolio/rmf/8.png",
-        "/images/portfolio/rmf/9.png",
-        "/images/portfolio/rmf/10.png",
-        "/images/portfolio/rmf/11.png",
-        "/images/portfolio/rmf/12.png",
-        "/images/portfolio/rmf/13.png",
-        "/images/portfolio/rmf/14.png",
-        "/images/portfolio/rmf/15.png",
-        "/images/portfolio/rmf/16.png",
-        "/images/portfolio/rmf/17.png",
-      ],
-    },
-  },
-
-  1: {
     image: "/images/portfolio/attorney_shield/1.png",
     title: "Attorney Shield",
     projectStats: [
@@ -117,6 +88,36 @@ export const portfolioData = {
     impact:
       "The app empowers individuals with a better understanding of their legal rights during police interactions, minimizing the risk of self-incrimination, while its 24/7 live video access to attorneys provides immediate support anytime, anywhere.",
   },
+
+  1: {
+    image: "/images/portfolio/rmf/1.png",
+    title: "Royal mabati App",
+    description:
+      "The popular roofing material manufacturer in Kenya, Royal Mabati implemented a web and mobile application solution to handle ecommerce customers all around the country. Glitex developed a world-class app that is available for Android and iOS as well as a comprehensive web-based system.\n",
+    images: {
+      admin: [],
+      mobile: [
+        "/images/portfolio/rmf/1.png",
+        "/images/portfolio/rmf/2.png",
+        "/images/portfolio/rmf/3.png",
+        "/images/portfolio/rmf/4.png",
+        "/images/portfolio/rmf/5.png",
+        "/images/portfolio/rmf/6.png",
+        "/images/portfolio/rmf/7.png",
+        "/images/portfolio/rmf/8.png",
+        "/images/portfolio/rmf/9.png",
+        "/images/portfolio/rmf/10.png",
+        "/images/portfolio/rmf/11.png",
+        "/images/portfolio/rmf/12.png",
+        "/images/portfolio/rmf/13.png",
+        "/images/portfolio/rmf/14.png",
+        "/images/portfolio/rmf/15.png",
+        "/images/portfolio/rmf/16.png",
+        "/images/portfolio/rmf/17.png",
+      ],
+    },
+  },
+
   2: {
     image: "/images/portfolio/rafu/3.png",
     title: "Rafu Zetu App ",

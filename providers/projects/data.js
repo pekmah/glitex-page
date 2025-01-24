@@ -281,6 +281,10 @@ export const portfolioData = {
       ],
     },
     impact: null,
+    hypothesis:
+      "If the KRA Employee Retirement Portal offers secure, user-friendly, and personalized retirement planning tools, it will enhance KRA employees' ability to manage their retirement savings effectively, resulting in increased user engagement, trust, and overall satisfaction with the platform.",
+    hypothesisSubtitle:
+      "Improving Retirement Planning and Employee Engagement through the KRA Portal",
   },
   3: {
     image: "/images/portfolio/rafu/3.png",
@@ -329,7 +333,6 @@ export const portfolioData = {
       ],
     },
   },
-
   5: {
     image: "/images/portfolio/okapy/2.png",
     title: "Okapy Secure App",

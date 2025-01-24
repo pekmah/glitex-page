@@ -42,7 +42,7 @@ export default function OurLearnings() {
               {/* image */}
               <img
                 className={"max-h-[450px] rounded-[40px]"}
-                src="/images/portfolio/learnings.jpeg"
+                src="/images/portfolio/trade-tools.png"
                 alt="bg_logo"
               />
             </div>

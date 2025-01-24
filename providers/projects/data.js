@@ -45,7 +45,7 @@ export const portfolioData = {
         subTitle: "Product Development Duration",
       },
       {
-        title: "2024",
+        title: "2022",
         subTitle: "Year of Launch",
       },
     ],

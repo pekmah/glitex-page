@@ -4,7 +4,6 @@ import {
   HypothesisSection,
   KeyFeaturesSection,
   OurLearningSection,
-  OurSolutionSection,
   PortfolioViewImages,
   ProductImpactSection,
   SectionWrapper,

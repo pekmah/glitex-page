@@ -231,6 +231,7 @@ export const portfolioData = {
         name: "Web",
       },
     ],
+    type: "web",
     images: {
       mobile: [],
       web: [

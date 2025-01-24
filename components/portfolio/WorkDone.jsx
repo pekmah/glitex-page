@@ -27,6 +27,7 @@ const WorkDone = () => {
               image={portfolioData[item]?.image}
               title={portfolioData[item]?.title}
               desc={portfolioData[item]?.description}
+              type={portfolioData[item]?.type || "mobile"}
               ind={item}
             />
           ))}
@@ -38,7 +39,7 @@ const WorkDone = () => {
 
 export default WorkDone;
 
-const PortfolioItem = ({ title, image, desc, ind }) => {
+const PortfolioItem = ({ title, image, desc, ind, type }) => {
   const router = useRouter();
 
   const handleClick = () => {
@@ -52,14 +53,12 @@ const PortfolioItem = ({ title, image, desc, ind }) => {
     >
       <div className={"bg-white overflow-hidden"}>
         <div
-          className={
-            "relative gradient-270 w-full h-64 pt-2 flex justify-center"
-          }
+          className={"relative gradient-270 w-full h-64 flex justify-center"}
         >
           <img
             src={image}
             alt={"okapy secure"}
-            className={"w-1/2 h-full object-cover object-top "}
+            className={`${type === "web" ? "w-full" : "w-1/2"} h-full object-cover object-top `}
           />
         </div>
         <div className="p-3">

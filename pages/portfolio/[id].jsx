@@ -20,11 +20,7 @@ import {
 } from "../../public/icons/portfolio";
 
 const View = () => {
-  const [currentTab] = React.useState("mobile"); // mobile/admin
-  const [currentBtn] = React.useState(btns[0]);
-
   const params = useParams();
-
   const currentProject = useMemo(() => {
     if (params?.id) {
       return portfolioData[params?.id];
@@ -33,7 +29,14 @@ const View = () => {
     }
   }, [params?.id]);
 
-  const handleSwitch = () => {};
+  const [currentTab, setCurrentTab] = React.useState(
+    currentProject?.tabs[0]?.id || "mobile"
+  ); // mobile/admin
+  const [currentBtn] = React.useState(btns[0]);
+
+  const handleSwitch = (tab) => {
+    setCurrentTab(tab);
+  };
 
   return (
     <Layout>
@@ -120,7 +123,11 @@ const View = () => {
           )}
 
           {currentProject?.showNav !== false && (
-            <PortfolioNav currentTab={currentTab} onSwitch={handleSwitch} />
+            <PortfolioNav
+              customTabs={currentProject?.tabs}
+              currentTab={currentTab}
+              onSwitch={handleSwitch}
+            />
           )}
 
           <PortfolioViewImages tab={currentTab} />
@@ -172,12 +179,12 @@ const btns = ["Screenshots", "Prototype"];
 
 export default View;
 
-const PortfolioNav = ({ currentTab, onSwitch }) => (
+const PortfolioNav = ({ currentTab, onSwitch, customTabs }) => (
   <div className="container flex justify-center gap-6 overflow-y-hidden overflow-x-scroll md:overflow-x-hidden mx-auto mb-10 border-b-4 border-gray-100 lg:gap-16 ">
-    {tabs.map(({ id, name }) => (
+    {(customTabs || tabs).map(({ id, name }) => (
       <PortfolioTab
         key={id}
-        current={id.toLocaleLowerCase() === currentTab.toLocaleLowerCase()}
+        current={id.toLocaleLowerCase() === currentTab?.toLocaleLowerCase()}
         handleClick={() => onSwitch(id)}
         text={name}
       />

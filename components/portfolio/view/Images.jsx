@@ -24,7 +24,7 @@ const Images = ({ tab }) => {
         <img
           key={ind}
           src={img}
-          className={`object-contain w-11/12 mx-auto md:w-full rounded-2xl  ${tab === "admin" ? "" : "lg:h-[600px]"} `}
+          className={`object-contain w-11/12 mx-auto md:w-full rounded-2xl  ${tab === "admin" ? "shadow-md" : "lg:h-[600px]"} `}
           alt={img}
         />
       ))}

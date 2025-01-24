@@ -199,6 +199,7 @@ export const portfolioData = {
         "Continuous Improvement",
       ],
     },
+    impact: null,
   },
   2: {
     image: "/images/portfolio/kra/4-min.png",

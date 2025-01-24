@@ -37,7 +37,9 @@ const View = () => {
   };
 
   useEffect(() => {
-    setCurrentTab(currentProject?.tabs[0]?.id);
+    if (currentProject?.tabs) {
+      setCurrentTab(currentProject?.tabs[0]?.id);
+    }
   }, [currentProject]);
 
   return (
@@ -146,7 +148,9 @@ const View = () => {
       <KeyFeaturesSection features={currentProject?.features} />
 
       {/* Product Impact */}
-      <ProductImpactSection impact={currentProject?.impact} />
+      {currentProject?.impact !== null && (
+        <ProductImpactSection impact={currentProject?.impact} />
+      )}
 
       {/* Our Learnings */}
       <OurLearningSection

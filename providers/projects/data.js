@@ -88,7 +88,6 @@ export const portfolioData = {
     impact:
       "The app empowers individuals with a better understanding of their legal rights during police interactions, minimizing the risk of self-incrimination, while its 24/7 live video access to attorneys provides immediate support anytime, anywhere.",
   },
-
   1: {
     image: "/images/portfolio/towgig/5.png",
     title: "Towgig",
@@ -188,9 +187,102 @@ export const portfolioData = {
         body: "Users can sign up for free and explore available services without any initial costs. Exclusive bonuses, promotions, and loyalty rewards for frequent users.",
       },
     ],
+    learnings: {
+      title:
+        "Through this journey, we’ve gained valuable insights into building a platform that connects motorists, car dealers, and service providers for seamless transactions. Here are the key takeaways: ",
+      steps: [
+        "Understanding the Market Needs",
+        "Creating a User-Centered Experience as our users often access the platform in stressful",
+        "emergency situations",
+        "Secure and Reliable Transactions",
+        "Addressing Customer Pain Points",
+        "Continuous Improvement",
+      ],
+    },
   },
-
   2: {
+    image: "/images/portfolio/kra/4-min.png",
+    title: "Kenya Revenue Authority",
+    description:
+      "We developed KRA Employee Retirement Portal, a platform designed to provide secure, supportive, and sustainable solutions for Kenya Revenue Authority employees.The government parastatal allowed us to share only a limited amount of information about this.",
+    showButtons: false,
+    showNav: false,
+    projectStats: [
+      {
+        title: 11,
+        subTitle: "Team members involved",
+      },
+      {
+        title: "Kenyan Government",
+        subTitle: "Pension Scheme",
+      },
+      {
+        title: "5 Months",
+        subTitle: "Product Development Duration",
+      },
+      {
+        title: "2025",
+        subTitle: "Year of Launch",
+      },
+    ],
+    tabs: [
+      {
+        id: "web",
+        name: "Web",
+      },
+    ],
+    images: {
+      mobile: [],
+      web: [
+        "/images/portfolio/kra/0-min.png",
+        "/images/portfolio/kra/1-min.png",
+        "/images/portfolio/kra/2-min.png",
+        "/images/portfolio/kra/3-min.png",
+        "/images/portfolio/kra/4-min.png",
+        "/images/portfolio/kra/5-min.png",
+        "/images/portfolio/kra/6-min.png",
+        "/images/portfolio/kra/7-min.png",
+        "/images/portfolio/kra/8-min.png",
+        "/images/portfolio/kra/9-min.png",
+        "/images/portfolio/kra/10-min.png",
+        "/images/portfolio/kra/11-min.png",
+        "/images/portfolio/kra/12-min.png",
+      ],
+    },
+    features: [
+      {
+        title: "Secure",
+        body: " Secure and easy access to individuals retirement plan details.",
+      },
+      {
+        title: "Personalized",
+        body: "Personalized financial planning tools and resources.",
+      },
+      {
+        title: "Support",
+        body: " Support from dedicated advisors to guide individuals through the process.",
+      },
+      {
+        title: "Regular Updates",
+        body: "Regular updates and insights to help individuals stay informed.",
+      },
+    ],
+    learnings: {
+      title:
+        "Developers of the KRA Employee Retirement Portal, we’ve gained valuable insights into building secure, user-friendly, and scalable solutions for government organizations. Here are the key takeaways from the development process:",
+      steps: [
+        "Understanding the User’s Needs",
+        "Security and Compliance",
+        "Scalability and Performance",
+        "User-Centered Design",
+        "Collaboration with Stakeholders",
+        "Integration with Existing Systems",
+        "Testing and Quality Assurance",
+      ],
+    },
+    impact: null,
+  },
+  3: {
     image: "/images/portfolio/rafu/3.png",
     title: "Rafu Zetu App ",
     description:
@@ -209,7 +301,7 @@ export const portfolioData = {
       ],
     },
   },
-  3: {
+  4: {
     image: "/images/portfolio/rmf/1.png",
     title: "Royal mabati App",
     description:
@@ -238,7 +330,7 @@ export const portfolioData = {
     },
   },
 
-  4: {
+  5: {
     image: "/images/portfolio/okapy/2.png",
     title: "Okapy Secure App",
     description:

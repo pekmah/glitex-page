@@ -1,6 +1,5 @@
 import React from "react";
 import { SectionWrapper } from "../general";
-import { FigmaSvg, FlutterSvg, NodeSvg, NotionSvg, SupabaseSvg } from "./svg";
 import TurnYourIdeas from "./TurnYourIdeas";
 
 export default function OurLearnings() {
@@ -48,47 +47,6 @@ export default function OurLearnings() {
               />
             </div>
           </div>
-
-          <div className="flex flex-col md:flex-row gap-8 md:gap-20 py-10 pt-16 pb-12">
-            <div className="flex-1">
-              {/* image */}
-              <img
-                className={"max-h-[450px] rounded-[40px]"}
-                src="/images/portfolio/trade-tools.png"
-                alt="bg_logo"
-              />
-            </div>
-
-            <div className="flex-1">
-              <h3 className={"leading-8 md:leading-11 mx-auto mb-5"}>
-                Our Tools Of Trade
-              </h3>
-
-              <div className={"flex flex-col gap-1"}>
-                <p className={"mb-5 text-primary leading-7"}>
-                  We collaborate with you to design and build AI models that
-                  help unlock new markets across industries to explore untapped
-                  opportunities. We provide AI development services designed to
-                  help established businesses streamline operations by
-                  automating manual tasks, building AI models to extract
-                  insights from data, and uncovering patterns that drive smarter
-                  decision-making.
-                </p>
-
-                <div className="flex gap-5 flex-wrap">
-                  {tools.map((tool, ind) => (
-                    <div
-                      key={ind}
-                      className="flex items-center gap-3 border border-slate-50 rounded-full py-1.5 px-3"
-                    >
-                      {tool.icon}
-                      <span className="text-primary">{tool.name}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
         </>
       </SectionWrapper>
       <div className="bg-primary py-32 relative">
@@ -103,26 +61,3 @@ export default function OurLearnings() {
 
 const learnings =
   "<strong>Demand Forecast Solution:</strong> Minimize stock outs and reduce inventory holding costs by implementing AI-powered demand forecasting. By accurately predicting future demand, you can optimize production schedules, ensuring you produce the right amount of goods at the right time. This leads to improved inventory management, reduced waste, and increased profitability.";
-
-const tools = [
-  {
-    name: "Figma",
-    icon: <FigmaSvg />,
-  },
-  {
-    name: "Supabase",
-    icon: <SupabaseSvg />,
-  },
-  {
-    name: "Flutter",
-    icon: <FlutterSvg />,
-  },
-  {
-    name: "Node Js",
-    icon: <NodeSvg />,
-  },
-  {
-    name: "Notion",
-    icon: <NotionSvg />,
-  },
-];

@@ -1,5 +1,5 @@
+import React, { useMemo } from "react";
 import {
-  BuildingProcessSection,
   CButton,
   HypothesisSection,
   KeyFeaturesSection,
@@ -9,17 +9,16 @@ import {
   ProductImpactSection,
   SectionWrapper,
 } from "../../components";
-import React, { useMemo } from "react";
 
+import { useParams } from "next/navigation";
 import Layout from "../../layout";
+import { portfolioData } from "../../providers/projects/data";
 import {
   DurationSvg,
   IndustrySvg,
   LaunchSvg,
   MembersSvg,
 } from "../../public/icons/portfolio";
-import { useParams } from "next/navigation";
-import { portfolioData } from "../../providers/projects/data";
 
 const View = () => {
   const [currentTab] = React.useState("mobile"); // mobile/admin

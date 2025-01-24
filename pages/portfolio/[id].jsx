@@ -132,9 +132,6 @@ const View = () => {
       {/* hypothesis section */}
       <HypothesisSection />
 
-      {/* Building Process  */}
-      <BuildingProcessSection />
-
       {/* Our Solution */}
       <OurSolutionSection />
 

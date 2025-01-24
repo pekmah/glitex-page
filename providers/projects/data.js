@@ -114,6 +114,8 @@ export const portfolioData = {
         "Monetization & strategy & importance of atility",
       ],
     },
+    impact:
+      "The app empowers individuals with a better understanding of their legal rights during police interactions, minimizing the risk of self-incrimination, while its 24/7 live video access to attorneys provides immediate support anytime, anywhere.",
   },
   2: {
     image: "/images/portfolio/rafu/3.png",

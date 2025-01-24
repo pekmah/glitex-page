@@ -138,7 +138,7 @@ const View = () => {
       <KeyFeaturesSection features={currentProject?.features} />
 
       {/* Product Impact */}
-      <ProductImpactSection />
+      <ProductImpactSection impact={currentProject?.impact} />
 
       {/* Our Learnings */}
       <OurLearningSection

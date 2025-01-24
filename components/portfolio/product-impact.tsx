@@ -2,7 +2,7 @@ import React from "react";
 
 import { SectionWrapper } from "../general";
 
-export default function ProductImpact() {
+export default function ProductImpact({ impact }: { impact: string }) {
   return (
     <div className=" bg-primary">
       <SectionWrapper
@@ -17,11 +17,7 @@ export default function ProductImpact() {
             </h3>
 
             <p className="text-white w-11/12 sm:w-3/4 md:w-1/2 mx-auto text-center leading-8">
-              Okapy Secure is a tech-driven end-to-end local and cross border
-              goods transport platform for individuals and businesses. Okapy
-              partners with retailers, manufacturers, suppliers, and startups to
-              transport goods and shop directly from the U.S. stores and
-              delivers to your door step.
+              {impact || _impact}
             </p>
 
             <div className="flex flex-wrap w-11/12 sm:w-3/4 md:w-1/2 gap-3 md:gap-12 pt-10 md:pt-16 mx-auto">
@@ -40,6 +36,9 @@ export default function ProductImpact() {
     </div>
   );
 }
+
+const _impact =
+  "Okapy Secure is a tech-driven end-to-end local and cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods and shop directly from the U.S. stores and delivers to your door step.";
 
 const stats = [
   {

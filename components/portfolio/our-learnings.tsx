@@ -7,7 +7,7 @@ export default function OurLearnings() {
   return (
     <div className=" bg-white">
       <SectionWrapper
-        sectionClassName={"py-28"}
+        sectionClassName={"py-14 md:py-28"}
         className={"px-5 md:px-0"}
         sectionStyles={undefined}
       >
@@ -22,9 +22,9 @@ export default function OurLearnings() {
             scenarios come up in the future.{" "}
           </p>
 
-          <div className="flex py-10">
+          <div className="flex flex-col-reverse md:flex-row py-5 md:py-10">
             {/* text */}
-            <div className="flex-1 flex flex-col gap-5">
+            <div className="flex-1 flex flex-col gap-5 pt-5">
               {new Array(3).fill(0).map((_, i) => (
                 <div key={i} className="flex gap-8">
                   <div className="h-5 w-5 rounded-full font-tinos text-primary text-xl md:text-2xl font-semibold">

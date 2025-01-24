@@ -10,8 +10,8 @@ export default function ProductImpact() {
         className={"px-5 md:px-0"}
         sectionStyles={undefined}
       >
-        <div className="bg-[url('/images/portfolio/map-base.png')] bg-contain bg-bottom bg-no-repeat flex flex-col md:flex-row gap-0 sm:gap-6 md:gap-10 min-h-[70vh]">
-          <div className="flex-1 py-24 md:py-32">
+        <div className="bg-[url('/images/portfolio/map-base.png')] bg-contain bg-bottom bg-no-repeat flex flex-col md:flex-row gap-0 sm:gap-6 md:gap-10 md:min-h-[70vh]">
+          <div className="flex-1 py-14 sm:py-20 md:py-32">
             <h3 className="text-2xl md:text-4xl lg:text-5xl mb-3 md:mb-8 text-white text-center">
               Product Impact
             </h3>

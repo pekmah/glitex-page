@@ -45,19 +45,19 @@ const Card = (props) => {
   return (
     <div
       className={
-        "c-shadow relative bg-white text-primary hover:bg-primary hover:text-white focus:bg-primary focus:text-white rounded-[40px] p-12"
+        "c-shadow relative bg-white text-primary hover:bg-primary hover:text-white focus:bg-primary focus:text-white rounded-[40px] p-9 md:p-12"
       }
     >
       {/*  index label  */}
 
       <div
         className={
-          "h-14 w-14 p-2.5 rounded-full bg-c-yellow center flex-col absolute top-8 right-8"
+          "h-12 md:h-14 w-12 md:w-14 p-2.5 rounded-full bg-c-yellow center flex-col absolute top-5 md:top-8 right-5 md:right-8"
         }
       >
         {props.icon}
       </div>
-      <h5 className={"mb-8 text-inherit"}>{props.title}</h5>
+      <h5 className={"mb-8 text-inherit w-5/6"}>{props.title}</h5>
 
       <p className={"text-inherit"}>{props.description}</p>
     </div>

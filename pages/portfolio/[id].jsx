@@ -60,14 +60,14 @@ const View = () => {
 
           <div
             className={
-              "bg-none py-8 w-full flex flex-row flex-wrap justify-evenly"
+              "bg-none py-8 w-full grid grid-cols-1 gap-3 md:flex flex-row flex-wrap md:justify-evenly"
             }
           >
             {applicationDetails?.map((item, index) => (
               <div
                 key={index}
                 className={
-                  "w-1/5 border border-[#0066B3] backdrop-blur-sm rounded-2xl p-5 py-4 text-white"
+                  "md:w-1/5 border border-[#0066B3] backdrop-blur-sm rounded-2xl p-5 py-4 text-white"
                 }
               >
                 {/*  icon  */}
@@ -91,22 +91,26 @@ const View = () => {
       </SectionWrapper>
 
       <SectionWrapper
-        className={"px-3 min-h-[50vh] -mt-64 z-0 lg:mx-24"}
+        className={"md:px-3 min-h-[50vh] -mt-64 z-0 lg:mx-24"}
         sectionClassName={" relative"}
         noContainer
       >
         {/*  images   */}
         <div
           className={
-            "relative bg-white py-5 px-10 sm:rounded-[40px] lg:rounded-[80px]"
+            "relative bg-white md:py-5 px-5 md:px-10 sm:rounded-[40px] lg:rounded-[80px]"
           }
         >
           {/*buttons*/}
-          <div className={"flex justify-center gap-5 py-10"}>
+          <div
+            className={
+              "flex justify-center flex-wrap gap-2 md:gap-5 py-5 md:py-10"
+            }
+          >
             {btns?.map((btn, index) => (
               <CButton
                 key={index}
-                className={`py-3.5 px-12 border min-w-44 text-center justify-center ${btn === currentBtn ? "border-white bg-primary" : "border-primary bg-white text-primary"}  text-base`}
+                className={`py-3.5 px-6 md:px-12 border min-w-44 text-center justify-center ${btn === currentBtn ? "border-white bg-primary" : "border-primary bg-white text-primary"}  text-base`}
                 text={btn}
               />
             ))}
@@ -162,40 +166,12 @@ const applicationDetails = [
   },
 ];
 
-const btns = ["Screenshots", "Prototype", "Video"];
-
-{
-  /*<PortfolioViewHeader*/
-}
-{
-  /*  description={currentProject?.description}*/
-}
-{
-  /*  title={currentProject?.title}*/
-}
-{
-  /*/>*/
-}
-{
-  /*asdfasdfasd*/
-}
-{
-  /*/!* nav *!/*/
-}
-{
-  /*/!* <PortfolioNav currentTab={currentTab} onSwitch={handleSwitch} /> *!/*/
-}
-{
-  /*/!* mobile images *!/*/
-}
-{
-  /*<PortfolioViewImages tab={currentTab} />*/
-}
+const btns = ["Screenshots", "Prototype"];
 
 export default View;
 
 const PortfolioNav = ({ currentTab, onSwitch }) => (
-  <div className="container flex justify-center gap-10 mx-auto mb-10 border-b-4 border-gray-100 lg:gap-16 ">
+  <div className="container flex justify-center gap-6 overflow-y-hidden overflow-x-scroll mx-auto mb-10 border-b-4 border-gray-100 lg:gap-16 ">
     {tabs.map(({ id, name }) => (
       <PortfolioTab
         key={id}

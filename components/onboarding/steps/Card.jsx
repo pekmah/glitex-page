@@ -5,7 +5,7 @@ const Card = ({ index, title, description, icon = null }) => {
   return (
     <div
       className={
-        "c-shadow bg-white text-primary hover:bg-primary hover:text-white focus:bg-primary focus:text-white rounded-[40px] p-12"
+        "c-shadow bg-white text-primary hover:bg-primary hover:text-white focus:bg-primary focus:text-white rounded-[40px] p-6 md:p-12"
       }
     >
       {/*  index label  */}

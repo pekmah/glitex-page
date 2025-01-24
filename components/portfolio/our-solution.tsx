@@ -6,12 +6,12 @@ export default function OurSolution() {
     <div className="bg-[url('/images/ai/ai-build-bg.png')] bg-contain bg-right">
       <SectionWrapper
         className={
-          "h-full my-auto flex flex-col justify-center items-center py-14 md:py-20"
+          "h-full my-auto flex flex-col justify-center items-center py-10 md:py-20"
         }
         sectionClassName={undefined}
         sectionStyles={undefined}
       >
-        <div className="flex ">
+        <div className="flex flex-col md:flex-row p-3 px-5">
           <div className="flex-1">
             <h2 className={"leading-8 md:leading-11 mx-auto mb-5"}>
               Our Solution
@@ -26,14 +26,14 @@ export default function OurSolution() {
             <div className="flex gap-5 py-6">
               <a>
                 <img
-                  className={"object-contain h-14"}
+                  className={"object-contain h-12 md:h-14"}
                   src="/images/portfolio/appstore.png"
                   alt="bg_logo"
                 />
               </a>
               <a>
                 <img
-                  className={"object-contain h-14"}
+                  className={"object-contain h-12 md:h-14"}
                   src="/images/portfolio/googleplay.png"
                   alt="bg_logo"
                 />

@@ -6,7 +6,7 @@ const BuildingProcess = () => {
   return (
     <SectionWrapper
       sectionClassName={"bg-white min-h-90 relative"}
-      className={"py-14 md:pt-28 px-5 md:px-0"}
+      className={"py-8 md:py-14 md:pt-28 px-5 md:px-0"}
       sectionStyles={undefined}
     >
       <>

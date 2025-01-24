@@ -22,23 +22,6 @@ export default function OurSolution() {
               className="text-primary"
               dangerouslySetInnerHTML={{ __html: body }}
             />
-
-            <div className="flex gap-5 py-6">
-              <a>
-                <img
-                  className={"object-contain h-12 md:h-14"}
-                  src="/images/portfolio/appstore.png"
-                  alt="bg_logo"
-                />
-              </a>
-              <a>
-                <img
-                  className={"object-contain h-12 md:h-14"}
-                  src="/images/portfolio/googleplay.png"
-                  alt="bg_logo"
-                />
-              </a>
-            </div>
           </div>
 
           <div className="flex-1 relative">

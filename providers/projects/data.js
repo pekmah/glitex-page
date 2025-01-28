@@ -387,7 +387,6 @@ export const portfolioData = {
       ],
     },
   },
-
   4: {
     image: "/images/portfolio/nannies/mummys/2-portrait.png",
     title: "Nannies App",
@@ -528,7 +527,146 @@ export const portfolioData = {
       ],
     },
   },
-
+  5: {
+    image: "/images/portfolio/rmf/1.png",
+    title: "Royal mabati App",
+    description:
+      "The popular roofing material manufacturer in Kenya, Royal Mabati implemented a web and mobile application solution to handle ecommerce customers all around the country. Glitex developed a world-class app that is available for Android and iOS as well as a comprehensive web-based system.",
+    projectStats: [
+      {
+        title: 8,
+        subTitle: "Team members involved",
+      },
+      {
+        title: "Ecommerce",
+        subTitle: "Ecommerce Application",
+      },
+      {
+        title: "4 Months",
+        subTitle: "Product Development Duration",
+      },
+      {
+        title: "2025",
+        subTitle: "Year of Launch",
+      },
+    ],
+    showButtons: false,
+    tabs: [
+      { id: "mobile", name: "Mobile App Views" },
+      {
+        id: "web",
+        name: "Admin",
+      },
+    ],
+    images: {
+      web: [
+        "/images/portfolio/rmf/admin/1.png",
+        "/images/portfolio/rmf/admin/2.png",
+        "/images/portfolio/rmf/admin/3.png",
+        "/images/portfolio/rmf/admin/4.png",
+        "/images/portfolio/rmf/admin/4.1.png",
+        "/images/portfolio/rmf/admin/5.png",
+        "/images/portfolio/rmf/admin/6.1.png",
+        "/images/portfolio/rmf/admin/6.2.png",
+        "/images/portfolio/rmf/admin/6.3.png",
+        "/images/portfolio/rmf/admin/6.4.png",
+        "/images/portfolio/rmf/admin/6.5.png",
+        "/images/portfolio/rmf/admin/7.png",
+        "/images/portfolio/rmf/admin/8.png",
+        "/images/portfolio/rmf/admin/9.png",
+        "/images/portfolio/rmf/admin/10.png",
+        "/images/portfolio/rmf/admin/11.png",
+        "/images/portfolio/rmf/admin/11.1.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-1.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-2.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-5.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-6.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-8.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-9.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-10.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-11.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-12.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-13.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-14.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-15.png",
+      ],
+      mobile: [
+        "/images/portfolio/rmf/1.png",
+        "/images/portfolio/rmf/2.png",
+        "/images/portfolio/rmf/3.png",
+        "/images/portfolio/rmf/4.png",
+        "/images/portfolio/rmf/5.png",
+        "/images/portfolio/rmf/6.png",
+        "/images/portfolio/rmf/7.png",
+        "/images/portfolio/rmf/8.png",
+        "/images/portfolio/rmf/9.png",
+        "/images/portfolio/rmf/10.png",
+        "/images/portfolio/rmf/11.png",
+        "/images/portfolio/rmf/12.png",
+        "/images/portfolio/rmf/13.png",
+        "/images/portfolio/rmf/14.png",
+        "/images/portfolio/rmf/15.png",
+        "/images/portfolio/rmf/16.png",
+        "/images/portfolio/rmf/17.png",
+      ],
+    },
+    features: [
+      {
+        title: "Product Catalog",
+        body: "Detailed listing of roofing materials (mabati) with product descriptions, sizes, prices, and images. Filters and search options for easy navigation and product selection.",
+      },
+      {
+        title: "Order Customization",
+        body: "Customers can select the quantity, size, and type of mabati they need, as well as customization options like color or coating. Bulk order options for construction projects with quantity-based pricing.",
+      },
+      {
+        title: "Secure Payment Integration",
+        body: "Multiple payment options, including mobile payments (e.g., M-Pesa), credit/debit cards, and bank transfers. Secure payment gateway for safe and hassle-free transactions.",
+      },
+      {
+        title: "Real-Time Order Tracking",
+        body: "Customers can track their orders in real-time, from processing to delivery. Notifications for order status updates, including shipment and estimated delivery time.",
+      },
+      {
+        title: "Delivery Management",
+        body: "Integration with delivery partners for efficient scheduling and route optimization. Customers can select preferred delivery time slots based on their convenience. Option to schedule bulk deliveries for construction sites.",
+      },
+      {
+        title: "User Accounts & Profile Management",
+        body: "Customers can create accounts to save their preferences, order history, and delivery addresses. Order history for easy reordering and tracking past purchases.",
+      },
+      {
+        title: "Customer Support Chat",
+        body: "In-app customer support for queries, order status, and delivery issues. Live chat with representatives or a chatbot for instant responses.",
+      },
+      {
+        title: "Product Recommendations & Reviews",
+        body: "Personalized product recommendations based on user behavior and purchase history. Customer reviews and ratings for each product, helping new customers make informed decisions.",
+      },
+      {
+        title: "Inventory Management for Admins",
+        body: "Admin dashboard for managing stock levels, updating product listings, and handling customer orders. Automated alerts for low stock or out-of-stock items.",
+      },
+      {
+        title: "Promotions & Discounts",
+        body: "Feature to offer seasonal discounts, promotions, or bundle deals for customers. Option to apply discount codes at checkout.",
+      },
+      {
+        title: "Notifications & Alerts",
+        body: "Push notifications for order updates, promotions, and new product arrivals. Alerts for payment confirmations and successful deliveries.",
+      },
+    ],
+    hypothesis:
+      "By developing an e-commerce and delivery app for Royal Mabati, we can streamline the ordering process for customers, enabling them to easily browse, order, and track deliveries of roofing materials online. This will reduce the friction in the traditional buying process, improving accessibility, efficiency, and customer satisfaction. The platform will cater to both individual customers and bulk orders, with seamless payment integration, real-time order tracking, and timely deliveries. By offering a user-friendly interface and efficient logistics, this app will enhance the customer experience, leading to increased sales, reduced operational costs, and better customer retention.",
+    hypothesisSubtitle:
+      "Enhancing Customer Experience and Efficiency in Roofing Material Orders through the Royal Mabati E-Commerce and Delivery App",
+    learnings: {
+      title: "Importance of Seamless User Experience ",
+      steps: [
+        "To be honest, the most challenging aspect of this app has been creating a seamless ordering process that accommodates users of all ages, including those who are not very tech-savvy, especially in rural areas of Kenya. We've been working hard on perfecting the ordering process and are still refining it to ensure it’s easy and intuitive for everyone.",
+      ],
+    },
+  },
   // 3: {
   //   image: "/images/portfolio/rafu/3.png",
   //   title: "Rafu Zetu App ",
@@ -545,34 +683,6 @@ export const portfolioData = {
   //       "/images/portfolio/rafu/6.png",
   //       "/images/portfolio/rafu/7.png",
   //       "/images/portfolio/rafu/8.png",
-  //     ],
-  //   },
-  // },
-  // 4: {
-  //   image: "/images/portfolio/rmf/1.png",
-  //   title: "Royal mabati App",
-  //   description:
-  //     "The popular roofing material manufacturer in Kenya, Royal Mabati implemented a web and mobile application solution to handle ecommerce customers all around the country. Glitex developed a world-class app that is available for Android and iOS as well as a comprehensive web-based system.\n",
-  //   images: {
-  //     admin: [],
-  //     mobile: [
-  //       "/images/portfolio/rmf/1.png",
-  //       "/images/portfolio/rmf/2.png",
-  //       "/images/portfolio/rmf/3.png",
-  //       "/images/portfolio/rmf/4.png",
-  //       "/images/portfolio/rmf/5.png",
-  //       "/images/portfolio/rmf/6.png",
-  //       "/images/portfolio/rmf/7.png",
-  //       "/images/portfolio/rmf/8.png",
-  //       "/images/portfolio/rmf/9.png",
-  //       "/images/portfolio/rmf/10.png",
-  //       "/images/portfolio/rmf/11.png",
-  //       "/images/portfolio/rmf/12.png",
-  //       "/images/portfolio/rmf/13.png",
-  //       "/images/portfolio/rmf/14.png",
-  //       "/images/portfolio/rmf/15.png",
-  //       "/images/portfolio/rmf/16.png",
-  //       "/images/portfolio/rmf/17.png",
   //     ],
   //   },
   // },

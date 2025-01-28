@@ -36,7 +36,7 @@ export default function KeyFeatures({
               index={ind + 1}
               title={step.title}
               description={step.body}
-              icon={_features[ind].icon}
+              icon={_features[ind % _features.length].icon}
             />
           ))}
         </div>
@@ -104,10 +104,5 @@ const _features: IFeature[] = [
     title: "In App Video Conferencing",
     body: "We build AI systems capable of creating high-quality text, images, code, and more. With expertise in tools like OpenAI, Stability AI, Llama and custom generative models, we deliver applications ranging from content creation to design automation.",
     icon: <ConferencingSvg />,
-  },
-  {
-    title: "Brand Identity",
-    body: "Our AI chatbots engage in natural, human-like conversations. They provide intelligent, helpful responses across various platforms and purposes, making user interactions seamless. - We leverage OpenAI, Llama 3, Claude Api’s.",
-    icon: <BrandSvg />,
   },
 ];

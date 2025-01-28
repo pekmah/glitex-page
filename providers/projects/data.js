@@ -161,6 +161,8 @@ export const portfolioData = {
       "If TowGig effectively connects motorists and car dealers with trusted service providers through a secure and user-friendly mobile platform, it will facilitate safe and genuine business transactions, leading to increased user trust, engagement, and platform adoption.",
     hypothesisSubtitle:
       "Enhancing Trust and Convenience in Automotive Services Through TowGig",
+    hypothesisImage:
+      "https://tempuslogix.com/wp-content/uploads/2022/08/Car-Towing-Questions-with-Answers.jpg",
     features: [
       {
         title: "Key Features",
@@ -202,7 +204,7 @@ export const portfolioData = {
     impact: null,
   },
   2: {
-    image: "/images/portfolio/kra/4-min.png",
+    image: "/images/portfolio/kra/4-min.webp",
     title: "Kenya Revenue Authority Pension Scheme Staff Portal",
     description:
       "We developed KRA Employee Retirement Portal, a platform designed to provide secure, supportive, and sustainable solutions for Kenya Revenue Authority employees.The government parastatal allowed us to share only a limited amount of information about this.",
@@ -236,19 +238,19 @@ export const portfolioData = {
     images: {
       mobile: [],
       web: [
-        "/images/portfolio/kra/0-min.png",
-        "/images/portfolio/kra/1-min.png",
-        "/images/portfolio/kra/2-min.png",
-        "/images/portfolio/kra/3-min.png",
-        "/images/portfolio/kra/4-min.png",
-        "/images/portfolio/kra/5-min.png",
-        "/images/portfolio/kra/6-min.png",
-        "/images/portfolio/kra/7-min.png",
-        "/images/portfolio/kra/8-min.png",
-        "/images/portfolio/kra/9-min.png",
-        "/images/portfolio/kra/10-min.png",
-        "/images/portfolio/kra/11-min.png",
-        "/images/portfolio/kra/12-min.png",
+        "/images/portfolio/kra/0-min.webp",
+        "/images/portfolio/kra/1-min.webp",
+        "/images/portfolio/kra/2-min.webp",
+        "/images/portfolio/kra/3-min.webp",
+        "/images/portfolio/kra/4-min.webp",
+        "/images/portfolio/kra/5-min.webp",
+        "/images/portfolio/kra/6-min.webp",
+        "/images/portfolio/kra/7-min.webp",
+        "/images/portfolio/kra/8-min.webp",
+        "/images/portfolio/kra/9-min.webp",
+        "/images/portfolio/kra/10-min.webp",
+        "/images/portfolio/kra/11-min.webp",
+        "/images/portfolio/kra/12-min.webp",
       ],
     },
     features: [
@@ -660,6 +662,122 @@ export const portfolioData = {
       "By developing an e-commerce and delivery app for Royal Mabati, we can streamline the ordering process for customers, enabling them to easily browse, order, and track deliveries of roofing materials online. This will reduce the friction in the traditional buying process, improving accessibility, efficiency, and customer satisfaction. The platform will cater to both individual customers and bulk orders, with seamless payment integration, real-time order tracking, and timely deliveries. By offering a user-friendly interface and efficient logistics, this app will enhance the customer experience, leading to increased sales, reduced operational costs, and better customer retention.",
     hypothesisSubtitle:
       "Enhancing Customer Experience and Efficiency in Roofing Material Orders through the Royal Mabati E-Commerce and Delivery App",
+    learnings: {
+      title: "Importance of Seamless User Experience ",
+      steps: [
+        "To be honest, the most challenging aspect of this app has been creating a seamless ordering process that accommodates users of all ages, including those who are not very tech-savvy, especially in rural areas of Kenya. We've been working hard on perfecting the ordering process and are still refining it to ensure it’s easy and intuitive for everyone.",
+      ],
+    },
+  },
+  6: {
+    image: "/images/portfolio/rmf/1.png",
+    title: "Mwalimu Finder App",
+    description:
+      "Schools can view teachers available for work, their qualifications, skills, experience and so much more as they consider who to hire. They can also post jobs for teachers to apply for. Teachers publicize their profiles for schools to view as they consider hiring and explore job opportunities posted by schools personalized to them.",
+    projectStats: [
+      {
+        title: 6,
+        subTitle: "Team members involved",
+      },
+      {
+        title: "Job Search",
+        subTitle: "Education and Job Search",
+      },
+      {
+        title: "2.5 Months",
+        subTitle: "Product Development Duration",
+      },
+      {
+        title: "2024",
+        subTitle: "Year of Launch",
+      },
+    ],
+    showButtons: false,
+    tabs: [
+      { id: "mobile", name: "Mobile App Views" },
+      {
+        id: "web",
+        name: "Admin",
+      },
+    ],
+    images: {
+      web: [
+        "/images/portfolio/rmf/admin/1.png",
+        "/images/portfolio/rmf/admin/2.png",
+        "/images/portfolio/rmf/admin/3.png",
+        "/images/portfolio/rmf/admin/4.png",
+        "/images/portfolio/rmf/admin/4.1.png",
+        "/images/portfolio/rmf/admin/5.png",
+        "/images/portfolio/rmf/admin/6.1.png",
+        "/images/portfolio/rmf/admin/6.2.png",
+        "/images/portfolio/rmf/admin/6.3.png",
+        "/images/portfolio/rmf/admin/6.4.png",
+        "/images/portfolio/rmf/admin/6.5.png",
+        "/images/portfolio/rmf/admin/7.png",
+        "/images/portfolio/rmf/admin/8.png",
+        "/images/portfolio/rmf/admin/9.png",
+        "/images/portfolio/rmf/admin/10.png",
+        "/images/portfolio/rmf/admin/11.png",
+        "/images/portfolio/rmf/admin/11.1.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-1.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-2.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-5.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-6.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-8.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-9.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-10.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-11.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-12.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-13.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-14.png",
+        "/images/portfolio/rmf/admin/Home - Dashboard-15.png",
+      ],
+      mobile: [
+        "/images/portfolio/rmf/1.png",
+        "/images/portfolio/rmf/2.png",
+        "/images/portfolio/rmf/3.png",
+        "/images/portfolio/rmf/4.png",
+        "/images/portfolio/rmf/5.png",
+        "/images/portfolio/rmf/6.png",
+        "/images/portfolio/rmf/7.png",
+        "/images/portfolio/rmf/8.png",
+        "/images/portfolio/rmf/9.png",
+        "/images/portfolio/rmf/10.png",
+        "/images/portfolio/rmf/11.png",
+        "/images/portfolio/rmf/12.png",
+        "/images/portfolio/rmf/13.png",
+        "/images/portfolio/rmf/14.png",
+        "/images/portfolio/rmf/15.png",
+        "/images/portfolio/rmf/16.png",
+        "/images/portfolio/rmf/17.png",
+      ],
+    },
+    features: [
+      {
+        title: "Teacher Profiles",
+        body: "Teachers can create detailed profiles showcasing their qualifications, skills, and experience for schools to view.",
+      },
+      {
+        title: "Job Listings",
+        body: "Schools can post job openings and receive applications from teachers who match their requirements.",
+      },
+      {
+        title: "Personalized Job Matches",
+        body: "Teachers receive notifications about job opportunities that align with their profile and preferences.",
+      },
+      {
+        title: "Search and Filter",
+        body: "Schools can filter teachers based on qualifications, skills, and experience.",
+      },
+      {
+        title: "Communication",
+        body: "In-app messaging to facilitate direct communication between schools and teachers.",
+      },
+    ],
+    hypothesis:
+      "By creating a platform that connects schools with teachers through a streamlined job search and hiring process, the Mwalimu Finder app can significantly reduce the time and effort needed for schools to find qualified educators. It allows teachers to publicize their profiles and apply to job opportunities that match their skills, improving job visibility and hiring efficiency for both schools and teachers. This will ultimately enhance the recruitment process in the education sector, leading to better job matches and improved educational outcomes. ",
+    hypothesisSubtitle:
+      "Improving Recruitment Efficiency in the Education Sector through Mwalimu Finder.",
     learnings: {
       title: "Importance of Seamless User Experience ",
       steps: [

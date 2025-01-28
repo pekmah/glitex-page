@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 const WorkDone = () => {
   return (
     <SectionWrapper
-      sectionClassName={"relative bg-white pb-20 -mt-10  flex"}
+      sectionClassName={"relative bg-white pb-20 -mt-10 flex"}
       className={"py-10 md:py-3 pt-20 md:pt-0 px-5 md:px-0 min-h-screen"}
     >
       {/* */}
@@ -20,7 +20,7 @@ const WorkDone = () => {
           Some of the work we have done
         </h2>
 
-        <div className="container grid grid-cols-1 gap-6 py-10 mx-auto sm:grid-cols-2 lg:grid-cols-3">
+        <div className="container grid grid-cols-1 gap-6 py-10 mx-auto sm:grid-cols-2 lg:grid-cols-3 md:p-3">
           {Object.keys(portfolioData).map((item, ind) => (
             <PortfolioItem
               key={ind}
@@ -48,7 +48,7 @@ const PortfolioItem = ({ title, image, desc, ind, type }) => {
   return (
     <div
       className={
-        "w-full m-5 border-gray-100 border rounded-t-[40px] overflow-hidden"
+        " md:m-5 border-gray-100 border rounded-t-[40px] overflow-hidden"
       }
     >
       <div className={"bg-white overflow-hidden"}>

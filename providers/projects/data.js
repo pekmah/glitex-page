@@ -315,7 +315,7 @@ export const portfolioData = {
         subTitle: "Product Development Duration",
       },
       {
-        title: "2025",
+        title: "2023",
         subTitle: "Year of Launch",
       },
     ],
@@ -425,6 +425,7 @@ export const portfolioData = {
         body: "Push notifications for order updates, promotions, and new product arrivals. Alerts for payment confirmations and successful deliveries.",
       },
     ],
+    impact: null,
     hypothesis:
       "By developing an e-commerce and delivery app for Royal Mabati, we can streamline the ordering process for customers, enabling them to easily browse, order, and track deliveries of roofing materials online. This will reduce the friction in the traditional buying process, improving accessibility, efficiency, and customer satisfaction. The platform will cater to both individual customers and bulk orders, with seamless payment integration, real-time order tracking, and timely deliveries. By offering a user-friendly interface and efficient logistics, this app will enhance the customer experience, leading to increased sales, reduced operational costs, and better customer retention.",
     hypothesisSubtitle:
@@ -636,7 +637,7 @@ export const portfolioData = {
     ],
     showButtons: false,
     tabs: [
-      { id: "employment", name: "Nanny Employment" },
+      { id: "employment", name: "Nannies App" },
       {
         id: "mummys",
         name: "Mummys",
@@ -690,6 +691,7 @@ export const portfolioData = {
         "/images/portfolio/nannies/mummys/23-portrait.webp",
       ],
     },
+    impact: null,
     hypothesis:
       "By providing a secure, transparent, and user-friendly platform that connects employers with verified nannies, house helps, and special care providers, we can significantly improve the hiring process by eliminating the need for middlemen and reducing scams. This will lead to higher satisfaction and trust for both employers and job seekers, offering a more efficient, reliable, and convenient way to find and offer domestic services. The platform will also empower job seekers with free onboarding, helping them showcase their skills, experiences, and preferences, which will enhance their job prospects and reduce exploitation.",
     hypothesisSubtitle:
@@ -708,7 +710,7 @@ export const portfolioData = {
         body: "Employers can leave ratings and reviews for candidates they have worked with, allowing future employers to make informed decisions. A transparent rating system helps ensure quality and reliability.",
       },
       {
-        title: "Free Onboarding for Job Seekers",
+        title: "Free Onboarding for Nannies",
         body: "Job seekers can onboard for free, eliminating registration fees and making the platform accessible to everyone. A simple and secure onboarding process to create their profiles.",
       },
       {

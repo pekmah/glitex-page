@@ -1,6 +1,7 @@
 import { generateImagePaths, pickRandomImage } from "../../helpers/portfilio";
 
 export const portfolioData = {
+  // Attornery Shield
   0: {
     image: "/images/portfolio/attorney_shield/1.png",
     title: "Attorney Shield",
@@ -90,6 +91,7 @@ export const portfolioData = {
     impact:
       "The app empowers individuals with a better understanding of their legal rights during police interactions, minimizing the risk of self-incrimination, while its 24/7 live video access to attorneys provides immediate support anytime, anywhere.",
   },
+  // Towgig
   1: {
     image: "/images/portfolio/towgig/customer/1.webp",
     title: "Towgig",
@@ -205,6 +207,7 @@ export const portfolioData = {
     },
     impact: null,
   },
+  // KRA
   2: {
     image: "/images/portfolio/kra/4-min.webp",
     title: "Kenya Revenue Authority Pension Scheme Staff Portal",
@@ -292,246 +295,8 @@ export const portfolioData = {
     hypothesisSubtitle:
       "Improving Retirement Planning and Employee Engagement through the KRA Portal",
   },
+  // RMF
   3: {
-    image: "/images/portfolio/gmotivate/mobile/5.webp",
-    title: "GMotivate",
-    description:
-      "This App provides students with access to educational, inspirational, and motivational content in a centralized manner. The platform enables students to listen, watch, and read resourceful materials designed to enhance academic excellence, campus preparedness, and market readiness.",
-    projectStats: [
-      {
-        title: 8,
-        subTitle: "Team members involved",
-      },
-      {
-        title: "Education",
-        subTitle: "Educational App",
-      },
-      {
-        title: "4 Months",
-        subTitle: "Product Development Duration",
-      },
-      {
-        title: "2025",
-        subTitle: "Year of Launch",
-      },
-    ],
-    showButtons: false,
-    tabs: [
-      { id: "mobile", name: "Mobile App Views" },
-      {
-        id: "web",
-        name: "Admin",
-      },
-    ],
-    images: {
-      web: [
-        "/images/portfolio/gmotivate/web/24.webp",
-        "/images/portfolio/gmotivate/web/25.webp",
-        "/images/portfolio/gmotivate/web/26.webp",
-        "/images/portfolio/gmotivate/web/27.webp",
-        "/images/portfolio/gmotivate/web/28.webp",
-        "/images/portfolio/gmotivate/web/29.webp",
-        "/images/portfolio/gmotivate/web/30.webp",
-        "/images/portfolio/gmotivate/web/31.webp",
-        "/images/portfolio/gmotivate/web/32.webp",
-        "/images/portfolio/gmotivate/web/33.webp",
-        "/images/portfolio/gmotivate/web/34.webp",
-        "/images/portfolio/gmotivate/web/35.webp",
-        "/images/portfolio/gmotivate/web/36.webp",
-        "/images/portfolio/gmotivate/web/37.webp",
-        "/images/portfolio/gmotivate/web/38.webp",
-        "/images/portfolio/gmotivate/web/39.webp",
-      ],
-      mobile: [
-        "/images/portfolio/gmotivate/mobile/1.webp",
-        "/images/portfolio/gmotivate/mobile/2.webp",
-        "/images/portfolio/gmotivate/mobile/3.webp",
-        "/images/portfolio/gmotivate/mobile/4.webp",
-        "/images/portfolio/gmotivate/mobile/5.webp",
-        "/images/portfolio/gmotivate/mobile/6.webp",
-        "/images/portfolio/gmotivate/mobile/7.webp",
-        "/images/portfolio/gmotivate/mobile/8.webp",
-        "/images/portfolio/gmotivate/mobile/9.webp",
-        "/images/portfolio/gmotivate/mobile/10.webp",
-        "/images/portfolio/gmotivate/mobile/11.webp",
-        "/images/portfolio/gmotivate/mobile/12.webp",
-        "/images/portfolio/gmotivate/mobile/13.webp",
-        "/images/portfolio/gmotivate/mobile/14.webp",
-        "/images/portfolio/gmotivate/mobile/15.webp",
-      ],
-    },
-    hypothesis:
-      "If students have access to a centralized platform that provides high-quality educational, inspirational, and motivational content in various formats (audio, video, and text), then they will experience improved academic performance, increased motivation, and better preparation for campus and career opportunities.",
-    hypothesisSubtitle:
-      "The Impact of a Centralized Educational, Inspirational, and Motivational Content Platform on Student Academic Performance and Career Readiness.",
-    features: [
-      {
-        title: "Video Content",
-        body: "Pre-Campus Mentorship provides guidance to help students transition smoothly into campus life. Academic Tutorials offer subject-specific videos to aid in understanding complex topics. General Motivation includes inspirational content to boost student morale and motivation. Entertainment features curated content to provide educational entertainment. Courses consist of structured video courses on various subjects.",
-      },
-      {
-        title: "Book Library",
-        body: "Diverse Collection: Access to a wide range of books covering various topics relevant to students, Recommended Reads: Curated book lists from professional authors and partners aligned with the platform's mission.",
-      },
-      {
-        title: "Exam Materials",
-        body: "Comprehensive Resources: A collection of exam papers and marking schemes from top schools to aid in academic revision, Assessment Preparation: Full papers with both questions and answers to help students prepare effectively for assessments.",
-      },
-      {
-        title: "Mentorship Program",
-        body: "Become a Mentor: Opportunities for qualified individuals, particularly high school teachers, to join the mentor network and support students across the country, Commission-Based Earnings: Mentors can earn commissions when their referrals unlock videos, books, or exam materials on the app.",
-      },
-    ],
-    learnings: {
-      title: "Understanding User Needs.",
-      steps: [
-        "Content Curation & Delivery    -  Offering multiple content formats increases engagement and accommodates different learning styles.",
-        "Scalability & Performance: Implementing a cloud-based architecture ensures the platform can handle growing users and content.",
-        "Engagement & Monetization ",
-      ],
-    },
-  },
-  4: {
-    image: "/images/portfolio/nannies/mummys/2-portrait.webp",
-    title: "Nannies App",
-    description:
-      "This platform  addresses the common challenges faced by employers and job seekers in finding reliable domestic workers like nannies, house helps, and special care providers. Traditional methods, such as Facebook and WhatsApp groups, often lead to scams and unnecessary middlemen fees. The platform eliminates these issues by offering verified profiles, customizable searches, and 24/7 access to qualified candidates.",
-    projectStats: [
-      {
-        title: 9,
-        subTitle: "Team members involved",
-      },
-      {
-        title: "Service Marketplace",
-        subTitle: "Nunnies & Mummys",
-      },
-      {
-        title: "3 Months",
-        subTitle: "Product Development Duration",
-      },
-      {
-        title: "2025",
-        subTitle: "Year of Launch",
-      },
-    ],
-    showButtons: false,
-    tabs: [
-      { id: "employment", name: "Nunny Employment" },
-      {
-        id: "mummys",
-        name: "Mummys",
-      },
-    ],
-    images: {
-      employment: [
-        "/images/portfolio/nannies/employment/1-potrait.webp",
-        "/images/portfolio/nannies/employment/2-portrait.webp",
-        "/images/portfolio/nannies/employment/3-portrait.webp",
-        "/images/portfolio/nannies/employment/4-portrait.webp",
-        "/images/portfolio/nannies/employment/6-portrait.webp",
-        "/images/portfolio/nannies/employment/7-portrait.webp",
-        "/images/portfolio/nannies/employment/8-portrait.webp",
-        "/images/portfolio/nannies/employment/9-portrait.webp",
-        "/images/portfolio/nannies/employment/10-portrait.webp",
-        "/images/portfolio/nannies/employment/11-portrait.webp",
-        "/images/portfolio/nannies/employment/12-portrait.webp",
-        "/images/portfolio/nannies/employment/13-portrait.webp",
-        "/images/portfolio/nannies/employment/14-portrait.webp",
-        "/images/portfolio/nannies/employment/15-portrait.webp",
-        "/images/portfolio/nannies/employment/16-portrait.webp",
-        "/images/portfolio/nannies/employment/17-portrait.webp",
-        "/images/portfolio/nannies/employment/18-portrait.webp",
-        "/images/portfolio/nannies/employment/19-portrait.webp",
-        "/images/portfolio/nannies/employment/20-portrait.webp",
-      ],
-      mummys: [
-        "/images/portfolio/nannies/mummys/1-portrait.webp",
-        "/images/portfolio/nannies/mummys/2-portrait.webp",
-        "/images/portfolio/nannies/mummys/3-portrait.webp",
-        "/images/portfolio/nannies/mummys/4-portrait.webp",
-        "/images/portfolio/nannies/mummys/5-portrait.webp",
-        "/images/portfolio/nannies/mummys/6-portrait.webp",
-        "/images/portfolio/nannies/mummys/7-portrait.webp",
-        "/images/portfolio/nannies/mummys/8-portrait.webp",
-        "/images/portfolio/nannies/mummys/9-portrait.webp",
-        "/images/portfolio/nannies/mummys/10-portrait.webp",
-        "/images/portfolio/nannies/mummys/11-portrait.webp",
-        "/images/portfolio/nannies/mummys/12-portrait.webp",
-        "/images/portfolio/nannies/mummys/13-portrait.webp",
-        "/images/portfolio/nannies/mummys/14-portrait.webp",
-        "/images/portfolio/nannies/mummys/15-portrait.webp",
-        "/images/portfolio/nannies/mummys/16-portrait.webp",
-        "/images/portfolio/nannies/mummys/17-portrait.webp",
-        "/images/portfolio/nannies/mummys/18-portrait.webp",
-        "/images/portfolio/nannies/mummys/19-portrait.webp",
-        "/images/portfolio/nannies/mummys/20-portrait.webp",
-        "/images/portfolio/nannies/mummys/21-portrait.webp",
-        "/images/portfolio/nannies/mummys/22-portrait.webp",
-        "/images/portfolio/nannies/mummys/23-portrait.webp",
-      ],
-    },
-    hypothesis:
-      "By providing a secure, transparent, and user-friendly platform that connects employers with verified nannies, house helps, and special care providers, we can significantly improve the hiring process by eliminating the need for middlemen and reducing scams. This will lead to higher satisfaction and trust for both employers and job seekers, offering a more efficient, reliable, and convenient way to find and offer domestic services. The platform will also empower job seekers with free onboarding, helping them showcase their skills, experiences, and preferences, which will enhance their job prospects and reduce exploitation.",
-    hypothesisSubtitle:
-      "Improving Trust and Efficiency in the Hiring of Domestic Workers through a Transparent Service Marketplace.",
-    features: [
-      {
-        title: "Verified Profiles",
-        body: "Detailed profiles for job seekers including name, age, location, tribe, experience, education, specialization, and price range. Verification process to ensure authenticity and build trust.",
-      },
-      {
-        title: "Customizable Search",
-        body: "Employers can search for candidates based on specific criteria like experience, training, specialization, and availability. Filters for trained/untrained, professional/non-professional, and specialized care (e.g., elderly, kids with special needs).",
-      },
-      {
-        title: "Ratings and Reviews",
-        body: "Employers can leave ratings and reviews for candidates they have worked with, allowing future employers to make informed decisions. A transparent rating system helps ensure quality and reliability.",
-      },
-      {
-        title: "Free Onboarding for Job Seekers",
-        body: "Job seekers can onboard for free, eliminating registration fees and making the platform accessible to everyone. A simple and secure onboarding process to create their profiles.",
-      },
-      {
-        title: "No Middlemen or Agents",
-        body: "Direct connection between employers and job seekers without the need for bureaus or agents, reducing costs and eliminating exploitation. Instant connections between the two parties via the platform.",
-      },
-      {
-        title: "24/7 Availability",
-        body: "The platform ensures continuous availability of job seekers, allowing employers to find help whenever needed. Job seekers can be available for short-term or long-term roles as per the employer’s needs.",
-      },
-      {
-        title: "Safety Features",
-        body: "Reporting and flagging system to safeguard against scams or exploitation. Profile verification and moderation to ensure the safety and well-being of both parties.",
-      },
-      {
-        title: "Category-Based Listings",
-        body: "Categories such as trained, experienced, professional, day workers, and specialized care (e.g., elderly care, special needs). Helps employers quickly find candidates who meet their specific needs.",
-      },
-      {
-        title: "Messaging and Communication",
-        body: "In-app messaging to facilitate easy and secure communication between employers and job seekers. Allows both parties to discuss job expectations, terms, and other relevant details.",
-      },
-      {
-        title: "Job Postings",
-        body: "Employers can post job listings with specific requirements (e.g., looking for a nanny, house help, or special care provider). Job seekers can browse available opportunities and apply directly through the platform.",
-      },
-      {
-        title: "Employer Profiles",
-        body: "Employers can create profiles that include their job preferences, expectations, and contact information. Allows job seekers to better understand the needs of potential employers.",
-      },
-    ],
-    learnings: {
-      title: "",
-      steps: [
-        "Understanding Diverse Needs: Employers and job seekers have unique needs, so ensuring the platform is flexible and customizable is essential.",
-        "Simplicity and Clarity: While there are many features, making the user interface intuitive for all types of users (employers, job seekers) is crucial",
-        "Trust and Verification are Paramount - Building Trust: Since users are interacting with strangers, verifying profiles and having a transparent rating/review system are key components in establishing trust.",
-        "Data Protection: Protecting personal information and ensuring privacy is a top priority, especially for vulnerable job seekers.",
-        "Continuous Feedback Loop: Having an ongoing feedback mechanism to gather insights from users helps us make regular improvements and address emerging issues.",
-      ],
-    },
-  },
-  5: {
     image: "/images/portfolio/rmf/1.png",
     title: "Royal mabati App",
     description:
@@ -671,7 +436,108 @@ export const portfolioData = {
       ],
     },
   },
-  6: {
+  // GMotivate
+  4: {
+    image: "/images/portfolio/gmotivate/mobile/5.webp",
+    title: "GMotivate",
+    description:
+      "This App provides students with access to educational, inspirational, and motivational content in a centralized manner. The platform enables students to listen, watch, and read resourceful materials designed to enhance academic excellence, campus preparedness, and market readiness.",
+    projectStats: [
+      {
+        title: 8,
+        subTitle: "Team members involved",
+      },
+      {
+        title: "Education",
+        subTitle: "Educational App",
+      },
+      {
+        title: "4 Months",
+        subTitle: "Product Development Duration",
+      },
+      {
+        title: "2025",
+        subTitle: "Year of Launch",
+      },
+    ],
+    showButtons: false,
+    tabs: [
+      { id: "mobile", name: "Mobile App Views" },
+      {
+        id: "web",
+        name: "Admin",
+      },
+    ],
+    images: {
+      web: [
+        "/images/portfolio/gmotivate/web/24.webp",
+        "/images/portfolio/gmotivate/web/25.webp",
+        "/images/portfolio/gmotivate/web/26.webp",
+        "/images/portfolio/gmotivate/web/27.webp",
+        "/images/portfolio/gmotivate/web/28.webp",
+        "/images/portfolio/gmotivate/web/29.webp",
+        "/images/portfolio/gmotivate/web/30.webp",
+        "/images/portfolio/gmotivate/web/31.webp",
+        "/images/portfolio/gmotivate/web/32.webp",
+        "/images/portfolio/gmotivate/web/33.webp",
+        "/images/portfolio/gmotivate/web/34.webp",
+        "/images/portfolio/gmotivate/web/35.webp",
+        "/images/portfolio/gmotivate/web/36.webp",
+        "/images/portfolio/gmotivate/web/37.webp",
+        "/images/portfolio/gmotivate/web/38.webp",
+        "/images/portfolio/gmotivate/web/39.webp",
+      ],
+      mobile: [
+        "/images/portfolio/gmotivate/mobile/1.webp",
+        "/images/portfolio/gmotivate/mobile/2.webp",
+        "/images/portfolio/gmotivate/mobile/3.webp",
+        "/images/portfolio/gmotivate/mobile/4.webp",
+        "/images/portfolio/gmotivate/mobile/5.webp",
+        "/images/portfolio/gmotivate/mobile/6.webp",
+        "/images/portfolio/gmotivate/mobile/7.webp",
+        "/images/portfolio/gmotivate/mobile/8.webp",
+        "/images/portfolio/gmotivate/mobile/9.webp",
+        "/images/portfolio/gmotivate/mobile/10.webp",
+        "/images/portfolio/gmotivate/mobile/11.webp",
+        "/images/portfolio/gmotivate/mobile/12.webp",
+        "/images/portfolio/gmotivate/mobile/13.webp",
+        "/images/portfolio/gmotivate/mobile/14.webp",
+        "/images/portfolio/gmotivate/mobile/15.webp",
+      ],
+    },
+    hypothesis:
+      "If students have access to a centralized platform that provides high-quality educational, inspirational, and motivational content in various formats (audio, video, and text), then they will experience improved academic performance, increased motivation, and better preparation for campus and career opportunities.",
+    hypothesisSubtitle:
+      "The Impact of a Centralized Educational, Inspirational, and Motivational Content Platform on Student Academic Performance and Career Readiness.",
+    features: [
+      {
+        title: "Video Content",
+        body: "Pre-Campus Mentorship provides guidance to help students transition smoothly into campus life. Academic Tutorials offer subject-specific videos to aid in understanding complex topics. General Motivation includes inspirational content to boost student morale and motivation. Entertainment features curated content to provide educational entertainment. Courses consist of structured video courses on various subjects.",
+      },
+      {
+        title: "Book Library",
+        body: "Diverse Collection: Access to a wide range of books covering various topics relevant to students, Recommended Reads: Curated book lists from professional authors and partners aligned with the platform's mission.",
+      },
+      {
+        title: "Exam Materials",
+        body: "Comprehensive Resources: A collection of exam papers and marking schemes from top schools to aid in academic revision, Assessment Preparation: Full papers with both questions and answers to help students prepare effectively for assessments.",
+      },
+      {
+        title: "Mentorship Program",
+        body: "Become a Mentor: Opportunities for qualified individuals, particularly high school teachers, to join the mentor network and support students across the country, Commission-Based Earnings: Mentors can earn commissions when their referrals unlock videos, books, or exam materials on the app.",
+      },
+    ],
+    learnings: {
+      title: "Understanding User Needs.",
+      steps: [
+        "Content Curation & Delivery    -  Offering multiple content formats increases engagement and accommodates different learning styles.",
+        "Scalability & Performance: Implementing a cloud-based architecture ensures the platform can handle growing users and content.",
+        "Engagement & Monetization ",
+      ],
+    },
+  },
+  // Mwalimu
+  5: {
     image: pickRandomImage(
       generateImagePaths("/images/portfolio/mwalimu/school/", 2, 50)
     ),
@@ -743,40 +609,145 @@ export const portfolioData = {
       ],
     },
   },
-  // 3: {
-  //   image: "/images/portfolio/rafu/3.png",
-  //   title: "Rafu Zetu App ",
-  //   description:
-  //     "Rafu is a solution developed for ‘Rent a Shelf’ businesses looking to publicize their products online as well as manage inventory in a way that their clients can follow their sales and cashflow over a dedicated mobile app\n",
-  //   images: {
-  //     admin: [],
-  //     mobile: [
-  //       "/images/portfolio/rafu/1.png",
-  //       "/images/portfolio/rafu/2.png",
-  //       "/images/portfolio/rafu/3.png",
-  //       "/images/portfolio/rafu/4.png",
-  //       "/images/portfolio/rafu/5.png",
-  //       "/images/portfolio/rafu/6.png",
-  //       "/images/portfolio/rafu/7.png",
-  //       "/images/portfolio/rafu/8.png",
-  //     ],
-  //   },
-  // },
-  // 5: {
-  //   image: "/images/portfolio/okapy/2.png",
-  //   title: "Okapy Secure App",
-  //   description:
-  //     "Okapy Secure is a tech-driven end-to-end local and cross border goods transport platform for individuals and businesses. Okapy partners with retailers, manufacturers, suppliers, and startups to transport goods and shop directly from the U.S. stores and delivers to your door step.",
-  //   images: {
-  //     admin: [],
-  //     mobile: [
-  //       "/images/portfolio/okapy/2.png",
-  //       "/images/portfolio/okapy/1.png",
-  //       "/images/portfolio/okapy/3.png",
-  //       "/images/portfolio/okapy/4.png",
-  //       "/images/portfolio/okapy/5.png",
-  //       "/images/portfolio/okapy/6.png",
-  //     ],
-  //   },
-  // },
+  // Nannies
+  6: {
+    image: "/images/portfolio/nannies/mummys/2-portrait.webp",
+    title: "Nannies App",
+    description:
+      "This platform  addresses the common challenges faced by employers and job seekers in finding reliable domestic workers like nannies, house helps, and special care providers. Traditional methods, such as Facebook and WhatsApp groups, often lead to scams and unnecessary middlemen fees. The platform eliminates these issues by offering verified profiles, customizable searches, and 24/7 access to qualified candidates.",
+    projectStats: [
+      {
+        title: 9,
+        subTitle: "Team members involved",
+      },
+      {
+        title: "Service Marketplace",
+        subTitle: "Nunnies & Mummys",
+      },
+      {
+        title: "3 Months",
+        subTitle: "Product Development Duration",
+      },
+      {
+        title: "2025",
+        subTitle: "Year of Launch",
+      },
+    ],
+    showButtons: false,
+    tabs: [
+      { id: "employment", name: "Nunny Employment" },
+      {
+        id: "mummys",
+        name: "Mummys",
+      },
+    ],
+    images: {
+      employment: [
+        "/images/portfolio/nannies/employment/1-potrait.webp",
+        "/images/portfolio/nannies/employment/2-portrait.webp",
+        "/images/portfolio/nannies/employment/3-portrait.webp",
+        "/images/portfolio/nannies/employment/4-portrait.webp",
+        "/images/portfolio/nannies/employment/6-portrait.webp",
+        "/images/portfolio/nannies/employment/7-portrait.webp",
+        "/images/portfolio/nannies/employment/8-portrait.webp",
+        "/images/portfolio/nannies/employment/9-portrait.webp",
+        "/images/portfolio/nannies/employment/10-portrait.webp",
+        "/images/portfolio/nannies/employment/11-portrait.webp",
+        "/images/portfolio/nannies/employment/12-portrait.webp",
+        "/images/portfolio/nannies/employment/13-portrait.webp",
+        "/images/portfolio/nannies/employment/14-portrait.webp",
+        "/images/portfolio/nannies/employment/15-portrait.webp",
+        "/images/portfolio/nannies/employment/16-portrait.webp",
+        "/images/portfolio/nannies/employment/17-portrait.webp",
+        "/images/portfolio/nannies/employment/18-portrait.webp",
+        "/images/portfolio/nannies/employment/19-portrait.webp",
+        "/images/portfolio/nannies/employment/20-portrait.webp",
+      ],
+      mummys: [
+        "/images/portfolio/nannies/mummys/1-portrait.webp",
+        "/images/portfolio/nannies/mummys/2-portrait.webp",
+        "/images/portfolio/nannies/mummys/3-portrait.webp",
+        "/images/portfolio/nannies/mummys/4-portrait.webp",
+        "/images/portfolio/nannies/mummys/5-portrait.webp",
+        "/images/portfolio/nannies/mummys/6-portrait.webp",
+        "/images/portfolio/nannies/mummys/7-portrait.webp",
+        "/images/portfolio/nannies/mummys/8-portrait.webp",
+        "/images/portfolio/nannies/mummys/9-portrait.webp",
+        "/images/portfolio/nannies/mummys/10-portrait.webp",
+        "/images/portfolio/nannies/mummys/11-portrait.webp",
+        "/images/portfolio/nannies/mummys/12-portrait.webp",
+        "/images/portfolio/nannies/mummys/13-portrait.webp",
+        "/images/portfolio/nannies/mummys/14-portrait.webp",
+        "/images/portfolio/nannies/mummys/15-portrait.webp",
+        "/images/portfolio/nannies/mummys/16-portrait.webp",
+        "/images/portfolio/nannies/mummys/17-portrait.webp",
+        "/images/portfolio/nannies/mummys/18-portrait.webp",
+        "/images/portfolio/nannies/mummys/19-portrait.webp",
+        "/images/portfolio/nannies/mummys/20-portrait.webp",
+        "/images/portfolio/nannies/mummys/21-portrait.webp",
+        "/images/portfolio/nannies/mummys/22-portrait.webp",
+        "/images/portfolio/nannies/mummys/23-portrait.webp",
+      ],
+    },
+    hypothesis:
+      "By providing a secure, transparent, and user-friendly platform that connects employers with verified nannies, house helps, and special care providers, we can significantly improve the hiring process by eliminating the need for middlemen and reducing scams. This will lead to higher satisfaction and trust for both employers and job seekers, offering a more efficient, reliable, and convenient way to find and offer domestic services. The platform will also empower job seekers with free onboarding, helping them showcase their skills, experiences, and preferences, which will enhance their job prospects and reduce exploitation.",
+    hypothesisSubtitle:
+      "Improving Trust and Efficiency in the Hiring of Domestic Workers through a Transparent Service Marketplace.",
+    features: [
+      {
+        title: "Verified Profiles",
+        body: "Detailed profiles for job seekers including name, age, location, tribe, experience, education, specialization, and price range. Verification process to ensure authenticity and build trust.",
+      },
+      {
+        title: "Customizable Search",
+        body: "Employers can search for candidates based on specific criteria like experience, training, specialization, and availability. Filters for trained/untrained, professional/non-professional, and specialized care (e.g., elderly, kids with special needs).",
+      },
+      {
+        title: "Ratings and Reviews",
+        body: "Employers can leave ratings and reviews for candidates they have worked with, allowing future employers to make informed decisions. A transparent rating system helps ensure quality and reliability.",
+      },
+      {
+        title: "Free Onboarding for Job Seekers",
+        body: "Job seekers can onboard for free, eliminating registration fees and making the platform accessible to everyone. A simple and secure onboarding process to create their profiles.",
+      },
+      {
+        title: "No Middlemen or Agents",
+        body: "Direct connection between employers and job seekers without the need for bureaus or agents, reducing costs and eliminating exploitation. Instant connections between the two parties via the platform.",
+      },
+      {
+        title: "24/7 Availability",
+        body: "The platform ensures continuous availability of job seekers, allowing employers to find help whenever needed. Job seekers can be available for short-term or long-term roles as per the employer’s needs.",
+      },
+      {
+        title: "Safety Features",
+        body: "Reporting and flagging system to safeguard against scams or exploitation. Profile verification and moderation to ensure the safety and well-being of both parties.",
+      },
+      {
+        title: "Category-Based Listings",
+        body: "Categories such as trained, experienced, professional, day workers, and specialized care (e.g., elderly care, special needs). Helps employers quickly find candidates who meet their specific needs.",
+      },
+      {
+        title: "Messaging and Communication",
+        body: "In-app messaging to facilitate easy and secure communication between employers and job seekers. Allows both parties to discuss job expectations, terms, and other relevant details.",
+      },
+      {
+        title: "Job Postings",
+        body: "Employers can post job listings with specific requirements (e.g., looking for a nanny, house help, or special care provider). Job seekers can browse available opportunities and apply directly through the platform.",
+      },
+      {
+        title: "Employer Profiles",
+        body: "Employers can create profiles that include their job preferences, expectations, and contact information. Allows job seekers to better understand the needs of potential employers.",
+      },
+    ],
+    learnings: {
+      title: "",
+      steps: [
+        "Understanding Diverse Needs: Employers and job seekers have unique needs, so ensuring the platform is flexible and customizable is essential.",
+        "Simplicity and Clarity: While there are many features, making the user interface intuitive for all types of users (employers, job seekers) is crucial",
+        "Trust and Verification are Paramount - Building Trust: Since users are interacting with strangers, verifying profiles and having a transparent rating/review system are key components in establishing trust.",
+        "Data Protection: Protecting personal information and ensuring privacy is a top priority, especially for vulnerable job seekers.",
+        "Continuous Feedback Loop: Having an ongoing feedback mechanism to gather insights from users helps us make regular improvements and address emerging issues.",
+      ],
+    },
+  },
 };

@@ -212,7 +212,7 @@ export const portfolioData = {
     image: "/images/portfolio/kra/4-min.webp",
     title: "Kenya Revenue Authority Pension Scheme Staff Portal",
     description:
-      "We developed KRA Employee Retirement Portal, a platform designed to provide secure, supportive, and sustainable solutions for Kenya Revenue Authority employees.The government parastatal allowed us to share only a limited amount of information about this.",
+      "We developed KRA Employee Retirement Portal, a platform designed to provide secure, supportive, and sustainable solutions for Kenya Revenue Authority employees. The government parastatal allowed us to share only a limited amount of information about this.",
     showButtons: false,
     showNav: false,
     projectStats: [
@@ -505,6 +505,7 @@ export const portfolioData = {
         "/images/portfolio/gmotivate/mobile/15.webp",
       ],
     },
+    impact: null,
     hypothesis:
       "If students have access to a centralized platform that provides high-quality educational, inspirational, and motivational content in various formats (audio, video, and text), then they will experience improved academic performance, increased motivation, and better preparation for campus and career opportunities.",
     hypothesisSubtitle:
@@ -622,7 +623,7 @@ export const portfolioData = {
       },
       {
         title: "Service Marketplace",
-        subTitle: "Nunnies & Mummys",
+        subTitle: "Nannies & Mummys",
       },
       {
         title: "3 Months",
@@ -635,7 +636,7 @@ export const portfolioData = {
     ],
     showButtons: false,
     tabs: [
-      { id: "employment", name: "Nunny Employment" },
+      { id: "employment", name: "Nanny Employment" },
       {
         id: "mummys",
         name: "Mummys",

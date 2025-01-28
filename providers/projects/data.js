@@ -1,3 +1,5 @@
+import { generateImagePaths, pickRandomImage } from "../../helpers/portfilio";
+
 export const portfolioData = {
   0: {
     image: "/images/portfolio/attorney_shield/1.png",
@@ -318,7 +320,7 @@ export const portfolioData = {
       { id: "mobile", name: "Mobile App Views" },
       {
         id: "web",
-        name: "Web",
+        name: "Admin",
       },
     ],
     images: {
@@ -670,7 +672,9 @@ export const portfolioData = {
     },
   },
   6: {
-    image: "/images/portfolio/rmf/1.png",
+    image: pickRandomImage(
+      generateImagePaths("/images/portfolio/mwalimu/school/", 2, 50)
+    ),
     title: "Mwalimu Finder App",
     description:
       "Schools can view teachers available for work, their qualifications, skills, experience and so much more as they consider who to hire. They can also post jobs for teachers to apply for. Teachers publicize their profiles for schools to view as they consider hiring and explore job opportunities posted by schools personalized to them.",
@@ -694,63 +698,17 @@ export const portfolioData = {
     ],
     showButtons: false,
     tabs: [
-      { id: "mobile", name: "Mobile App Views" },
+      { id: "school", name: "School App Views" },
+      { id: "teacher", name: "Teacher App Views" },
       {
-        id: "web",
+        id: "admin",
         name: "Admin",
       },
     ],
     images: {
-      web: [
-        "/images/portfolio/rmf/admin/1.png",
-        "/images/portfolio/rmf/admin/2.png",
-        "/images/portfolio/rmf/admin/3.png",
-        "/images/portfolio/rmf/admin/4.png",
-        "/images/portfolio/rmf/admin/4.1.png",
-        "/images/portfolio/rmf/admin/5.png",
-        "/images/portfolio/rmf/admin/6.1.png",
-        "/images/portfolio/rmf/admin/6.2.png",
-        "/images/portfolio/rmf/admin/6.3.png",
-        "/images/portfolio/rmf/admin/6.4.png",
-        "/images/portfolio/rmf/admin/6.5.png",
-        "/images/portfolio/rmf/admin/7.png",
-        "/images/portfolio/rmf/admin/8.png",
-        "/images/portfolio/rmf/admin/9.png",
-        "/images/portfolio/rmf/admin/10.png",
-        "/images/portfolio/rmf/admin/11.png",
-        "/images/portfolio/rmf/admin/11.1.png",
-        "/images/portfolio/rmf/admin/Home - Dashboard-1.png",
-        "/images/portfolio/rmf/admin/Home - Dashboard-2.png",
-        "/images/portfolio/rmf/admin/Home - Dashboard-5.png",
-        "/images/portfolio/rmf/admin/Home - Dashboard-6.png",
-        "/images/portfolio/rmf/admin/Home - Dashboard-8.png",
-        "/images/portfolio/rmf/admin/Home - Dashboard-9.png",
-        "/images/portfolio/rmf/admin/Home - Dashboard-10.png",
-        "/images/portfolio/rmf/admin/Home - Dashboard-11.png",
-        "/images/portfolio/rmf/admin/Home - Dashboard-12.png",
-        "/images/portfolio/rmf/admin/Home - Dashboard-13.png",
-        "/images/portfolio/rmf/admin/Home - Dashboard-14.png",
-        "/images/portfolio/rmf/admin/Home - Dashboard-15.png",
-      ],
-      mobile: [
-        "/images/portfolio/rmf/1.png",
-        "/images/portfolio/rmf/2.png",
-        "/images/portfolio/rmf/3.png",
-        "/images/portfolio/rmf/4.png",
-        "/images/portfolio/rmf/5.png",
-        "/images/portfolio/rmf/6.png",
-        "/images/portfolio/rmf/7.png",
-        "/images/portfolio/rmf/8.png",
-        "/images/portfolio/rmf/9.png",
-        "/images/portfolio/rmf/10.png",
-        "/images/portfolio/rmf/11.png",
-        "/images/portfolio/rmf/12.png",
-        "/images/portfolio/rmf/13.png",
-        "/images/portfolio/rmf/14.png",
-        "/images/portfolio/rmf/15.png",
-        "/images/portfolio/rmf/16.png",
-        "/images/portfolio/rmf/17.png",
-      ],
+      admin: generateImagePaths("/images/portfolio/mwalimu/admin/", 2, 60),
+      school: generateImagePaths("/images/portfolio/mwalimu/school/", 2, 50),
+      teacher: generateImagePaths("/images/portfolio/mwalimu/school/", 2, 60),
     },
     features: [
       {

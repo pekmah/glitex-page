@@ -110,7 +110,7 @@ const View = () => {
           }
         >
           {/*buttons*/}
-          {currentProject?.showButtons !== false && (
+          {/* {currentProject?.showButtons !== false && (
             <div
               className={
                 "flex justify-center flex-wrap gap-2 md:gap-5 py-5 md:py-10"
@@ -124,7 +124,7 @@ const View = () => {
                 />
               ))}
             </div>
-          )}
+          )} */}
 
           {currentProject?.showNav !== false && (
             <PortfolioNav

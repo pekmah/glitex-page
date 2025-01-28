@@ -1,6 +1,5 @@
 import React, { useEffect, useMemo } from "react";
 import {
-  CButton,
   HypothesisSection,
   KeyFeaturesSection,
   OurLearningSection,
@@ -30,7 +29,7 @@ const View = () => {
   }, [params?.id]);
 
   const [currentTab, setCurrentTab] = React.useState("mobile"); // mobile/admin
-  const [currentBtn] = React.useState(btns[0]);
+  // const [currentBtn] = React.useState(btns[0]);
 
   const handleSwitch = (tab) => {
     setCurrentTab(tab);
@@ -184,7 +183,7 @@ const applicationDetails = [
   },
 ];
 
-const btns = ["Screenshots", "Prototype"];
+// const btns = ["Screenshots", "Prototype"];
 
 export default View;
 

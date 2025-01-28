@@ -141,6 +141,7 @@ const View = () => {
       <HypothesisSection
         hypothesis={currentProject?.hypothesis}
         subtitle={currentProject?.hypothesisSubtitle}
+        hypothesisImage={currentProject?.hypothesisImage}
       />
 
       {/* Key Features section */}

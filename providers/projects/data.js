@@ -290,6 +290,8 @@ export const portfolioData = {
       ],
     },
     impact: null,
+    hypothesisImage:
+      "https://thetracker.media/wp-content/uploads/2024/11/kra-pic-1-900x506.png",
     hypothesis:
       "If the KRA Employee Retirement Portal offers secure, user-friendly, and personalized retirement planning tools, it will enhance KRA employees' ability to manage their retirement savings effectively, resulting in increased user engagement, trust, and overall satisfaction with the platform.",
     hypothesisSubtitle:
@@ -507,6 +509,8 @@ export const portfolioData = {
       ],
     },
     impact: null,
+    hypothesisImage:
+      "https://gmotivate.com/_next/image?url=%2Flanding%2Fbooks.png&w=640&q=75",
     hypothesis:
       "If students have access to a centralized platform that provides high-quality educational, inspirational, and motivational content in various formats (audio, video, and text), then they will experience improved academic performance, increased motivation, and better preparation for campus and career opportunities.",
     hypothesisSubtitle:
@@ -600,6 +604,9 @@ export const portfolioData = {
         body: "In-app messaging to facilitate direct communication between schools and teachers.",
       },
     ],
+    impact: null,
+    hypothesisImage:
+      "https://img.freepik.com/premium-photo/african-american-teacher-writing-blackboard-classroom-lesson_249974-17980.jpg",
     hypothesis:
       "By creating a platform that connects schools with teachers through a streamlined job search and hiring process, the Mwalimu Finder app can significantly reduce the time and effort needed for schools to find qualified educators. It allows teachers to publicize their profiles and apply to job opportunities that match their skills, improving job visibility and hiring efficiency for both schools and teachers. This will ultimately enhance the recruitment process in the education sector, leading to better job matches and improved educational outcomes. ",
     hypothesisSubtitle:
@@ -695,6 +702,7 @@ export const portfolioData = {
       ],
     },
     impact: null,
+    hyprothesisImage: "/images/portfolio/nannies-hypothesis.png",
     hypothesis:
       "By providing a secure, transparent, and user-friendly platform that connects employers with verified nannies, house helps, and special care providers, we can significantly improve the hiring process by eliminating the need for middlemen and reducing scams. This will lead to higher satisfaction and trust for both employers and job seekers, offering a more efficient, reliable, and convenient way to find and offer domestic services. The platform will also empower job seekers with free onboarding, helping them showcase their skills, experiences, and preferences, which will enhance their job prospects and reduce exploitation.",
     hypothesisSubtitle:

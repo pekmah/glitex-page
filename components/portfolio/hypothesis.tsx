@@ -5,9 +5,11 @@ import { QuotesSvg } from "./svg";
 const Hypothesis = ({
   hypothesis,
   subtitle,
+  hypothesisImage,
 }: {
   hypothesis?: string;
   subtitle: string;
+  hypothesisImage?: string;
 }) => {
   return (
     <SectionWrapper
@@ -20,7 +22,9 @@ const Hypothesis = ({
           {/* image */}
           <img
             className={"max-h-[450px] rounded-[40px]"}
-            src="/images/portfolio/portfolio-hypothesis.png"
+            src={
+              hypothesisImage ?? "/images/portfolio/portfolio-hypothesis.png"
+            }
             alt="bg_logo"
           />
         </div>

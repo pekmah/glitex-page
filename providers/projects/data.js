@@ -576,7 +576,7 @@ export const portfolioData = {
     images: {
       admin: generateImagePaths("/images/portfolio/mwalimu/admin/", 2, 60),
       school: generateImagePaths("/images/portfolio/mwalimu/school/", 2, 50),
-      teacher: generateImagePaths("/images/portfolio/mwalimu/school/", 2, 60),
+      teacher: generateImagePaths("/images/portfolio/mwalimu/teachers/", 2, 60),
     },
     features: [
       {
@@ -605,9 +605,12 @@ export const portfolioData = {
     hypothesisSubtitle:
       "Improving Recruitment Efficiency in the Education Sector through Mwalimu Finder.",
     learnings: {
-      title: "Importance of Seamless User Experience ",
+      title: "",
       steps: [
-        "To be honest, the most challenging aspect of this app has been creating a seamless ordering process that accommodates users of all ages, including those who are not very tech-savvy, especially in rural areas of Kenya. We've been working hard on perfecting the ordering process and are still refining it to ensure it’s easy and intuitive for everyone.",
+        "User-Centric Design: Ensuring both schools and teachers have an easy-to-navigate interface was key. Teachers needed a simple way to showcase their qualifications, while schools needed intuitive filters to find the right candidate quickly.",
+        "Data Management: Handling large teacher profiles and job listings while maintaining speed and accuracy in matching was a challenge. Optimizing the app's backend for efficient data management was crucial.",
+        "Communication Features: Incorporating seamless in-app messaging improved the user experience and made communication between schools and teachers more efficient.",
+        "Security and Privacy: Safeguarding teacher and school data while maintaining user trust was essential.",
       ],
     },
   },

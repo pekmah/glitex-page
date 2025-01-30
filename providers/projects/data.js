@@ -841,6 +841,7 @@ export const portfolioData = {
         body: "Automatically notifies store attendants of sales and stock updates.",
       },
     ],
+    impact: null,
     learnings: {
       title: "",
       steps: [
@@ -848,6 +849,77 @@ export const portfolioData = {
         "Real-Time Notifications: Implementing instant notifications for stock levels, sales, and deliveries helped maintain smooth business operations.",
         "Payment Reconciliation: Handling both M-Pesa and cash payments required careful integration to ensure accurate reconciliation.",
         "Performance Optimization: Ensuring the app performs efficiently with real-time updates on inventory and sales was a key challenge.",
+      ],
+    },
+  },
+  // Npbc
+  8: {
+    image: pickRandomImage(
+      generateImagePaths("/images/portfolio/npbc/", 3, 5, "png")
+    ),
+    title: "Nairobi Pentecostal Bible College(NPBC)",
+    description:
+      "The Nairobi Pentecostal Bible College (NPBC) portal provides access for students, lecturers, center coordinators, and administrators to manage accounts, access updates, and view key information. It includes features for application management, course details, and e-learning resources.",
+    projectStats: [
+      {
+        title: 15,
+        subTitle: "Team members involved",
+      },
+      {
+        title: "Education",
+        subTitle: "Education Management",
+      },
+      {
+        title: "6.5 Months",
+        subTitle: "Product Development Duration",
+      },
+      {
+        title: "2022",
+        subTitle: "Year of Launch",
+      },
+    ],
+    showButtons: false,
+    tabs: [
+      {
+        id: "web",
+        name: "Web",
+      },
+    ],
+    type: "web",
+    images: {
+      web: generateImagePaths("/images/portfolio/npbc/", 1, 14, "png"),
+    },
+    impact: null,
+    hypothesisImage: "/images/portfolio/nannies-hypothesis.png",
+    hypothesis:
+      "The NPBC School Portal hypothesis is that by centralizing student and staff management through a digital platform, the school can streamline academic processes, improve communication, and enhance accessibility for students, lecturers, and administrators. The system will provide better oversight of student applications, courses, and learning materials, ultimately fostering a more efficient and organized academic environment.",
+    hypothesisSubtitle:
+      "Improving Academic Efficiency and Communication through a Centralized School Management System.",
+    features: [
+      {
+        title: "Student and Staff Management",
+        body: "Allows students, lecturers, and administrators to access and manage their accounts.",
+      },
+      {
+        title: "Course Management",
+        body: "Provides course details and resources for both students and staff.",
+      },
+      {
+        title: "Application Tracking",
+        body: "Facilitates student applications and monitoring.",
+      },
+      {
+        title: "E-Learning Resources",
+        body: "Offers access to online learning materials and academic updates.",
+      },
+    ],
+    learnings: {
+      title: "",
+      steps: [
+        "User Accessibility: Ensuring that both students and staff have an intuitive interface for managing their tasks was crucial.",
+        "Efficient Data Management: The importance of organizing and securing student and course data in a user-friendly way became clear during development.",
+        "Seamless Communication: Integrating communication features for updates and notifications improved user engagement.",
+        "System Integration: Ensuring smooth integration between various academic functions (applications, courses, e-learning) was key to reducing operational inefficiencies",
       ],
     },
   },

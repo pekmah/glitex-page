@@ -1,11 +1,12 @@
 export function generateImagePaths(
   basePath: string,
   start: number,
-  end: number
+  end: number,
+  extension: string = "webp"
 ) {
   const paths = [];
   for (let i = start; i <= end; i++) {
-    paths.push(`${basePath}${i}.webp`);
+    paths.push(`${basePath}${i}.${extension}`);
   }
   return paths;
 }

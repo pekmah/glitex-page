@@ -766,4 +766,89 @@ export const portfolioData = {
       ],
     },
   },
+  // Rafu
+  7: {
+    image: pickRandomImage(
+      generateImagePaths("/images/portfolio/rafu/vendors/", 1, 26, "png")
+    ),
+    title: "Rafu",
+    description:
+      "Rafu helps sellers with multiple selling points  track inventory, manage sales, and collect payments. Sellers can monitor their perfume stock and receive notifications when supplies are low. Sellers can sell directly through the app, automatically notifying attendants, and track delivery statuses for orders. The app also enables Sellers to collect M-Pesa payments, reconcile sales (both cash and M-Pesa), and stay updated on sales at their shelf.",
+    projectStats: [
+      {
+        title: 8,
+        subTitle: "Team members involved",
+      },
+      {
+        title: "Ecommerce",
+        subTitle: "Ecommerce & Business Management",
+      },
+      {
+        title: "5 Months",
+        subTitle: "Product Development Duration",
+      },
+      {
+        title: "2024",
+        subTitle: "Year of Launch",
+      },
+    ],
+    showButtons: false,
+    tabs: [
+      { id: "sellers", name: "Rafu Sellers App" },
+      {
+        id: "vendors",
+        name: "Rafu Vendors App",
+      },
+    ],
+    images: {
+      vendors: generateImagePaths(
+        "/images/portfolio/rafu/vendors/",
+        1,
+        26,
+        "png"
+      ),
+      sellers: generateImagePaths(
+        "/images/portfolio/rafu/sellers/",
+        1,
+        21,
+        "png"
+      ),
+    },
+    hypothesisImage: "/images/portfolio/nannies-hypothesis.png",
+    hypothesis:
+      "By providing an integrated platform for sellers to manage inventory, track orders, and collect payments, the Rafu app can improve operational efficiency for small businesses. Sellers will benefit from real-time notifications, seamless payment reconciliation, and stock tracking, leading to better sales management, reduced operational errors, and more streamlined business processes. This app will help sellers optimize their workflow and ensure smooth transactions, thus enhancing customer satisfaction and business growth.",
+    hypothesisSubtitle:
+      "Enhancing Small Business Efficiency through Seamless Inventory Management, Order Tracking, and Payment Reconciliation",
+    features: [
+      {
+        title: "Inventory Tracking",
+        body: "Sellers can monitor stock levels and receive notifications when inventory is low.",
+      },
+      {
+        title: "Sales Notifications",
+        body: "Real-time alerts are sent to the seller when a sale occurs at their physical store.",
+      },
+      {
+        title: "Order Tracking",
+        body: "Sellers can request and track the delivery status of orders.",
+      },
+      {
+        title: "Payment Collection",
+        body: "Allows sellers to collect payments through M-Pesa and reconcile both M-Pesa and cash payments.",
+      },
+      {
+        title: "Sale Management",
+        body: "Automatically notifies store attendants of sales and stock updates.",
+      },
+    ],
+    learnings: {
+      title: "",
+      steps: [
+        "User-Centric Design: Creating a seamless interface for sellers to manage stock and track sales was crucial to ensure ease of use.",
+        "Real-Time Notifications: Implementing instant notifications for stock levels, sales, and deliveries helped maintain smooth business operations.",
+        "Payment Reconciliation: Handling both M-Pesa and cash payments required careful integration to ensure accurate reconciliation.",
+        "Performance Optimization: Ensuring the app performs efficiently with real-time updates on inventory and sales was a key challenge.",
+      ],
+    },
+  },
 };

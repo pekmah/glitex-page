@@ -624,148 +624,148 @@ export const portfolioData = {
     },
   },
   // Nannies
-  6: {
-    image: "/images/portfolio/nannies/mummys/2-portrait.webp",
-    title: "Nannies App",
-    description:
-      "This platform  addresses the common challenges faced by employers and job seekers in finding reliable domestic workers like nannies, house helps, and special care providers. Traditional methods, such as Facebook and WhatsApp groups, often lead to scams and unnecessary middlemen fees. The platform eliminates these issues by offering verified profiles, customizable searches, and 24/7 access to qualified candidates.",
-    projectStats: [
-      {
-        title: 9,
-        subTitle: "Team members involved",
-      },
-      {
-        title: "Service Marketplace",
-        subTitle: "Nannies & Mummys",
-      },
-      {
-        title: "3 Months",
-        subTitle: "Product Development Duration",
-      },
-      {
-        title: "2025",
-        subTitle: "Year of Launch",
-      },
-    ],
-    showButtons: false,
-    tabs: [
-      { id: "employment", name: "Nannies App" },
-      {
-        id: "mummys",
-        name: "Mummys",
-      },
-    ],
-    images: {
-      employment: [
-        "/images/portfolio/nannies/employment/1-potrait.webp",
-        "/images/portfolio/nannies/employment/2-portrait.webp",
-        "/images/portfolio/nannies/employment/3-portrait.webp",
-        "/images/portfolio/nannies/employment/4-portrait.webp",
-        "/images/portfolio/nannies/employment/6-portrait.webp",
-        "/images/portfolio/nannies/employment/7-portrait.webp",
-        "/images/portfolio/nannies/employment/8-portrait.webp",
-        "/images/portfolio/nannies/employment/9-portrait.webp",
-        "/images/portfolio/nannies/employment/10-portrait.webp",
-        "/images/portfolio/nannies/employment/11-portrait.webp",
-        "/images/portfolio/nannies/employment/12-portrait.webp",
-        "/images/portfolio/nannies/employment/13-portrait.webp",
-        "/images/portfolio/nannies/employment/14-portrait.webp",
-        "/images/portfolio/nannies/employment/15-portrait.webp",
-        "/images/portfolio/nannies/employment/16-portrait.webp",
-        "/images/portfolio/nannies/employment/17-portrait.webp",
-        "/images/portfolio/nannies/employment/18-portrait.webp",
-        "/images/portfolio/nannies/employment/19-portrait.webp",
-        "/images/portfolio/nannies/employment/20-portrait.webp",
-      ],
-      mummys: [
-        "/images/portfolio/nannies/mummys/1-portrait.webp",
-        "/images/portfolio/nannies/mummys/2-portrait.webp",
-        "/images/portfolio/nannies/mummys/3-portrait.webp",
-        "/images/portfolio/nannies/mummys/4-portrait.webp",
-        "/images/portfolio/nannies/mummys/5-portrait.webp",
-        "/images/portfolio/nannies/mummys/6-portrait.webp",
-        "/images/portfolio/nannies/mummys/7-portrait.webp",
-        "/images/portfolio/nannies/mummys/8-portrait.webp",
-        "/images/portfolio/nannies/mummys/9-portrait.webp",
-        "/images/portfolio/nannies/mummys/10-portrait.webp",
-        "/images/portfolio/nannies/mummys/11-portrait.webp",
-        "/images/portfolio/nannies/mummys/12-portrait.webp",
-        "/images/portfolio/nannies/mummys/13-portrait.webp",
-        "/images/portfolio/nannies/mummys/14-portrait.webp",
-        "/images/portfolio/nannies/mummys/15-portrait.webp",
-        "/images/portfolio/nannies/mummys/16-portrait.webp",
-        "/images/portfolio/nannies/mummys/17-portrait.webp",
-        "/images/portfolio/nannies/mummys/18-portrait.webp",
-        "/images/portfolio/nannies/mummys/19-portrait.webp",
-        "/images/portfolio/nannies/mummys/20-portrait.webp",
-        "/images/portfolio/nannies/mummys/21-portrait.webp",
-        "/images/portfolio/nannies/mummys/22-portrait.webp",
-        "/images/portfolio/nannies/mummys/23-portrait.webp",
-      ],
-    },
-    impact: null,
-    hypothesisImage: "/images/portfolio/nannies-hypothesis.png",
-    hypothesis:
-      "By providing a secure, transparent, and user-friendly platform that connects employers with verified nannies, house helps, and special care providers, we can significantly improve the hiring process by eliminating the need for middlemen and reducing scams. This will lead to higher satisfaction and trust for both employers and job seekers, offering a more efficient, reliable, and convenient way to find and offer domestic services. The platform will also empower job seekers with free onboarding, helping them showcase their skills, experiences, and preferences, which will enhance their job prospects and reduce exploitation.",
-    hypothesisSubtitle:
-      "Improving Trust and Efficiency in the Hiring of Domestic Workers through a Transparent Service Marketplace.",
-    features: [
-      {
-        title: "Verified Profiles",
-        body: "Detailed profiles for job seekers including name, age, location, tribe, experience, education, specialization, and price range. Verification process to ensure authenticity and build trust.",
-      },
-      {
-        title: "Customizable Search",
-        body: "Employers can search for candidates based on specific criteria like experience, training, specialization, and availability. Filters for trained/untrained, professional/non-professional, and specialized care (e.g., elderly, kids with special needs).",
-      },
-      {
-        title: "Ratings and Reviews",
-        body: "Employers can leave ratings and reviews for candidates they have worked with, allowing future employers to make informed decisions. A transparent rating system helps ensure quality and reliability.",
-      },
-      {
-        title: "Free Onboarding for Nannies",
-        body: "Job seekers can onboard for free, eliminating registration fees and making the platform accessible to everyone. A simple and secure onboarding process to create their profiles.",
-      },
-      {
-        title: "No Middlemen or Agents",
-        body: "Direct connection between employers and job seekers without the need for bureaus or agents, reducing costs and eliminating exploitation. Instant connections between the two parties via the platform.",
-      },
-      {
-        title: "24/7 Availability",
-        body: "The platform ensures continuous availability of job seekers, allowing employers to find help whenever needed. Job seekers can be available for short-term or long-term roles as per the employer’s needs.",
-      },
-      {
-        title: "Safety Features",
-        body: "Reporting and flagging system to safeguard against scams or exploitation. Profile verification and moderation to ensure the safety and well-being of both parties.",
-      },
-      {
-        title: "Category-Based Listings",
-        body: "Categories such as trained, experienced, professional, day workers, and specialized care (e.g., elderly care, special needs). Helps employers quickly find candidates who meet their specific needs.",
-      },
-      {
-        title: "Messaging and Communication",
-        body: "In-app messaging to facilitate easy and secure communication between employers and job seekers. Allows both parties to discuss job expectations, terms, and other relevant details.",
-      },
-      {
-        title: "Job Postings",
-        body: "Employers can post job listings with specific requirements (e.g., looking for a nanny, house help, or special care provider). Job seekers can browse available opportunities and apply directly through the platform.",
-      },
-      {
-        title: "Employer Profiles",
-        body: "Employers can create profiles that include their job preferences, expectations, and contact information. Allows job seekers to better understand the needs of potential employers.",
-      },
-    ],
-    learnings: {
-      title: "",
-      steps: [
-        "Understanding Diverse Needs: Employers and job seekers have unique needs, so ensuring the platform is flexible and customizable is essential.",
-        "Simplicity and Clarity: While there are many features, making the user interface intuitive for all types of users (employers, job seekers) is crucial",
-        "Trust and Verification are Paramount - Building Trust: Since users are interacting with strangers, verifying profiles and having a transparent rating/review system are key components in establishing trust.",
-        "Data Protection: Protecting personal information and ensuring privacy is a top priority, especially for vulnerable job seekers.",
-        "Continuous Feedback Loop: Having an ongoing feedback mechanism to gather insights from users helps us make regular improvements and address emerging issues.",
-      ],
-    },
-  },
+  // 6: {
+  //   image: "/images/portfolio/nannies/mummys/2-portrait.webp",
+  //   title: "Nannies App",
+  //   description:
+  //     "This platform  addresses the common challenges faced by employers and job seekers in finding reliable domestic workers like nannies, house helps, and special care providers. Traditional methods, such as Facebook and WhatsApp groups, often lead to scams and unnecessary middlemen fees. The platform eliminates these issues by offering verified profiles, customizable searches, and 24/7 access to qualified candidates.",
+  //   projectStats: [
+  //     {
+  //       title: 9,
+  //       subTitle: "Team members involved",
+  //     },
+  //     {
+  //       title: "Service Marketplace",
+  //       subTitle: "Nannies & Mummys",
+  //     },
+  //     {
+  //       title: "3 Months",
+  //       subTitle: "Product Development Duration",
+  //     },
+  //     {
+  //       title: "2025",
+  //       subTitle: "Year of Launch",
+  //     },
+  //   ],
+  //   showButtons: false,
+  //   tabs: [
+  //     { id: "employment", name: "Nannies App" },
+  //     {
+  //       id: "mummys",
+  //       name: "Mummys",
+  //     },
+  //   ],
+  //   images: {
+  //     employment: [
+  //       "/images/portfolio/nannies/employment/1-potrait.webp",
+  //       "/images/portfolio/nannies/employment/2-portrait.webp",
+  //       "/images/portfolio/nannies/employment/3-portrait.webp",
+  //       "/images/portfolio/nannies/employment/4-portrait.webp",
+  //       "/images/portfolio/nannies/employment/6-portrait.webp",
+  //       "/images/portfolio/nannies/employment/7-portrait.webp",
+  //       "/images/portfolio/nannies/employment/8-portrait.webp",
+  //       "/images/portfolio/nannies/employment/9-portrait.webp",
+  //       "/images/portfolio/nannies/employment/10-portrait.webp",
+  //       "/images/portfolio/nannies/employment/11-portrait.webp",
+  //       "/images/portfolio/nannies/employment/12-portrait.webp",
+  //       "/images/portfolio/nannies/employment/13-portrait.webp",
+  //       "/images/portfolio/nannies/employment/14-portrait.webp",
+  //       "/images/portfolio/nannies/employment/15-portrait.webp",
+  //       "/images/portfolio/nannies/employment/16-portrait.webp",
+  //       "/images/portfolio/nannies/employment/17-portrait.webp",
+  //       "/images/portfolio/nannies/employment/18-portrait.webp",
+  //       "/images/portfolio/nannies/employment/19-portrait.webp",
+  //       "/images/portfolio/nannies/employment/20-portrait.webp",
+  //     ],
+  //     mummys: [
+  //       "/images/portfolio/nannies/mummys/1-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/2-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/3-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/4-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/5-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/6-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/7-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/8-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/9-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/10-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/11-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/12-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/13-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/14-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/15-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/16-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/17-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/18-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/19-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/20-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/21-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/22-portrait.webp",
+  //       "/images/portfolio/nannies/mummys/23-portrait.webp",
+  //     ],
+  //   },
+  //   impact: null,
+  //   hypothesisImage: "/images/portfolio/nannies-hypothesis.png",
+  //   hypothesis:
+  //     "By providing a secure, transparent, and user-friendly platform that connects employers with verified nannies, house helps, and special care providers, we can significantly improve the hiring process by eliminating the need for middlemen and reducing scams. This will lead to higher satisfaction and trust for both employers and job seekers, offering a more efficient, reliable, and convenient way to find and offer domestic services. The platform will also empower job seekers with free onboarding, helping them showcase their skills, experiences, and preferences, which will enhance their job prospects and reduce exploitation.",
+  //   hypothesisSubtitle:
+  //     "Improving Trust and Efficiency in the Hiring of Domestic Workers through a Transparent Service Marketplace.",
+  //   features: [
+  //     {
+  //       title: "Verified Profiles",
+  //       body: "Detailed profiles for job seekers including name, age, location, tribe, experience, education, specialization, and price range. Verification process to ensure authenticity and build trust.",
+  //     },
+  //     {
+  //       title: "Customizable Search",
+  //       body: "Employers can search for candidates based on specific criteria like experience, training, specialization, and availability. Filters for trained/untrained, professional/non-professional, and specialized care (e.g., elderly, kids with special needs).",
+  //     },
+  //     {
+  //       title: "Ratings and Reviews",
+  //       body: "Employers can leave ratings and reviews for candidates they have worked with, allowing future employers to make informed decisions. A transparent rating system helps ensure quality and reliability.",
+  //     },
+  //     {
+  //       title: "Free Onboarding for Nannies",
+  //       body: "Job seekers can onboard for free, eliminating registration fees and making the platform accessible to everyone. A simple and secure onboarding process to create their profiles.",
+  //     },
+  //     {
+  //       title: "No Middlemen or Agents",
+  //       body: "Direct connection between employers and job seekers without the need for bureaus or agents, reducing costs and eliminating exploitation. Instant connections between the two parties via the platform.",
+  //     },
+  //     {
+  //       title: "24/7 Availability",
+  //       body: "The platform ensures continuous availability of job seekers, allowing employers to find help whenever needed. Job seekers can be available for short-term or long-term roles as per the employer’s needs.",
+  //     },
+  //     {
+  //       title: "Safety Features",
+  //       body: "Reporting and flagging system to safeguard against scams or exploitation. Profile verification and moderation to ensure the safety and well-being of both parties.",
+  //     },
+  //     {
+  //       title: "Category-Based Listings",
+  //       body: "Categories such as trained, experienced, professional, day workers, and specialized care (e.g., elderly care, special needs). Helps employers quickly find candidates who meet their specific needs.",
+  //     },
+  //     {
+  //       title: "Messaging and Communication",
+  //       body: "In-app messaging to facilitate easy and secure communication between employers and job seekers. Allows both parties to discuss job expectations, terms, and other relevant details.",
+  //     },
+  //     {
+  //       title: "Job Postings",
+  //       body: "Employers can post job listings with specific requirements (e.g., looking for a nanny, house help, or special care provider). Job seekers can browse available opportunities and apply directly through the platform.",
+  //     },
+  //     {
+  //       title: "Employer Profiles",
+  //       body: "Employers can create profiles that include their job preferences, expectations, and contact information. Allows job seekers to better understand the needs of potential employers.",
+  //     },
+  //   ],
+  //   learnings: {
+  //     title: "",
+  //     steps: [
+  //       "Understanding Diverse Needs: Employers and job seekers have unique needs, so ensuring the platform is flexible and customizable is essential.",
+  //       "Simplicity and Clarity: While there are many features, making the user interface intuitive for all types of users (employers, job seekers) is crucial",
+  //       "Trust and Verification are Paramount - Building Trust: Since users are interacting with strangers, verifying profiles and having a transparent rating/review system are key components in establishing trust.",
+  //       "Data Protection: Protecting personal information and ensuring privacy is a top priority, especially for vulnerable job seekers.",
+  //       "Continuous Feedback Loop: Having an ongoing feedback mechanism to gather insights from users helps us make regular improvements and address emerging issues.",
+  //     ],
+  //   },
+  // },
   // Rafu
   7: {
     image: pickRandomImage(
@@ -855,7 +855,7 @@ export const portfolioData = {
   // Npbc
   8: {
     image: pickRandomImage(
-      generateImagePaths("/images/portfolio/npbc/", 3, 5, "png")
+      generateImagePaths("/images/portfolio/npbc/", 3, 5, "webp")
     ),
     title: "Nairobi Pentecostal Bible College(NPBC)",
     description:
@@ -887,7 +887,7 @@ export const portfolioData = {
     ],
     type: "web",
     images: {
-      web: generateImagePaths("/images/portfolio/npbc/", 1, 14, "png"),
+      web: generateImagePaths("/images/portfolio/npbc/", 1, 14, "webp"),
     },
     impact: null,
     hypothesisImage: "/images/portfolio/nannies-hypothesis.png",

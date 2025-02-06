@@ -1,4 +1,3 @@
-import { features } from "process";
 import { generateImagePaths, pickRandomImage } from "../../helpers/portfilio";
 
 export const portfolioData = {

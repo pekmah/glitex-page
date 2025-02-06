@@ -21,8 +21,8 @@ const Portfolio = () => {
           <RoundedBgFloater className={"ml-[20%]"} />
 
           <img
-            className={"w-60 md:w-3/5 z-10"}
-            src="/images/mobile/okapy.png"
+            className={"w-64 md:w-4/5 z-10"}
+            src="/images/mobile/rafu.webp"
             alt="okapy-1"
           />
         </div>

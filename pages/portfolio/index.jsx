@@ -1,12 +1,11 @@
 import React from "react";
-import Layout from "../../layout";
 import {
   PortfolioMain,
   PortfolioWorkDone,
   SectionWrapper,
 } from "../../components";
 import { PortfolioItem } from "../../components/portfolio/WorkDone";
-import { generateImagePaths, pickRandomImage } from "../../helpers/portfilio";
+import Layout from "../../layout";
 
 const Portfolio = () => {
   return (
@@ -33,9 +32,7 @@ const Portfolio = () => {
 
           <div className="container grid grid-cols-1 gap-6 py-10 mx-auto sm:grid-cols-2 lg:grid-cols-3 md:p-3">
             <PortfolioItem
-              image={pickRandomImage(
-                generateImagePaths("/images/portfolio/express/", 0, 15, "webp")
-              )}
+              image={"/images/portfolio/express/cover.png"}
               title={"Express Way App"}
               desc={
                 "we participated in the research and design of the  Nairobi Expressway App is designed to enhance the experience of users traveling on the Nairobi Expressway by offering a range of convenient features: Toll Points Top-Up,  Toll Road Navigation,  Toll Fee Calculator,  Account Management,  Alerts and Notifications"

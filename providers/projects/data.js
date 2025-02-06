@@ -814,7 +814,7 @@ export const portfolioData = {
         "webp"
       ),
     },
-    hypothesisImage: "/images/portfolio/nannies-hypothesis.png",
+    hypothesisImage: "https://www.rafuzetu.com/about.png",
     hypothesis:
       "By providing an integrated platform for sellers to manage inventory, track orders, and collect payments, the Rafu app can improve operational efficiency for small businesses. Sellers will benefit from real-time notifications, seamless payment reconciliation, and stock tracking, leading to better sales management, reduced operational errors, and more streamlined business processes. This app will help sellers optimize their workflow and ensure smooth transactions, thus enhancing customer satisfaction and business growth.",
     hypothesisSubtitle:
@@ -882,7 +882,7 @@ export const portfolioData = {
     tabs: [
       {
         id: "web",
-        name: "Web",
+        name: "College Portal",
       },
     ],
     type: "web",
@@ -890,7 +890,7 @@ export const portfolioData = {
       web: generateImagePaths("/images/portfolio/npbc/", 1, 14, "webp"),
     },
     impact: null,
-    hypothesisImage: "/images/portfolio/nannies-hypothesis.png",
+    hypothesisImage: "https://www.npbc.co.ke/images/home/carousel-2.webp",
     hypothesis:
       "The NPBC School Portal hypothesis is that by centralizing student and staff management through a digital platform, the school can streamline academic processes, improve communication, and enhance accessibility for students, lecturers, and administrators. The system will provide better oversight of student applications, courses, and learning materials, ultimately fostering a more efficient and organized academic environment.",
     hypothesisSubtitle:
@@ -937,7 +937,7 @@ export const portfolioData = {
       },
       {
         title: "Transport",
-        subTitle: "Transport App",
+        subTitle: "Expressway App",
       },
       {
         title: "2 Months",
@@ -952,13 +952,11 @@ export const portfolioData = {
     showButtons: false,
     tabs: [
       {
-        id: "mobile",
-        name: "Mobile",
+        id: "prototype",
+        name: "Prototype",
       },
     ],
-    images: {
-      mobile: generateImagePaths("/images/portfolio/express/", 0, 16, "webp"),
-    },
+    prototype: `https://embed.figma.com/proto/IWVao7P5paYjAvYGETr1q7/Express-Way-App?node-id=190-111&p=f&scaling=scale-down&content-scaling=fixed&starting-point-node-id=190%3A111&embed-host=share`,
     impact: null,
     hypothesis: null,
     features: null,

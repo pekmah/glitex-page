@@ -1,3 +1,4 @@
+import { features } from "process";
 import { generateImagePaths, pickRandomImage } from "../../helpers/portfilio";
 
 export const portfolioData = {
@@ -922,5 +923,46 @@ export const portfolioData = {
         "System Integration: Ensuring smooth integration between various academic functions (applications, courses, e-learning) was key to reducing operational inefficiencies",
       ],
     },
+  },
+  9: {
+    image: pickRandomImage(
+      generateImagePaths("/images/portfolio/express/", 0, 15, "webp")
+    ),
+    title: "Express Way App",
+    description:
+      "We participated in the research and design of the  Nairobi Expressway App is designed to enhance the experience of users traveling on the Nairobi Expressway by offering a range of convenient features: Toll Points Top-Up,  Toll Road Navigation,  Toll Fee Calculator,  Account Management,  Alerts and Notifications",
+    projectStats: [
+      {
+        title: 5,
+        subTitle: "Team members involved",
+      },
+      {
+        title: "Transport",
+        subTitle: "Transport App",
+      },
+      {
+        title: "2 Months",
+        subTitle: "Product Development Duration",
+      },
+      {
+        title: "2022",
+        subTitle: "Year of Launch",
+        hide: true,
+      },
+    ],
+    showButtons: false,
+    tabs: [
+      {
+        id: "mobile",
+        name: "Mobile",
+      },
+    ],
+    images: {
+      mobile: generateImagePaths("/images/portfolio/express/", 0, 16, "webp"),
+    },
+    impact: null,
+    hypothesis: null,
+    features: null,
+    learnings: null,
   },
 };

@@ -68,31 +68,38 @@ const View = () => {
             {(currentProject?.projectStats
               ? currentProject?.projectStats
               : applicationDetails
-            )?.map((item, index) => (
-              <div
-                key={index}
-                className={
-                  "md:w-1/5 border border-[#0066B3] backdrop-blur-sm rounded-2xl p-5 py-4 text-white"
-                }
-              >
-                {/*  icon  */}
-                <div className={"flex justify-end pb-1"}>
-                  {applicationDetails[index].icon}
-                </div>
+            )?.map((item, index) => {
+              if (!item?.hide)
+                return (
+                  <div
+                    key={index}
+                    className={
+                      "md:w-1/5 border border-[#0066B3] backdrop-blur-sm rounded-2xl p-5 py-4 text-white"
+                    }
+                  >
+                    {/*  icon  */}
+                    <div className={"flex justify-end pb-1"}>
+                      {applicationDetails[index].icon}
+                    </div>
 
-                {/* title */}
-                <h5 className={"text-white text-xl sm:text-2xl md:text-[28px]"}>
-                  {item.title}
-                </h5>
-                <p
-                  className={
-                    "font-tinos text-base md:text-lg tracking-wide mt-2"
-                  }
-                >
-                  {item.subTitle}
-                </p>
-              </div>
-            ))}
+                    {/* title */}
+                    <h5
+                      className={
+                        "text-white text-xl sm:text-2xl md:text-[28px]"
+                      }
+                    >
+                      {item.title}
+                    </h5>
+                    <p
+                      className={
+                        "font-tinos text-base md:text-lg tracking-wide mt-2"
+                      }
+                    >
+                      {item.subTitle}
+                    </p>
+                  </div>
+                );
+            })}
           </div>
         </div>
       </SectionWrapper>
@@ -138,14 +145,18 @@ const View = () => {
       </SectionWrapper>
 
       {/* hypothesis section */}
-      <HypothesisSection
-        hypothesis={currentProject?.hypothesis}
-        subtitle={currentProject?.hypothesisSubtitle}
-        hypothesisImage={currentProject?.hypothesisImage}
-      />
+      {currentProject?.learnings !== null && (
+        <HypothesisSection
+          hypothesis={currentProject?.hypothesis}
+          subtitle={currentProject?.hypothesisSubtitle}
+          hypothesisImage={currentProject?.hypothesisImage}
+        />
+      )}
 
       {/* Key Features section */}
-      <KeyFeaturesSection features={currentProject?.features} />
+      {currentProject?.features !== null && (
+        <KeyFeaturesSection features={currentProject?.features} />
+      )}
 
       {/* Product Impact */}
       {currentProject?.impact !== null && (
@@ -153,10 +164,12 @@ const View = () => {
       )}
 
       {/* Our Learnings */}
-      <OurLearningSection
-        description={currentProject?.learnings?.title}
-        steps={currentProject?.learnings?.steps}
-      />
+      {currentProject?.learnings !== null && (
+        <OurLearningSection
+          description={currentProject?.learnings?.title}
+          steps={currentProject?.learnings?.steps}
+        />
+      )}
     </Layout>
   );
 };

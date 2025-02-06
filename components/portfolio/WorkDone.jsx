@@ -21,16 +21,19 @@ const WorkDone = () => {
         </h2>
 
         <div className="container grid grid-cols-1 gap-6 py-10 mx-auto sm:grid-cols-2 lg:grid-cols-3 md:p-3">
-          {Object.keys(portfolioData).map((item, ind) => (
-            <PortfolioItem
-              key={ind}
-              image={portfolioData[item]?.image}
-              title={portfolioData[item]?.title}
-              desc={portfolioData[item]?.description}
-              type={portfolioData[item]?.type || "mobile"}
-              ind={item}
-            />
-          ))}
+          {Object.keys(portfolioData).map((item, ind) => {
+            if (ind !== 8)
+              return (
+                <PortfolioItem
+                  key={ind}
+                  image={portfolioData[item]?.image}
+                  title={portfolioData[item]?.title}
+                  desc={portfolioData[item]?.description}
+                  type={portfolioData[item]?.type || "mobile"}
+                  ind={item}
+                />
+              );
+          })}
         </div>
       </div>
     </SectionWrapper>
@@ -39,7 +42,7 @@ const WorkDone = () => {
 
 export default WorkDone;
 
-const PortfolioItem = ({ title, image, desc, ind, type }) => {
+export const PortfolioItem = ({ title, image, desc, ind, type, className }) => {
   const router = useRouter();
 
   const handleClick = () => {
@@ -47,13 +50,11 @@ const PortfolioItem = ({ title, image, desc, ind, type }) => {
   };
   return (
     <div
-      className={
-        " md:m-5 border-gray-100 border rounded-t-[40px] overflow-hidden"
-      }
+      className={`md:m-5 border-gray-100 border rounded-t-[40px] overflow-hidden`}
     >
       <div className={"bg-white overflow-hidden"}>
         <div
-          className={"relative gradient-270 w-full h-64 flex justify-center"}
+          className={`relative gradient-270 w-full h-64 flex justify-center ${className}`}
         >
           <img
             src={image}

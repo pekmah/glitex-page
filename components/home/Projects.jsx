@@ -24,12 +24,12 @@ const Projects = () => {
         <div className={"center gap-3 flex-1"}>
           <img
             className={"w-40 md:w-56"}
-            src="/images/portfolio/okapy/3.png"
-            alt="okapy-1"
+            src="/images/portfolio/towgig/customer/6.webp"
+            alt="towgig-1"
           />
           <img
             className={"w-40 md:w-56"}
-            src="/images/portfolio/okapy/2.png"
+            src="/images/portfolio/towgig/customer/5.webp"
             alt="okapy-2"
           />
         </div>

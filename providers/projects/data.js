@@ -769,7 +769,7 @@ export const portfolioData = {
   // Rafu
   7: {
     image: pickRandomImage(
-      generateImagePaths("/images/portfolio/rafu/vendors/", 1, 26, "png")
+      generateImagePaths("/images/portfolio/rafu/vendors/", 1, 26, "webp")
     ),
     title: "Rafu",
     description:
@@ -805,13 +805,13 @@ export const portfolioData = {
         "/images/portfolio/rafu/vendors/",
         1,
         26,
-        "png"
+        "webp"
       ),
       sellers: generateImagePaths(
         "/images/portfolio/rafu/sellers/",
         1,
         21,
-        "png"
+        "webp"
       ),
     },
     hypothesisImage: "/images/portfolio/nannies-hypothesis.png",

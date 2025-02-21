@@ -73,8 +73,8 @@ const Portfolio = () => {
           <RoundedBgFloater className={"bg-blue-200 ml-[45%]"} />
 
           <img
-            className={"w-44 md:w-3/5 z-10"}
-            src="/images/mobile/attorney.png"
+            className={"w-44 md:w-4/5 z-10"}
+            src="/images/mobile/mwalimu.webp"
             alt="attorney"
           />
         </div>

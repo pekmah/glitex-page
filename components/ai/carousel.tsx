@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function carousel(props) {
+export default function Carousel(props) {
   return (
     <section
       className={"flex min-h-[50vh] md:min-h-[75vh] relative overflow-hidden"}
     >
       <img
         className={" object-cover  "}
-        src="/images/ai/ai-carousel-bg.jpg"
+        src="/images/ai/ai-carousel-bg.webp"
         alt="bg_logo"
       />
 

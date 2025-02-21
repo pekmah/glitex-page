@@ -114,11 +114,10 @@ class MyDocument extends Document {
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
 
-                    gtag('config', 'G-6L8MC15QF8');
-          `,
+                    gtag('config', 'G-H2TN0NFVK5');
+            `,
             }}
           />
-          <script></script>
         </body>
       </Html>
     );

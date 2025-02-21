@@ -38,7 +38,7 @@ export default function AiWhyWork({
             {/* image */}
             <img
               className={"w-full object-contain my-5 sm:my-10 md:my-20"}
-              src="/images/ai/ai-work-implementation.png"
+              src="/images/ai/ai-work-implementation.webp"
               alt="why-work-implementation"
             />
 
@@ -68,7 +68,7 @@ export default function AiWhyWork({
               <div className="flex-1 mx-5 md:mx-0 rounded-3xl md:rounded-[40px] overflow-hidden">
                 <img
                   className={"object-contain "}
-                  src="/images/ai/ai-work-stage.jpg"
+                  src="/images/ai/ai-work-stage.webp"
                   alt="why-work-implementation"
                 />
               </div>
